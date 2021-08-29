@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -84,10 +84,10 @@
 <text x="3.3" y="11.2" size="1" layer="26" rot="MR0">V++</text>
 <text x="3.5" y="18.8" size="1" layer="26" rot="MR0">SDA</text>
 <text x="3.5" y="16.2" size="1" layer="26" rot="MR0">SCL</text>
-<text x="17.85184375" y="26.280065625" size="1" layer="26" rot="SMR180">E+</text>
+<text x="17.439553125" y="26.49385" size="1" layer="26" rot="SMR180">E+</text>
 <text x="5.74845" y="10.379940625" size="1" layer="26" rot="MR0">E-</text>
 <text x="17.2" y="23.5" size="1.778" layer="26" rot="MR0">ClvHd</text>
-<text x="8.3" y="23.5" size="1.778" layer="26" rot="MR0">v7</text>
+<text x="8.3" y="23.5" size="1.778" layer="26" rot="MR0">v8</text>
 <polygon width="0.127" layer="30">
 <vertex x="4" y="36.9"/>
 <vertex x="19" y="36.9"/>

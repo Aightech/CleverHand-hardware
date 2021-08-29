@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
@@ -80,12 +80,12 @@
 <wire x1="0" y1="35" x2="0" y2="2" width="0" layer="20"/>
 <wire x1="23" y1="2" x2="21" y2="0" width="0" layer="20" curve="-90"/>
 <wire x1="3" y1="9" x2="4" y2="8" width="0" layer="20" curve="-90"/>
-<text x="3.5" y="13.8" size="1" layer="25" rot="MR0">GND</text>
-<text x="3.3" y="11.2" size="1" layer="25" rot="MR0">V++</text>
-<text x="3.5" y="18.8" size="1" layer="25" rot="MR0">SDA</text>
-<text x="3.5" y="16.2" size="1" layer="25" rot="MR0">SCL</text>
-<text x="14.9" y="26.7" size="1" layer="26" rot="SMR180">E+</text>
-<text x="6" y="8.3" size="1" layer="26" rot="MR0">E-</text>
+<text x="3.5" y="13.8" size="1" layer="26" rot="MR0">GND</text>
+<text x="3.3" y="11.2" size="1" layer="26" rot="MR0">V++</text>
+<text x="3.5" y="18.8" size="1" layer="26" rot="MR0">SDA</text>
+<text x="3.5" y="16.2" size="1" layer="26" rot="MR0">SCL</text>
+<text x="17.85184375" y="26.280065625" size="1" layer="26" rot="SMR180">E+</text>
+<text x="5.74845" y="10.379940625" size="1" layer="26" rot="MR0">E-</text>
 <text x="17.2" y="23.5" size="1.778" layer="26" rot="MR0">ClvHd</text>
 <text x="8.3" y="23.5" size="1.778" layer="26" rot="MR0">v7</text>
 <polygon width="0.127" layer="30">
@@ -106,10 +106,10 @@
 <vertex x="6.5" y="22"/>
 <vertex x="16.5" y="22"/>
 </polygon>
-<text x="22.5" y="13.8" size="1" layer="25" rot="MR0">GND</text>
-<text x="22.3" y="11.2" size="1" layer="25" rot="MR0">V++</text>
-<text x="22.5" y="18.8" size="1" layer="25" rot="MR0">SDA</text>
-<text x="22.5" y="16.2" size="1" layer="25" rot="MR0">SCL</text>
+<text x="22.5" y="13.8" size="1" layer="26" rot="MR0">GND</text>
+<text x="22.3" y="11.2" size="1" layer="26" rot="MR0">V++</text>
+<text x="22.5" y="18.8" size="1" layer="26" rot="MR0">SDA</text>
+<text x="22.5" y="16.2" size="1" layer="26" rot="MR0">SCL</text>
 <text x="18.3" y="10.8" size="1" layer="25" rot="R90">+</text>
 <text x="18.3" y="12" size="1" layer="25" rot="R90">+</text>
 <wire x1="2" y1="8" x2="3" y2="9" width="0" layer="20" curve="-90"/>
@@ -1769,7 +1769,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="IMPORT_TS" value="1521848675" x="43.26" y="69.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Microchip" x="43.26" y="69.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MCP3427-E/UN" x="43.26" y="69.53" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="6" y="31.7" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="5.883365625" y="31.39249375" size="1" layer="25" rot="R90"/>
 <attribute name="PACKAGE" value="MSOP-UN10" x="43.26" y="69.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE_DESCRIPTION" value="10-Lead Plastic Micro Small Outline Package (UN) [MSOP]" x="43.26" y="69.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE_VERSION" value="revBB, Aug-2009" x="43.26" y="69.53" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1785,42 +1785,42 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="SPICEPREFIX" value="C" x="60.8678375" y="71.278428125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF" x="7.4" y="27.85" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.5" y="25.85" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="5.034765625" y="27.4989125" size="1" layer="25"/>
 <attribute name="POPULARITY" value="18" x="62.01" y="68.49" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="62.01" y="68.49" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF" x="14.5" y="24" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.4" y="25" size="1" layer="25" rot="R270"/>
+<attribute name="NAME" x="14.998234375" y="24.518528125" size="1" layer="25"/>
 <attribute name="POPULARITY" value="18" x="64.03" y="70.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="64.03" y="70.99" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF" x="20.5" y="22" smashed="yes">
-<attribute name="NAME" x="20.9" y="22.2" size="1" layer="25"/>
+<attribute name="NAME" x="19.670453125" y="22.6270375" size="1" layer="25"/>
 <attribute name="POPULARITY" value="18" x="72.57" y="-27.53" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="72.57" y="-27.53" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF" x="13.5" y="10" smashed="yes">
-<attribute name="NAME" x="13" y="8.9" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.6902375" y="8.523153125" size="1" layer="25"/>
 <attribute name="POPULARITY" value="18" x="30.01" y="-44.61" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="30.01" y="-44.61" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF" x="9.5" y="3" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.366415625" y="2.458859375" size="1" layer="25" rot="R270"/>
+<attribute name="NAME" x="7.171759375" y="3.632303125" size="1" layer="25"/>
 <attribute name="POPULARITY" value="18" x="-45.11" y="-18.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-45.11" y="-18.59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF" x="11.5" y="2.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.2" y="3.1" size="1" layer="25" rot="R270"/>
+<attribute name="NAME" x="10.75394375" y="4.098009375" size="1" layer="25"/>
 <attribute name="POPULARITY" value="18" x="66.11" y="29.17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="66.11" y="29.17" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF" x="11" y="34.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="12" y="35.9" size="1" layer="25" rot="R180"/>
+<attribute name="NAME" x="10.479990625" y="33.776721875" size="1" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="18" x="65.61" y="66.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="65.61" y="66.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF" x="12.8" y="34.55" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.1" y="35.45" size="1" layer="25" rot="R270"/>
+<attribute name="NAME" x="13.32195" y="34.6766" size="1" layer="25"/>
 <attribute name="POPULARITY" value="18" x="67.41" y="71.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="67.41" y="71.38" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1833,11 +1833,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="SPICEPREFIX" value="J" x="-5.05" y="32.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="A1" library="jump-0r-smd" package="C0R-JMP" package3d_urn="urn:adsk.eagle:package:15386/1" value="0R-JUMPC" x="2" y="22" smashed="yes" rot="R270">
-<attribute name="NAME" x="4" y="21.5" size="1" layer="25"/>
+<attribute name="NAME" x="3.575878125" y="21.62724375" size="1" layer="25"/>
 <attribute name="POPULARITY" value="0" x="-27.21" y="-21.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="A2" library="jump-0r-smd" package="C0R-JMP" package3d_urn="urn:adsk.eagle:package:15386/1" value="0R-JUMPC" x="2" y="24.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="4" y="24" size="1" layer="25"/>
+<attribute name="NAME" x="3.5228625" y="24.074225" size="1" layer="25"/>
 <attribute name="POPULARITY" value="0" x="-27.21" y="-28.84" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="L" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="" x="6" y="6" smashed="yes" rot="R180">
@@ -1855,32 +1855,32 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PACKAGE" value="MSOP-8 Texas Instruments" x="8.35" y="-10.27" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="17.7" y="29.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.1" y="28.4" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="16.883525" y="30.216509375" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="-19.13" y="-16.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-19.13" y="-16.62" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="10" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.3" y="9.1" size="1" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.287275" y="9.010925" size="1" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="34" x="-36.99" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-36.99" y="53.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="10" y="7" smashed="yes">
-<attribute name="NAME" x="10.7" y="6.6" size="1" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.259834375" y="6.510925" size="1" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="34" x="62.07" y="-37.45" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="62.07" y="-37.45" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="7.5" y="19" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.7" y="20.3" size="1" layer="25" rot="R180"/>
+<attribute name="NAME" x="8.84844375" y="20.522678125" size="1" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="34" x="-9.01" y="68.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-9.01" y="68.53" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="10.665403125" y="24.4400875" smashed="yes">
-<attribute name="NAME" x="11.065403125" y="25.3400875" size="1" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.933178125" y="22.9785" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="32.255403125" y="-25.0899125" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="32.255403125" y="-25.0899125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="7" y="22" smashed="yes">
-<attribute name="NAME" x="8.1" y="21.8" size="1" layer="25" rot="R180"/>
+<attribute name="NAME" x="5.859921875" y="22.5455625" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="33.67" y="-27.53" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="33.67" y="-27.53" size="1.778" layer="27" display="off"/>
 </element>
@@ -1891,7 +1891,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="4.095" y="9.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="4.5" y="20" smashed="yes" rot="R90">
-<attribute name="NAME" x="6" y="19" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="5.904571875" y="18.7455125" size="1" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="34" x="54.03" y="51.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="54.03" y="51.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1901,7 +1901,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="SPICEPREFIX" value="R" x="-45.03" y="-19.83" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="9.5" y="27.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.4" y="28.2" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="8.561584375" y="28.921078125" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="46.33" y="59.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="46.33" y="59.65" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1911,27 +1911,27 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="SPICEPREFIX" value="R" x="67.8" y="-16.33" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="17" y="10" smashed="yes">
-<attribute name="NAME" x="16.4" y="10.4" size="1" layer="25"/>
+<attribute name="NAME" x="18.06468125" y="9.29721875" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="33.51" y="-34.45" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="33.51" y="-34.45" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="12.5" y="23.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.1" y="22.9" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="12.187003125" y="24.536634375" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="-31.95" y="1.91" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-31.95" y="1.91" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="17" y="23" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.2" y="23.2" size="1" layer="25"/>
+<attribute name="NAME" x="16.84790625" y="23.42824375" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="-9.67" y="67.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-9.67" y="67.45" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="6" y="24.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.4" y="24.7" size="1" layer="25"/>
+<attribute name="NAME" x="5.863225" y="25.113540625" size="1" layer="25"/>
 <attribute name="POPULARITY" value="34" x="-25.75" y="68.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-25.75" y="68.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k" x="10" y="21" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.7" y="19.5" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="9.37933125" y="20.63" size="1" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="34" x="-34.45" y="-15.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-34.45" y="-15.83" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2040,11 +2040,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="3.048" y1="24.384" x2="3.016" y2="24.5" width="0.127" layer="1"/>
 <wire x1="14.097" y1="11.43" x2="14.097" y2="12.319" width="0.127" layer="1"/>
 <wire x1="14.605" y1="10.922" x2="14.097" y2="11.43" width="0.127" layer="1"/>
-<wire x1="16.383" y1="9.144" x2="14.605" y2="10.922" width="0.127" layer="16"/>
-<wire x1="16.383" y1="7.493" x2="16.383" y2="9.144" width="0.127" layer="1"/>
-<wire x1="16.129" y1="7.239" x2="16.383" y2="7.493" width="0.127" layer="1"/>
+<wire x1="18.316965625" y1="10.83645625" x2="18.231421875" y2="10.922" width="0.127" layer="16"/>
+<wire x1="18.231421875" y1="10.922" x2="14.605" y2="10.922" width="0.127" layer="16"/>
+<wire x1="18.316965625" y1="10.83645625" x2="18.316965625" y2="9.910515625" width="0.127" layer="1"/>
+<wire x1="16.035" y1="7.2162" x2="16.035" y2="7.456990625" width="0.127" layer="1"/>
+<wire x1="16.035" y1="7.456990625" x2="16.035" y2="7.62855" width="0.127" layer="1"/>
 <wire x1="14.097" y1="12.319" x2="14" y2="12.4" width="0.127" layer="1"/>
-<wire x1="16.129" y1="7.239" x2="16.035" y2="7.2162" width="0.127" layer="1"/>
 <wire x1="2.286" y1="20.574" x2="2.286" y2="21.209" width="0.127" layer="1"/>
 <wire x1="2.286" y1="16.002" x2="2.286" y2="20.574" width="0.127" layer="16"/>
 <wire x1="7.366" y1="10.922" x2="5.207" y2="13.081" width="0.127" layer="16"/>
@@ -2061,7 +2062,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="5.207" y1="13.081" x2="3.81" y2="11.684" width="0.127" layer="16"/>
 <wire x1="1.905" y1="11.684" x2="1.8" y2="11.73" width="0.127" layer="1"/>
 <via x="14.605" y="10.922" extent="1-16" drill="0.3"/>
-<via x="16.383" y="9.144" extent="1-16" drill="0.3"/>
+<via x="18.316965625" y="10.83645625" extent="1-16" drill="0.3"/>
 <via x="2.286" y="20.574" extent="1-16" drill="0.3"/>
 <via x="11.550378125" y="25.90194375" extent="1-16" drill="0.3"/>
 <via x="3.81" y="11.684" extent="1-16" drill="0.3"/>
@@ -2076,6 +2077,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="10.606678125" y1="29.28726875" x2="11.3378375" y2="30.018428125" width="0.1524" layer="1"/>
 <wire x1="11.550378125" y1="25.90194375" x2="10.606678125" y2="26.84564375" width="0.1524" layer="1"/>
 <wire x1="10.606678125" y1="26.84564375" x2="10.606678125" y2="29.28726875" width="0.1524" layer="1"/>
+<wire x1="18.316965625" y1="9.910515625" x2="18.316965625" y2="9.602659375" width="0.1524" layer="1"/>
+<wire x1="17.6856" y1="8.97129375" x2="16.7059125" y2="8.97129375" width="0.1524" layer="1"/>
+<wire x1="16.7059125" y1="8.97129375" x2="16.035" y2="8.30038125" width="0.1524" layer="1"/>
+<wire x1="16.035" y1="8.30038125" x2="16.035" y2="7.456990625" width="0.1524" layer="1"/>
+<wire x1="18.316965625" y1="9.602659375" x2="17.6856" y2="8.97129375" width="0.1524" layer="1"/>
 </signal>
 <signal name="V+">
 <contactref element="IC1" pad="4"/>
@@ -2132,8 +2138,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="16.002" y1="18.542" x2="15.621" y2="18.923" width="0.127" layer="1"/>
 <wire x1="16.002" y1="16.383" x2="16.002" y2="18.542" width="0.127" layer="1"/>
 <wire x1="18.034" y1="14.351" x2="16.002" y2="16.383" width="0.127" layer="1"/>
-<wire x1="21.082" y1="14.351" x2="18.669" y2="14.351" width="0.127" layer="1"/>
-<wire x1="18.669" y1="14.351" x2="18.034" y2="14.351" width="0.127" layer="1"/>
+<wire x1="21.082" y1="14.351" x2="19.26065" y2="14.351" width="0.127" layer="1"/>
+<wire x1="19.26065" y1="14.351" x2="18.034" y2="14.351" width="0.127" layer="1"/>
 <wire x1="14.097" y1="17.653" x2="14" y2="17.6" width="0.127" layer="1"/>
 <wire x1="21.082" y1="14.351" x2="21.2" y2="14.27" width="0.127" layer="1"/>
 <wire x1="5.969" y1="10.287" x2="5.969" y2="9.525" width="0.127" layer="1"/>
@@ -2150,8 +2156,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="13.843" y1="5.842" x2="14.732" y2="6.731" width="0.127" layer="1"/>
 <wire x1="9.398" y1="5.842" x2="13.843" y2="5.842" width="0.127" layer="1"/>
 <wire x1="14.732" y1="7.112" x2="14.765" y2="7.2162" width="0.127" layer="1"/>
-<wire x1="18.669" y1="8.89" x2="18.669" y2="14.351" width="0.127" layer="1"/>
-<wire x1="17.907" y1="8.128" x2="18.669" y2="8.89" width="0.127" layer="1"/>
+<wire x1="19.26065" y1="9.48165" x2="19.26065" y2="14.351" width="0.127" layer="1"/>
+<wire x1="17.907" y1="8.128" x2="19.26065" y2="9.48165" width="0.127" layer="1"/>
 <wire x1="17.907" y1="6.096" x2="17.907" y2="8.128" width="0.127" layer="1"/>
 <wire x1="17.653" y1="5.842" x2="17.907" y2="6.096" width="0.127" layer="1"/>
 <wire x1="15.621" y1="5.842" x2="17.653" y2="5.842" width="0.127" layer="1"/>
@@ -2520,10 +2526,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="15.24" y1="13.97" x2="15.24" y2="12.446" width="0.127" layer="1"/>
 <wire x1="15.24" y1="12.446" x2="15.27" y2="12.4" width="0.127" layer="1"/>
 <wire x1="15.24" y1="17.526" x2="15.27" y2="17.6" width="0.127" layer="1"/>
-<wire x1="17.399" y1="8.89" x2="17.399" y2="7.239" width="0.127" layer="1"/>
-<wire x1="18.415" y1="9.906" x2="17.399" y2="8.89" width="0.127" layer="1"/>
-<wire x1="18.415" y1="13.462" x2="18.415" y2="9.906" width="0.127" layer="1"/>
-<wire x1="17.907" y1="13.97" x2="18.415" y2="13.462" width="0.127" layer="1"/>
+<wire x1="17.399" y1="8.139196875" x2="17.399" y2="7.239" width="0.127" layer="1"/>
+<wire x1="18.9239375" y1="9.664134375" x2="17.399" y2="8.139196875" width="0.127" layer="1"/>
+<wire x1="18.9239375" y1="12.9530625" x2="18.9239375" y2="9.664134375" width="0.127" layer="1"/>
+<wire x1="17.907" y1="13.97" x2="18.9239375" y2="12.9530625" width="0.127" layer="1"/>
 <wire x1="15.24" y1="13.97" x2="17.653" y2="13.97" width="0.127" layer="1"/>
 <wire x1="17.653" y1="13.97" x2="17.907" y2="13.97" width="0.127" layer="1"/>
 <wire x1="17.399" y1="7.239" x2="17.305" y2="7.2162" width="0.127" layer="1"/>

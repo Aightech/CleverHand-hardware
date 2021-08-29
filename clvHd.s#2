@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -11159,7 +11159,7 @@ Source: Samtec SSW.pdf</description>
 <schematic_group name="AMPLIFY"/>
 </groups>
 <parts>
-<part name="P_AMP" library="INA326EA_250" deviceset="INA326EA/250" device=""/>
+<part name="AMP" library="INA326EA_250" deviceset="INA326EA/250" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1nF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF"/>
@@ -11226,7 +11226,7 @@ Source: Samtec SSW.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="P_AMP" gate="A" x="11" y="58" smashed="yes" grouprefs="AMPLIFY">
+<instance part="AMP" gate="A" x="11" y="58" smashed="yes" grouprefs="AMPLIFY">
 <attribute name="NAME" x="20.208" y="51.0966" size="2.083090625" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="20.62713125" y="48.3305" size="2.084740625" layer="96" ratio="10" rot="SR0"/>
 </instance>
@@ -11431,7 +11431,7 @@ Source: Samtec SSW.pdf</description>
 </segment>
 <segment>
 <pinref part="P-1" gate="1" pin="V-"/>
-<pinref part="P_AMP" gate="A" pin="V-"/>
+<pinref part="AMP" gate="A" pin="V-"/>
 <wire x1="18" y1="45.54" x2="18" y2="48" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -11496,7 +11496,7 @@ Source: Samtec SSW.pdf</description>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="V+"/>
-<pinref part="P_AMP" gate="A" pin="V+"/>
+<pinref part="AMP" gate="A" pin="V+"/>
 <wire x1="18" y1="70.46" x2="18" y2="68" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -11623,7 +11623,7 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="P_AMP" gate="A" pin="R2"/>
+<pinref part="AMP" gate="A" pin="R2"/>
 <wire x1="11" y1="44" x2="11" y2="38" width="0.1524" layer="91"/>
 <wire x1="11" y1="38" x2="8" y2="38" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -11720,7 +11720,7 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="P_AMP" gate="A" pin="VO"/>
+<pinref part="AMP" gate="A" pin="VO"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="31" y1="58" x2="54.98" y2="58" width="0.1524" layer="91"/>
 <wire x1="54.98" y1="58" x2="54.98" y2="52.22" width="0.1524" layer="91"/>
@@ -11729,7 +11729,7 @@ Source: Samtec SSW.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="P_AMP" gate="A" pin="R1_2"/>
+<pinref part="AMP" gate="A" pin="R1_2"/>
 <wire x1="-16.36" y1="61.86" x2="-4" y2="61.86" width="0.1524" layer="91"/>
 <wire x1="-4" y1="61.86" x2="-4" y2="61" width="0.1524" layer="91"/>
 </segment>
@@ -11737,7 +11737,7 @@ Source: Samtec SSW.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="P_AMP" gate="A" pin="R1"/>
+<pinref part="AMP" gate="A" pin="R1"/>
 <wire x1="-16.36" y1="51.7" x2="-4" y2="51.7" width="0.1524" layer="91"/>
 <wire x1="-4" y1="51.7" x2="-4" y2="55" width="0.1524" layer="91"/>
 </segment>
@@ -11884,7 +11884,7 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="INP" class="0">
 <segment>
-<pinref part="P_AMP" gate="A" pin="VIN+"/>
+<pinref part="AMP" gate="A" pin="VIN+"/>
 <wire x1="-4" y1="67" x2="-10.16" y2="67" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="67" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
 <label x="-12.7" y="71.12" size="1.778" layer="95" grouprefs="AMPLIFY"/>
@@ -11894,7 +11894,7 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="INM" class="0">
 <segment>
-<pinref part="P_AMP" gate="A" pin="VIN-"/>
+<pinref part="AMP" gate="A" pin="VIN-"/>
 <wire x1="-4" y1="49" x2="-10.16" y2="49" width="0.1524" layer="91"/>
 <label x="-10.16" y="45.72" size="1.778" layer="95" grouprefs="AMPLIFY"/>
 <pinref part="X3" gate="-1" pin="1"/>
