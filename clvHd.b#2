@@ -2165,7 +2165,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="13" y1="3.1" x2="13" y2="3.7" width="0.1524" layer="1"/>
 <wire x1="6.5" y1="2.2" x2="12.1" y2="2.2" width="0.1524" layer="1"/>
 <wire x1="12.1" y1="2.2" x2="13" y2="3.1" width="0.1524" layer="1"/>
-<wire x1="13" y1="3.7" x2="16.55" y2="1.7" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="26"/>
+<wire x1="13" y1="3.7" x2="11.25" y2="9.3" width="0" layer="19" extent="1-1"/>
+<wire x1="16.55" y1="1.7" x2="13" y2="3.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="X3" pad="2"/>
@@ -2178,7 +2180,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="12" y1="3.1" x2="12" y2="3.7" width="0.1524" layer="1"/>
 <wire x1="6.7" y1="2.6" x2="11.5" y2="2.6" width="0.1524" layer="1"/>
 <wire x1="11.5" y1="2.6" x2="12" y2="3.1" width="0.1524" layer="1"/>
+<contactref element="U1" pad="25"/>
 <wire x1="12" y1="3.7" x2="17.3" y2="3.3" width="0" layer="19" extent="1-1"/>
+<wire x1="10.75" y1="9.3" x2="12" y2="3.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK">
 <contactref element="U1" pad="19"/>
@@ -2250,34 +2254,28 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R1" pad="2"/>
 <wire x1="18.05" y1="1.7" x2="18.3" y2="3.3" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="AGND_REFGND">
-<contactref element="U1" pad="13"/>
-</signal>
-<signal name="AVDD_2">
-<contactref element="U1" pad="15"/>
-</signal>
-<signal name="DGND">
-<contactref element="U1" pad="25"/>
-</signal>
-<signal name="IOVDD">
-<contactref element="U1" pad="26"/>
-</signal>
-<signal name="AVDD">
-<contactref element="U1" pad="27"/>
-</signal>
-<signal name="AGND">
-<contactref element="U1" pad="28"/>
-</signal>
-<signal name="N$19">
-<contactref element="U1" pad="18"/>
-</signal>
 <signal name="SYNC">
 <contactref element="X3" pad="6"/>
 <contactref element="X2" pad="6"/>
-<wire x1="8" y1="3.7" x2="12" y2="21.3" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="16"/>
+<wire x1="10.75" y1="15.7" x2="12" y2="21.3" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="3.7" x2="10.75" y2="15.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RDY">
 <contactref element="X2" pad="7"/>
+<contactref element="U1" pad="18"/>
+<wire x1="9.3" y1="13.75" x2="13" y2="21.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U1" pad="13"/>
+</signal>
+<signal name="N$5">
+<contactref element="U1" pad="28"/>
+</signal>
+<signal name="N$6">
+<contactref element="U1" pad="27"/>
+<contactref element="U1" pad="15"/>
+<wire x1="11.75" y1="9.3" x2="11.25" y2="15.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

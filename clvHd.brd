@@ -1988,11 +1988,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="REFDES" value="RefDes" x="12.5" y="12.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="TYPE" x="12.5" y="12.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="220nF" x="1.5" y="-2.5" smashed="yes">
-<attribute name="NAME" x="0.865" y="-1.865" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="18" x="1.5" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="1.5" y="-2.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="0.865" y="-4.405" size="1.27" layer="27"/>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="220nF" x="17.5" y="5.6" smashed="yes">
+<attribute name="NAME" x="16.865" y="6.235" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="18" x="17.5" y="5.6" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="17.5" y="5.6" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.865" y="3.695" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -2213,7 +2213,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="C1" pad="2"/>
 <wire x1="12" y1="3.7" x2="17.3" y2="3.3" width="0" layer="19" extent="1-1"/>
 <wire x1="10.75" y1="9.3" x2="12" y2="3.7" width="0" layer="19" extent="1-1"/>
-<wire x1="2.15" y1="-2.5" x2="12" y2="3.7" width="0" layer="19" extent="1-1"/>
+<wire x1="18.15" y1="5.6" x2="12" y2="3.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK">
 <contactref element="U1" pad="19"/>
@@ -2311,7 +2311,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="N$2">
 <contactref element="U1" pad="24"/>
 <contactref element="C1" pad="1"/>
-<wire x1="0.85" y1="-2.5" x2="9.3" y2="10.749996875" width="0" layer="19" extent="1-1"/>
+<wire x1="16.85" y1="5.6" x2="9.3" y2="10.749996875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

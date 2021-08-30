@@ -1516,12 +1516,35 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
 </package>
+<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" library_version="11">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model" library_version="11">
 <description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
 <packageinstances>
 <packageinstance name="R0402"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="11">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1965,6 +1988,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="REFDES" value="RefDes" x="12.5" y="12.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="TYPE" x="12.5" y="12.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="220nF" x="1.5" y="-2.5" smashed="yes">
+<attribute name="NAME" x="0.865" y="-1.865" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="18" x="1.5" y="-2.5" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="1.5" y="-2.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="0.865" y="-4.405" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="IN1">
@@ -2181,8 +2210,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="6.7" y1="2.6" x2="11.5" y2="2.6" width="0.1524" layer="1"/>
 <wire x1="11.5" y1="2.6" x2="12" y2="3.1" width="0.1524" layer="1"/>
 <contactref element="U1" pad="25"/>
+<contactref element="C1" pad="2"/>
 <wire x1="12" y1="3.7" x2="17.3" y2="3.3" width="0" layer="19" extent="1-1"/>
 <wire x1="10.75" y1="9.3" x2="12" y2="3.7" width="0" layer="19" extent="1-1"/>
+<wire x1="2.15" y1="-2.5" x2="12" y2="3.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CLK">
 <contactref element="U1" pad="19"/>
@@ -2276,6 +2307,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U1" pad="27"/>
 <contactref element="U1" pad="15"/>
 <wire x1="11.75" y1="9.3" x2="11.25" y2="15.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U1" pad="24"/>
+<contactref element="C1" pad="1"/>
+<wire x1="0.85" y1="-2.5" x2="9.3" y2="10.749996875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
