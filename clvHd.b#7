@@ -3359,11 +3359,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="17.25" y="5"/>
 <vertex x="17.25" y="20" curve="-90"/>
 </polygon>
-<wire x1="13.88763125" y1="17.9" x2="16.88" y2="17.9" width="0.1524" layer="1"/>
-<via x="16.88" y="17.9" extent="1-16" drill="0.2"/>
-<wire x1="16.88" y1="17.9" x2="17.5" y2="17.9" width="0.1524" layer="16"/>
+<wire x1="13.78763125" y1="17.8" x2="16.88" y2="17.8" width="0.1524" layer="1"/>
+<via x="16.88" y="17.8" extent="1-16" drill="0.2"/>
+<wire x1="16.88" y1="17.8" x2="17.5" y2="17.8" width="0.1524" layer="16"/>
 <wire x1="12.6" y1="15.1" x2="12.6" y2="16.61236875" width="0.1524" layer="1"/>
-<wire x1="12.6" y1="16.61236875" x2="13.88763125" y2="17.9" width="0.1524" layer="1"/>
+<wire x1="12.6" y1="16.61236875" x2="13.78763125" y2="17.8" width="0.1524" layer="1"/>
 </signal>
 <signal name="IN4">
 <contactref element="U1" pad="4"/>
@@ -3460,11 +3460,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="13" y="5"/>
 <vertex x="13" y="20" curve="-90"/>
 </polygon>
-<wire x1="13.28763125" y1="18.5" x2="16.88" y2="18.5" width="0.1524" layer="1"/>
-<via x="16.88" y="18.5" extent="1-16" drill="0.2"/>
-<wire x1="16.88" y1="18.5" x2="16.3" y2="18.5" width="0.1524" layer="16"/>
+<wire x1="13.18763125" y1="18.4" x2="16.88" y2="18.4" width="0.1524" layer="1"/>
+<via x="16.88" y="18.4" extent="1-16" drill="0.2"/>
+<wire x1="16.88" y1="18.4" x2="16.3" y2="18.4" width="0.1524" layer="16"/>
 <wire x1="12.1" y1="15.1" x2="12.1" y2="17.31236875" width="0.1524" layer="1"/>
-<wire x1="12.1" y1="17.31236875" x2="13.28763125" y2="18.5" width="0.1524" layer="1"/>
+<wire x1="12.1" y1="17.31236875" x2="13.18763125" y2="18.4" width="0.1524" layer="1"/>
 </signal>
 <signal name="IN5">
 <contactref element="U1" pad="5"/>
@@ -3518,12 +3518,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="21.5" y="5"/>
 <vertex x="21.5" y="20" curve="-90"/>
 </polygon>
-<wire x1="14.5" y1="17.4" x2="13.1" y2="16" width="0.1524" layer="1"/>
+<wire x1="14.4" y1="17.3" x2="13.1" y2="16" width="0.1524" layer="1"/>
 <wire x1="13.1" y1="15.1" x2="13.1" y2="16" width="0.1524" layer="1"/>
 <via x="21.13" y="17.4" extent="1-16" drill="0.2"/>
 <wire x1="21.13" y1="17.4" x2="21.8" y2="17.4" width="0.1524" layer="16"/>
-<wire x1="14.5" y1="17.4" x2="18.3" y2="17.4" width="0.1524" layer="1"/>
-<wire x1="18.3" y1="17.4" x2="21.13" y2="17.4" width="0.1524" layer="1"/>
+<wire x1="21.03" y1="17.3" x2="14.4" y2="17.3" width="0.1524" layer="1"/>
+<wire x1="21.03" y1="17.3" x2="21.13" y2="17.4" width="0.1524" layer="1"/>
 </signal>
 <signal name="VDD">
 <contactref element="R12" pad="2"/>

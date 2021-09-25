@@ -3359,12 +3359,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="17.25" y="5"/>
 <vertex x="17.25" y="20" curve="-90"/>
 </polygon>
-<wire x1="14.18763125" y1="18.2" x2="16.88" y2="18.2" width="0.1524" layer="1"/>
-<via x="16.88" y="18.2" extent="1-16" drill="0.2"/>
-<wire x1="16.88" y1="18.2" x2="17.4" y2="18.2" width="0.1524" layer="16"/>
+<wire x1="13.88763125" y1="17.9" x2="16.88" y2="17.9" width="0.1524" layer="1"/>
+<via x="16.88" y="17.9" extent="1-16" drill="0.2"/>
+<wire x1="16.88" y1="17.9" x2="17.5" y2="17.9" width="0.1524" layer="16"/>
 <wire x1="12.6" y1="15.1" x2="12.6" y2="16.61236875" width="0.1524" layer="1"/>
-<wire x1="12.6" y1="16.61236875" x2="14.18763125" y2="18.2" width="0.1524" layer="1"/>
-<wire x1="16.9" y1="18.2" x2="16.88" y2="18.2" width="0.1524" layer="1"/>
+<wire x1="12.6" y1="16.61236875" x2="13.88763125" y2="17.9" width="0.1524" layer="1"/>
 </signal>
 <signal name="IN4">
 <contactref element="U1" pad="4"/>
@@ -3378,13 +3377,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="8.5" y="5"/>
 <vertex x="8.5" y="20" curve="-90"/>
 </polygon>
-<via x="8.13" y="19.5" extent="1-16" drill="0.2"/>
+<via x="8.13" y="18" extent="1-16" drill="0.2"/>
 <wire x1="11.6" y1="15.28" x2="11.6" y2="15.1" width="0.1524" layer="1"/>
 <wire x1="11.6" y1="15.1" x2="11.6" y2="17.4" width="0.1524" layer="1"/>
-<wire x1="9.5" y1="19.5" x2="9" y2="19.5" width="0.1524" layer="1"/>
-<wire x1="9" y1="19.5" x2="8.13" y2="19.5" width="0.1524" layer="1"/>
-<wire x1="11.6" y1="17.4" x2="9.5" y2="19.5" width="0.1524" layer="1"/>
-<wire x1="8.13" y1="19.5" x2="8.8" y2="19.5" width="0.1524" layer="16"/>
+<wire x1="11" y1="18" x2="8.13" y2="18" width="0.1524" layer="1"/>
+<wire x1="11.6" y1="17.4" x2="11" y2="18" width="0.1524" layer="1"/>
+<wire x1="8.13" y1="18" x2="8.8" y2="18" width="0.1524" layer="16"/>
 </signal>
 <signal name="IN6">
 <contactref element="U1" pad="6"/>
@@ -3462,12 +3460,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="13" y="5"/>
 <vertex x="13" y="20" curve="-90"/>
 </polygon>
-<wire x1="14.28763125" y1="19.5" x2="15" y2="19.5" width="0.1524" layer="1"/>
-<via x="16.88" y="19.5" extent="1-16" drill="0.2"/>
-<wire x1="15" y1="19.5" x2="16.88" y2="19.5" width="0.1524" layer="1"/>
-<wire x1="16.88" y1="19.5" x2="16.3" y2="19.5" width="0.1524" layer="16"/>
+<wire x1="13.28763125" y1="18.5" x2="16.88" y2="18.5" width="0.1524" layer="1"/>
+<via x="16.88" y="18.5" extent="1-16" drill="0.2"/>
+<wire x1="16.88" y1="18.5" x2="16.3" y2="18.5" width="0.1524" layer="16"/>
 <wire x1="12.1" y1="15.1" x2="12.1" y2="17.31236875" width="0.1524" layer="1"/>
-<wire x1="12.1" y1="17.31236875" x2="14.28763125" y2="19.5" width="0.1524" layer="1"/>
+<wire x1="12.1" y1="17.31236875" x2="13.28763125" y2="18.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="IN5">
 <contactref element="U1" pad="5"/>
@@ -3481,11 +3478,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <vertex x="4.25" y="5"/>
 <vertex x="4.25" y="20" curve="-90"/>
 </polygon>
-<via x="8.13" y="18.2" extent="1-16" drill="0.2"/>
-<wire x1="8.13" y1="18.2" x2="9.6" y2="18.2" width="0.1524" layer="1"/>
-<wire x1="9.6" y1="18.2" x2="11.1" y2="16.7" width="0.1524" layer="1"/>
+<via x="8.13" y="17.4" extent="1-16" drill="0.2"/>
+<wire x1="8.13" y1="17.4" x2="10.4" y2="17.4" width="0.1524" layer="1"/>
+<wire x1="10.4" y1="17.4" x2="11.1" y2="16.7" width="0.1524" layer="1"/>
 <wire x1="11.1" y1="16.7" x2="11.1" y2="15.1" width="0.1524" layer="1"/>
-<wire x1="8.13" y1="18.2" x2="7.4" y2="18.2" width="0.1524" layer="16"/>
+<wire x1="8.13" y1="17.4" x2="7.4" y2="17.4" width="0.1524" layer="16"/>
 </signal>
 <signal name="SCLK">
 <contactref element="U1" pad="17"/>
