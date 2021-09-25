@@ -5,3 +5,6 @@ Robotics prosthesis are highly sophisticated devices, which imply very expensive
 Top layer            |  Bottom layer
 :-------------------------:|:-------------------------:
 ![Top layer](clvHdTop.png) |  ![Top layer](clvHdBot.png)
+
+
+![Top layer](schematic.png)
