@@ -15581,10 +15581,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="X1" library="con-JST SH" deviceset="BM02B-SRSS" device="-TB"/>
-<part name="X2" library="con-JST SH" deviceset="BM07B-SRSS" device="-TB"/>
-<part name="X3" library="con-JST SH" deviceset="BM07B-SRSS" device="-TB"/>
-<part name="U1" library="ADS" deviceset="ADS1293CISQ/NOPB" device=""/>
+<part name="X1" library="con-JST SH" deviceset="BM02B-SRSS" device="-TB" override_package3d_urn="urn:adsk.eagle:package:31099903/3" override_package_urn="urn:adsk.eagle:footprint:31099929/1"/>
+<part name="X2" library="con-JST SH" deviceset="BM07B-SRSS" device="-TB" override_package3d_urn="urn:adsk.eagle:package:31099817/3" override_package_urn="urn:adsk.eagle:footprint:31099818/1"/>
+<part name="X3" library="con-JST SH" deviceset="BM07B-SRSS" device="-TB" override_package3d_urn="urn:adsk.eagle:package:31099799/3" override_package_urn="urn:adsk.eagle:footprint:31099800/1"/>
+<part name="U1" library="ADS" deviceset="ADS1293CISQ/NOPB" device="" override_package3d_urn="urn:adsk.eagle:package:31101122/2" override_package_urn="urn:adsk.eagle:footprint:31101124/1"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="51"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="22pF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="22pF"/>
@@ -15600,9 +15600,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value=""/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
-<part name="S1" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD"/>
+<part name="S1" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" override_package3d_urn="urn:adsk.eagle:package:31101119/2" override_package_urn="urn:adsk.eagle:footprint:31101120/1" value="TAC_SWITCHSMD"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1M"/>
-<part name="U$1" library="crystalCustom" deviceset="C387328" device="" package3d_urn="urn:adsk.eagle:package:12120/1" value="C387328 "/>
+<part name="U$1" library="crystalCustom" deviceset="C387328" device="" package3d_urn="urn:adsk.eagle:package:12120/1" override_package3d_urn="urn:adsk.eagle:package:31101377/2" override_package_urn="urn:adsk.eagle:footprint:31101378/1" value="C387328 "/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100"/>
 <part name="L1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="LED 0603"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
@@ -16300,6 +16300,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
