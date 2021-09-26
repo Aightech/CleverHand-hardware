@@ -6,5 +6,6 @@ Top layer            |  Bottom layer
 :-------------------------:|:-------------------------:
 ![Top layer](clvHdTop.png) |  ![Top layer](clvHdBot.png)
 
+![Top layer](clvHd3D.png)
 
 ![Top layer](schematic.png)
