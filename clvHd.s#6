@@ -15733,7 +15733,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U1" gate="A" pin="ALARMB"/>
 <wire x1="114.3" y1="66.04" x2="115.57" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="115.57" y1="66.04" x2="115.57" y2="36.83" width="0.1524" layer="91"/>
-<label x="115.57" y="31.75" size="1.27" layer="95" xref="yes"/>
+<label x="115.57" y="31.75" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="L2" gate="G$1" pin="C"/>
 <wire x1="115.57" y1="36.83" x2="115.57" y2="31.75" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="36.83" x2="115.57" y2="36.83" width="0.1524" layer="91"/>

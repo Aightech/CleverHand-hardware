@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,13 +24,13 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -396,6 +396,64 @@
 <wire x1="3.72" y1="18.17" x2="3.77" y2="18.06" width="0.1" layer="25"/>
 <wire x1="3.91" y1="17.37" x2="3.99" y2="17.56" width="0.1" layer="25"/>
 <wire x1="3.78" y1="15.16" x2="3.81" y2="14.91" width="0.1" layer="25"/>
+<circle x="7.9" y="16.95" radius="0.05" width="0.2" layer="25"/>
+<wire x1="6.01" y1="15.17" x2="6.52" y2="14.66" width="0.1" layer="25"/>
+<wire x1="6.52" y1="14.66" x2="7.04" y2="14.66" width="0.1" layer="25"/>
+<wire x1="7.04" y1="14.66" x2="7.54" y2="15.16" width="0.1" layer="25"/>
+<wire x1="6.8" y1="15.11" x2="7.24" y2="15.55" width="0.1" layer="25"/>
+<wire x1="7.24" y1="15.55" x2="7.5" y2="15.55" width="0.1" layer="25"/>
+<circle x="7.97" y="15.55" radius="0.05" width="0.2" layer="25"/>
+<circle x="6.8" y="15.11" radius="0.05" width="0.2" layer="25"/>
+<circle x="7.56" y="15.18" radius="0.05" width="0.2" layer="25"/>
+<wire x1="7.5" y1="15.55" x2="7.96" y2="15.55" width="0.1" layer="25"/>
+<wire x1="7.89" y1="16.94" x2="7.65" y2="16.94" width="0.1" layer="25"/>
+<text x="8.48" y="18.83" size="1.4224" layer="25" ratio="12">Aightech</text>
+<circle x="9.06" y="16.34" radius="0.05" width="0.2" layer="25"/>
+<circle x="10.15" y="18.05" radius="0.05" width="0.2" layer="25"/>
+<circle x="10.16" y="16.69" radius="0.05" width="0.2" layer="25"/>
+<circle x="9.06" y="18.39" radius="0.05" width="0.2" layer="25"/>
+<circle x="8.47" y="16.85" radius="0.05" width="0.2" layer="25"/>
+<circle x="12.26" y="18.4" radius="0.05" width="0.2" layer="25"/>
+<circle x="11.13" y="18.06" radius="0.05" width="0.2" layer="25"/>
+<circle x="11.17" y="16.68" radius="0.05" width="0.2" layer="25"/>
+<circle x="11.67" y="18.5" radius="0.05" width="0.2" layer="25"/>
+<circle x="10.66" y="17.37" radius="0.05" width="0.2" layer="25"/>
+<circle x="12.28" y="16.38" radius="0.05" width="0.2" layer="25"/>
+<circle x="11.69" y="16.26" radius="0.05" width="0.2" layer="25"/>
+<circle x="8.48" y="17.9" radius="0.05" width="0.2" layer="25"/>
+<circle x="9.6" y="18.46" radius="0.05" width="0.2" layer="25"/>
+<circle x="9.62" y="16.29" radius="0.05" width="0.2" layer="25"/>
+<wire x1="9.04" y1="17.96" x2="9.04" y2="16.77" width="0.1" layer="25"/>
+<wire x1="10.15" y1="17.69" x2="10.15" y2="17.08" width="0.1" layer="25"/>
+<wire x1="11.16" y1="17.64" x2="11.16" y2="17.03" width="0.1" layer="25"/>
+<wire x1="12.28" y1="17.98" x2="12.28" y2="17.16" width="0.1" layer="25"/>
+<wire x1="12.28" y1="17.16" x2="12.28" y2="16.79" width="0.1" layer="25"/>
+<wire x1="11.68" y1="18.12" x2="11.68" y2="16.63" width="0.1" layer="25"/>
+<wire x1="9.61" y1="18.04" x2="9.61" y2="16.65" width="0.1" layer="25"/>
+<wire x1="8.49" y1="17.52" x2="8.49" y2="17.21" width="0.1" layer="25"/>
+<wire x1="12.28" y1="17.16" x2="12.81" y2="17.69" width="0.1" layer="25"/>
+<wire x1="12.81" y1="17.69" x2="12.81" y2="18.31" width="0.1" layer="25"/>
+<wire x1="12.59" y1="16.97" x2="13.02" y2="16.97" width="0.1" layer="25"/>
+<wire x1="13.02" y1="16.97" x2="13.03" y2="16.96" width="0.1" layer="25"/>
+<wire x1="13.03" y1="16.96" x2="13.75" y2="17.68" width="0.1" layer="25"/>
+<wire x1="13.75" y1="17.68" x2="14.28" y2="17.68" width="0.1" layer="25"/>
+<wire x1="14.28" y1="17.68" x2="15.21" y2="17.68" width="0.1" layer="25"/>
+<wire x1="14.28" y1="17.68" x2="14.89" y2="18.29" width="0.1" layer="25"/>
+<wire x1="14.89" y1="18.29" x2="15.92" y2="18.29" width="0.1" layer="25"/>
+<wire x1="13.25" y1="17.82" x2="13.55" y2="18.12" width="0.1" layer="25"/>
+<wire x1="13.55" y1="18.12" x2="14.15" y2="18.12" width="0.1" layer="25"/>
+<circle x="14.16" y="18.13" radius="0.05" width="0.2" layer="25"/>
+<circle x="13.23" y="17.81" radius="0.05" width="0.2" layer="25"/>
+<circle x="15.21" y="17.68" radius="0.05" width="0.2" layer="25"/>
+<circle x="15.95" y="18.3" radius="0.05" width="0.2" layer="25"/>
+<circle x="12.62" y="16.97" radius="0.05" width="0.2" layer="25"/>
+<circle x="12.8" y="18.32" radius="0.05" width="0.2" layer="25"/>
+<circle x="8.54" y="16.33" radius="0.05" width="0.2" layer="25"/>
+<wire x1="7.5" y1="15.55" x2="7.5" y2="15.97" width="0.1" layer="25"/>
+<wire x1="7.5" y1="15.97" x2="7.86" y2="16.33" width="0.1" layer="25"/>
+<wire x1="7.86" y1="16.33" x2="8.52" y2="16.33" width="0.1" layer="25"/>
+<wire x1="8.47" y1="17.89" x2="8.33" y2="17.89" width="0.1" layer="25"/>
+<wire x1="8.33" y1="17.89" x2="7.86" y2="18.36" width="0.1" layer="25"/>
 </plain>
 <libraries>
 <library name="led" urn="urn:adsk.eagle:library:259">
