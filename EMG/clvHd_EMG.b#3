@@ -3902,11 +3902,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R1" pad="1"/>
 <contactref element="L3" pad="A"/>
 <wire x1="5.5" y1="13.8" x2="5.404" y2="13.704" width="0.127" layer="1"/>
-<wire x1="5.404" y1="13.704" x2="5.0447875" y2="13.704" width="0.127" layer="1"/>
-<wire x1="5.0447875" y1="13.704" x2="3.2" y2="11.8592125" width="0.127" layer="1"/>
+<wire x1="5.404" y1="13.704" x2="3.8447875" y2="13.704" width="0.127" layer="1"/>
+<wire x1="3.8447875" y1="13.704" x2="3.2" y2="13.0592125" width="0.127" layer="1"/>
 <wire x1="3.9" y1="8.35" x2="3.9" y2="7.45" width="0.127" layer="1"/>
 <wire x1="3.9" y1="8.35" x2="3.2" y2="9.05" width="0.127" layer="1"/>
-<wire x1="3.2" y1="11.8592125" x2="3.2" y2="9.05" width="0.127" layer="1"/>
+<wire x1="3.2" y1="13.0592125" x2="3.2" y2="9.05" width="0.127" layer="1"/>
 </signal>
 <signal name="IN2">
 <polygon width="0.01" layer="16">
