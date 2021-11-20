@@ -15134,20 +15134,42 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="1.75" y1="-1.75" x2="1.75" y2="1.75" width="0.1" layer="51"/>
 <wire x1="1.75" y1="1.75" x2="-1.75" y2="1.75" width="0.1" layer="51"/>
 <wire x1="-1.75" y1="1.75" x2="-1.75" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.75" x2="1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.75" width="0.2" layer="21"/>
 <wire x1="1.75" y1="1.75" x2="1.5" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.5" y1="1.75" x2="1.5" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="1.5" width="0.2" layer="21"/>
 <wire x1="1.75" y1="1.5" x2="1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="1.75" x2="-1.725" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.725" y1="1.75" x2="-1.725" y2="1.75" width="0.2" layer="21"/>
 <wire x1="-1.725" y1="1.75" x2="-1.5" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="1.75" x2="-1.5" y2="1.75" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="1.75" x2="-1.725" y2="1.75" width="0.2" layer="21"/>
 <wire x1="-1.725" y1="1.75" x2="-1.725" y2="1.5" width="0.2" layer="21"/>
 <wire x1="-1.725" y1="1.5" x2="-1.75" y2="1.5" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="1.5" x2="-1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="-1.725" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.725" x2="-1.75" y2="-1.725" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-1.725" x2="-1.75" y2="-1.5" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-1.725" x2="-1.5" y2="-1.725" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="-1.725" x2="-1.5" y2="-1.75" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="-1.75" x2="-1.75" y2="-1.75" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-1.75" x2="-1.75" y2="-1.725" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1.75" x2="1.725" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.725" y1="-1.75" x2="1.725" y2="-1.75" width="0.2" layer="21"/>
 <wire x1="1.725" y1="-1.75" x2="1.5" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1.75" x2="1.5" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-1.5" x2="1.75" y2="-1.5" width="0.2" layer="21"/>
 <wire x1="1.75" y1="-1.5" x2="1.75" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="-3.15" y1="3.15" x2="3.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-3.15" x2="-3.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.1" layer="51"/>
 </package>
 <package name="SN74LVC86ARGYR">
 <description>&lt;b&gt;SN74LVC86ARGYR-1&lt;/b&gt;&lt;br&gt;
@@ -15167,26 +15189,48 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="13" x="-1" y="1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
 <smd name="14" x="-1.725" y="0.75" dx="0.85" dy="0.28" layer="1"/>
 <smd name="15" x="0" y="0" dx="2.05" dy="2.05" layer="1"/>
-<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1.75" y1="-1.75" x2="1.75" y2="-1.75" width="0.1" layer="51"/>
 <wire x1="1.75" y1="-1.75" x2="1.75" y2="1.75" width="0.1" layer="51"/>
 <wire x1="1.75" y1="1.75" x2="-1.75" y2="1.75" width="0.1" layer="51"/>
 <wire x1="-1.75" y1="1.75" x2="-1.75" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.75" x2="1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.75" width="0.2" layer="21"/>
 <wire x1="1.75" y1="1.75" x2="1.5" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.5" y1="1.75" x2="1.5" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.5" width="0.2" layer="21"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="1.5" width="0.2" layer="21"/>
 <wire x1="1.75" y1="1.5" x2="1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="1.75" x2="-1.725" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.725" y1="1.75" x2="-1.725" y2="1.75" width="0.2" layer="21"/>
 <wire x1="-1.725" y1="1.75" x2="-1.5" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="1.75" x2="-1.5" y2="1.75" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="1.75" x2="-1.725" y2="1.75" width="0.2" layer="21"/>
 <wire x1="-1.725" y1="1.75" x2="-1.725" y2="1.5" width="0.2" layer="21"/>
 <wire x1="-1.725" y1="1.5" x2="-1.75" y2="1.5" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="1.5" x2="-1.75" y2="1.75" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.5" x2="-1.75" y2="-1.725" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.725" x2="-1.75" y2="-1.725" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-1.725" x2="-1.75" y2="-1.5" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-1.725" x2="-1.5" y2="-1.725" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="-1.725" x2="-1.5" y2="-1.75" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="-1.75" x2="-1.75" y2="-1.75" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-1.75" x2="-1.75" y2="-1.725" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1.75" x2="1.725" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.725" y1="-1.75" x2="1.725" y2="-1.75" width="0.2" layer="21"/>
 <wire x1="1.725" y1="-1.75" x2="1.5" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.5" y1="-1.75" x2="1.5" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="1.75" y1="-1.5" x2="1.75" y2="-1.5" width="0.2" layer="21"/>
 <wire x1="1.75" y1="-1.5" x2="1.75" y2="-1.75" width="0.2" layer="21"/>
+<wire x1="-3.15" y1="3.15" x2="3.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-3.15" x2="-3.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.1" layer="51"/>
 </package>
 <package name="SOT65P210X110-5N">
 <description>&lt;b&gt;DCK (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
@@ -15352,13 +15396,13 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74aup1g08-q1"&gt; Datasheet &lt;
 </deviceset>
 </devicesets>
 </library>
-<library name="con-omron">
+<library name="con-omron" urn="urn:adsk.eagle:library:167">
 <description>&lt;b&gt;OMRON FPC Connectors&lt;/b&gt;&lt;p&gt;
 Original backlock mechanism ensures greater work efficiency and higher reliability.&lt;br&gt;
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="XF2H-1815-1LW" urn="urn:adsk.eagle:footprint:8940/1">
+<package name="XF2H-1815-1LW" urn="urn:adsk.eagle:footprint:8940/1" library_version="1">
 <description>&lt;b&gt;Standard Rotary Backlock Type (0.5 mm-pitch)&lt;/b&gt;&lt;p&gt;
 Source: fpc.pdf</description>
 <wire x1="-3.625" y1="6.2" x2="-1.325" y2="6.2" width="0.1016" layer="21"/>
@@ -15431,7 +15475,7 @@ Source: fpc.pdf</description>
 <rectangle x1="0.225" y1="-4.5" x2="2.475" y2="4.5" layer="43"/>
 <rectangle x1="3.875" y1="-5.5" x2="4.25" y2="5.5" layer="39"/>
 </package>
-<package name="XF2J-1824-11" urn="urn:adsk.eagle:footprint:8941/1">
+<package name="XF2J-1824-11" urn="urn:adsk.eagle:footprint:8941/1" library_version="1">
 <description>&lt;b&gt;ZIF Slide-locking Type (0.5 mm-pitch) &lt;/b&gt; Standard&lt;p&gt;
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="1.2" y1="6.4" x2="0.9" y2="6.7" width="0.1016" layer="51" curve="90"/>
@@ -15481,7 +15525,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <text x="-2" y="7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2" y="-8.5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="XF2J-1824-12" urn="urn:adsk.eagle:footprint:8942/1">
+<package name="XF2J-1824-12" urn="urn:adsk.eagle:footprint:8942/1" library_version="1">
 <description>&lt;b&gt;ZIF Slide-locking Type (0.5 mm-pitch) &lt;/b&gt; Reverse&lt;p&gt;
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="1.2" y1="6.4" x2="0.9" y2="6.7" width="0.1016" layer="51" curve="90"/>
@@ -15531,7 +15575,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <text x="-2" y="7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2" y="-8.5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="XF2L-1825-1" urn="urn:adsk.eagle:footprint:8943/1">
+<package name="XF2L-1825-1" urn="urn:adsk.eagle:footprint:8943/1" library_version="1">
 <description>&lt;b&gt;ZIF Slide-locking Type (0.5 mm-pitch)&lt;/b&gt; Upper-contact Type&lt;p&gt;
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="-1.495" y1="-6.85" x2="-1.3649" y2="-6.9851" width="0.1016" layer="21"/>
@@ -15660,7 +15704,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <rectangle x1="1.255" y1="-3.85" x2="1.98" y2="-3.65" layer="51"/>
 <rectangle x1="1.255" y1="-4.35" x2="1.98" y2="-4.15" layer="51"/>
 </package>
-<package name="XF2L-1835-1" urn="urn:adsk.eagle:footprint:8944/1">
+<package name="XF2L-1835-1" urn="urn:adsk.eagle:footprint:8944/1" library_version="1">
 <description>&lt;b&gt;ZIF Slide-locking Type (0.5 mm-pitch)&lt;/b&gt; Lower-contact Type&lt;p&gt;
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="-1.495" y1="-6.85" x2="-1.3649" y2="-6.9851" width="0.1016" layer="21"/>
@@ -15783,7 +15827,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <rectangle x1="1.255" y1="-3.85" x2="1.98" y2="-3.65" layer="51"/>
 <rectangle x1="1.255" y1="-4.35" x2="1.98" y2="-4.15" layer="51"/>
 </package>
-<package name="XF2R-1815-4A" urn="urn:adsk.eagle:footprint:8945/1">
+<package name="XF2R-1815-4A" urn="urn:adsk.eagle:footprint:8945/1" library_version="1">
 <description>&lt;b&gt;Low-profile Rotary Backlock Type (0.5 mm-pitch)&lt;/b&gt;&lt;p&gt;
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="-2.765" y1="5.225" x2="-2.765" y2="4.5" width="0.1016" layer="21"/>
@@ -15862,42 +15906,42 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="XF2H-1815-1LW" urn="urn:adsk.eagle:package:9045/1" type="box">
+<package3d name="XF2H-1815-1LW" urn="urn:adsk.eagle:package:9045/1" type="box" library_version="1">
 <description>Standard Rotary Backlock Type (0.5 mm-pitch)
 Source: fpc.pdf</description>
 <packageinstances>
 <packageinstance name="XF2H-1815-1LW"/>
 </packageinstances>
 </package3d>
-<package3d name="XF2J-1824-11" urn="urn:adsk.eagle:package:9049/1" type="box">
+<package3d name="XF2J-1824-11" urn="urn:adsk.eagle:package:9049/1" type="box" library_version="1">
 <description>ZIF Slide-locking Type (0.5 mm-pitch)  Standard
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <packageinstances>
 <packageinstance name="XF2J-1824-11"/>
 </packageinstances>
 </package3d>
-<package3d name="XF2J-1824-12" urn="urn:adsk.eagle:package:32300832/2" type="model">
+<package3d name="XF2J-1824-12" urn="urn:adsk.eagle:package:9046/1" type="box" library_version="1">
 <description>ZIF Slide-locking Type (0.5 mm-pitch)  Reverse
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <packageinstances>
 <packageinstance name="XF2J-1824-12"/>
 </packageinstances>
 </package3d>
-<package3d name="XF2L-1825-1" urn="urn:adsk.eagle:package:9050/1" type="box">
+<package3d name="XF2L-1825-1" urn="urn:adsk.eagle:package:9050/1" type="box" library_version="1">
 <description>ZIF Slide-locking Type (0.5 mm-pitch) Upper-contact Type
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <packageinstances>
 <packageinstance name="XF2L-1825-1"/>
 </packageinstances>
 </package3d>
-<package3d name="XF2L-1835-1" urn="urn:adsk.eagle:package:9051/1" type="box">
+<package3d name="XF2L-1835-1" urn="urn:adsk.eagle:package:9051/1" type="box" library_version="1">
 <description>ZIF Slide-locking Type (0.5 mm-pitch) Lower-contact Type
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <packageinstances>
 <packageinstance name="XF2L-1835-1"/>
 </packageinstances>
 </package3d>
-<package3d name="XF2R-1815-4A" urn="urn:adsk.eagle:package:9058/1" type="box">
+<package3d name="XF2R-1815-4A" urn="urn:adsk.eagle:package:9058/1" type="box" library_version="1">
 <description>Low-profile Rotary Backlock Type (0.5 mm-pitch)
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <packageinstances>
@@ -15906,20 +15950,20 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="PV">
+<symbol name="PV" urn="urn:adsk.eagle:symbol:8893/1" library_version="1">
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
 <text x="0" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <pin name="MSV" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="P">
+<symbol name="P" urn="urn:adsk.eagle:symbol:8894/1" library_version="1">
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
 <text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
 <pin name="MS" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XF2*-18?" prefix="J">
+<deviceset name="XF2*-18?" urn="urn:adsk.eagle:component:9124/1" prefix="J" library_version="1">
 <description>&lt;b&gt;OMRON FPC Connector&lt;/b&gt;&lt;p&gt;
 Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <gates>
@@ -16031,7 +16075,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <connect gate="-9" pin="MS" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32300832/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9046/1"/>
 </package3dinstances>
 <technologies>
 <technology name="J">
@@ -16205,11 +16249,11 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="AND_IC" library="SamacSys_Parts" deviceset="SN74ALVC08" device=""/>
 <part name="XOR_IC" library="SamacSys_Parts" deviceset="SN74LVC86A" device=""/>
 <part name="VDD8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="J4" library="con-omron" library_urn="urn:adsk.eagle:library:167" deviceset="XF2*-18?" device="24-12" package3d_urn="urn:adsk.eagle:package:9046/1" technology="J"/>
+<part name="J3" library="con-omron" library_urn="urn:adsk.eagle:library:167" deviceset="XF2*-18?" device="24-12" package3d_urn="urn:adsk.eagle:package:9046/1" technology="J"/>
 <part name="AND_IC2" library="SamacSys_Parts" deviceset="SN74AUP1G08QDCKRQ1" device=""/>
 <part name="VDD9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
-<part name="J1" library="con-omron" deviceset="XF2*-18?" device="24-12" package3d_urn="urn:adsk.eagle:package:32300832/2" technology="J"/>
-<part name="J2" library="con-omron" deviceset="XF2*-18?" device="24-12" package3d_urn="urn:adsk.eagle:package:32300832/2" technology="J"/>
 </parts>
 <sheets>
 <sheet>
@@ -16233,9 +16277,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="NAME" x="226.822" y="113.919" size="1.27" layer="95"/>
 <attribute name="VALUE" x="225.806" y="110.871" size="1.27" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="149.86" y="50.8" smashed="yes" grouprefs="ALARM_LED">
-<attribute name="NAME" x="144.018" y="50.7746" size="1.27" layer="95"/>
-<attribute name="VALUE" x="152.654" y="50.8" size="1.27" layer="96"/>
+<instance part="R12" gate="G$1" x="149.86" y="59.69" smashed="yes" grouprefs="ALARM_LED">
+<attribute name="NAME" x="144.018" y="59.6646" size="1.27" layer="95"/>
+<attribute name="VALUE" x="152.654" y="59.69" size="1.27" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="161.29" y="105.41" smashed="yes">
 <attribute name="NAME" x="155.448" y="105.3846" size="1.27" layer="95"/>
@@ -16261,9 +16305,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="NAME" x="18.542" y="106.299" size="1.27" layer="95"/>
 <attribute name="VALUE" x="26.924" y="107.569" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="L2" gate="G$1" x="139.7" y="50.8" smashed="yes" rot="R270" grouprefs="ALARM_LED">
-<attribute name="NAME" x="135.128" y="47.244" size="1.778" layer="95"/>
-<attribute name="VALUE" x="135.128" y="45.085" size="1.778" layer="96"/>
+<instance part="L2" gate="G$1" x="139.7" y="59.69" smashed="yes" rot="R270" grouprefs="ALARM_LED">
+<attribute name="NAME" x="135.128" y="56.134" size="1.778" layer="95"/>
+<attribute name="VALUE" x="135.128" y="53.975" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="148.59" y="134.62" smashed="yes">
 <attribute name="NAME" x="149.352" y="134.239" size="1.27" layer="95"/>
@@ -16281,16 +16325,16 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="VALUE" x="167.386" y="126.111" size="1.27" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="214.63" y="120.65" smashed="yes" rot="R180" grouprefs="XTAL"/>
-<instance part="R7" gate="G$1" x="222.25" y="45.72" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="216.408" y="45.6946" size="1.27" layer="95"/>
-<attribute name="VALUE" x="225.044" y="45.72" size="1.27" layer="96"/>
+<instance part="R7" gate="G$1" x="215.9" y="41.91" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="210.058" y="41.8846" size="1.27" layer="95"/>
+<attribute name="VALUE" x="218.694" y="41.91" size="1.27" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="232.41" y="45.72" smashed="yes" rot="R90" grouprefs="POWER">
-<attribute name="NAME" x="236.982" y="49.276" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="236.982" y="51.435" size="1.778" layer="96" rot="R180"/>
+<instance part="L1" gate="G$1" x="226.06" y="41.91" smashed="yes" rot="R90" grouprefs="POWER">
+<attribute name="NAME" x="230.632" y="45.466" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="230.632" y="47.625" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND7" gate="1" x="241.3" y="39.37" smashed="yes" grouprefs="POWER">
-<attribute name="VALUE" x="238.76" y="36.83" size="1.27" layer="96"/>
+<instance part="GND7" gate="1" x="234.95" y="35.56" smashed="yes" grouprefs="POWER">
+<attribute name="VALUE" x="232.41" y="33.02" size="1.27" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="234.95" y="81.28" smashed="yes" grouprefs="XTAL">
 <attribute name="VALUE" x="232.41" y="91.44" size="1.27" layer="96"/>
@@ -16313,11 +16357,11 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="GND4" gate="1" x="225.552" y="120.65" smashed="yes" grouprefs="XTAL">
 <attribute name="VALUE" x="223.012" y="118.11" size="1.27" layer="96"/>
 </instance>
-<instance part="VDD4" gate="G$1" x="213.36" y="53.34" smashed="yes" grouprefs="POWER">
-<attribute name="VALUE" x="213.36" y="55.88" size="1.27" layer="96"/>
+<instance part="VDD4" gate="G$1" x="207.01" y="49.53" smashed="yes" grouprefs="POWER">
+<attribute name="VALUE" x="207.01" y="52.07" size="1.27" layer="96"/>
 </instance>
-<instance part="VDD5" gate="G$1" x="156.21" y="54.61" smashed="yes" grouprefs="ALARM_LED">
-<attribute name="VALUE" x="156.21" y="57.15" size="1.27" layer="96"/>
+<instance part="VDD5" gate="G$1" x="156.21" y="63.5" smashed="yes" grouprefs="ALARM_LED">
+<attribute name="VALUE" x="156.21" y="66.04" size="1.27" layer="96"/>
 </instance>
 <instance part="VDD6" gate="G$1" x="170.18" y="107.95" smashed="yes">
 <attribute name="VALUE" x="172.72" y="109.22" size="1.27" layer="96"/>
@@ -16362,8 +16406,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="AND_IC" gate="-4" x="77.47" y="25.4" smashed="yes" grouprefs="ADDRESS_INC">
 <attribute name="NAME" x="80.264" y="25.908" size="0.6096" layer="95"/>
 </instance>
-<instance part="AND_IC" gate="-PWR" x="189.23" y="44.45" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="187.96" y="41.91" size="1.016" layer="95" rot="R90"/>
+<instance part="AND_IC" gate="-PWR" x="182.88" y="40.64" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="181.61" y="38.1" size="1.016" layer="95" rot="R90"/>
 </instance>
 <instance part="XOR_IC" gate="-1" x="77.47" y="46.99" smashed="yes" grouprefs="ADDRESS_INC">
 <attribute name="NAME" x="80.264" y="47.498" size="0.6096" layer="95"/>
@@ -16377,131 +16421,131 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="XOR_IC" gate="-4" x="77.47" y="27.94" smashed="yes" grouprefs="ADDRESS_INC">
 <attribute name="NAME" x="80.264" y="28.448" size="0.6096" layer="95"/>
 </instance>
-<instance part="XOR_IC" gate="-PWR" x="195.58" y="44.45" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="194.31" y="41.91" size="1.016" layer="95" rot="R90"/>
+<instance part="XOR_IC" gate="-PWR" x="189.23" y="40.64" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="187.96" y="38.1" size="1.016" layer="95" rot="R90"/>
 </instance>
 <instance part="VDD8" gate="G$1" x="74.93" y="54.61" smashed="yes" grouprefs="ADDRESS_INC">
 <attribute name="VALUE" x="74.93" y="57.15" size="1.27" layer="96"/>
 </instance>
+<instance part="J4" gate="-1" x="21.59" y="63.5" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="64.008" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-2" x="21.59" y="60.96" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="61.468" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-3" x="21.59" y="58.42" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="58.928" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-4" x="21.59" y="55.88" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="56.388" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-5" x="21.59" y="53.34" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="53.848" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-6" x="21.59" y="50.8" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="51.308" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-7" x="21.59" y="48.26" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="48.768" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-8" x="21.59" y="45.72" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="46.228" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-9" x="21.59" y="43.18" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="43.688" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-10" x="21.59" y="40.64" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="41.148" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-11" x="21.59" y="38.1" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="38.608" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-12" x="21.59" y="35.56" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="36.068" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-13" x="21.59" y="33.02" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="33.528" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-14" x="21.59" y="30.48" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="30.988" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-15" x="21.59" y="27.94" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="28.448" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-16" x="21.59" y="25.4" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="25.908" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-17" x="21.59" y="22.86" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="23.368" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J4" gate="-18" x="21.59" y="20.32" smashed="yes" rot="MR0" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="26.67" y="20.828" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="J3" gate="-1" x="46.99" y="20.32" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="22.352" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-2" x="46.99" y="22.86" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="24.892" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-3" x="46.99" y="25.4" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="27.432" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-4" x="46.99" y="27.94" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="29.972" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-5" x="46.99" y="30.48" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="32.512" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-6" x="46.99" y="33.02" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="35.052" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-7" x="46.99" y="35.56" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="37.592" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-8" x="46.99" y="38.1" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="40.132" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-9" x="46.99" y="40.64" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="42.672" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-10" x="46.99" y="43.18" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="45.212" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-11" x="46.99" y="45.72" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="47.752" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-12" x="46.99" y="48.26" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="50.292" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-13" x="46.99" y="50.8" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="52.832" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-14" x="46.99" y="53.34" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="55.372" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-15" x="46.99" y="55.88" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="57.912" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-16" x="46.99" y="58.42" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="60.452" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-17" x="46.99" y="60.96" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="62.992" size="1.524" layer="95" rot="MR180"/>
+</instance>
+<instance part="J3" gate="-18" x="46.99" y="63.5" smashed="yes" rot="MR180" grouprefs="COMMUNICATION">
+<attribute name="NAME" x="41.91" y="65.532" size="1.524" layer="95" rot="MR180"/>
+</instance>
 <instance part="AND_IC2" gate="-1" x="119.38" y="24.13" smashed="yes" grouprefs="GPIO">
 <attribute name="NAME" x="118.11" y="25.908" size="0.8128" layer="95"/>
 </instance>
-<instance part="AND_IC2" gate="-PWR" x="201.93" y="44.45" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="200.66" y="41.91" size="1.016" layer="95" rot="R90"/>
+<instance part="AND_IC2" gate="-PWR" x="195.58" y="40.64" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="194.31" y="38.1" size="1.016" layer="95" rot="R90"/>
 </instance>
-<instance part="VDD9" gate="G$1" x="195.58" y="54.61" smashed="yes" grouprefs="POWER">
-<attribute name="VALUE" x="196.85" y="55.88" size="1.27" layer="96"/>
+<instance part="VDD9" gate="G$1" x="189.23" y="50.8" smashed="yes" grouprefs="POWER">
+<attribute name="VALUE" x="190.5" y="52.07" size="1.27" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="195.58" y="36.83" smashed="yes" grouprefs="POWER">
-<attribute name="VALUE" x="196.85" y="38.1" size="1.27" layer="96"/>
-</instance>
-<instance part="J1" gate="-1" x="21.59" y="20.32" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="22.352" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-2" x="21.59" y="22.86" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="24.892" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-3" x="21.59" y="25.4" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="27.432" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-4" x="21.59" y="27.94" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="29.972" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-5" x="21.59" y="30.48" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="32.512" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-6" x="21.59" y="33.02" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="35.052" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-7" x="21.59" y="35.56" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="37.592" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-8" x="21.59" y="38.1" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="40.132" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-9" x="21.59" y="40.64" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="42.672" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-10" x="21.59" y="43.18" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="45.212" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-11" x="21.59" y="45.72" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="47.752" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-12" x="21.59" y="48.26" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="50.292" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-13" x="21.59" y="50.8" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="52.832" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-14" x="21.59" y="53.34" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="55.372" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-15" x="21.59" y="55.88" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="57.912" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-16" x="21.59" y="58.42" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="60.452" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-17" x="21.59" y="60.96" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="62.992" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J1" gate="-18" x="21.59" y="63.5" smashed="yes" rot="R180" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="25.4" y="65.532" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="J2" gate="-1" x="46.99" y="63.5" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="64.008" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-2" x="46.99" y="60.96" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="61.468" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-3" x="46.99" y="58.42" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="58.928" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-4" x="46.99" y="55.88" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="56.388" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-5" x="46.99" y="53.34" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="53.848" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-6" x="46.99" y="50.8" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="51.308" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-7" x="46.99" y="48.26" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="48.768" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-8" x="46.99" y="45.72" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="46.228" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-9" x="46.99" y="43.18" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="43.688" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-10" x="46.99" y="40.64" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="41.148" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-11" x="46.99" y="38.1" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="38.608" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-12" x="46.99" y="35.56" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="36.068" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-13" x="46.99" y="33.02" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="33.528" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-14" x="46.99" y="30.48" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="30.988" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-15" x="46.99" y="27.94" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="28.448" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-16" x="46.99" y="25.4" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="25.908" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-17" x="46.99" y="22.86" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="23.368" size="1.524" layer="95"/>
-</instance>
-<instance part="J2" gate="-18" x="46.99" y="20.32" smashed="yes" grouprefs="COMMUNICATION">
-<attribute name="NAME" x="43.18" y="20.828" size="1.524" layer="95"/>
+<instance part="GND2" gate="1" x="189.23" y="33.02" smashed="yes" grouprefs="POWER">
+<attribute name="VALUE" x="190.5" y="34.29" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -16532,8 +16576,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="24.13" y1="63.5" x2="44.45" y2="63.5" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="48.26" y="63.5" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-18" pin="MS"/>
-<pinref part="J2" gate="-1" pin="MSV"/>
+<pinref part="J4" gate="-1" pin="MSV"/>
+<pinref part="J3" gate="-18" pin="MS"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -16563,8 +16607,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <label x="48.26" y="33.02" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 <wire x1="44.45" y1="33.02" x2="24.13" y2="33.02" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-6" pin="MS"/>
-<pinref part="J2" gate="-13" pin="MS"/>
+<pinref part="J4" gate="-13" pin="MS"/>
+<pinref part="J3" gate="-6" pin="MS"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="100.33" x2="139.7" y2="100.33" width="0.1524" layer="91"/>
@@ -16578,8 +16622,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <label x="48.26" y="27.94" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 <wire x1="44.45" y1="27.94" x2="24.13" y2="27.94" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-4" pin="MS"/>
-<pinref part="J2" gate="-15" pin="MS"/>
+<pinref part="J4" gate="-15" pin="MS"/>
+<pinref part="J3" gate="-4" pin="MS"/>
 </segment>
 <segment>
 <label x="160.02" y="83.82" size="1.27" layer="95" xref="yes"/>
@@ -16614,8 +16658,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <label x="48.26" y="35.56" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 <wire x1="44.45" y1="35.56" x2="24.13" y2="35.56" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-7" pin="MS"/>
-<pinref part="J2" gate="-12" pin="MS"/>
+<pinref part="J4" gate="-12" pin="MS"/>
+<pinref part="J3" gate="-7" pin="MS"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -16630,12 +16674,12 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <pinref part="U1" gate="A" pin="ALARMB"/>
 <wire x1="132.08" y1="92.71" x2="133.35" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="92.71" x2="133.35" y2="50.8" width="0.1524" layer="91"/>
-<label x="133.35" y="45.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ALARM_LED"/>
+<wire x1="133.35" y1="92.71" x2="133.35" y2="59.69" width="0.1524" layer="91"/>
+<label x="133.35" y="54.61" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ALARM_LED"/>
 <pinref part="L2" gate="G$1" pin="C"/>
-<wire x1="133.35" y1="50.8" x2="133.35" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="50.8" x2="133.35" y2="50.8" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
-<junction x="133.35" y="50.8" grouprefs="ALARM_LED"/>
+<wire x1="133.35" y1="59.69" x2="133.35" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="59.69" x2="133.35" y2="59.69" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
+<junction x="133.35" y="59.69" grouprefs="ALARM_LED"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16684,15 +16728,15 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="VDD" class="0">
 <segment>
-<wire x1="213.36" y1="50.8" x2="213.36" y2="45.72" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="207.01" y1="46.99" x2="207.01" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="VDD4" gate="G$1" pin="VDD"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="217.17" y1="45.72" x2="213.36" y2="45.72" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="210.82" y1="41.91" x2="207.01" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="50.8" x2="156.21" y2="50.8" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
-<wire x1="156.21" y1="50.8" x2="156.21" y2="52.07" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
+<wire x1="154.94" y1="59.69" x2="156.21" y2="59.69" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
+<wire x1="156.21" y1="59.69" x2="156.21" y2="60.96" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
 <pinref part="VDD5" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -16739,8 +16783,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <label x="48.26" y="20.32" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 <wire x1="44.45" y1="20.32" x2="24.13" y2="20.32" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-1" pin="MSV"/>
-<pinref part="J2" gate="-18" pin="MS"/>
+<pinref part="J4" gate="-18" pin="MS"/>
+<pinref part="J3" gate="-1" pin="MSV"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="TRI"/>
@@ -16760,16 +16804,16 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </segment>
 <segment>
 <pinref part="AND_IC" gate="-PWR" pin="VCC"/>
-<wire x1="189.23" y1="49.53" x2="189.23" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="189.23" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="182.88" y1="45.72" x2="182.88" y2="46.99" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="182.88" y1="46.99" x2="189.23" y2="46.99" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="AND_IC2" gate="-PWR" pin="VCC"/>
-<wire x1="195.58" y1="50.8" x2="201.93" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="201.93" y1="50.8" x2="201.93" y2="49.53" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="189.23" y1="46.99" x2="195.58" y2="46.99" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="195.58" y1="46.99" x2="195.58" y2="45.72" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="XOR_IC" gate="-PWR" pin="VCC"/>
-<wire x1="195.58" y1="49.53" x2="195.58" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
-<junction x="195.58" y="50.8" grouprefs="POWER"/>
+<wire x1="189.23" y1="45.72" x2="189.23" y2="46.99" width="0.1524" layer="91" grouprefs="POWER"/>
+<junction x="189.23" y="46.99" grouprefs="POWER"/>
 <pinref part="VDD9" gate="G$1" pin="VDD"/>
-<wire x1="195.58" y1="52.07" x2="195.58" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="189.23" y1="48.26" x2="189.23" y2="46.99" width="0.1524" layer="91" grouprefs="POWER"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -16781,8 +16825,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <label x="48.26" y="25.4" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 <wire x1="44.45" y1="25.4" x2="24.13" y2="25.4" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-3" pin="MS"/>
-<pinref part="J2" gate="-16" pin="MS"/>
+<pinref part="J4" gate="-16" pin="MS"/>
+<pinref part="J3" gate="-3" pin="MS"/>
 </segment>
 </net>
 <net name="WCT" class="0">
@@ -16816,8 +16860,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <label x="48.26" y="40.64" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 <wire x1="24.13" y1="40.64" x2="44.45" y2="40.64" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-9" pin="MS"/>
-<pinref part="J2" gate="-10" pin="MS"/>
+<pinref part="J4" gate="-10" pin="MS"/>
+<pinref part="J3" gate="-9" pin="MS"/>
 </segment>
 </net>
 <net name="CMOUT" class="0">
@@ -16867,10 +16911,10 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <label x="190.5" y="95.25" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="45.72" x2="241.3" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="234.95" y1="41.91" x2="234.95" y2="38.1" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="L1" gate="G$1" pin="C"/>
-<wire x1="237.49" y1="45.72" x2="241.3" y2="45.72" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="231.14" y1="41.91" x2="234.95" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
@@ -16921,8 +16965,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <label x="20.32" y="22.86" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
 <wire x1="24.13" y1="22.86" x2="44.45" y2="22.86" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-2" pin="MS"/>
-<pinref part="J2" gate="-17" pin="MS"/>
+<pinref part="J4" gate="-17" pin="MS"/>
+<pinref part="J3" gate="-2" pin="MS"/>
 </segment>
 <segment>
 <pinref part="L3" gate="G$1" pin="C"/>
@@ -16932,40 +16976,40 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </segment>
 <segment>
 <wire x1="24.13" y1="30.48" x2="44.45" y2="30.48" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-5" pin="MS"/>
-<pinref part="J2" gate="-14" pin="MS"/>
+<pinref part="J4" gate="-14" pin="MS"/>
+<pinref part="J3" gate="-5" pin="MS"/>
 </segment>
 <segment>
 <wire x1="24.13" y1="38.1" x2="44.45" y2="38.1" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-8" pin="MS"/>
-<pinref part="J2" gate="-11" pin="MS"/>
+<pinref part="J4" gate="-11" pin="MS"/>
+<pinref part="J3" gate="-8" pin="MS"/>
 </segment>
 <segment>
 <wire x1="24.13" y1="48.26" x2="44.45" y2="48.26" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="20.32" y="30.48" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J4" gate="-7" pin="MS"/>
+<pinref part="J3" gate="-12" pin="MS"/>
 <label x="20.32" y="48.26" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-12" pin="MS"/>
-<pinref part="J2" gate="-7" pin="MS"/>
 </segment>
 <segment>
 <wire x1="24.13" y1="55.88" x2="44.45" y2="55.88" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="20.32" y="38.1" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J4" gate="-4" pin="MS"/>
+<pinref part="J3" gate="-15" pin="MS"/>
 <label x="20.32" y="55.88" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-15" pin="MS"/>
-<pinref part="J2" gate="-4" pin="MS"/>
 </segment>
 <segment>
 <pinref part="AND_IC" gate="-PWR" pin="GND"/>
-<wire x1="189.23" y1="41.91" x2="189.23" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="189.23" y1="40.64" x2="195.58" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="182.88" y1="38.1" x2="182.88" y2="36.83" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="182.88" y1="36.83" x2="189.23" y2="36.83" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="AND_IC2" gate="-PWR" pin="GND"/>
-<wire x1="195.58" y1="40.64" x2="201.93" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
-<wire x1="201.93" y1="40.64" x2="201.93" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="189.23" y1="36.83" x2="195.58" y2="36.83" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="195.58" y1="36.83" x2="195.58" y2="38.1" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="XOR_IC" gate="-PWR" pin="GND"/>
-<wire x1="195.58" y1="41.91" x2="195.58" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
-<junction x="195.58" y="40.64" grouprefs="POWER"/>
+<wire x1="189.23" y1="38.1" x2="189.23" y2="36.83" width="0.1524" layer="91" grouprefs="POWER"/>
+<junction x="189.23" y="36.83" grouprefs="POWER"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="195.58" y1="39.37" x2="195.58" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="189.23" y1="35.56" x2="189.23" y2="36.83" width="0.1524" layer="91" grouprefs="POWER"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -16977,8 +17021,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="24.13" y1="43.18" x2="44.45" y2="43.18" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="48.26" y="43.18" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-10" pin="MS"/>
-<pinref part="J2" gate="-9" pin="MS"/>
+<pinref part="J4" gate="-9" pin="MS"/>
+<pinref part="J3" gate="-10" pin="MS"/>
 </segment>
 </net>
 <net name="RLDREF" class="0">
@@ -17002,14 +17046,14 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="L1" gate="G$1" pin="A"/>
-<wire x1="227.33" y1="45.72" x2="229.87" y2="45.72" width="0.1524" layer="91" grouprefs="POWER"/>
+<wire x1="220.98" y1="41.91" x2="223.52" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="L2" gate="G$1" pin="A"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="50.8" x2="144.78" y2="50.8" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
+<wire x1="142.24" y1="59.69" x2="144.78" y2="59.69" width="0.1524" layer="91" grouprefs="ALARM_LED"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -17052,7 +17096,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="24.13" y1="50.8" x2="29.21" y2="50.8" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="29.21" y="50.8" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-13" pin="MS"/>
+<pinref part="J4" gate="-6" pin="MS"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -17081,7 +17125,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="24.13" y1="53.34" x2="29.21" y2="53.34" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="29.21" y="53.34" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-14" pin="MS"/>
+<pinref part="J4" gate="-5" pin="MS"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -17110,7 +17154,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="24.13" y1="58.42" x2="29.21" y2="58.42" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="29.21" y="58.42" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-16" pin="MS"/>
+<pinref part="J4" gate="-3" pin="MS"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -17125,7 +17169,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="24.13" y1="45.72" x2="29.21" y2="45.72" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="29.21" y="45.72" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-11" pin="MS"/>
+<pinref part="J4" gate="-8" pin="MS"/>
 </segment>
 </net>
 <net name="S0" class="0">
@@ -17137,7 +17181,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="44.45" y1="45.72" x2="39.37" y2="45.72" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="39.37" y="45.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J2" gate="-8" pin="MS"/>
+<pinref part="J3" gate="-11" pin="MS"/>
 </segment>
 </net>
 <net name="S1" class="0">
@@ -17149,7 +17193,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="44.45" y1="50.8" x2="39.37" y2="50.8" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="39.37" y="50.8" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J2" gate="-6" pin="MS"/>
+<pinref part="J3" gate="-13" pin="MS"/>
 </segment>
 </net>
 <net name="S2" class="0">
@@ -17161,7 +17205,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="44.45" y1="53.34" x2="39.37" y2="53.34" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="39.37" y="53.34" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J2" gate="-5" pin="MS"/>
+<pinref part="J3" gate="-14" pin="MS"/>
 </segment>
 </net>
 <net name="S3" class="0">
@@ -17173,7 +17217,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <wire x1="44.45" y1="58.42" x2="39.37" y2="58.42" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="39.37" y="58.42" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J2" gate="-3" pin="MS"/>
+<pinref part="J3" gate="-16" pin="MS"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -17187,10 +17231,10 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="GPIO2" class="0">
 <segment>
-<wire x1="44.45" y1="60.96" x2="24.13" y2="60.96" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="48.26" y="60.96" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-17" pin="MS"/>
-<pinref part="J2" gate="-2" pin="MS"/>
+<wire x1="44.45" y1="60.96" x2="24.13" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="J4" gate="-2" pin="MS"/>
+<pinref part="J3" gate="-17" pin="MS"/>
+<label x="48.26" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
