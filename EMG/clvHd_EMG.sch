@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -15152,21 +15152,21 @@ DIN A4, landscape with location and doc. field</description>
 <package name="SN74LVC86ARGYR">
 <description>&lt;b&gt;SN74LVC86ARGYR-1&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.725" y="-0.75" dx="0.85" dy="0.28" layer="1"/>
-<smd name="2" x="-1" y="-1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="3" x="-0.5" y="-1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="4" x="0" y="-1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="5" x="0.5" y="-1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="6" x="1" y="-1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="7" x="1.725" y="-0.75" dx="0.85" dy="0.28" layer="1"/>
-<smd name="8" x="1.725" y="0.75" dx="0.85" dy="0.28" layer="1"/>
-<smd name="9" x="1" y="1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="10" x="0.5" y="1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="11" x="0" y="1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="12" x="-0.5" y="1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="13" x="-1" y="1.725" dx="0.85" dy="0.28" layer="1" rot="R90"/>
-<smd name="14" x="-1.725" y="0.75" dx="0.85" dy="0.28" layer="1"/>
-<smd name="15" x="0" y="0" dx="2.05" dy="2.05" layer="1"/>
+<smd name="1" x="-1.725" y="-0.75" dx="0.75" dy="0.28" layer="1"/>
+<smd name="2" x="-1" y="-1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="3" x="-0.5" y="-1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="4" x="0" y="-1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="5" x="0.5" y="-1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="6" x="1" y="-1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="7" x="1.725" y="-0.75" dx="0.75" dy="0.28" layer="1"/>
+<smd name="8" x="1.725" y="0.75" dx="0.75" dy="0.28" layer="1"/>
+<smd name="9" x="1" y="1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="10" x="0.5" y="1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="11" x="0" y="1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="12" x="-0.5" y="1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="13" x="-1" y="1.725" dx="0.75" dy="0.28" layer="1" rot="R90"/>
+<smd name="14" x="-1.725" y="0.75" dx="0.75" dy="0.28" layer="1"/>
+<smd name="15" x="0" y="0" dx="1.9" dy="1.9" layer="1"/>
 <text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1.75" y1="-1.75" x2="1.75" y2="-1.75" width="0.1" layer="51"/>
@@ -15212,8 +15212,8 @@ DIN A4, landscape with location and doc. field</description>
 </packages>
 <symbols>
 <symbol name="AND_GATE">
-<pin name="A" x="-1.27" y="1.27" visible="off" length="point" direction="in"/>
-<pin name="B" x="-1.27" y="0" visible="off" length="point" direction="in"/>
+<pin name="A" x="-1.27" y="1.27" visible="off" length="point" direction="in" swaplevel="1"/>
+<pin name="B" x="-1.27" y="0" visible="off" length="point" direction="in" swaplevel="1"/>
 <pin name="Y" x="2.54" y="1.27" visible="off" length="point" direction="out" rot="R180"/>
 <wire x1="-0.508" y1="1.524" x2="0.762" y2="1.524" width="0.1524" layer="94"/>
 <wire x1="-0.508" y1="-0.254" x2="0.762" y2="-0.254" width="0.1524" layer="94"/>
@@ -15221,7 +15221,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0" y="0.762" size="0.6096" layer="95">A</text>
 <text x="0" y="0" size="0.6096" layer="95">B</text>
 <text x="0.762" y="0.508" size="0.6096" layer="95">Y</text>
-<text x="-1.27" y="1.778" size="0.8128" layer="95">&gt;Name</text>
+<text x="2.286" y="0.254" size="0.6096" layer="95">&gt;Name</text>
 <wire x1="2.032" y1="1.27" x2="2.032" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="2.032" y1="0.508" x2="1.778" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="2.032" y1="1.27" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
@@ -15241,13 +15241,13 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="0" y1="-0.254" x2="1.27" y2="-0.254" width="0.1524" layer="94"/>
 <wire x1="1.27" y1="1.524" x2="1.27" y2="-0.254" width="0.1524" layer="94" curve="-180"/>
 <wire x1="0" y1="1.524" x2="0" y2="-0.254" width="0.1524" layer="94" curve="-61.927513"/>
-<pin name="A" x="-1.27" y="1.27" visible="off" length="point" direction="in"/>
-<pin name="B" x="-1.27" y="0" visible="off" length="point" direction="in"/>
+<pin name="A" x="-1.27" y="1.27" visible="off" length="point" direction="in" swaplevel="1"/>
+<pin name="B" x="-1.27" y="0" visible="off" length="point" direction="in" swaplevel="1"/>
 <pin name="Y" x="3.048" y="1.27" visible="off" length="point" direction="out" rot="R180"/>
 <text x="0.508" y="0.762" size="0.6096" layer="95">A</text>
 <text x="0.508" y="0" size="0.6096" layer="95">B</text>
 <text x="1.27" y="0.508" size="0.6096" layer="95">Y</text>
-<text x="-1.016" y="1.778" size="0.8128" layer="95">&gt;Name</text>
+<text x="2.794" y="0.254" size="0.6096" layer="95">&gt;Name</text>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0.508" x2="2.286" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="3.048" y2="1.27" width="0.1524" layer="94"/>
@@ -15255,14 +15255,33 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-1.27" y1="1.27" x2="-0.508" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="-1.27" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="NAND_GATE">
+<pin name="A" x="0" y="1.27" visible="off" length="point" direction="in" swaplevel="1"/>
+<pin name="B" x="0" y="0" visible="off" length="point" direction="in" swaplevel="1"/>
+<pin name="Y" x="3.81" y="1.27" visible="off" length="point" direction="out" rot="R180"/>
+<wire x1="0.762" y1="1.524" x2="2.032" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-0.254" x2="2.032" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="1.524" x2="2.032" y2="-0.254" width="0.1524" layer="94" curve="-180"/>
+<text x="1.27" y="0.762" size="0.6096" layer="95">A</text>
+<text x="1.27" y="0" size="0.6096" layer="95">B</text>
+<text x="2.032" y="0.508" size="0.6096" layer="95">Y</text>
+<text x="3.81" y="0.254" size="0.6096" layer="95">&gt;Name</text>
+<wire x1="3.556" y1="1.27" x2="3.556" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0.762" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.524" x2="0.762" y2="-0.254" width="0.1524" layer="94"/>
+<circle x="3.175" y="0.635" radius="0.2032" width="0.1016" layer="94"/>
+<wire x1="3.429" y1="0.635" x2="3.556" y2="0.635" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SN74ALVC08">
 <gates>
-<gate name="-1" symbol="AND_GATE" x="0" y="0"/>
-<gate name="-2" symbol="AND_GATE" x="0" y="2.54"/>
-<gate name="-3" symbol="AND_GATE" x="0" y="5.08"/>
-<gate name="-4" symbol="AND_GATE" x="0" y="7.62"/>
+<gate name="-1" symbol="AND_GATE" x="0" y="0" swaplevel="1"/>
+<gate name="-2" symbol="AND_GATE" x="0" y="2.54" swaplevel="1"/>
+<gate name="-3" symbol="AND_GATE" x="0" y="5.08" swaplevel="1"/>
+<gate name="-4" symbol="AND_GATE" x="0" y="7.62" swaplevel="1"/>
 <gate name="-PWR" symbol="PWR" x="7.62" y="2.54"/>
 </gates>
 <devices>
@@ -15274,13 +15293,34 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="-2" pin="A" pad="4"/>
 <connect gate="-2" pin="B" pad="5"/>
 <connect gate="-2" pin="Y" pad="6"/>
-<connect gate="-3" pin="A" pad="8"/>
-<connect gate="-3" pin="B" pad="9"/>
-<connect gate="-3" pin="Y" pad="10"/>
-<connect gate="-4" pin="A" pad="11"/>
-<connect gate="-4" pin="B" pad="12"/>
-<connect gate="-4" pin="Y" pad="13"/>
-<connect gate="-PWR" pin="GND" pad="7"/>
+<connect gate="-3" pin="A" pad="9"/>
+<connect gate="-3" pin="B" pad="10"/>
+<connect gate="-3" pin="Y" pad="8"/>
+<connect gate="-4" pin="A" pad="12"/>
+<connect gate="-4" pin="B" pad="13"/>
+<connect gate="-4" pin="Y" pad="11"/>
+<connect gate="-PWR" pin="GND" pad="7 15"/>
+<connect gate="-PWR" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LARGE" package="SN74LVC86ARGYR">
+<connects>
+<connect gate="-1" pin="A" pad="1"/>
+<connect gate="-1" pin="B" pad="2"/>
+<connect gate="-1" pin="Y" pad="3"/>
+<connect gate="-2" pin="A" pad="4"/>
+<connect gate="-2" pin="B" pad="5"/>
+<connect gate="-2" pin="Y" pad="6"/>
+<connect gate="-3" pin="A" pad="9"/>
+<connect gate="-3" pin="B" pad="10"/>
+<connect gate="-3" pin="Y" pad="8"/>
+<connect gate="-4" pin="A" pad="12"/>
+<connect gate="-4" pin="B" pad="13"/>
+<connect gate="-4" pin="Y" pad="11"/>
+<connect gate="-PWR" pin="GND" pad="7 15"/>
 <connect gate="-PWR" pin="VCC" pad="14"/>
 </connects>
 <technologies>
@@ -15291,10 +15331,10 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 <deviceset name="SN74LVC86A">
 <gates>
-<gate name="-1" symbol="XOR_GATE" x="0" y="0"/>
-<gate name="-2" symbol="XOR_GATE" x="0" y="2.54"/>
-<gate name="-3" symbol="XOR_GATE" x="0" y="5.08"/>
-<gate name="-4" symbol="XOR_GATE" x="0" y="7.62"/>
+<gate name="-1" symbol="XOR_GATE" x="0" y="0" swaplevel="1"/>
+<gate name="-2" symbol="XOR_GATE" x="0" y="2.54" swaplevel="1"/>
+<gate name="-3" symbol="XOR_GATE" x="0" y="5.08" swaplevel="1"/>
+<gate name="-4" symbol="XOR_GATE" x="0" y="7.62" swaplevel="1"/>
 <gate name="-PWR" symbol="PWR" x="7.62" y="2.54"/>
 </gates>
 <devices>
@@ -15306,13 +15346,13 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="-2" pin="A" pad="4"/>
 <connect gate="-2" pin="B" pad="5"/>
 <connect gate="-2" pin="Y" pad="6"/>
-<connect gate="-3" pin="A" pad="8"/>
-<connect gate="-3" pin="B" pad="9"/>
-<connect gate="-3" pin="Y" pad="10"/>
-<connect gate="-4" pin="A" pad="11"/>
-<connect gate="-4" pin="B" pad="12"/>
-<connect gate="-4" pin="Y" pad="13"/>
-<connect gate="-PWR" pin="GND" pad="7"/>
+<connect gate="-3" pin="A" pad="9"/>
+<connect gate="-3" pin="B" pad="10"/>
+<connect gate="-3" pin="Y" pad="8"/>
+<connect gate="-4" pin="A" pad="12"/>
+<connect gate="-4" pin="B" pad="13" route="any"/>
+<connect gate="-4" pin="Y" pad="11"/>
+<connect gate="-PWR" pin="GND" pad="7 15"/>
 <connect gate="-PWR" pin="VCC" pad="14"/>
 </connects>
 <technologies>
@@ -15321,28 +15361,28 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74AUP1G08QDCKRQ1" prefix="IC">
-<description>&lt;b&gt;Automotive Catalog Low-Power Single 2-Input Positive-AND Gate&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.ti.com/lit/gpn/sn74aup1g08-q1"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="SN74LVC1G132DCKT" prefix="IC">
+<description>&lt;b&gt;Single 2-Input NAND Gate with Schmitt-Trigger Input&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/SN74LVC1G132"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="-1" symbol="AND_GATE" x="1.27" y="0"/>
-<gate name="-PWR" symbol="PWR" x="6.35" y="1.27"/>
+<gate name="G$1" symbol="NAND_GATE" x="0" y="0"/>
+<gate name="G$2" symbol="PWR" x="7.62" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT65P210X110-5N">
 <connects>
-<connect gate="-1" pin="A" pad="1"/>
-<connect gate="-1" pin="B" pad="2"/>
-<connect gate="-1" pin="Y" pad="4"/>
-<connect gate="-PWR" pin="GND" pad="3"/>
-<connect gate="-PWR" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+<connect gate="G$2" pin="GND" pad="3"/>
+<connect gate="G$2" pin="VCC" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Automotive Catalog Low-Power Single 2-Input Positive-AND Gate" constant="no"/>
+<attribute name="DESCRIPTION" value="Single 2-Input NAND Gate with Schmitt-Trigger Input" constant="no"/>
 <attribute name="HEIGHT" value="1.1mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74AUP1G08QDCKRQ1" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC1G132DCKT" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -16155,13 +16195,13 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </class>
 </classes>
 <groups>
-<schematic_group name="XTAL"/>
-<schematic_group name="POWER"/>
-<schematic_group name="ELECTRODES"/>
-<schematic_group name="COMMUNICATION"/>
-<schematic_group name="ALARM_LED"/>
-<schematic_group name="ADDRESS_INC"/>
-<schematic_group name="GPIO"/>
+<schematic_group name="XTAL" layer="95"/>
+<schematic_group name="POWER" layer="95"/>
+<schematic_group name="ELECTRODES" layer="95"/>
+<schematic_group name="COMMUNICATION" layer="95"/>
+<schematic_group name="ALARM_LED" layer="95"/>
+<schematic_group name="ADDRESS_INC" layer="95"/>
+<schematic_group name="GPIO" layer="95"/>
 </groups>
 <parts>
 <part name="U1" library="ADS" deviceset="ADS1293CISQ/NOPB" device="" override_package3d_urn="urn:adsk.eagle:package:31101122/2" override_package_urn="urn:adsk.eagle:footprint:31101124/1" override_locally_modified="yes"/>
@@ -16202,14 +16242,14 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="AND_IC" library="SamacSys_Parts" deviceset="SN74ALVC08" device=""/>
-<part name="XOR_IC" library="SamacSys_Parts" deviceset="SN74LVC86A" device=""/>
 <part name="VDD8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="AND_IC2" library="SamacSys_Parts" deviceset="SN74AUP1G08QDCKRQ1" device=""/>
 <part name="VDD9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 <part name="J1" library="con-omron" deviceset="XF2*-18?" device="24-12" package3d_urn="urn:adsk.eagle:package:32300832/2" technology="J"/>
 <part name="J2" library="con-omron" deviceset="XF2*-18?" device="24-12" package3d_urn="urn:adsk.eagle:package:32300832/2" technology="J"/>
+<part name="NAND_IC" library="SamacSys_Parts" deviceset="SN74LVC1G132DCKT" device=""/>
+<part name="XOR_IC" library="SamacSys_Parts" deviceset="SN74LVC86A" device=""/>
+<part name="AND_IC" library="SamacSys_Parts" deviceset="SN74ALVC08" device="LARGE" value="SN74ALVC08LARGE"/>
 </parts>
 <sheets>
 <sheet>
@@ -16350,44 +16390,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="AND_IC" gate="-1" x="77.47" y="44.45" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="44.958" size="0.6096" layer="95"/>
-</instance>
-<instance part="AND_IC" gate="-2" x="77.47" y="38.1" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="38.608" size="0.6096" layer="95"/>
-</instance>
-<instance part="AND_IC" gate="-3" x="77.47" y="31.75" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="32.258" size="0.6096" layer="95"/>
-</instance>
-<instance part="AND_IC" gate="-4" x="77.47" y="25.4" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="25.908" size="0.6096" layer="95"/>
-</instance>
-<instance part="AND_IC" gate="-PWR" x="189.23" y="44.45" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="187.96" y="41.91" size="1.016" layer="95" rot="R90"/>
-</instance>
-<instance part="XOR_IC" gate="-1" x="77.47" y="46.99" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="47.498" size="0.6096" layer="95"/>
-</instance>
-<instance part="XOR_IC" gate="-2" x="77.47" y="40.64" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="41.148" size="0.6096" layer="95"/>
-</instance>
-<instance part="XOR_IC" gate="-3" x="77.47" y="34.29" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="34.798" size="0.6096" layer="95"/>
-</instance>
-<instance part="XOR_IC" gate="-4" x="77.47" y="27.94" smashed="yes" grouprefs="ADDRESS_INC">
-<attribute name="NAME" x="80.264" y="28.448" size="0.6096" layer="95"/>
-</instance>
-<instance part="XOR_IC" gate="-PWR" x="195.58" y="44.45" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="194.31" y="41.91" size="1.016" layer="95" rot="R90"/>
-</instance>
 <instance part="VDD8" gate="G$1" x="74.93" y="54.61" smashed="yes" grouprefs="ADDRESS_INC">
 <attribute name="VALUE" x="74.93" y="57.15" size="1.27" layer="96"/>
-</instance>
-<instance part="AND_IC2" gate="-1" x="119.38" y="24.13" smashed="yes" grouprefs="GPIO">
-<attribute name="NAME" x="118.11" y="25.908" size="0.8128" layer="95"/>
-</instance>
-<instance part="AND_IC2" gate="-PWR" x="201.93" y="44.45" smashed="yes" grouprefs="POWER">
-<attribute name="NAME" x="200.66" y="41.91" size="1.016" layer="95" rot="R90"/>
 </instance>
 <instance part="VDD9" gate="G$1" x="195.58" y="54.61" smashed="yes" grouprefs="POWER">
 <attribute name="VALUE" x="196.85" y="55.88" size="1.27" layer="96"/>
@@ -16503,6 +16507,42 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="J2" gate="-18" x="46.99" y="20.32" smashed="yes" grouprefs="COMMUNICATION">
 <attribute name="NAME" x="43.18" y="20.828" size="1.524" layer="95"/>
 </instance>
+<instance part="NAND_IC" gate="G$1" x="76.2" y="25.4" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="80.264" y="25.908" size="0.6096" layer="95"/>
+</instance>
+<instance part="XOR_IC" gate="-1" x="77.47" y="34.29" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="80.264" y="34.544" size="0.6096" layer="95"/>
+</instance>
+<instance part="XOR_IC" gate="-2" x="77.47" y="27.94" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="80.264" y="28.194" size="0.6096" layer="95"/>
+</instance>
+<instance part="XOR_IC" gate="-3" x="77.47" y="46.99" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="80.264" y="47.244" size="0.6096" layer="95"/>
+</instance>
+<instance part="XOR_IC" gate="-4" x="77.47" y="40.64" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="80.264" y="40.894" size="0.6096" layer="95"/>
+</instance>
+<instance part="XOR_IC" gate="-PWR" x="195.58" y="44.45" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="198.12" y="49.53" size="1.016" layer="95"/>
+</instance>
+<instance part="AND_IC" gate="-1" x="119.38" y="24.13" smashed="yes" grouprefs="GPIO">
+<attribute name="NAME" x="121.666" y="24.384" size="0.6096" layer="95"/>
+</instance>
+<instance part="AND_IC" gate="-2" x="77.47" y="31.75" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="81.026" y="32.004" size="0.6096" layer="95"/>
+</instance>
+<instance part="AND_IC" gate="-3" x="77.47" y="38.1" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="79.756" y="38.354" size="0.6096" layer="95"/>
+</instance>
+<instance part="AND_IC" gate="-4" x="77.47" y="44.45" smashed="yes" grouprefs="ADDRESS_INC">
+<attribute name="NAME" x="79.756" y="44.704" size="0.6096" layer="95"/>
+</instance>
+<instance part="AND_IC" gate="-PWR" x="189.23" y="44.45" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="191.77" y="49.53" size="1.016" layer="95"/>
+</instance>
+<instance part="NAND_IC" gate="G$2" x="201.93" y="44.45" smashed="yes" grouprefs="POWER">
+<attribute name="NAME" x="204.47" y="49.53" size="1.016" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16525,24 +16565,19 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="IN6" class="0">
 <segment>
-<wire x1="45.72" y1="115.57" x2="66.04" y2="115.57" width="0.1524" layer="91"/>
-<label x="45.72" y="115.57" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="53.34" y1="140.97" x2="53.34" y2="115.57" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
+<wire x1="53.34" y1="115.57" x2="66.04" y2="115.57" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
+<label x="53.34" y="140.97" size="1.27" layer="95" rot="MR0" xref="yes" grouprefs="ELECTRODES"/>
 <pinref part="U1" gate="A" pin="IN6"/>
-</segment>
-<segment>
-<wire x1="24.13" y1="63.5" x2="44.45" y2="63.5" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="48.26" y="63.5" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-18" pin="MS"/>
-<pinref part="J2" gate="-1" pin="MSV"/>
 </segment>
 </net>
 <net name="CS" class="0">
 <segment>
 <label x="87.63" y="20.32" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
-<wire x1="80.01" y1="26.67" x2="85.09" y2="26.67" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="85.09" y1="26.67" x2="85.09" y2="20.32" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="85.09" y1="20.32" x2="87.63" y2="20.32" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-4" pin="Y"/>
+<pinref part="NAND_IC" gate="G$1" pin="Y"/>
+<wire x1="80.01" y1="26.67" x2="85.09" y2="26.67" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="95.25" x2="137.16" y2="95.25" width="0.1524" layer="91"/>
@@ -16552,11 +16587,11 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <pinref part="U1" gate="A" pin="CSB"/>
 </segment>
 <segment>
-<pinref part="AND_IC2" gate="-1" pin="A"/>
 <wire x1="118.11" y1="25.4" x2="115.57" y2="25.4" width="0.1524" layer="91" grouprefs="GPIO"/>
 <wire x1="115.57" y1="25.4" x2="115.57" y2="27.94" width="0.1524" layer="91" grouprefs="GPIO"/>
 <wire x1="115.57" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91" grouprefs="GPIO"/>
 <label x="111.76" y="27.94" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="GPIO"/>
+<pinref part="AND_IC" gate="-1" pin="A"/>
 </segment>
 </net>
 <net name="DIN" class="0">
@@ -16597,10 +16632,16 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="IN5" class="0">
 <segment>
-<wire x1="66.04" y1="118.11" x2="53.34" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="118.11" x2="53.34" y2="140.97" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
-<label x="53.34" y="140.97" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ELECTRODES"/>
+<wire x1="66.04" y1="118.11" x2="44.45" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="118.11" x2="44.45" y2="140.97" width="0.1524" layer="91"/>
+<label x="44.45" y="140.97" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="A" pin="IN5"/>
+</segment>
+<segment>
+<wire x1="24.13" y1="63.5" x2="44.45" y2="63.5" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<label x="48.26" y="63.5" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J1" gate="-18" pin="MS"/>
+<pinref part="J2" gate="-1" pin="MSV"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -16749,27 +16790,27 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="209.55" y1="127" x2="206.502" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="XOR_IC" gate="-1" pin="A"/>
 <wire x1="76.2" y1="48.26" x2="74.93" y2="48.26" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-1" pin="B"/>
 <wire x1="74.93" y1="48.26" x2="74.93" y2="44.45" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="74.93" y1="44.45" x2="76.2" y2="44.45" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="74.93" y1="48.26" x2="74.93" y2="52.07" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <junction x="74.93" y="48.26" grouprefs="ADDRESS_INC"/>
 <pinref part="VDD8" gate="G$1" pin="VDD"/>
+<pinref part="XOR_IC" gate="-3" pin="A"/>
+<pinref part="AND_IC" gate="-4" pin="B"/>
 </segment>
 <segment>
-<pinref part="AND_IC" gate="-PWR" pin="VCC"/>
 <wire x1="189.23" y1="49.53" x2="189.23" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
 <wire x1="189.23" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
-<pinref part="AND_IC2" gate="-PWR" pin="VCC"/>
 <wire x1="195.58" y1="50.8" x2="201.93" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
 <wire x1="201.93" y1="50.8" x2="201.93" y2="49.53" width="0.1524" layer="91" grouprefs="POWER"/>
-<pinref part="XOR_IC" gate="-PWR" pin="VCC"/>
 <wire x1="195.58" y1="49.53" x2="195.58" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
 <junction x="195.58" y="50.8" grouprefs="POWER"/>
 <pinref part="VDD9" gate="G$1" pin="VDD"/>
 <wire x1="195.58" y1="52.07" x2="195.58" y2="50.8" width="0.1524" layer="91" grouprefs="POWER"/>
+<pinref part="NAND_IC" gate="G$2" pin="VCC"/>
+<pinref part="XOR_IC" gate="-PWR" pin="VCC"/>
+<pinref part="AND_IC" gate="-PWR" pin="VCC"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -16788,8 +16829,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <net name="WCT" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="WCT"/>
-<wire x1="66.04" y1="113.03" x2="59.69" y2="113.03" width="0.1524" layer="91"/>
-<label x="59.69" y="113.03" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="113.03" x2="48.26" y2="113.03" width="0.1524" layer="91"/>
+<label x="48.26" y="113.03" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RLDOUT" class="0">
@@ -16955,17 +16996,17 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <pinref part="J2" gate="-4" pin="MS"/>
 </segment>
 <segment>
-<pinref part="AND_IC" gate="-PWR" pin="GND"/>
 <wire x1="189.23" y1="41.91" x2="189.23" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
 <wire x1="189.23" y1="40.64" x2="195.58" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
-<pinref part="AND_IC2" gate="-PWR" pin="GND"/>
 <wire x1="195.58" y1="40.64" x2="201.93" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
 <wire x1="201.93" y1="40.64" x2="201.93" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
-<pinref part="XOR_IC" gate="-PWR" pin="GND"/>
 <wire x1="195.58" y1="41.91" x2="195.58" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
 <junction x="195.58" y="40.64" grouprefs="POWER"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="195.58" y1="39.37" x2="195.58" y2="40.64" width="0.1524" layer="91" grouprefs="POWER"/>
+<pinref part="NAND_IC" gate="G$2" pin="GND"/>
+<pinref part="XOR_IC" gate="-PWR" pin="GND"/>
+<pinref part="AND_IC" gate="-PWR" pin="GND"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -17016,7 +17057,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="25.4" x2="125.73" y2="25.4" width="0.1524" layer="91" grouprefs="GPIO"/>
-<pinref part="AND_IC2" gate="-1" pin="Y"/>
+<pinref part="AND_IC" gate="-1" pin="Y"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -17029,163 +17070,161 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <net name="N$11" class="0">
 <segment>
 <wire x1="74.93" y1="38.1" x2="74.93" y2="41.91" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="XOR_IC" gate="-2" pin="A"/>
 <wire x1="74.93" y1="41.91" x2="76.2" y2="41.91" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-2" pin="B"/>
 <wire x1="74.93" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-1" pin="Y"/>
 <wire x1="80.01" y1="45.72" x2="80.01" y2="43.18" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="80.01" y1="43.18" x2="74.93" y2="43.18" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="74.93" y1="43.18" x2="74.93" y2="41.91" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <junction x="74.93" y="41.91" grouprefs="ADDRESS_INC"/>
+<pinref part="AND_IC" gate="-3" pin="B"/>
+<pinref part="XOR_IC" gate="-4" pin="A"/>
+<pinref part="AND_IC" gate="-4" pin="Y"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="XOR_IC" gate="-2" pin="B"/>
 <wire x1="76.2" y1="40.64" x2="76.2" y2="39.37" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-2" pin="A"/>
 <wire x1="76.2" y1="39.37" x2="72.39" y2="39.37" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<junction x="76.2" y="39.37" grouprefs="ADDRESS_INC"/>
 <label x="72.39" y="39.37" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="AND_IC" gate="-3" pin="A"/>
+<junction x="76.2" y="39.37" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-4" pin="B"/>
 </segment>
 <segment>
-<wire x1="24.13" y1="50.8" x2="29.21" y2="50.8" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="29.21" y="50.8" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-13" pin="MS"/>
+<wire x1="29.21" y1="53.34" x2="24.13" y2="53.34" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<label x="29.21" y="53.34" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J1" gate="-14" pin="MS"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <wire x1="74.93" y1="31.75" x2="74.93" y2="35.56" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="XOR_IC" gate="-3" pin="A"/>
 <wire x1="74.93" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-3" pin="B"/>
 <wire x1="74.93" y1="31.75" x2="76.2" y2="31.75" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-2" pin="Y"/>
 <wire x1="80.01" y1="39.37" x2="80.01" y2="36.83" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="80.01" y1="36.83" x2="74.93" y2="36.83" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="74.93" y1="36.83" x2="74.93" y2="35.56" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <junction x="74.93" y="35.56" grouprefs="ADDRESS_INC"/>
+<pinref part="AND_IC" gate="-2" pin="B"/>
+<pinref part="XOR_IC" gate="-1" pin="A"/>
+<pinref part="AND_IC" gate="-3" pin="Y"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="XOR_IC" gate="-3" pin="B"/>
-<pinref part="AND_IC" gate="-3" pin="A"/>
 <wire x1="76.2" y1="34.29" x2="76.2" y2="33.02" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="76.2" y1="33.02" x2="72.39" y2="33.02" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<junction x="76.2" y="33.02" grouprefs="ADDRESS_INC"/>
 <label x="72.39" y="33.02" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="AND_IC" gate="-2" pin="A"/>
+<junction x="76.2" y="33.02" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-1" pin="B"/>
 </segment>
 <segment>
-<wire x1="24.13" y1="53.34" x2="29.21" y2="53.34" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="29.21" y="53.34" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-14" pin="MS"/>
+<wire x1="29.21" y1="50.8" x2="24.13" y2="50.8" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<label x="29.21" y="50.8" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J1" gate="-13" pin="MS"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <wire x1="74.93" y1="25.4" x2="74.93" y2="29.21" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="XOR_IC" gate="-4" pin="A"/>
 <wire x1="74.93" y1="29.21" x2="76.2" y2="29.21" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-4" pin="B"/>
-<wire x1="76.2" y1="25.4" x2="74.93" y2="25.4" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<pinref part="AND_IC" gate="-3" pin="Y"/>
 <wire x1="80.01" y1="33.02" x2="80.01" y2="30.48" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="80.01" y1="30.48" x2="74.93" y2="30.48" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="74.93" y1="30.48" x2="74.93" y2="29.21" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <junction x="74.93" y="29.21" grouprefs="ADDRESS_INC"/>
+<pinref part="NAND_IC" gate="G$1" pin="B"/>
+<wire x1="76.2" y1="25.4" x2="74.93" y2="25.4" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-2" pin="A"/>
+<pinref part="AND_IC" gate="-2" pin="Y"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="XOR_IC" gate="-4" pin="B"/>
-<pinref part="AND_IC" gate="-4" pin="A"/>
+<label x="72.39" y="26.67" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="NAND_IC" gate="G$1" pin="A"/>
 <wire x1="76.2" y1="27.94" x2="76.2" y2="26.67" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <wire x1="76.2" y1="26.67" x2="72.39" y2="26.67" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <junction x="76.2" y="26.67" grouprefs="ADDRESS_INC"/>
-<label x="72.39" y="26.67" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-2" pin="B"/>
 </segment>
 <segment>
-<wire x1="24.13" y1="58.42" x2="29.21" y2="58.42" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="29.21" y="58.42" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J1" gate="-16" pin="MS"/>
-</segment>
-</net>
-<net name="A0" class="0">
-<segment>
-<pinref part="XOR_IC" gate="-1" pin="B"/>
-<pinref part="AND_IC" gate="-1" pin="A"/>
-<wire x1="76.2" y1="46.99" x2="76.2" y2="45.72" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<wire x1="76.2" y1="45.72" x2="72.39" y2="45.72" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<junction x="76.2" y="45.72" grouprefs="ADDRESS_INC"/>
-<label x="72.39" y="45.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ADDRESS_INC"/>
-</segment>
-<segment>
-<wire x1="24.13" y1="45.72" x2="29.21" y2="45.72" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<wire x1="29.21" y1="45.72" x2="24.13" y2="45.72" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="29.21" y="45.72" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 <pinref part="J1" gate="-11" pin="MS"/>
 </segment>
 </net>
+<net name="A0" class="0">
+<segment>
+<wire x1="76.2" y1="46.99" x2="76.2" y2="45.72" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
+<wire x1="76.2" y1="45.72" x2="72.39" y2="45.72" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
+<label x="72.39" y="45.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-3" pin="B"/>
+<pinref part="AND_IC" gate="-4" pin="A"/>
+<junction x="76.2" y="45.72" grouprefs="ADDRESS_INC"/>
+</segment>
+<segment>
+<wire x1="29.21" y1="58.42" x2="24.13" y2="58.42" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<label x="29.21" y="58.42" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J1" gate="-16" pin="MS"/>
+</segment>
+</net>
 <net name="S0" class="0">
 <segment>
-<pinref part="XOR_IC" gate="-1" pin="Y"/>
 <wire x1="80.518" y1="48.26" x2="85.09" y2="48.26" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
 <label x="85.09" y="48.26" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
-</segment>
-<segment>
-<wire x1="44.45" y1="45.72" x2="39.37" y2="45.72" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="39.37" y="45.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J2" gate="-8" pin="MS"/>
-</segment>
-</net>
-<net name="S1" class="0">
-<segment>
-<pinref part="XOR_IC" gate="-2" pin="Y"/>
-<wire x1="80.518" y1="41.91" x2="85.09" y2="41.91" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<label x="85.09" y="41.91" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
-</segment>
-<segment>
-<wire x1="44.45" y1="50.8" x2="39.37" y2="50.8" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="39.37" y="50.8" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J2" gate="-6" pin="MS"/>
-</segment>
-</net>
-<net name="S2" class="0">
-<segment>
 <pinref part="XOR_IC" gate="-3" pin="Y"/>
-<wire x1="80.518" y1="35.56" x2="85.09" y2="35.56" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<label x="85.09" y="35.56" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
 </segment>
 <segment>
-<wire x1="44.45" y1="53.34" x2="39.37" y2="53.34" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<label x="39.37" y="53.34" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
-<pinref part="J2" gate="-5" pin="MS"/>
-</segment>
-</net>
-<net name="S3" class="0">
-<segment>
-<pinref part="XOR_IC" gate="-4" pin="Y"/>
-<wire x1="80.518" y1="29.21" x2="85.09" y2="29.21" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
-<label x="85.09" y="29.21" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
-</segment>
-<segment>
-<wire x1="44.45" y1="58.42" x2="39.37" y2="58.42" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<wire x1="39.37" y1="58.42" x2="44.45" y2="58.42" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="39.37" y="58.42" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
 <pinref part="J2" gate="-3" pin="MS"/>
 </segment>
 </net>
+<net name="S1" class="0">
+<segment>
+<wire x1="80.518" y1="41.91" x2="85.09" y2="41.91" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
+<label x="85.09" y="41.91" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-4" pin="Y"/>
+</segment>
+<segment>
+<wire x1="39.37" y1="53.34" x2="44.45" y2="53.34" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<label x="39.37" y="53.34" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J2" gate="-5" pin="MS"/>
+</segment>
+</net>
+<net name="S2" class="0">
+<segment>
+<wire x1="80.518" y1="35.56" x2="85.09" y2="35.56" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
+<label x="85.09" y="35.56" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-1" pin="Y"/>
+</segment>
+<segment>
+<wire x1="39.37" y1="50.8" x2="44.45" y2="50.8" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<label x="39.37" y="50.8" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J2" gate="-6" pin="MS"/>
+</segment>
+</net>
+<net name="S3" class="0">
+<segment>
+<wire x1="80.518" y1="29.21" x2="85.09" y2="29.21" width="0.1524" layer="91" grouprefs="ADDRESS_INC"/>
+<label x="85.09" y="29.21" size="1.27" layer="95" xref="yes" grouprefs="ADDRESS_INC"/>
+<pinref part="XOR_IC" gate="-2" pin="Y"/>
+</segment>
+<segment>
+<wire x1="39.37" y1="45.72" x2="44.45" y2="45.72" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
+<label x="39.37" y="45.72" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="COMMUNICATION"/>
+<pinref part="J2" gate="-8" pin="MS"/>
+</segment>
+</net>
 <net name="GPIO1" class="0">
 <segment>
-<pinref part="AND_IC2" gate="-1" pin="B"/>
 <wire x1="118.11" y1="24.13" x2="115.57" y2="24.13" width="0.1524" layer="91" grouprefs="GPIO"/>
 <wire x1="115.57" y1="24.13" x2="115.57" y2="21.59" width="0.1524" layer="91" grouprefs="GPIO"/>
 <wire x1="115.57" y1="21.59" x2="111.76" y2="21.59" width="0.1524" layer="91" grouprefs="GPIO"/>
 <label x="111.76" y="21.59" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="GPIO"/>
+<pinref part="AND_IC" gate="-1" pin="B"/>
 </segment>
-</net>
-<net name="GPIO2" class="0">
 <segment>
 <wire x1="44.45" y1="60.96" x2="24.13" y2="60.96" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <label x="48.26" y="60.96" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
