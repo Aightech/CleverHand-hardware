@@ -8,7 +8,7 @@ Top layer            |  Bottom layer
 :-------------------------:|:-------------------------:
 ![Top layer](docs/clvHdTop.png) |  ![Bop layer](docs/clvHdBot.png)
 
-![3D](docs/rendering.PNG)
+![3D](docs/clvHd3D.PNG)
 ![Animation](docs/animation.gif)
 ![Schematics](docs/schematic.png)
 
