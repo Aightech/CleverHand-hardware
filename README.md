@@ -6,19 +6,10 @@ Robotics prosthesis are highly sophisticated devices, which imply very expensive
 
 Top layer            |  Bottom layer
 :-------------------------:|:-------------------------:
-![Top layer](electrode/docs/clvHdTop.png) |  ![Bop layer](electrode/docs/clvHdBot.png)
+![Top layer](docs/clvHdTop.png) |  ![Bop layer](docs/clvHdBot.png)
 
-![3D](electrode/docs/clvHd3D.png)
-![Animation](electrode/docs/animation.gif)
-![Schematics](electrode/docs/schematic.png)
+![3D](docs/rendering.PNG)
+![Animation](docs/animation.gif)
+![Schematics](docs/schematic.png)
 
 
-## Master
-
-Top layer            |  Bottom layer
-:-------------------------:|:-------------------------:
-![Top layer](electrode/docs/clvHdTop.png) |  ![Bop layer](electrode/docs/clvHdBot.png)
-
-![3D](electrode/docs/clvHd3D.png)
-![Animation](electrode/docs/animation.gif)
-![Schematics](electrode/docs/schematic.png)
