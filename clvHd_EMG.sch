@@ -15931,6 +15931,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="41.91" y1="31.75" x2="21.59" y2="31.75" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$6" pin="MS"/>
 <pinref part="1" gate="G$13" pin="MS"/>
+<label x="45.72" y="31.75" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="100.33" x2="139.7" y2="100.33" width="0.1524" layer="91"/>
@@ -15945,6 +15946,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="41.91" y1="26.67" x2="21.59" y2="26.67" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$4" pin="MS"/>
 <pinref part="1" gate="G$15" pin="MS"/>
+<label x="45.72" y="26.67" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 <segment>
 <label x="160.02" y="83.82" size="1.27" layer="95" xref="yes"/>
@@ -15971,6 +15973,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="21.59" y1="62.23" x2="41.91" y2="62.23" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$18" pin="MS"/>
 <pinref part="1" gate="G$1" pin="MS"/>
+<label x="45.72" y="62.23" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -15985,6 +15988,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="41.91" y1="34.29" x2="21.59" y2="34.29" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$7" pin="MS"/>
 <pinref part="1" gate="G$12" pin="MS"/>
+<label x="45.72" y="34.29" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -16109,6 +16113,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="41.91" y1="19.05" x2="21.59" y2="19.05" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$1" pin="MS"/>
 <pinref part="1" gate="G$18" pin="MS"/>
+<label x="45.72" y="19.05" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="TRI"/>
@@ -16150,6 +16155,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="41.91" y1="24.13" x2="21.59" y2="24.13" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$3" pin="MS"/>
 <pinref part="1" gate="G$16" pin="MS"/>
+<label x="45.72" y="24.13" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 </net>
 <net name="WCT" class="0">
@@ -16184,6 +16190,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="21.59" y1="39.37" x2="41.91" y2="39.37" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$9" pin="MS"/>
 <pinref part="1" gate="G$10" pin="MS"/>
+<label x="45.72" y="39.37" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 </net>
 <net name="CMOUT" class="0">
@@ -16344,6 +16351,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="21.59" y1="41.91" x2="41.91" y2="41.91" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$10" pin="MS"/>
 <pinref part="1" gate="G$9" pin="MS"/>
+<label x="45.72" y="41.91" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 </net>
 <net name="RLDREF" class="0">
@@ -16553,6 +16561,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="41.91" y1="59.69" x2="21.59" y2="59.69" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
 <pinref part="2" gate="G$17" pin="MS"/>
 <pinref part="1" gate="G$2" pin="MS"/>
+<label x="45.72" y="59.69" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 </net>
 </nets>
