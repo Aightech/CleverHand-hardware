@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -4353,6 +4353,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="L3" pad="A"/>
 <wire x1="6.1" y1="10.85" x2="6.2" y2="10.75" width="0.127" layer="1"/>
 <wire x1="6.2" y1="10.75" x2="6.2" y2="9.85" width="0.127" layer="1"/>
+</signal>
+<signal name="N$10">
+<via x="30.5" y="15" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
