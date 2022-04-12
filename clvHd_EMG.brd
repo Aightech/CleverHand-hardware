@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -29,11 +29,11 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -189,13 +189,13 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bXlpYzUyNg" projecturn="a.YnVzaW5lc3M6bXlpYzUyNiNEMjAyMTA0MDg0MDA5Nzc3NTE" f3durn="urn:adsk.wipprod:dm.lineage:ISGYIi9HQv-Wh3wJRCVrfQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="011c5d2f-833c-456e-92bd-3c494ac76b77" lastsyncedrevisionid="011c5d2f-833c-456e-92bd-3c494ac76b77" lastboardhashguid="5cea921b-8246-f154-f2b6-64be5b4a389c" lastpushedtime="2022-01-23T16:20:07Z" linktopcb3d="true"/>
 <plain>
-<text x="21" y="-3.8" size="1" layer="26" rot="MR0" align="center">Designed by Aightech</text>
+<text x="31.5" y="1.1" size="1" layer="26" rot="MR0" align="center">Designed by Aightech</text>
 <wire x1="0" y1="8" x2="0" y2="2" width="0" layer="20"/>
 <wire x1="2" y1="0" x2="38" y2="0" width="0" layer="20"/>
 <wire x1="40" y1="2" x2="40" y2="8" width="0" layer="20"/>
 <wire x1="38" y1="10" x2="2" y2="10" width="0" layer="20"/>
-<text x="2.45" y="8.5" size="1" layer="26" rot="MR0" align="center">5</text>
-<text x="37.8" y="1.55" size="1" layer="26" rot="MR0" align="center">1</text>
+<text x="2.45" y="7.2" size="1" layer="26" rot="MR180" align="bottom-center">5</text>
+<text x="37.5" y="3.3" size="1" layer="26" rot="MR0" align="center">1</text>
 <circle x="15.52141875" y="9.10995" radius="3.2" width="0.2" layer="27"/>
 <wire x1="14.02141875" y1="8.76995" x2="14.33141875" y2="7.469946875" width="0.1" layer="27" curve="-40.639056"/>
 <wire x1="14.051421875" y1="9.16995" x2="14.34141875" y2="9.12995" width="0.1" layer="27" curve="-156.532101"/>
@@ -350,7 +350,7 @@
 <wire x1="6.861421875" y1="9.99" x2="6.861421875" y2="10.68" width="0.1" layer="27"/>
 <wire x1="6.861421875" y1="10.68" x2="6.65141875" y2="10.89" width="0.1" layer="27"/>
 <wire x1="6.65141875" y1="10.89" x2="6.211421875" y2="10.89" width="0.1" layer="27"/>
-<text x="21" y="15.9" size="1" layer="26" rot="MR0" align="center">ads1293-v2.5long</text>
+<text x="8.5" y="9" size="1" layer="26" rot="MR0" align="center">ads1293-v4.1</text>
 <wire x1="2" y1="0" x2="0" y2="2" width="0" layer="20" curve="-90"/>
 <wire x1="0" y1="8" x2="2" y2="10" width="0" layer="20" curve="-90"/>
 <wire x1="38" y1="10" x2="40" y2="8" width="0" layer="20" curve="-90"/>
@@ -387,11 +387,11 @@
 <wire x1="25.54" y1="3.19" x2="25.74" y2="3.39" width="0.1524" layer="25"/>
 <circle x="19.99618125" y="8.662840625" radius="0.4" width="0" layer="21"/>
 <text x="37.4" y="4.55" size="1.4224" layer="25" ratio="12" rot="R135">v4.1</text>
-<rectangle x1="3.25" y1="1.25" x2="7.75" y2="8.75" layer="30"/>
-<rectangle x1="10.5" y1="1.25" x2="15" y2="8.75" layer="30"/>
 <rectangle x1="17.75" y1="1.25" x2="22.25" y2="8.75" layer="30"/>
-<rectangle x1="25" y1="1.25" x2="29.5" y2="8.75" layer="30"/>
-<rectangle x1="32.25" y1="1.25" x2="36.75" y2="8.75" layer="30"/>
+<rectangle x1="3.25" y1="1.25" x2="7.75" y2="7.25" layer="30"/>
+<rectangle x1="10.5" y1="1.25" x2="15" y2="7.25" layer="30"/>
+<rectangle x1="25" y1="2.75" x2="29.5" y2="8.75" layer="30"/>
+<rectangle x1="32.25" y1="2.75" x2="36.75" y2="8.75" layer="30"/>
 </plain>
 <libraries>
 <library name="led" urn="urn:adsk.eagle:library:259">
@@ -3557,8 +3557,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U1" pad="1"/>
 <polygon width="0" layer="16">
 <vertex x="37" y="9"/>
-<vertex x="37" y="2.4"/>
-<vertex x="32" y="2.4"/>
+<vertex x="37" y="2.5"/>
+<vertex x="32" y="2.5"/>
 <vertex x="32" y="9"/>
 </polygon>
 <wire x1="19.363603125" y1="7.757715625" x2="19.363603125" y2="8.833603125" width="0.14" layer="1"/>
@@ -3926,9 +3926,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="26.321065625" y1="9.330209375" x2="24.104796875" y2="9.330209375" width="0.14" layer="1"/>
 <wire x1="22.9" y1="8.846" x2="22.9" y2="8.1254125" width="0.14" layer="1"/>
 <wire x1="22.9" y1="8.1254125" x2="22.653909375" y2="7.879321875" width="0.14" layer="1"/>
-<wire x1="3.15" y1="5.6" x2="2.25" y2="6.5" width="0.12" layer="1"/>
-<wire x1="2.25" y1="6.5" x2="2.2" y2="6.5" width="0.12" layer="1"/>
-<via x="2.2" y="6.5" extent="1-16" drill="0.2"/>
+<wire x1="3.15" y1="5.6" x2="2.35" y2="6.4" width="0.12" layer="1"/>
+<wire x1="2.35" y1="6.4" x2="1.7" y2="6.4" width="0.12" layer="1"/>
+<via x="1.7" y="6.4" extent="1-16" drill="0.2"/>
 <wire x1="32.10618125" y1="6.20595" x2="31.81213125" y2="6.5" width="0.12" layer="1"/>
 <wire x1="31.81213125" y1="6.5" x2="31.3" y2="6.5" width="0.12" layer="1"/>
 <via x="31.3" y="6.5" extent="1-16" drill="0.2"/>
@@ -3997,8 +3997,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U1" pad="2"/>
 <polygon width="0" layer="16">
 <vertex x="29.75" y="9"/>
-<vertex x="29.75" y="2.4"/>
-<vertex x="24.75" y="2.4"/>
+<vertex x="29.75" y="2.5"/>
+<vertex x="24.75" y="2.5"/>
 <vertex x="24.75" y="9"/>
 </polygon>
 <wire x1="19.01005" y1="7.4041625" x2="18.37" y2="8.0442125" width="0.14" layer="1"/>
@@ -4048,11 +4048,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="10.92" y="0.8002" extent="1-16" drill="0.2"/>
 <via x="29.75" y="1.54563125" extent="1-16" drill="0.2"/>
 <wire x1="29.75" y1="1.54563125" x2="29.75" y2="2.77" width="0.14" layer="1"/>
-<wire x1="29.75" y1="1.54563125" x2="28.50436875" y2="0.3" width="0.14" layer="2"/>
-<wire x1="17.08963125" y1="0.3" x2="17.05063125" y2="0.261" width="0.14" layer="2"/>
-<wire x1="17.05063125" y1="0.261" x2="11.4592" y2="0.261" width="0.14" layer="2"/>
-<wire x1="11.4592" y1="0.261" x2="10.92" y2="0.8002" width="0.14" layer="2"/>
-<wire x1="28.50436875" y1="0.3" x2="17.08963125" y2="0.3" width="0.14" layer="2"/>
+<wire x1="29.75" y1="1.54563125" x2="28.45536875" y2="0.251" width="0.14" layer="2"/>
+<wire x1="11.4692" y1="0.251" x2="10.92" y2="0.8002" width="0.14" layer="2"/>
+<wire x1="28.45536875" y1="0.251" x2="11.4692" y2="0.251" width="0.14" layer="2"/>
 </signal>
 <signal name="N$16">
 <contactref element="XOR_IC" pad="4"/>
@@ -4102,7 +4100,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="28.25" y1="0.77" x2="28.25" y2="1.99436875" width="0.14" layer="1"/>
 <via x="28.25" y="1.99436875" extent="1-16" drill="0.2"/>
 <wire x1="10.06308125" y1="4.861178125" x2="10.072559375" y2="4.8517" width="0.14" layer="1"/>
-<wire x1="10.072559375" y1="4.8517" x2="10.072559375" y2="4.851178125" width="0.14" layer="1"/>
 <wire x1="8.73" y1="5.63" x2="8.808075" y2="5.63" width="0.14" layer="1"/>
 <wire x1="8.808075" y1="5.63" x2="8.838275" y2="5.5998" width="0.14" layer="1"/>
 <via x="8.838275" y="5.5998" extent="1-16" drill="0.2"/>
@@ -4208,9 +4205,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="28.72563125" y1="0.57" x2="34.8" y2="0.57" width="0.12" layer="15"/>
 <wire x1="34.8" y1="0.57" x2="36.33" y2="2.1" width="0.12" layer="15"/>
 <via x="32.48" y="9.4952" extent="1-16" drill="0.2"/>
-<wire x1="32.48" y1="9.4952" x2="23.7402875" y2="9.4952" width="0.12" layer="2"/>
-<wire x1="23.7402875" y1="9.4952" x2="23.5084875" y2="9.727" width="0.12" layer="2"/>
-<wire x1="23.5084875" y1="9.727" x2="5.387" y2="9.727" width="0.12" layer="2"/>
+<wire x1="32.48" y1="9.4952" x2="32.2482" y2="9.727" width="0.12" layer="2"/>
+<wire x1="32.2482" y1="9.727" x2="5.387" y2="9.727" width="0.12" layer="2"/>
 <wire x1="4.75" y1="9.09" x2="4.75" y2="8.00563125" width="0.12" layer="2"/>
 <wire x1="36.33" y1="2.1" x2="36.33" y2="5.64" width="0.12" layer="15"/>
 <wire x1="32.48" y1="9.4952" x2="32.48" y2="9.49" width="0.12" layer="15"/>
