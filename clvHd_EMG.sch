@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15606,18 +15606,14 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10M"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF"/>
 <part name="L2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="Red"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value=""/>
-<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="U$1" library="crystalCustom" deviceset="C387328" device="" package3d_urn="urn:adsk.eagle:package:12120/1" override_package3d_urn="urn:adsk.eagle:package:31101377/2" override_package_urn="urn:adsk.eagle:footprint:31101378/1" value="C387328 "/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="51"/>
 <part name="L1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="Green"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="GND"/>
@@ -15627,7 +15623,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="VDD7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
@@ -15690,10 +15685,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="NAME" x="41.402" y="96.139" size="1.27" layer="95"/>
 <attribute name="VALUE" x="41.656" y="93.091" size="1.27" layer="96"/>
 </instance>
-<instance part="C13" gate="G$1" x="234.95" y="95.25" smashed="yes" grouprefs="XTAL">
-<attribute name="NAME" x="235.712" y="94.869" size="1.27" layer="95"/>
-<attribute name="VALUE" x="235.966" y="91.821" size="1.27" layer="96"/>
-</instance>
 <instance part="C11" gate="G$1" x="21.59" y="107.95" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.542" y="106.299" size="1.27" layer="95"/>
 <attribute name="VALUE" x="26.924" y="107.569" size="1.27" layer="96" rot="R180"/>
@@ -15705,13 +15696,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="C16" gate="G$1" x="148.59" y="134.62" smashed="yes">
 <attribute name="NAME" x="149.352" y="134.239" size="1.27" layer="95"/>
 <attribute name="VALUE" x="149.606" y="131.191" size="1.27" layer="96"/>
-</instance>
-<instance part="GND12" gate="1" x="189.23" y="92.71" smashed="yes">
-<attribute name="VALUE" x="190.5" y="93.98" size="1.778" layer="96"/>
-</instance>
-<instance part="C19" gate="G$1" x="189.23" y="101.6" smashed="yes">
-<attribute name="NAME" x="189.992" y="101.219" size="1.27" layer="95"/>
-<attribute name="VALUE" x="190.246" y="98.171" size="1.27" layer="96"/>
 </instance>
 <instance part="C20" gate="G$1" x="166.37" y="129.54" smashed="yes">
 <attribute name="NAME" x="167.132" y="129.159" size="1.27" layer="95"/>
@@ -15728,9 +15712,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </instance>
 <instance part="GND7" gate="1" x="241.3" y="39.37" smashed="yes" grouprefs="POWER">
 <attribute name="VALUE" x="238.76" y="36.83" size="1.27" layer="96"/>
-</instance>
-<instance part="GND8" gate="1" x="234.95" y="81.28" smashed="yes" grouprefs="XTAL">
-<attribute name="VALUE" x="232.41" y="91.44" size="1.27" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="166.37" y="120.65" smashed="yes">
 <attribute name="VALUE" x="163.83" y="118.11" size="1.27" layer="96"/>
@@ -15758,9 +15739,6 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </instance>
 <instance part="VDD6" gate="G$1" x="170.18" y="107.95" smashed="yes">
 <attribute name="VALUE" x="172.72" y="109.22" size="1.27" layer="96"/>
-</instance>
-<instance part="VDD7" gate="G$1" x="189.23" y="109.22" smashed="yes">
-<attribute name="VALUE" x="189.23" y="111.76" size="1.27" layer="96"/>
 </instance>
 <instance part="VDD2" gate="G$1" x="234.95" y="142.24" smashed="yes" grouprefs="XTAL">
 <attribute name="VALUE" x="234.95" y="144.78" size="1.27" layer="96"/>
@@ -15952,7 +15930,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <nets>
 <net name="IN4" class="0">
 <segment>
-<wire x1="66.04" y1="120.65" x2="55.88" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="120.65" x2="55.88" y2="120.65" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
 <wire x1="55.88" y1="120.65" x2="55.88" y2="143.51" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
 <label x="55.88" y="143.51" size="1.27" layer="95" rot="MR0" xref="yes" grouprefs="ELECTRODES"/>
 <pinref part="U1" gate="A" pin="IN4"/>
@@ -15961,17 +15939,23 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <net name="IN2" class="0">
 <segment>
 <wire x1="60.96" y1="148.59" x2="60.96" y2="125.73" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
-<wire x1="60.96" y1="125.73" x2="66.04" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="125.73" x2="66.04" y2="125.73" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
 <label x="60.96" y="148.59" size="1.27" layer="95" rot="MR0" xref="yes" grouprefs="ELECTRODES"/>
 <pinref part="U1" gate="A" pin="IN2"/>
 </segment>
 </net>
 <net name="IN6" class="0">
 <segment>
-<wire x1="53.34" y1="140.97" x2="53.34" y2="115.57" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
-<wire x1="53.34" y1="115.57" x2="66.04" y2="115.57" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
-<label x="53.34" y="140.97" size="1.27" layer="95" rot="MR0" xref="yes" grouprefs="ELECTRODES"/>
+<wire x1="44.45" y1="140.97" x2="44.45" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="115.57" x2="66.04" y2="115.57" width="0.1524" layer="91"/>
+<label x="44.45" y="140.97" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U1" gate="A" pin="IN6"/>
+</segment>
+<segment>
+<pinref part="1" gate="G$1" pin="MS"/>
+<pinref part="2" gate="G$18" pin="MS"/>
+<wire x1="21.59" y1="64.77" x2="41.91" y2="64.77" width="0.1524" layer="91"/>
+<label x="46.99" y="64.77" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -16025,7 +16009,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="IN3" class="0">
 <segment>
-<wire x1="66.04" y1="123.19" x2="58.42" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="123.19" x2="58.42" y2="123.19" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
 <wire x1="58.42" y1="123.19" x2="58.42" y2="146.05" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
 <label x="58.42" y="146.05" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ELECTRODES"/>
 <pinref part="U1" gate="A" pin="IN3"/>
@@ -16033,16 +16017,10 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="IN5" class="0">
 <segment>
-<wire x1="66.04" y1="118.11" x2="44.45" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="44.45" y1="118.11" x2="44.45" y2="140.97" width="0.1524" layer="91"/>
-<label x="44.45" y="140.97" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="118.11" x2="53.34" y2="118.11" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
+<wire x1="53.34" y1="118.11" x2="53.34" y2="140.97" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
+<label x="53.34" y="140.97" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ELECTRODES"/>
 <pinref part="U1" gate="A" pin="IN5"/>
-</segment>
-<segment>
-<wire x1="21.59" y1="64.77" x2="41.91" y2="64.77" width="0.1524" layer="91" grouprefs="COMMUNICATION"/>
-<pinref part="2" gate="G$18" pin="MS"/>
-<pinref part="1" gate="G$1" pin="MS"/>
-<label x="45.72" y="64.77" size="1.27" layer="95" xref="yes" grouprefs="COMMUNICATION"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -16062,7 +16040,7 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="IN1" class="0">
 <segment>
-<wire x1="66.04" y1="128.27" x2="63.5" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="128.27" x2="63.5" y2="128.27" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
 <wire x1="63.5" y1="128.27" x2="63.5" y2="151.13" width="0.1524" layer="91" grouprefs="ELECTRODES"/>
 <label x="63.5" y="151.13" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="ELECTRODES"/>
 <pinref part="U1" gate="A" pin="IN1"/>
@@ -16143,28 +16121,17 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <pinref part="VDD6" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="VDDIO"/>
-<wire x1="132.08" y1="110.49" x2="185.42" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="110.49" x2="185.42" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="105.41" x2="189.23" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="105.41" x2="189.23" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="104.14" x2="189.23" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
-<junction x="189.23" y="105.41"/>
-<label x="190.5" y="105.41" size="1.27" layer="95" xref="yes"/>
-<pinref part="VDD7" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="234.95" y1="134.62" x2="234.95" y2="113.03" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="134.62" x2="234.95" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="134.62" x2="234.95" y2="139.7" width="0.1524" layer="91"/>
 <junction x="234.95" y="134.62"/>
-<wire x1="234.95" y1="113.03" x2="234.95" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="113.03" x2="234.95" y2="110.49" width="0.1524" layer="91"/>
 <junction x="234.95" y="113.03"/>
-<pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
+<pinref part="U1" gate="A" pin="VDDIO"/>
+<wire x1="132.08" y1="110.49" x2="234.95" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VDD"/>
@@ -16309,21 +16276,10 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="189.23" y1="95.25" x2="189.23" y2="96.52" width="0.1524" layer="91"/>
-<label x="190.5" y="95.25" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="241.3" y1="45.72" x2="241.3" y2="41.91" width="0.1524" layer="91" grouprefs="POWER"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="L1" gate="G$1" pin="C"/>
 <wire x1="237.49" y1="45.72" x2="241.3" y2="45.72" width="0.1524" layer="91" grouprefs="POWER"/>
-</segment>
-<segment>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="234.95" y1="83.82" x2="234.95" y2="90.17" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
