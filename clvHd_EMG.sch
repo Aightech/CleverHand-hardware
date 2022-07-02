@@ -15656,7 +15656,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74aup2g00"&gt; Datasheet &lt;/a&
 <part name="2" library="con-omron" deviceset="X05C2018TZ" device="" override_package3d_urn="urn:adsk.eagle:package:32950671/2" override_package_urn="urn:adsk.eagle:footprint:32950674/1"/>
 <part name="1" library="con-omron" deviceset="X05C2018TZ" device="" override_package3d_urn="urn:adsk.eagle:package:32950701/2" override_package_urn="urn:adsk.eagle:footprint:32950703/1"/>
 <part name="VDD10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="L_NAND" library="1persoLib" deviceset="SN74AUP2G00" device="DCU" value="SN74AUP2G00"/>
+<part name="L_NAND" library="1persoLib" deviceset="SN74AUP2G00" device="DCU" override_package3d_urn="urn:adsk.eagle:package:36386459/2" override_package_urn="urn:adsk.eagle:footprint:36386460/1" value="SN74AUP2G00"/>
 </parts>
 <sheets>
 <sheet>

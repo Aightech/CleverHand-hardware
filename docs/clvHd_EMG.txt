@@ -1,0 +1,24 @@
+Part   Value            Device              Package           Description                               
+1      X05C2018TZ       X05C2018TZ          X05C2018TZ                                                  
+2      X05C2018TZ       X05C2018TZ          X05C2018TZ                                                  
+ADC    ADS1293CISQ/NOPB ADS1293CISQ/NOPB    RSG28_3P6X3P6_TEX                                           
+C1     22pF             C-EUC0402           C0402             CAPACITOR, European symbol                
+C2     22pF             C-EUC0402           C0402             CAPACITOR, European symbol                
+C3     1nF              C-EUC0402           C0402             CAPACITOR, European symbol                
+C4     100nF            C-EUC0402           C0402             CAPACITOR, European symbol                
+C5     100nF            C-EUC0402           C0402             CAPACITOR, European symbol                
+C6     1uF              C-EUC0402           C0402             CAPACITOR, European symbol                
+L1     Green            LEDCHIP-LED0603     CHIP-LED0603      LED                                       
+L2     Red              LEDCHIP-LED0603     CHIP-LED0603      LED                                       
+L3     White            LEDCHIP-LED0603     CHIP-LED0603      LED                                       
+L_AND  SN74ALVC08       SN74ALVC08RGY-LARGE VQFN-14-CUSTOM                                              
+L_NAND SN74AUP2G00      SN74AUP2G00DCU      VSSOP             LOW-POWER DUAL 2-INPUT POSITIVE-NAND GATE 
+L_XOR  SN74LVC86        SN74LVC86ARGY-LARGE VQFN-14-CUSTOM                                              
+R1     51               R-US_R0402          R0402             RESISTOR, American symbol                 
+R2     51               R-US_R0402          R0402             RESISTOR, American symbol                 
+R3     51               R-US_R0402          R0402             RESISTOR, American symbol                 
+R4     51               R-US_R0402          R0402             RESISTOR, American symbol                 
+R5     10k              R-US_R0402          R0402             RESISTOR, American symbol                 
+R6     1M               R-US_R0402          R0402             RESISTOR, American symbol                 
+R7     10M              R-US_R0402          R0402             RESISTOR, American symbol                 
+TAL    C387328          C387328             SMD-3225_4P       3.3Vdc CMOS SMD CRYSTAL CLOCK OSCILLATOR  
