@@ -24,20 +24,32 @@ Flexible ADC-elecrodes rooting
 1 alert LED
 1 interface LED
 
+## Solution
 
+### Structure
+![framework](docs/framework_con.png)
 
+### Connection
+![chain](docs/chainning.jpg)
+### Structure
+![mesh](docs/meshing.jpg)
+
+### Schmatics
+![Schematics](docs/schematic.png)
+
+## Visualisation
 Top layer            |  Bottom layer
 :-------------------------:|:-------------------------:
 ![Top layer](docs/clvHdTop.png) |  ![Bop layer](docs/clvHdBot.png)
 
-# Rendering
+### Rendering
 ![3D](docs/clvHd3D.png)
 
-# Animation
+### Animation
 ![Animation](docs/animation.gif)
-![Schematics](docs/schematic.png)
 
-# BOM
+
+## BOM
 ![placement](docs/placement.png)
 Part|Value|Device|Package|Description|
 :---:|:---:|:---:|:---:|:---:
@@ -64,3 +76,6 @@ R5|10k|Resistor|R0402||
 R6|1M|Resistor|R0402||
 R7|10M|Resistor|R0402||
 TAL|4.096MHZ|C387328|SMD-3225_4P|3.3V CMOS Crystal|
+
+## Chip select feature
+![framework](docs/chipSelect.PNG)
