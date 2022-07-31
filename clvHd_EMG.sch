@@ -15580,10 +15580,10 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/sn74aup2g00"&gt; Datasheet &lt;/a&
 <connects>
 <connect gate="-1" pin="A" pad="1"/>
 <connect gate="-1" pin="B" pad="2"/>
-<connect gate="-1" pin="Y" pad="3"/>
+<connect gate="-1" pin="Y" pad="7"/>
 <connect gate="-2" pin="A" pad="5"/>
 <connect gate="-2" pin="B" pad="6"/>
-<connect gate="-2" pin="Y" pad="7"/>
+<connect gate="-2" pin="Y" pad="3"/>
 <connect gate="-PWR" pin="GND" pad="4"/>
 <connect gate="-PWR" pin="VCC" pad="8"/>
 </connects>
