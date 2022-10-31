@@ -1,0 +1,203 @@
+Cmp-Mod V01 Created by PcbNew   date = Sat 29 Oct 2022 18:37:42 BST
+
+BeginCmp
+TimeStamp = 0cbb1887-6478-4f98-b44a-3e3ab0673233
+Path = /f46b7232-2885-44c0-a64b-6af587b8af0d
+Reference = U2;
+ValeurCmp = SN74LVC86ARGYR;
+IdModule  = 00_Custom:SN74LVC86ARGYR;
+EndCmp
+
+BeginCmp
+TimeStamp = 1b5ed4fa-b678-4923-b996-30f67e4e28ca
+Path = /1aae63b5-5c91-4eea-bb25-be8a83bc5c79
+Reference = D2;
+ValeurCmp = 1515;
+IdModule  = 00_Custom:neopixel_1515;
+EndCmp
+
+BeginCmp
+TimeStamp = 1b719ca5-06be-4581-833d-69bdea8df026
+Path = /f06848f7-3f1e-4947-91a8-243ed519e3dc
+Reference = JP1;
+ValeurCmp = 1-4_neo_bridge;
+IdModule  = Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels;
+EndCmp
+
+BeginCmp
+TimeStamp = 1dda7fb0-00d5-472f-8529-8cd927755c35
+Path = /8bbe69ab-3f07-42f8-8133-6246bb85527e
+Reference = D1;
+ValeurCmp = 1515;
+IdModule  = 00_Custom:neopixel_1515;
+EndCmp
+
+BeginCmp
+TimeStamp = 3b664340-4735-421c-b112-a0c0f45ec966
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 4792b33a-c886-4111-adbc-7504cbbd2bd5
+Path = /f08fa2e8-a9fd-41d7-9f24-201243363a97
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 4943d586-fef9-46b6-b040-01c03cbe6697
+Path = /4ce8ea8f-0dae-4a04-ab13-709a3f57c889
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 510c3cc1-590f-4030-8725-2e96ab278382
+Path = /2ca1a609-ef14-46e1-9796-2c5f3909f9fa
+Reference = R7;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 5488c5ad-fb98-4ea7-9c2b-acdd8158dbd3
+Path = /09177e3a-6d44-4667-97ff-c16bf4950be6
+Reference = U5;
+ValeurCmp = DCK5;
+IdModule  = 00_Custom:SN74LVC1G132DCKR;
+EndCmp
+
+BeginCmp
+TimeStamp = 63add129-d9a2-4847-9d00-19d54f2f9faa
+Path = /71abaf04-6918-4f74-8990-a50212145c03
+Reference = U1;
+ValeurCmp = MCP3564RT-ENC;
+IdModule  = 00_Custom:MCP3564RT-E&slash_NC;
+EndCmp
+
+BeginCmp
+TimeStamp = 70649361-bb95-49de-9f4c-636c8a37d4f8
+Path = /bd640f3a-997b-4f2c-b66d-772dcd261cf4
+Reference = J2;
+ValeurCmp = COM_OUT;
+IdModule  = 00_Custom:XF2J-1824-12A;
+EndCmp
+
+BeginCmp
+TimeStamp = 7158ec56-c08f-49dd-955a-d45652878d04
+Path = /bf2313a8-54f9-493d-8c06-80265df88e03
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitor_SMD:C_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 78b50d87-a0de-49fc-84a2-f42222a2c81e
+Path = /e3e604f5-ab0f-4db2-b30b-710f752bfaa1
+Reference = R2;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 7e65be41-1efa-4456-a913-5738d0a78e93
+Path = /ea9765c8-fae5-4d0d-8182-6a6c841886f7
+Reference = R1;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 870d60ee-46eb-47b6-92c8-62aaef218e91
+Path = /b3a8ece1-6f7a-4e09-8fa1-5082d757b1eb
+Reference = U4;
+ValeurCmp = SN74ALVC08RGYR;
+IdModule  = 00_Custom:SN74ALVC08RGYR;
+EndCmp
+
+BeginCmp
+TimeStamp = 9951ff51-2b32-454f-9beb-8d216cb23f03
+Path = /be1a2bbc-bcb8-4cb4-b21a-a9592df69972
+Reference = R3;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 9e93673e-8c4b-4648-964b-8f1e30762555
+Path = 
+Reference = kibuzzard-635971E5;
+ValeurCmp = G***;
+IdModule  = kibuzzard-635971E5;
+EndCmp
+
+BeginCmp
+TimeStamp = ab4e6b8b-c8ed-40b9-9b4a-0c33c49fbc4a
+Path = /8cb1e7ea-e049-4199-9cd1-9577e1f9dd7b
+Reference = D3;
+ValeurCmp = 1515;
+IdModule  = 00_Custom:neopixel_1515;
+EndCmp
+
+BeginCmp
+TimeStamp = cacb4171-901c-42a3-8c34-7e584eda07e8
+Path = /e55be687-f300-408c-8301-651e0dbf4663
+Reference = R8;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = dac95cfe-cad8-43b8-a5fd-277a71b71b21
+Path = /d52ba2bb-3c43-4df5-b969-d37746ecf73c
+Reference = R6;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = dcca583f-66b2-414a-a7cf-3492422882d3
+Path = /52b2c6e1-69d2-4b82-b4c0-2dfea3474448
+Reference = J1;
+ValeurCmp = COM_IN;
+IdModule  = 00_Custom:XF2J-1824-12A;
+EndCmp
+
+BeginCmp
+TimeStamp = df8b6e5a-29a3-4e7c-a037-93ae6ade4069
+Path = 
+Reference = kibuzzard-63597494;
+ValeurCmp = G***;
+IdModule  = kibuzzard-63597494;
+EndCmp
+
+BeginCmp
+TimeStamp = ef3e5ea0-4df8-4ba2-b404-9e47a5074751
+Path = /d1971c35-3fdf-46aa-a8f9-7e5e437d1f4f
+Reference = R5;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = f158df0f-c9eb-4bf7-84f2-10700c4a35da
+Path = /17a4a50e-09dd-4af9-b302-4cecf927f2ea
+Reference = R4;
+ValeurCmp = 10R;
+IdModule  = Resistor_SMD:R_0402_1005Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = fbb12aea-d387-43cf-aaa2-3869a4f6ee2a
+Path = /f5da9944-25e5-407d-bc25-69e15a34a4e9
+Reference = D4;
+ValeurCmp = 1515;
+IdModule  = 00_Custom:neopixel_1515;
+EndCmp
+
+EndListe

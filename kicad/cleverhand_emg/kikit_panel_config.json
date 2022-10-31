@@ -1,0 +1,11 @@
+{
+    "layout": {
+        "vspace": "2mm",
+        "rows": "5",
+        "cols": "2"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "F.Fab"
+    }
+}

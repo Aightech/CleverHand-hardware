@@ -399,8 +399,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "cleverhand_emg.step",
+      "vrml": "cleverhand_emg.wrl"
     },
     "page_layout_descr_file": ""
   },
