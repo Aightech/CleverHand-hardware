@@ -363,10 +363,10 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
+      "custom",
       "ads1293",
       "ADS7953SBDBT",
       "ADXL312ACPZ",
-      "custom",
       "WS2811-1313",
       "XF2J-1824-12A",
       "XHSC"
@@ -407,8 +407,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "hc32l110.step",
+      "vrml": "hc32l110.wrl"
     },
     "page_layout_descr_file": ""
   },

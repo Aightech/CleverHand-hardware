@@ -1,4 +1,4 @@
-21697319563417982
+21707382752722185
 00_Custom
 ADS1293CISQE
 
@@ -42,12 +42,26 @@ CSP 16 0.35
 16
 16
 00_Custom
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+00_Custom
+DRV2605L-VSSOP
+
+
+0
+10
+10
+00_Custom
 DSBGA-9
 
 
 0
-0
-0
+9
+9
 00_Custom
 ESP32-C3FH4
 
@@ -62,6 +76,13 @@ KX134-1211
 0
 12
 12
+00_Custom
+LRA0832BE03L15
+8MM SMALL LINEAR RESONANT ACTUAT
+ LINEAR RESONANT ACTUAT LRA
+0
+0
+0
 00_Custom
 MAX11632EEGT
 
@@ -90,6 +111,20 @@ QFN NoLead
 0
 25
 21
+00_Custom
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+00_Custom
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
 00_Custom
 SMD2520-4P
 XTAL 
@@ -181,6 +216,13 @@ FPC conn 18p 0.5mm
 0
 20
 20
+00_Custom
+insert_1.2mm
+
+
+0
+1
+1
 00_Custom
 mounting_pad
 

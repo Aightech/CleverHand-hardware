@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -362,7 +362,15 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "custom",
+      "ads1293",
+      "ADS7953SBDBT",
+      "ADXL312ACPZ",
+      "WS2811-1313",
+      "XF2J-1824-12A",
+      "XHSC"
+    ]
   },
   "meta": {
     "filename": "ext_board_drv2605.kicad_pro",
@@ -399,8 +407,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "ext_board_drv2605.step",
+      "vrml": "ext_board_drv2605.wrl"
     },
     "page_layout_descr_file": ""
   },
