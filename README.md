@@ -1,4 +1,6 @@
 # CleverHand
+![chain](docs/bracelet_one2.png)
+
 
 ## EMG Electrodes
 
