@@ -1,7 +1,9 @@
 {
     "layout": {
+        "hspace": "2mm",
         "vspace": "2mm",
-        "rows": "4"
+        "rows": "2",
+        "cols": "2"
     },
     "tabs": {
         "hwidth": "0mm"
@@ -12,7 +14,9 @@
         "offset": "-0.2mm"
     },
     "framing": {
-        "type": "frame"
+        "type": "frame",
+        "mintotalheight": "60mm",
+        "mintotalwidth": "60mm"
     },
     "tooling": {
         "type": "3hole",

@@ -525,6 +525,18 @@
     [
       "e128d549-8cbc-4e55-b250-e367d2f4662f",
       ""
+    ],
+    [
+      "0a60a328-fcc3-4a46-96db-e843b2186d3f",
+      "ADS1293CISQE_0402_unit"
+    ],
+    [
+      "401a349a-b66d-48de-9a9c-3875f1f00980",
+      "comBusOUT_v2"
+    ],
+    [
+      "1f047aad-1d8d-481d-9898-1889ad70994f",
+      "comBusIN_v2"
     ]
   ],
   "text_variables": {}
