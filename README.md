@@ -1,5 +1,9 @@
 # CleverHand
-![chain](docs/bracelet_one2.png)
+Module        |  Bracelet factor
+:-------------------------:|:-------------------------:
+![CleverHand](docs/anim.gif) |  ![chain](docs/bracelet_one.png)
+
+
 
 
 ## EMG Electrodes
@@ -44,11 +48,7 @@ Top layer            |  Bottom layer
 :-------------------------:|:-------------------------:
 ![Top layer](docs/clvHdTop.png) |  ![Bop layer](docs/clvHdBot.png)
 
-### Rendering
-![3D](docs/clvHd3D.png)
 
-### Animation
-![Animation](docs/animation.gif)
 
 ## Chip select feature
 ![framework](docs/chipSelect.PNG)
