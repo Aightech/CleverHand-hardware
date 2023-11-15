@@ -1,0 +1,38 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "tabs": {
+        "hwidth": "0mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.4mm",
+        "offset": "-0.2mm"
+    },
+    "framing": {
+        "type": "frame",
+        "mintotalheight": "60mm",
+        "mintotalwidth": "60mm"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "3mm",
+        "voffset": "3mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "9mm",
+        "voffset": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "2mm",
+        "orientation": "90deg",
+        "text": "ClvHd_ADS1293_HCL32_v1 by aightech",
+        "anchor": "ml"
+    }
+}
