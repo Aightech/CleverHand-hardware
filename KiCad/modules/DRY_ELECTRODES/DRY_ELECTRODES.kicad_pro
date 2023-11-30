@@ -424,7 +424,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EMG_DAQ_ADS1293.kicad_pro",
+    "filename": "DRY_ELECTRODES.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -477,8 +477,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "EMG_DAQ_ADS1293.step",
-      "vrml": "EMG_DAQ_ADS1293.wrl"
+      "step": "DRY_ELECTRODES.step",
+      "vrml": "DRY_ELECTRODES.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -518,7 +518,7 @@
   },
   "sheets": [
     [
-      "bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2",
+      "6a07b12d-d7c3-489d-ae42-93fa117865e9",
       ""
     ]
   ],
