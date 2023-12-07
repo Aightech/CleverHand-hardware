@@ -1,0 +1,298 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid dd25438c-2c4b-4040-8c7a-7d4999e4ff8c)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Connector:Conn_01x01_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x01_Pin" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x01_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 128.27 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 013dff84-e78a-476e-9e29-ebc0f9d64c50)
+    (property "Reference" "J8" (at 128.905 127 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 128.905 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 128.27 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 128.27 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4584c0b6-a837-4e45-9bc8-c481202e79eb))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J8") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 119.38 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 077959af-070d-48df-b45e-c12e5c51d3d8)
+    (property "Reference" "J2" (at 120.015 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 120.015 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 119.38 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 119.38 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dddcf106-a3c1-4421-8ac5-1db71f805861))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 118.11 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 16905b46-42f2-4881-9622-a0f8ea1bc28d)
+    (property "Reference" "J1" (at 118.745 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 118.745 85.09 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 118.11 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 118.11 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff5dea11-42ce-494b-9ac2-ece30da37d45))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 120.65 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ca11a89-5a00-4768-aa75-cacc74833988)
+    (property "Reference" "J3" (at 121.285 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 121.285 97.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 120.65 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 120.65 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e8c32714-3464-482f-b053-6f657df6401d))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J3") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 123.19 105.41 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 91585d91-8cfe-4ca8-a237-1b958a609033)
+    (property "Reference" "J4" (at 123.825 100.33 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 123.825 102.87 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 123.19 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 123.19 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0df25bee-999c-4066-8a43-e65139464124))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J4") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 125.73 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d5fb0ecf-b3f9-4db0-91bf-4c9f2a41d511)
+    (property "Reference" "J7" (at 126.365 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 126.365 124.46 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 125.73 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 125.73 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d0f1c4bc-4ed2-4d0c-a1d2-23e7cdcec310))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J7") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 124.46 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e1e11863-aea4-4bfe-978b-1318334af533)
+    (property "Reference" "J6" (at 125.095 114.3 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 125.095 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 124.46 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 124.46 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6e8d3b8d-d218-4ed2-9024-24a1265ba5a9))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J6") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 123.19 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f3608be8-854d-47e0-a60f-f0fe6c0abcd1)
+    (property "Reference" "J5" (at 123.825 109.22 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 123.825 111.76 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 123.19 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 123.19 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bedf61bb-b0ab-4bbd-8e79-49c8de5eb4e7))
+    (instances
+      (project "DRY_ELECTRODES"
+        (path "/6a07b12d-d7c3-489d-ae42-93fa117865e9"
+          (reference "J5") (unit 1)
+        )
+      )
+      (project "DRY_FLEX_V1"
+        (path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+          (reference "J5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

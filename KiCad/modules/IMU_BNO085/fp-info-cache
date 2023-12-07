@@ -1,4 +1,4 @@
-22861923169913649
+22858483761433599
 00_custom-footprints
 8x2_pin_smd_conn
 
@@ -217,13 +217,6 @@ SN74LVC86ARGYR
 15
 15
 00_custom-footprints
-SOT95P285X140-5N
-
-
-0
-5
-5
-00_custom-footprints
 TL974IN
 N (R-PDIP-T14)
 Integrated Circuit
@@ -265,13 +258,6 @@ FPC conn 18p 0.5mm
 0
 20
 20
-00_custom-footprints
-XUNPU_FPC_05F_18P_H20
-
-
-0
-0
-0
 00_custom-footprints
 aligment_cross_l1
 
