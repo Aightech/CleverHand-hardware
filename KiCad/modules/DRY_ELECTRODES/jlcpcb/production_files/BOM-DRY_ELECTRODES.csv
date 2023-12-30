@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+Conn_01x01_Pin,J4,SolderWirePad_1x01_SMD_1x2mm,
+Conn_01x01_Pin,J2,SolderWirePad_1x01_SMD_1x2mm,
+Conn_01x01_Pin,J1,SolderWirePad_1x01_SMD_1x2mm,
+Conn_01x01_Pin,J5,SolderWirePad_1x01_SMD_1x2mm,
+Conn_01x01_Pin,J7,SolderWirePad_1x01_SMD_1x2mm,
+Conn_01x01_Pin,J3,SolderWirePad_1x01_SMD_1x2mm,
+Conn_01x01_Pin,J6,SolderWirePad_1x01_SMD_1x2mm,
+Conn_01x01_Pin,J8,SolderWirePad_1x01_SMD_1x2mm,
+smd_insert,I4,insert_1.2mm,
+smd_insert,I3,insert_1.2mm,
+smd_insert,I2,insert_1.2mm,
+smd_insert,I1,insert_1.2mm,

@@ -1,0 +1,51 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "vbackbone": "3mm",
+        "vboneskip": "2",
+        "rows": "5",
+        "cols": "5",
+        "vbonecut": "False"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+        "vcount": "0"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.3mm"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "3mm",
+        "fillet": "2mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "39mm",
+        "voffset": "-2mm",
+        "text": "Panel 5x2 - CleverHand EMG v3.0",
+        "anchor": "bl"
+    },
+    "copperfill": {
+        "type": "solid",
+        "clearance": "1mm",
+        "layers": "F.Cu,B.Cu,In1.Cu,In2.Cu"
+    },
+    "page": {
+        "posx": "0mm",
+        "posy": "0mm"
+    },
+    "post": {
+        "millradius": "1mm",
+        "refillzones": "True"
+    }
+}

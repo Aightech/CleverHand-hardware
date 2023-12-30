@@ -480,7 +480,7 @@
       "step": "EMG_DAQ_ADS1293.step",
       "vrml": "EMG_DAQ_ADS1293.wrl"
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "/home/aightech/dev/prj/clvhd/CleverHand/hardware/CleverHand-hardware/KiCad/modules/DrawingSheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
