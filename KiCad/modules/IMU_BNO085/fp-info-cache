@@ -1,369 +1,432 @@
-22858483761433599
-00_custom-footprints
+22873965586862228
+00_Custom
 8x2_pin_smd_conn
 
 
 0
 19
 16
-00_custom-footprints
+00_Custom
 ADS1293CISQE
 
 
 0
 29
 29
-00_custom-footprints
+00_Custom
 ADS7953SBDBT
 
 
 0
 38
 38
-00_custom-footprints
+00_Custom
 ADXL312ACPZ
 
 
 0
 33
 33
-00_custom-footprints
+00_Custom
+BGA64C80P8X8_800X800X145
+
+
+0
+64
+64
+00_Custom
 CD74HC4067MG4
 
 
 0
 24
 24
-00_custom-footprints
+00_Custom
 CSP16_1.59x1.436mm_P0.35mm
 WLCSP-16, 1.409x1.409mm, 16 Ball, 4x4 Layout, 0.35mm Pitch, http://www.latticesemi.com/view_document?document_id=213
 CSP 16 0.35
 0
 16
 16
-00_custom-footprints
+00_Custom
 CSP16_1.59x1.436mm_P0.35mm_JLCPCB
 WLCSP-16, 1.409x1.409mm, 16 Ball, 4x4 Layout, 0.35mm Pitch, http://www.latticesemi.com/view_document?document_id=213
 CSP 16 0.35
 0
 16
 16
-00_custom-footprints
+00_Custom
 C_0402_1005Metric
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
 0
 2
 2
-00_custom-footprints
+00_Custom
 Crystal_SMD_HC49-US
 SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
 SMD SMT crystal
 0
 2
 2
-00_custom-footprints
+00_Custom
 DRV2605L-VSSOP
 
 
 0
 10
 10
-00_custom-footprints
+00_Custom
 DSBGA-9
 
 
 0
 9
 9
-00_custom-footprints
+00_Custom
 ESP32-C3FH4
 
 
 0
 49
 49
-00_custom-footprints
+00_Custom
 Jack_Socket_PJ-210B
 2.5mm Female Audio Connector 4 Pin DIP Headphone Jack Socket PJ-210B
 2.5mm Female Audio Jack
 0
 4
 4
-00_custom-footprints
+00_Custom
 KX134-1211
 
 
 0
 12
 12
-00_custom-footprints
+00_Custom
 LRA0832BE03L15
 8MM SMALL LINEAR RESONANT ACTUAT
  LINEAR RESONANT ACTUAT LRA
 0
 0
 0
-00_custom-footprints
+00_Custom
 MAX11632EEGT
 
 
 0
 24
 24
-00_custom-footprints
+00_Custom
 MCP3564RT-E&slash_NC
 
 
 0
 21
 21
-00_custom-footprints
+00_Custom
 Pin_D1.2mm_pogo
 solder Pin_ with flat with hole, hole diameter 1.2mm, length 11.3mm, width 3.0mm
 solder Pin_ with flat fork
 0
 1
 1
-00_custom-footprints
+00_Custom
 QFN-20-1EP_3x3mm_P0.4mm_EP1.4x1.4mm
 QFN, 20 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf#page=34), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 25
 21
-00_custom-footprints
+00_Custom
 RP2040-QFN-56
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
 70
 57
-00_custom-footprints
+00_Custom
 RPi_Pico_SMD_TH
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
 86
 43
-00_custom-footprints
+00_Custom
 RPi_Pico_clipzin
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
 44
 41
-00_custom-footprints
+00_Custom
 R_0402_1005Metric
 Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
 2
-00_custom-footprints
+00_Custom
 SMD2520-4P
 XTAL 
 
 0
 4
 4
-00_custom-footprints
+00_Custom
 SMD3225-4P
 XTAL 
 
 0
 4
 4
-00_custom-footprints
+00_Custom
 SN74ALVC08RGYR
 
 
 0
 15
 15
-00_custom-footprints
+00_Custom
 SN74AUC2G00DCUR
 
 
 0
 8
 8
-00_custom-footprints
+00_Custom
 SN74AUP2G00DCUR
 
 
 0
 8
 8
-00_custom-footprints
+00_Custom
 SN74AUP2G00YFPR
 
 
 0
 8
 8
-00_custom-footprints
+00_Custom
 SN74LVC1G132DCKR
 
 
 0
 5
 5
-00_custom-footprints
+00_Custom
 SN74LVC86ARGYR
 
 
 0
 15
 15
-00_custom-footprints
+00_Custom
+SO-8_AOS
+
+AO4882 
+0
+8
+8
+00_Custom
+SO-8_AOS-L
+
+AO4882 
+0
+8
+8
+00_Custom
+SO-8_AOS-M
+
+AO4882 
+0
+8
+8
+00_Custom
+SOP-8_150mil
+SOP-8 Package
+SOP-8
+0
+8
+8
+00_Custom
+SOT95P285X140-5N
+
+
+0
+5
+5
+00_Custom
+SW-SMD_L3.9-W3.0-P4.45
+
+
+0
+2
+2
+00_Custom
 TL974IN
 N (R-PDIP-T14)
 Integrated Circuit
 0
 14
 14
-00_custom-footprints
+00_Custom
 TestPoint_Pad_D1.0mm
 SMD pad as test Point, diameter 1.0mm
 test point SMD pad
 0
 1
 1
-00_custom-footprints
+00_Custom
+VG0640001D
+8MM SMALL LINEAR RESONANT ACTUAT
+ LINEAR RESONANT ACTUAT LRA
+0
+2
+2
+00_Custom
 VQFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm
 VQFN, 16 Pin
 VQFN NoLead
 0
 21
 17
-00_custom-footprints
+00_Custom
 WS2811-1313
 
 
 0
 8
 8
-00_custom-footprints
+00_Custom
 WS2812-2020
 
 
 0
 4
 4
-00_custom-footprints
+00_Custom
 XF2J-1824-12A
 FPC conn 18p 0.5mm
 
 0
 20
 20
-00_custom-footprints
+00_Custom
+XUNPU_FPC_05F_18P_H20
+
+
+0
+20
+20
+00_Custom
 aligment_cross_l1
 
 
 0
 0
 0
-00_custom-footprints
+00_Custom
 aligment_cross_l2
 
 
 0
 0
 0
-00_custom-footprints
+00_Custom
 conn_1x02_P1.27mm
 Through hole straight pin header, 1x02, 1.27mm pitch, single row
 Through hole pin header THT 1x02 1.27mm single row
 0
 2
 2
-00_custom-footprints
+00_Custom
 electrode_140x40
 
 
 0
 1
 1
-00_custom-footprints
+00_Custom
 fcp_vertical_ULP94V0
 
 
 0
 16
 16
-00_custom-footprints
+00_Custom
 insert_1.2mm
 
 
 0
 1
 1
-00_custom-footprints
+00_Custom
 logo_aightech
 
 
 0
 0
 0
-00_custom-footprints
+00_Custom
 micro_16conn_film
 
 
 0
 16
 16
-00_custom-footprints
+00_Custom
 micro_16conn_pcb
 
 
 0
 32
 16
-00_custom-footprints
+00_Custom
 micro_40conn_film
 
 
 0
 40
 40
-00_custom-footprints
+00_Custom
 micro_40conn_pcb
 
 
 0
 80
 40
-00_custom-footprints
+00_Custom
 mounting_pad
 
 
 0
 0
 0
-00_custom-footprints
+00_Custom
 neopixel_1515
 
 
 0
 4
 4
-00_custom-footprints
+00_Custom
 neopixel_5050
 
 
 0
 4
 4
-00_custom-footprints
+00_Custom
 switch_trace
 
 
 0
 2
 2
-00_custom-footprints
+00_Custom
 usbB_stewart
 SS-52300-001-1
 Connector

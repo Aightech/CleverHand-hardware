@@ -143,7 +143,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp aa3a1eae-7036-431e-a90f-410cfb0d9bd0))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 9 "unconnected-(J12-Pin_1-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 6e3c12a1-1982-4b04-8898-bc9c84cf3699))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -687,11 +687,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkb2thT25lIiwgIkhlaWdodEN0cmwiOiAiMSIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJDbGV2ZXJIYW5kXG5ieSBBaWdodGVjaCIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI4IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI4IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiOCIsICJQYWRkaW5nVG9wQ3RybCI6ICI4IiwgIldpZHRoQ3RybCI6ICIifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-65902ADF" (at 0 -5.369067) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp cab51e15-c9b4-45bd-99b2-926b30454610)
     )
     (fp_text value "G***" (at 0 5.369067) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp b599673f-2c86-49d7-9218-06a783c80330)
     )
     (fp_poly
@@ -1798,7 +1798,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 23b5b890-e818-4383-9a8b-764b5d8284c4))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 7 "unconnected-(J10-Pin_1-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 9e3c1690-090c-483a-9ad8-982518f06589))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2106,7 +2106,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5bc9bc5f-1c19-458c-9396-097c4f6182b9))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 6 "unconnected-(J9-Pin_1-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 02cf7d86-9a56-43f5-a6e9-0233abde734b))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2710,7 +2710,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ae321178-8e29-4bcb-90bd-f0ca640ac916))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 10 "unconnected-(J13-Pin_1-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp c51148c8-3236-4106-b530-d8f703cdeda7))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2772,7 +2772,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a61586dd-86cb-497d-ae2b-297221fd2b87))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 8 "unconnected-(J11-Pin_1-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 4cd0e994-e075-4f71-bcb1-3c7ca6df199e))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

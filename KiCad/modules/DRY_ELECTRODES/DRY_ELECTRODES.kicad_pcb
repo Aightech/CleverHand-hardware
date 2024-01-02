@@ -1178,7 +1178,7 @@
     )
     (pad "1" smd circle (at 0 0) (size 3 3) (layers "F.Cu" "F.Mask")
       (net 9 "GND") (pinfunction "conn") (pintype "power_in") (solder_mask_margin -0.5) (tstamp 5345fff0-85cd-4acf-acee-ed8fba7bdd0a))
-    (model "${CUSTOM_LIB}/step/insert_2mm.step"
+    (model "${CUSTOM_LIB}/step/insert_2mm.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1249,7 +1249,7 @@
     )
     (pad "1" smd circle (at 0 0) (size 3 3) (layers "F.Cu" "F.Mask")
       (net 9 "GND") (pinfunction "conn") (pintype "power_in") (solder_mask_margin -0.5) (tstamp 1b134f59-d508-41c7-b891-f52db97bdd02))
-    (model "${CUSTOM_LIB}/step/insert_2mm.step"
+    (model "${CUSTOM_LIB}/step/insert_2mm.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1277,7 +1277,7 @@
     )
     (pad "1" smd circle (at 0 0) (size 3 3) (layers "F.Cu" "F.Mask")
       (net 9 "GND") (pinfunction "conn") (pintype "power_in") (solder_mask_margin -0.5) (tstamp 5f7a1f57-cdb3-408b-a1d8-720a4fd426ac))
-    (model "${CUSTOM_LIB}/step/insert_2mm.step"
+    (model "${CUSTOM_LIB}/step/insert_2mm.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1305,7 +1305,7 @@
     )
     (pad "1" smd circle (at 0 0) (size 3 3) (layers "F.Cu" "F.Mask")
       (net 9 "GND") (pinfunction "conn") (pintype "power_in") (solder_mask_margin -0.5) (tstamp b0aee347-2da8-4670-9c6c-d1c167eb9dd8))
-    (model "${CUSTOM_LIB}/step/insert_2mm.step"
+    (model "${CUSTOM_LIB}/step/insert_2mm.step" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
