@@ -78,6 +78,19 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "EMG_DAQ_ADS1298.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 1252,
+          "pos_y": 281,
+          "size_x": 960,
+          "size_y": 612
+        }
+      }
+    ]
   }
 }

@@ -1,1 +1,19 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+I3,smd_insert,insert_1.2mm,24.875,-36.875,0.0,top
+I4,smd_insert,insert_1.2mm,35.125,-36.875,0.0,top
+J17,Conn_01x01_Pin,Pin_D1.2mm_pogo,22.375,-31.75,0.0,top
+J18,Conn_01x01_Pin,Pin_D1.2mm_pogo,22.375,-28.5,0.0,top
+J19,Conn_01x01_Pin,Pin_D1.2mm_pogo,27.75,-28.375,0.0,top
+J20,Conn_01x01_Pin,Pin_D1.2mm_pogo,27.375,-35.25,0.0,top
+J21,Conn_01x01_Pin,Pin_D1.2mm_pogo,32.625,-35.25,0.0,top
+J22,Conn_01x01_Pin,Pin_D1.2mm_pogo,32.25,-28.375,0.0,top
+J23,Conn_01x01_Pin,Pin_D1.2mm_pogo,37.625,-28.5,0.0,top
+J24,Conn_01x01_Pin,Pin_D1.2mm_pogo,37.625,-31.75,0.0,top
+J25,Conn_01x01_Pin,Pin_D1.2mm_pogo,22.375,-35.25,0.0,top
+J26,Conn_01x01_Pin,Pin_D1.2mm_pogo,22.375,-38.5,0.0,top
+J27,Conn_01x01_Pin,Pin_D1.2mm_pogo,27.6,-32.5,0.0,top
+J28,Conn_01x01_Pin,Pin_D1.2mm_pogo,27.375,-38.5,0.0,top
+J29,Conn_01x01_Pin,Pin_D1.2mm_pogo,32.625,-38.5,0.0,top
+J30,Conn_01x01_Pin,Pin_D1.2mm_pogo,32.4,-32.5,0.0,top
+J31,Conn_01x01_Pin,Pin_D1.2mm_pogo,37.625,-38.5,0.0,top
+J32,Conn_01x01_Pin,Pin_D1.2mm_pogo,37.625,-35.25,0.0,top

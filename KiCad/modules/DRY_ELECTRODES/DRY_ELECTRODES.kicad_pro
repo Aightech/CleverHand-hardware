@@ -523,7 +523,7 @@
       "svg": "",
       "vrml": "DRY_ELECTRODES.wrl"
     },
-    "page_layout_descr_file": "/home/aightech/dev/prj/clvhd/CleverHand/hardware/CleverHand-hardware/KiCad/modules/DrawingSheet.kicad_wks"
+    "page_layout_descr_file": "../DrawingSheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

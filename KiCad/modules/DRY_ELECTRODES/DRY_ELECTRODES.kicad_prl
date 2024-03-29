@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 31,
-    "active_layer_preset": "",
+    "active_layer": 49,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -78,6 +78,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "DRY_ELECTRODES.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 1252,
+          "pos_y": 281,
+          "size_x": 960,
+          "size_y": 376
+        }
+      },
+      {
+        "name": "DRY_ELECTRODES.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 1236,
+          "pos_y": 281,
+          "size_x": 960,
+          "size_y": 789
+        }
+      }
+    ]
   }
 }
