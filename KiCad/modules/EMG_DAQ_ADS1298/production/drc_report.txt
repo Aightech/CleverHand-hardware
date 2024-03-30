@@ -1,0 +1,74 @@
+** Drc report for EMG_DAQ_ADS1298.kicad_pcb **
+** Created on 2024-03-30T22:02:37+0000 **
+
+** Found 16 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(25.5550 mm, 33.5000 mm): Pad 1 [/in8+] of J9 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(34.4450 mm, 33.5000 mm): Pad 1 [/in1+] of J16 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(28.0950 mm, 33.5000 mm): Pad 1 [/in6+] of J11 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(26.8250 mm, 33.5000 mm): Pad 1 [/in7+] of J10 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(29.3650 mm, 33.5000 mm): Pad 1 [/in5+] of J12 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(31.9050 mm, 33.5000 mm): Pad 1 [/in3+] of J14 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(30.6350 mm, 33.5000 mm): Pad 1 [/in4+] of J13 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(33.1750 mm, 33.5000 mm): Pad 1 [/in2+] of J15 on Front
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(31.9050 mm, 33.5000 mm): Pad 1 [/in3-] of J22 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(34.4450 mm, 33.5000 mm): Pad 1 [/in1-] of J24 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(26.8250 mm, 33.5000 mm): Pad 1 [/in7-] of J18 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(25.5550 mm, 33.5000 mm): Pad 1 [/in8-] of J17 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(28.0950 mm, 33.5000 mm): Pad 1 [/in6-] of J19 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(33.1750 mm, 33.5000 mm): Pad 1 [/in2-] of J23 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(29.3650 mm, 33.5000 mm): Pad 1 [/in5-] of J20 on Back
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.0100 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(23.2500 mm, 34.0000 mm): Segment on Edge.Cuts
+    @(30.6350 mm, 33.5000 mm): Pad 1 [/in4-] of J21 on Back
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

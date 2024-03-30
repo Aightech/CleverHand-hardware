@@ -1,0 +1,80 @@
+** Drc report for DRY_ELECTRODES.kicad_pcb **
+** Created on 2024-03-30T22:02:23+0000 **
+
+** Found 23 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(22.5000 mm, 28.0000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(19.8763 mm, 37.0074 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(33.0096 mm, 33.4106 mm): Polygon on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(30.2152 mm, 30.8972 mm): Polygon on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(33.6250 mm, 31.3750 mm): PCB Text '6+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.0000 mm, 33.0000 mm): PCB Text '4-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(34.2500 mm, 33.1250 mm): PCB Text '5-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(36.2500 mm, 26.2500 mm): PCB Text '7-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.0000 mm, 37.7500 mm): PCB Text '4+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(24.1250 mm, 31.0000 mm): PCB Text '1-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.5000 mm, 31.3750 mm): PCB Text '3+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(33.6250 mm, 26.2500 mm): PCB Text '6-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(36.3750 mm, 31.0000 mm): PCB Text '8-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(24.0000 mm, 37.7500 mm): PCB Text '2+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(36.2500 mm, 33.0000 mm): PCB Text '8+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(34.2500 mm, 37.7500 mm): PCB Text '5+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(24.1250 mm, 33.0000 mm): PCB Text '1+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(36.3750 mm, 37.7500 mm): PCB Text '7+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.5000 mm, 26.2500 mm): PCB Text '3-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(24.0000 mm, 26.2500 mm): PCB Text '2-' on F.Silkscreen
+[lib_footprint_issues]: The current configuration does not include the library ''.
+    Local override; warning
+    @(20.8000 mm, 33.4000 mm): Footprint kibuzzard-660706DE
+[lib_footprint_mismatch]: Footprint 'logo_aightech' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(30.1000 mm, 34.4000 mm): Footprint REF**
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(20.0000 mm, 26.5000 mm): Segment on Edge.Cuts
+    @(19.8763 mm, 37.0074 mm): Polygon on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

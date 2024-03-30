@@ -1,0 +1,36 @@
+### Footprint positions - created on 2024-03-30T22:02:40+0000 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val              Package                                 PosX       PosY       Rot  Side
+C1        1uF              C_0402_1005Metric                     0.9850    -1.0020  180.0000  bottom
+C3        1uF              C_0402_1005Metric                     1.1634    -1.0157    0.0000  bottom
+C4        100nF            C_0402_1005Metric                     1.1634    -1.0551    0.0000  bottom
+C5        1uF              C_0402_1005Metric                     1.1693    -1.1142  -90.0000  bottom
+C6        100nF            C_0402_1005Metric                     1.2087    -1.1142  -90.0000  bottom
+C7        1.5nF            C_0402_1005Metric                     1.0965    -1.2461    0.0000  bottom
+C8        10uF             C_0402_1005Metric                     1.0940    -1.0990  180.0000  bottom
+C9        100nF            C_0402_1005Metric                     1.0940    -1.1384  180.0000  bottom
+C10       1nF              C_0402_1005Metric                     1.2047    -1.2323    0.0000  bottom
+C11       1uF              C_0402_1005Metric                     1.2559    -1.1181   90.0000  bottom
+C12       1uF              C_0402_1005Metric                     1.2756    -1.0472  180.0000  bottom
+C13       10uF             C_0402_1005Metric                     1.2795    -1.1909  180.0000  bottom
+C14       100nF            C_0402_1005Metric                     1.2795    -1.2343  180.0000  bottom
+C15       22uF             C_0402_1005Metric                     1.2992    -1.1181  -90.0000  bottom
+R1        1M               C_0402_1005Metric                     1.0965    -1.1988  180.0000  bottom
+U1        AP2112K-3.3TRG1  SOT95P285X140-5N                      0.9634    -1.1089  -90.0000  bottom
+C2        1uF              C_0402_1005Metric                     0.9606    -1.0039    0.0000  top
+J1        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.0061    -0.9449    0.0000  top
+J2        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.0561    -0.9449    0.0000  top
+J3        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.1061    -0.9449    0.0000  top
+J4        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.1561    -0.9449    0.0000  top
+J5        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.2061    -0.9449    0.0000  top
+J6        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.2561    -0.9449    0.0000  top
+J7        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.3061    -0.9449  180.0000  top
+J8        Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       1.3561    -0.9449    0.0000  top
+J25       Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       0.9528    -1.2598    0.0000  top
+J26       Conn_01x01_Pin   PinHeader_1x01_P1.27mm_Vertical       0.9528    -1.2098    0.0000  top
+R2        10K              C_0402_1005Metric                     1.3996    -1.0157  180.0000  top
+SW1       TS-1088R-02026   SW-SMD_L3.9-W3.0-P4.45                1.4173    -1.1516  -90.0000  top
+U2        ADS1298CZXGT     NFBGA-64_L8.0-W8.0-R8-C8-P0.80-TL     1.1811    -1.1319   90.0000  top
+## End

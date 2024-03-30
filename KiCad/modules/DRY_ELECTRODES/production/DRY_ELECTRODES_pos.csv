@@ -1,0 +1,25 @@
+### Footprint positions - created on 2024-03-30T22:02:26+0000 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val             Package                PosX       PosY       Rot  Side
+I3        smd_insert      insert_1.2mm         0.9793    -1.3927    0.0000  top
+I4        smd_insert      insert_1.2mm         1.3829    -1.3927    0.0000  top
+J17       Conn_01x01_Pin  Pin_D1.2mm_pogo      0.8809    -1.1909    0.0000  top
+J18       Conn_01x01_Pin  Pin_D1.2mm_pogo      0.8809    -1.0630    0.0000  top
+J19       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.1061    -1.0482    0.0000  top
+J20       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.0778    -1.3287    0.0000  top
+J21       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.2844    -1.3287    0.0000  top
+J22       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.2561    -1.0482    0.0000  top
+J23       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.4813    -1.0630    0.0000  top
+J24       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.4813    -1.1909    0.0000  top
+J25       Conn_01x01_Pin  Pin_D1.2mm_pogo      0.8809    -1.3287    0.0000  top
+J26       Conn_01x01_Pin  Pin_D1.2mm_pogo      0.8809    -1.4567    0.0000  top
+J27       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.1063    -1.2205    0.0000  top
+J28       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.0778    -1.4567    0.0000  top
+J29       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.2844    -1.4567    0.0000  top
+J30       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.2559    -1.2205    0.0000  top
+J31       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.4813    -1.4567    0.0000  top
+J32       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.4813    -1.3287    0.0000  top
+REF**     logo_aightech   logo_aightech        1.1850    -1.3543    0.0000  top
+## End

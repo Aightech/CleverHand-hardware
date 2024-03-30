@@ -1,0 +1,43 @@
+### Footprint positions - created on 2024-03-30T22:02:48+0000 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                   Package                               PosX       PosY       Rot  Side
+Q1        AO4882_C3040598       SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL     1.3622    -1.1850    0.0000  bottom
+Q2        AO4882_C3040598       SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL     1.0000    -1.1850    0.0000  bottom
+SW1       TS-1088R-02026        SW-SMD_L3.9-W3.0-P4.45              1.1811    -1.1260   90.0000  bottom
+C1        4.7uF                 C_0402_1005Metric                   1.1929    -1.1969    0.0000  top
+J1        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.0061    -0.9843    0.0000  top
+J2        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.0561    -0.9843    0.0000  top
+J3        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.1061    -0.9843    0.0000  top
+J4        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.1561    -0.9843    0.0000  top
+J5        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.2061    -0.9843    0.0000  top
+J6        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.2561    -0.9843    0.0000  top
+J7        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.3061    -0.9843  180.0000  top
+J8        Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.3561    -0.9843    0.0000  top
+J11       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.2561    -1.3780    0.0000  top
+J12       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.2061    -1.3780    0.0000  top
+J13       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.3061    -1.3780    0.0000  top
+J15       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.1561    -1.2780  -90.0000  top
+J16       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.2061    -1.2780  -90.0000  top
+J17       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.2061    -1.3280  -90.0000  top
+J20       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.0561    -1.3780    0.0000  top
+J21       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.0061    -1.3780    0.0000  top
+J22       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.1061    -1.3780    0.0000  top
+J23       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.1561    -1.3780    0.0000  top
+J24       Conn_01x01_Pin        PinHeader_1x01_P1.27mm_Vertical     1.1561    -1.3280  -90.0000  top
+R1        1k                    R_0402_1005Metric                   1.2913    -1.0861  -90.0000  top
+R2        10K                   R_0402_1005Metric                   1.0906    -1.1811  -90.0000  top
+R3        1k                    R_0402_1005Metric                   1.4291    -1.1063  180.0000  top
+R4        2k                    R_0402_1005Metric                   1.3307    -1.0861  -90.0000  top
+R5        2k                    R_0402_1005Metric                   1.3701    -1.0630  -90.0000  top
+R6        1k                    R_0402_1005Metric                   0.9370    -1.1063    0.0000  top
+R7        1k                    R_0402_1005Metric                   1.0748    -1.0866  -90.0000  top
+R8        2k                    R_0402_1005Metric                   0.9961    -1.0630  -90.0000  top
+R9        2k                    R_0402_1005Metric                   1.0354    -1.0866  -90.0000  top
+U1        DS12W-MS              SOD-123FL_L2.7-W1.8-LS3.8-RD        1.0197    -1.2362   90.0000  top
+U2        DS12W-MS              SOD-123FL_L2.7-W1.8-LS3.8-RD        1.4252    -1.2362   90.0000  top
+U3        DS12W-MS              SOD-123FL_L2.7-W1.8-LS3.8-RD        1.3425    -1.2362   90.0000  top
+U4        HC32L110C6UA-SFN20TR  WQFN-20_L3.0-W3.0-P0.40-BL-EP       1.1811    -1.0984    0.0000  top
+U5        DS12W-MS              SOD-123FL_L2.7-W1.8-LS3.8-RD        0.9370    -1.2362   90.0000  top
+## End

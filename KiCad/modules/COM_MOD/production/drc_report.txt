@@ -1,0 +1,14 @@
+** Drc report for COM_MOD.kicad_pcb **
+** Created on 2024-03-30T22:02:19+0000 **
+
+** Found 1 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0550 mm)
+    Rule: netclass 'Default'; error
+    @(33.5915 mm, 24.4215 mm): Track [/AUX2] on Front, length 0.8200 mm
+    @(34.0650 mm, 25.1650 mm): Pad 1 [/extRef] of FPC2 on Front
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

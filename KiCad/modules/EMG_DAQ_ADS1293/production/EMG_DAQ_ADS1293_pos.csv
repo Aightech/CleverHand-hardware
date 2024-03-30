@@ -1,0 +1,20 @@
+### Footprint positions - created on 2024-03-30T22:02:35+0000 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                Package                                 PosX       PosY       Rot  Side
+Y1        Crystal            Crystal_SMD_HC49-SD                   1.1768    -1.2721  180.0000  bottom
+C1        100nF              C_0402_1005Metric                     1.0862    -1.3843   90.0000  top
+C2        1uF                C_0402_1005Metric                     1.0429    -1.3981  -90.0000  top
+C3        22pF               C_0402_1005Metric                     1.0717    -1.3193    0.0000  top
+C4        22pF               C_0402_1005Metric                     1.0709    -1.2603    0.0000  top
+C5        100nF              C_0402_1005Metric                     1.0709    -1.2209  180.0000  top
+C6        1nF                C_0402_1005Metric                     1.3583    -1.3583  -90.0000  top
+C7        100nF              C_0402_1005Metric                     1.3775    -1.2996    0.0000  top
+C8        1uF                C_0402_1005Metric                     0.9838    -1.4190  180.0000  top
+C9        1uF                C_0402_1005Metric                     0.9445    -1.2091    0.0000  top
+R1        10K                C_0402_1005Metric                     1.3697    -1.4173  180.0000  top
+R2        10M                C_0402_1005Metric                     1.3976    -1.3583  -90.0000  top
+U1        ADS1293CISQE-NOPB  ADS1293CISQE                          1.2205    -1.3189   90.0000  top
+U2        AP2112K-3.3TRG1    SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL     0.9630    -1.3189  180.0000  top
+## End

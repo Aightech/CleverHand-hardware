@@ -1,0 +1,34 @@
+### Footprint positions - created on 2024-03-30T22:02:58+0000 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val              Package                               PosX       PosY       Rot  Side
+J12       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.2746    -1.6437   90.0000  bottom
+J13       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.2746    -1.7717   90.0000  bottom
+J14       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.4998    -1.5354   90.0000  bottom
+J15       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.4715    -1.7717   90.0000  bottom
+J16       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.6781    -1.7717  -90.0000  bottom
+J17       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.6498    -1.5354  -90.0000  bottom
+J18       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.8750    -1.7717  -90.0000  bottom
+J19       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.8750    -1.6437  -90.0000  bottom
+J20       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.2746    -1.5059   90.0000  bottom
+J21       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.2746    -1.3780   90.0000  bottom
+J22       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.4998    -1.3583   90.0000  bottom
+J23       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.4715    -1.6437   90.0000  bottom
+J24       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.6781    -1.6437  -90.0000  bottom
+J25       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.6498    -1.3583  -90.0000  bottom
+J26       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.8750    -1.3780  -90.0000  bottom
+J27       Conn_01x01_Pin   Pin_D1.2mm_pogo                     1.8750    -1.5059  -90.0000  bottom
+REF**     logo_aightech    logo_aightech                       1.5748    -1.5748  180.0000  bottom
+J1        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 1.1024    -0.9274    0.0000  top
+J2        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 1.0827    -2.2222  180.0000  top
+J3        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 1.4173    -0.9274    0.0000  top
+J4        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 1.4173    -2.2222  180.0000  top
+J5        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 1.7323    -2.2222  180.0000  top
+J6        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 1.7323    -0.9274    0.0000  top
+J7        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 2.0472    -0.9470    0.0000  top
+J8        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 2.0472    -2.2222  180.0000  top
+J9        jack2.5_PJ-210B  Jack_Socket_PJ-210B                 2.3600    -1.5748  -90.0000  top
+J10       Conn_01x01_Pin   PinHeader_1x01_P2.54mm_Vertical     2.0669    -1.7717  180.0000  top
+J11       Conn_01x01_Pin   PinHeader_1x01_P2.54mm_Vertical     2.0669    -1.3780  180.0000  top
+## End

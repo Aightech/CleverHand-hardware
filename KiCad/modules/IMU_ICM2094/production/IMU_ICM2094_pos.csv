@@ -1,0 +1,39 @@
+### Footprint positions - created on 2024-03-30T22:02:53+0000 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val                Package                                    PosX       PosY       Rot  Side
+C1        1uF                C_0402_1005Metric                        1.0433    -1.2559    0.0000  top
+C2        1uF                C_0402_1005Metric                        0.9600    -1.4201  180.0000  top
+C5        100nF              C_0402_1005Metric                        1.1614    -1.4461    0.0000  top
+J1        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.0061    -1.1811    0.0000  top
+J2        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.0561    -1.1811    0.0000  top
+J3        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.1061    -1.1811    0.0000  top
+J4        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.1561    -1.1811    0.0000  top
+J5        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.2061    -1.1811    0.0000  top
+J6        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.2561    -1.1811    0.0000  top
+J7        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.3061    -1.1811  180.0000  top
+J8        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.3561    -1.1811    0.0000  top
+J9        Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.4400    -1.4370  180.0000  top
+J10       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.3900    -1.4370  180.0000  top
+J11       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.3400    -1.4370  180.0000  top
+J12       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.2900    -1.4370    0.0000  top
+J13       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.3400    -1.4870    0.0000  top
+J14       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.3900    -1.4870    0.0000  top
+J15       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.4400    -1.4870    0.0000  top
+J16       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.2400    -1.4870    0.0000  top
+J17       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.2900    -1.4870    0.0000  top
+J18       Conn_01x01_Pin     PinHeader_1x01_P1.27mm_Vertical          1.2400    -1.4370    0.0000  top
+R1        4.7k               R_0402_1005Metric                        1.3156    -1.2598    0.0000  top
+R2        4.7k               R_0402_1005Metric                        1.2959    -1.3543   90.0000  top
+R3        4.7k               R_0402_1005Metric                        1.4100    -1.2598    0.0000  top
+R4        4.7k               R_0402_1005Metric                        1.4337    -1.3543  -90.0000  top
+R5        4.7k               R_0402_1005Metric                        1.1569    -1.4872  180.0000  top
+R6        4.7k               R_0402_1005Metric                        0.9626    -1.4753    0.0000  top
+R7        4.7k               R_0402_1005Metric                        1.1565    -1.5277    0.0000  top
+R8        4.7k               R_0402_1005Metric                        0.9626    -1.5166    0.0000  top
+U1        MCP1700T-1802E/TT  SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR        0.9793    -1.3150  -90.0000  top
+U3        BSS138BKS          SOT-363_L2.1-W1.3-P0.65-LS2.3-BL         1.3667    -1.3425  180.0000  top
+U4        ICM-20948          QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm     1.1811    -1.3268    0.0000  top
+U5        BSS138BKS          SOT-363_L2.1-W1.3-P0.65-LS2.3-BL         1.0585    -1.4954   90.0000  top
+## End

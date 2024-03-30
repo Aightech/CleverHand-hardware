@@ -1,0 +1,38 @@
+### Footprint positions - created on 2024-03-30T22:02:31+0000 ###
+### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val             Package                PosX       PosY       Rot  Side
+J1        Conn_01x01_Pin  Pin_D1.2mm_pogo      0.9252    -4.4882   90.0000  top
+J2        Conn_01x01_Pin  Pin_D1.2mm_pogo      1.3976    -4.4882   90.0000  top
+J3        Conn_01x01_Pin  Pin_D1.2mm_pogo      1.8701    -4.4882   90.0000  top
+J4        Conn_01x01_Pin  Pin_D1.2mm_pogo      2.3425    -4.4882   90.0000  top
+J5        Conn_01x01_Pin  Pin_D1.2mm_pogo      2.8150    -4.4882   90.0000  top
+J6        Conn_01x01_Pin  Pin_D1.2mm_pogo      3.2874    -4.4882   90.0000  top
+J7        Conn_01x01_Pin  Pin_D1.2mm_pogo      3.7598    -4.4882   90.0000  top
+J8        Conn_01x01_Pin  Pin_D1.2mm_pogo      4.2323    -3.4252   90.0000  top
+J9        Conn_01x01_Pin  Pin_D1.2mm_pogo      0.9252    -0.7087    0.0000  top
+J10       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.4027    -1.7717   90.0000  top
+J11       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.8743    -1.7717   90.0000  top
+J12       Conn_01x01_Pin  Pin_D1.2mm_pogo      2.3459    -1.7717   90.0000  top
+J13       Conn_01x01_Pin  Pin_D1.2mm_pogo      2.8175    -1.7717   90.0000  top
+J14       Conn_01x01_Pin  Pin_D1.2mm_pogo      3.2891    -1.7717   90.0000  top
+J15       Conn_01x01_Pin  Pin_D1.2mm_pogo      3.7607    -1.7717   90.0000  top
+J16       Conn_01x01_Pin  Pin_D1.2mm_pogo      4.2323    -1.7717   90.0000  top
+J17       Conn_01x01_Pin  Pin_D1.2mm_pogo      0.9252    -3.4252   90.0000  top
+J18       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.3976    -3.4252   90.0000  top
+J19       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.8701    -3.4252   90.0000  top
+J20       Conn_01x01_Pin  Pin_D1.2mm_pogo      2.3425    -3.4252   90.0000  top
+J21       Conn_01x01_Pin  Pin_D1.2mm_pogo      2.8150    -3.4252   90.0000  top
+J22       Conn_01x01_Pin  Pin_D1.2mm_pogo      3.2874    -3.4252   90.0000  top
+J23       Conn_01x01_Pin  Pin_D1.2mm_pogo      3.7598    -3.4252   90.0000  top
+J24       Conn_01x01_Pin  Pin_D1.2mm_pogo      4.2323    -4.4882   90.0000  top
+J25       Conn_01x01_Pin  Pin_D1.2mm_pogo      0.9311    -1.7717  -90.0000  top
+J26       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.3976    -0.7087   90.0000  top
+J27       Conn_01x01_Pin  Pin_D1.2mm_pogo      1.8701    -0.7087   90.0000  top
+J28       Conn_01x01_Pin  Pin_D1.2mm_pogo      2.3425    -0.7087   90.0000  top
+J29       Conn_01x01_Pin  Pin_D1.2mm_pogo      2.8150    -0.7087   90.0000  top
+J30       Conn_01x01_Pin  Pin_D1.2mm_pogo      3.2874    -0.7087   90.0000  top
+J31       Conn_01x01_Pin  Pin_D1.2mm_pogo      3.7598    -0.7087   90.0000  top
+J32       Conn_01x01_Pin  Pin_D1.2mm_pogo      4.2323    -0.7087   90.0000  top
+## End

@@ -1,0 +1,13 @@
+** Drc report for IMU_ICM2094.kicad_pcb **
+** Created on 2024-03-30T22:02:50+0000 **
+
+** Found 1 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(28.7000 mm, 37.9000 mm): PCB Text 'by Aightech' on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,160 @@
+** Drc report for JACK_CONN.kicad_pcb **
+** Created on 2024-03-30T22:02:55+0000 **
+
+** Found 42 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(37.4129 mm, 39.4652 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(41.9371 mm, 44.4627 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(41.4540 mm, 39.6734 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(37.3718 mm, 49.1666 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(37.7577 mm, 45.7783 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.4285 mm, 40.7915 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(38.8586 mm, 38.5656 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(38.4472 mm, 48.0872 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(41.3030 mm, 48.4032 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.9496 mm, 40.4439 mm): Polygon on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(39.6010 mm, 29.1280 mm): Polygon on B.Silkscreen
+[lib_footprint_mismatch]: Footprint 'Jack_Socket_PJ-210B' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(52.0000 mm, 56.4450 mm): Footprint J8
+[lib_footprint_mismatch]: Footprint 'Jack_Socket_PJ-210B' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(28.0000 mm, 23.5550 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'Jack_Socket_PJ-210B' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(27.5000 mm, 56.4450 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'Jack_Socket_PJ-210B' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(44.0000 mm, 56.4450 mm): Footprint J5
+[lib_footprint_issues]: The current configuration does not include the library ''.
+    Local override; warning
+    @(57.3750 mm, 51.5000 mm): Footprint kibuzzard-6607178A
+[lib_footprint_mismatch]: Footprint 'Jack_Socket_PJ-210B' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(36.0000 mm, 56.4450 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'logo_aightech' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(40.0000 mm, 40.0000 mm): Footprint REF**
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(49.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(49.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(54.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 24.5000 mm): Arc on Edge.Cuts
+    @(25.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 24.5000 mm): Arc on Edge.Cuts
+    @(30.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 23.5000 mm): Segment on Edge.Cuts
+    @(30.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(60.0000 mm, 24.5000 mm): Segment on Edge.Cuts
+    @(59.9450 mm, 37.5000 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(60.0000 mm, 24.5000 mm): Segment on Edge.Cuts
+    @(59.9450 mm, 42.5000 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(60.0000 mm, 24.5000 mm): Segment on Edge.Cuts
+    @(59.9450 mm, 42.5000 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 23.5000 mm): Segment on Edge.Cuts
+    @(41.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 23.5000 mm): Segment on Edge.Cuts
+    @(46.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 23.5000 mm): Segment on Edge.Cuts
+    @(46.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 55.5000 mm): Arc on Edge.Cuts
+    @(25.0000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 55.5000 mm): Arc on Edge.Cuts
+    @(25.0000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(30.0000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(41.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(41.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(46.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 23.5000 mm): Segment on Edge.Cuts
+    @(33.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 23.5000 mm): Segment on Edge.Cuts
+    @(38.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(25.5000 mm, 23.5000 mm): Segment on Edge.Cuts
+    @(38.5000 mm, 23.5550 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(33.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(33.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(59.0000 mm, 56.5000 mm): Segment on Edge.Cuts
+    @(38.5000 mm, 56.4450 mm): Segment on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
