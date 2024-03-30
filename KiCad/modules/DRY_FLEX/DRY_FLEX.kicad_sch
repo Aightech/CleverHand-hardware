@@ -1,0 +1,4052 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dd25438c-2c4b-4040-8c7a-7d4999e4ff8c")
+	(paper "A4")
+	(title_block
+		(title "Flex Electrodes")
+		(date "2024-03-30")
+		(rev "v1.0")
+		(company "Aightech")
+	)
+	(lib_symbols
+		(symbol "00_custom:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "00_custom-footprints:TestPoint_Pad_D1.0mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 129.54 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04a4e15a-1a4b-4c9d-b7d7-c7756a230c5a")
+	)
+	(junction
+		(at 129.54 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09e11169-0038-4e51-869c-edbee56e029b")
+	)
+	(junction
+		(at 129.54 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10a90f61-9c55-4661-9d81-078d94992570")
+	)
+	(junction
+		(at 162.56 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2254c3b1-63d6-44e8-81d2-77449d95f8a8")
+	)
+	(junction
+		(at 129.54 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c7d8011-37f2-47ea-a372-0710c96277ef")
+	)
+	(junction
+		(at 162.56 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd2becf-dddb-4586-a8b1-7e0ab95cab6f")
+	)
+	(junction
+		(at 162.56 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55f6bbc7-7930-44d8-aa8d-2ad530fb59e9")
+	)
+	(junction
+		(at 162.56 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b1f7e34-5b1b-43f5-b39f-26a7de486ddc")
+	)
+	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d291e14-83bb-41d2-8b17-51beff650d8a")
+	)
+	(junction
+		(at 162.56 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0bf2050-9a7a-43de-8b65-c2e6d96a5cee")
+	)
+	(junction
+		(at 162.56 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b30aca20-e160-482c-b2d0-be42ba73d6e3")
+	)
+	(junction
+		(at 129.54 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd93fa13-009e-4e37-95ed-18aa589d935a")
+	)
+	(junction
+		(at 129.54 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8ee14b-d47a-4fd0-878f-5a44374f6c37")
+	)
+	(junction
+		(at 129.54 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac74ce1-bc92-42d1-b9e8-81b0a9f190b1")
+	)
+	(junction
+		(at 129.54 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee7b38bb-12ab-4a61-bf39-5b56181716bc")
+	)
+	(junction
+		(at 162.56 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5f34d53-90a3-4db9-96ec-f0351e609f96")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0067c118-4297-4483-b8a5-c667734d7e40")
+	)
+	(wire
+		(pts
+			(xy 153.67 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057bef76-84c5-4d09-b189-52dd0f86bed9")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141edce4-0776-4b00-a2dd-7cd7c22eb390")
+	)
+	(wire
+		(pts
+			(xy 120.65 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17aea80c-27c2-4383-bb0d-df2505ef379f")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236cc877-fe4f-4db4-b4b7-de81807c17fb")
+	)
+	(wire
+		(pts
+			(xy 120.65 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256f8b08-3f19-4053-af22-3a86680cfd9f")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25816b67-9a59-4dde-8b2b-8a3608ab86db")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 162.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fce216-57aa-4937-83aa-f388f4950603")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af53994-d589-4dc6-9f87-8355e586ffeb")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6ba001-74fd-4cff-84ad-4194d2228fba")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0c9751-f5b0-49f0-9d04-34302b1dc597")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffe249b-5bad-454a-953d-867d943d86fb")
+	)
+	(wire
+		(pts
+			(xy 129.54 101.6) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452ccc8d-9143-4b97-9920-89819f05cbbd")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cc1c84-d94c-4ef6-a1ba-3191887ca6ee")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed01ee9-7ae0-40ff-ba63-addaa9fca07d")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69cc9957-fb4c-4dbd-81ba-6e4f9ee0426a")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 132.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6bc90f-80bf-4ef7-8b03-519763aaca75")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7752f799-cc1f-4d79-8400-359443728616")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847fe9a5-965d-4ea1-9f0e-7bec5e205ce7")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b64f9f9-3dbb-4674-968e-3a39e96e9975")
+	)
+	(wire
+		(pts
+			(xy 120.65 86.36) (xy 129.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937f2f25-cbda-4a69-b81a-71df315468fc")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985adb1e-9b8c-4014-b0a4-e1205f97b669")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a4b4dc-1565-4ba2-9fc3-9b103b206e8b")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc40fe3-525e-404f-9daa-5fbace6c9ab2")
+	)
+	(wire
+		(pts
+			(xy 153.67 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b067975b-4afb-4881-991f-d5cbed1e1a1b")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 166.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c222e033-1f54-4c85-bc47-d9dc276150f8")
+	)
+	(wire
+		(pts
+			(xy 162.56 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3fa264-e929-40a1-b867-c25f6535aea8")
+	)
+	(wire
+		(pts
+			(xy 153.67 91.44) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d461d581-97e0-4959-a7b9-fb3d113f1558")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d494d0ba-dafe-4e4d-b0b9-fdbb3d929f29")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e664ef79-43d3-4888-9bbb-2f69fd685402")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf6bbf5-5ec2-4cc2-9383-079e03ec8007")
+	)
+	(wire
+		(pts
+			(xy 120.65 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9190c3b-86bb-4f8c-8043-84c5dea3c16b")
+	)
+	(text_box "Module pads/pogo"
+		(exclude_from_sim no)
+		(at 110.49 77.47 0)
+		(size 67.31 34.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "41a2cdd4-4e28-4b6a-8a09-bb90b875dd4e")
+	)
+	(label "in2-"
+		(at 158.75 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00bb819b-7858-4db5-bf77-65693480d43e")
+	)
+	(label "in1-"
+		(at 158.75 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "083d420f-3805-4158-893b-ff1d75907d43")
+	)
+	(label "in1+"
+		(at 125.73 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27315c5f-3f48-4607-bccb-0303f06a2c53")
+	)
+	(label "in7+"
+		(at 125.73 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43c31a2b-d9bd-48ae-81d3-74cc7de1c994")
+	)
+	(label "in6+"
+		(at 125.73 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c93ec0f-6364-4592-93e9-6e2930a699eb")
+	)
+	(label "in4+"
+		(at 125.73 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ff63a3c-c6e3-476f-adc9-75d383027f37")
+	)
+	(label "in5-"
+		(at 158.75 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59178226-bedc-4cac-b37f-947ad0533d19")
+	)
+	(label "in7-"
+		(at 158.75 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c4e6ca5-9432-4cff-8c96-08b800ff6126")
+	)
+	(label "in8-"
+		(at 158.75 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7eba9515-d7d8-482d-a379-dc75be13429a")
+	)
+	(label "in3+"
+		(at 125.73 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80f84d72-c362-41e1-8e30-b757264676c5")
+	)
+	(label "in3-"
+		(at 158.75 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b8e3505-9f9b-4464-a4c8-e57fe80870c6")
+	)
+	(label "in2+"
+		(at 125.73 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c1cd065-f224-4450-a719-fec2e662f0c4")
+	)
+	(label "in6-"
+		(at 158.75 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cda8afa-8b13-4e58-80d9-770a5902f8ee")
+	)
+	(label "in8+"
+		(at 125.73 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93c180d6-bc2b-4e94-9ea0-59af6af91243")
+	)
+	(label "in5+"
+		(at 125.73 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bdeca3b-ef4a-466b-b5ff-5e75e99aad2a")
+	)
+	(label "in4-"
+		(at 158.75 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5fe24d9-feb4-4e65-a534-fdc9375f90a7")
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ffc4a6-3015-435f-a040-d3f185f2091e")
+		(property "Reference" "TP12"
+			(at 132.08 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71a77517-ecaf-4d8f-9bf6-b75204c6e8e4")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0147a9c8-dc4c-4e70-863a-63c1ddf4806f")
+		(property "Reference" "J7"
+			(at 113.538 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c02a0f-1edb-4598-95d2-0fbca0849bb1")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01e5b718-5c65-4734-8d36-734c282bb478")
+		(property "Reference" "TP6"
+			(at 165.1 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c890c00e-4e39-479e-8b7d-0583959ac54d")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "045cdbb7-a143-4456-bfaa-c278fe19ce34")
+		(property "Reference" "J12"
+			(at 146.812 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae7c7148-6761-436f-bd7d-71d862c16a4c")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a81ab19-174b-4506-a1b7-79f5636f0c91")
+		(property "Reference" "TP10"
+			(at 132.08 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0897647-7c68-4da2-a548-bf705276e884")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ef2b7ab-1e38-428a-bb5d-8447014bf512")
+		(property "Reference" "J30"
+			(at 173.482 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61977918-7469-4f4f-9a95-159a54a045bf")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21ac6bdb-fda3-426a-ba58-555445299c2a")
+		(property "Reference" "J1"
+			(at 113.538 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e04aac34-33df-434e-8dbb-7f19cf607b91")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "221d4d2b-d9a5-453d-b26f-2f0059efd3d1")
+		(property "Reference" "TP1"
+			(at 165.1 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e672217-68c6-4219-8415-972632c002d3")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a177cc2-9db8-4b63-9b5c-1f0cd1aa10c4")
+		(property "Reference" "J5"
+			(at 113.538 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4101fefc-ca43-4541-9994-378794fb7425")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7940e9-2de1-4a2e-b15d-0127ad8a61b1")
+		(property "Reference" "TP11"
+			(at 132.08 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5536b4c4-d801-4d1b-8666-7591d938872d")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30d8bcf9-effe-4261-82f8-03153cd6a674")
+		(property "Reference" "J25"
+			(at 173.482 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5ccbf35-c4f9-46c1-8521-594d411744e4")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c486e0-ef8c-4ee0-9fd6-4454f82d62d7")
+		(property "Reference" "TP9"
+			(at 132.08 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b6bb433-c29f-427f-ad4b-ab5b1c41a390")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e905d74-f46e-4463-9799-41af928d6f5f")
+		(property "Reference" "J26"
+			(at 173.482 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1326f4c5-040e-4bed-a2f3-f658ad4b77d9")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44bc4915-4dcb-42b6-a831-d04c4bcd1aea")
+		(property "Reference" "J32"
+			(at 173.482 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90b7fdbe-9542-4a62-8b4e-46483ebcab0c")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48f63c80-5397-436e-ab8a-1209969035bb")
+		(property "Reference" "J21"
+			(at 139.192 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b055566e-3ff0-4ef6-ab79-4e9774380f41")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49a43acd-9e82-4e1a-a051-3fd5cf9c5145")
+		(property "Reference" "J27"
+			(at 173.482 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68620557-4950-430e-9f69-85323150ddcd")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5988e832-ce22-4cbf-b9ea-77f289aa43e3")
+		(property "Reference" "TP15"
+			(at 132.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2456050-b344-441c-979f-2381b95dbaa0")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a42f90b-7a72-433e-8a91-27984a22e992")
+		(property "Reference" "TP7"
+			(at 165.1 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0bd1ca-a035-4d84-809a-fb407587bdf2")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d56aab6-a675-42f1-8b10-0dad16153db9")
+		(property "Reference" "J20"
+			(at 139.192 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94706623-6e25-49fe-a228-2ab7a83569f2")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd8caaa-5359-4c43-af01-a4c7a4a65fcb")
+		(property "Reference" "J16"
+			(at 146.812 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24bc05e9-9115-42cc-b108-48055ba6d5c1")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e043d3-354b-4b35-ae7e-7ee5a1cf37dc")
+		(property "Reference" "TP5"
+			(at 165.1 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de91f0aa-b81e-4bd4-b6ba-2c645980b946")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "676aaa1b-5ed2-4a03-b767-f532367b5a11")
+		(property "Reference" "J13"
+			(at 146.812 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f59c8f17-ce09-4a61-be85-c8f78578d444")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ddaa213-368a-4fee-ac99-9547580c3dba")
+		(property "Reference" "J18"
+			(at 139.192 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a169d2-19c7-480e-a86f-55f1f02851f0")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dc40fa5-8381-4ae6-88dc-49a22ca58fd7")
+		(property "Reference" "J11"
+			(at 146.812 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af6f1be8-8b65-4dbe-b98f-39cb697ee596")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f4a00a4-5fc8-4778-8f40-ed6e82f0de14")
+		(property "Reference" "J24"
+			(at 139.192 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "179672c3-1521-437f-bf05-64f31cfebdc5")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aa648a9-fbd7-470d-8ab6-5ce6bc5ba526")
+		(property "Reference" "J8"
+			(at 113.538 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52614892-ace2-44a8-9b50-64d9bca760f2")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d3308e0-96ec-40a8-8af8-18a17eb18a4f")
+		(property "Reference" "J22"
+			(at 139.192 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54a75091-dbe9-4ec2-aae3-a7af3fcb3834")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "907b7862-740a-4cd0-9b31-cf1fc329ee4d")
+		(property "Reference" "TP8"
+			(at 165.1 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b99da379-5553-441a-83fe-e41346364285")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "932d06d4-8499-41cd-96c8-b3d7e44973ca")
+		(property "Reference" "J19"
+			(at 139.192 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "761caddc-fee9-4f85-af3d-4da9dd08653a")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9448b1ff-3156-478a-be7d-825e5932e831")
+		(property "Reference" "J2"
+			(at 113.538 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80202269-ab78-4e9f-adfa-f0ca5b6ef151")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e06e83-9103-4410-8872-4a4ce3cc0851")
+		(property "Reference" "TP13"
+			(at 132.08 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dab87e23-1afe-426d-b636-617107c8d845")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e17083b-f40c-448e-be51-8ec9aacc51af")
+		(property "Reference" "J15"
+			(at 146.812 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14d9ae0-c6df-4c01-a951-91a061e0083f")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a42104a6-a5d4-47ca-9c3e-896bd97daf71")
+		(property "Reference" "J28"
+			(at 173.482 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "313a0646-d3c1-48ee-89a4-54dec0a9d7bb")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b05c2580-844f-4849-b222-bb549874f01c")
+		(property "Reference" "J9"
+			(at 146.812 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a64c4ffc-615d-431c-9430-7ef5daa4c46f")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0a66c3a-3f01-40cc-a4a0-28b4762bae0f")
+		(property "Reference" "J14"
+			(at 146.812 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f85e3460-8c36-4bdf-bf97-9afa88288b29")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b146d470-abfd-4e6a-9894-da0dbe359931")
+		(property "Reference" "J3"
+			(at 113.538 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51844da7-e9bb-4aef-9aac-e0878ea24b80")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5d45eb0-c353-4a97-82dd-38545f9421f3")
+		(property "Reference" "J29"
+			(at 173.482 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdb4bb41-58bc-4652-884d-eb2dd5de1c50")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c176e67e-28bd-479a-9da5-9f3c294260af")
+		(property "Reference" "J4"
+			(at 113.538 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f20e1b8-1dcd-4d07-9d97-f93a6996047d")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c449e999-32bf-4231-8a5c-5a89cab35cdb")
+		(property "Reference" "J23"
+			(at 139.192 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "794cf84a-bbf5-4b17-bcd8-00264d237345")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4870c06-c538-4489-b3df-4fa28ba43978")
+		(property "Reference" "J10"
+			(at 146.812 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "017336e1-106a-455f-81c4-6dae37d92467")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 137.16 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c712b979-c84a-4a56-9d60-1ac7f36bd8eb")
+		(property "Reference" "J17"
+			(at 139.192 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 136.525 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "395637f4-3284-492c-a1ba-42431a60abf3")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 115.57 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdee94cf-5010-477a-833d-c42b9cd2f374")
+		(property "Reference" "J6"
+			(at 113.538 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 116.205 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "196393df-ad19-4c0f-9938-3b9b4016d804")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf0d25ee-2f66-4697-a092-da4645dea343")
+		(property "Reference" "TP16"
+			(at 132.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a3166a6-ecf4-4fbb-b7c1-701913169fb0")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d80e7d91-3209-4fc7-8d86-0368326fb9e2")
+		(property "Reference" "TP3"
+			(at 165.1 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e9b15e3-d5f0-4eb7-9152-688c96ce605c")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 129.54 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db770800-bbb3-4029-a63b-2c1b15de5a95")
+		(property "Reference" "TP14"
+			(at 132.08 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6300729-78d6-4dae-b967-cef950ac3e7e")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd4b4f4a-2b85-49a5-a5dc-d4f9528859bb")
+		(property "Reference" "TP2"
+			(at 165.1 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c29e08a9-7504-49e7-beb0-2c1602daed87")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_custom:TestPoint")
+		(at 162.56 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3fba5df-a848-4d1b-88fc-2e328f3e5180")
+		(property "Reference" "TP4"
+			(at 165.1 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 165.1 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaf76ec8-06d9-4a80-bc0f-5f5702c92fd9")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 171.45 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7b57d30-5592-4c85-a896-fbc1f6f380b8")
+		(property "Reference" "J31"
+			(at 173.482 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 170.815 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_custom-footprints:Pin_D1.2mm_pogo"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26ef40f6-6279-402d-b573-8374e472cd07")
+		)
+		(instances
+			(project "DRY_FLEX"
+				(path "/dd25438c-2c4b-4040-8c7a-7d4999e4ff8c"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
