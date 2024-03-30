@@ -5,8 +5,8 @@
 	(uuid "bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2")
 	(paper "A4")
 	(title_block
-		(title "EMG DAQ ADS129")
-		(date "2023-12-07")
+		(title "IMU ICM2094")
+		(date "2024-03-30")
 		(rev "v1.0")
 	)
 	(lib_symbols

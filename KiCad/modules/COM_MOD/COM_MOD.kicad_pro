@@ -611,7 +611,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "../DrawingSheetSch.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -625,7 +625,7 @@
   "sheets": [
     [
       "c83c4528-97f7-431c-a266-0d1ca2cf363e",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}

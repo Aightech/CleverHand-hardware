@@ -1,4 +1,4 @@
-22865368595119010
+22873944412422760
 00_Custom
 8x2_pin_smd_conn
 
@@ -27,6 +27,13 @@ ADXL312ACPZ
 0
 33
 33
+00_Custom
+BGA64C80P8X8_800X800X145
+
+
+0
+64
+64
 00_Custom
 CD74HC4067MG4
 
@@ -217,6 +224,27 @@ SN74LVC86ARGYR
 15
 15
 00_Custom
+SO-8_AOS
+
+AO4882 
+0
+8
+8
+00_Custom
+SO-8_AOS-L
+
+AO4882 
+0
+8
+8
+00_Custom
+SO-8_AOS-M
+
+AO4882 
+0
+8
+8
+00_Custom
 SOP-8_150mil
 SOP-8 Package
 SOP-8
@@ -230,6 +258,13 @@ SOT95P285X140-5N
 0
 5
 5
+00_Custom
+SW-SMD_L3.9-W3.0-P4.45
+
+
+0
+2
+2
 00_Custom
 TL974IN
 N (R-PDIP-T14)
@@ -285,7 +320,7 @@ XUNPU_FPC_05F_18P_H20
 
 0
 20
-19
+20
 00_Custom
 aligment_cross_l1
 

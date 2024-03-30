@@ -1,0 +1,175 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 139.989 41.0022)
+		(end 1.989 2.0022)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 139.5 4.9002)
+		(font
+			(size 2 2)
+		)
+	)
+	(line
+		(name "")
+		(start 139.989 8.5022)
+		(end 1.989 8.5022)
+	)
+	(line
+		(name "")
+		(start 139.989 14.5022)
+		(end 1.989 14.5022)
+	)
+	(tbtext "Rev:${REVISION}"
+		(name "")
+		(pos 83.5 11.4)
+		(font
+			(size 2 2) bold)
+	)
+	(tbtext "Author: ${COMPANY}"
+		(name "")
+		(pos 139.5 11.4002)
+		(font
+			(size 2 2)
+		)
+		(comment "Paper format name")
+	)
+	(tbtext "Id: ${#}/${##}"
+		(name "")
+		(pos 83.5 5.1002)
+		(font
+			(size 2 2)
+		)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 139.989 24.0022)
+		(end 1.989 24.0022)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 139.5 19.2)
+		(font
+			(size 3 3) bold italic)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 139.5 34.3002)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "")
+		(pos 139.5 38.0002)
+	)
+	(line
+		(name "")
+		(start 83.989 14.5022)
+		(end 83.989 2.0022)
+	)
+	(tbtext "CleverHand"
+		(name "")
+		(pos 73.489 28.0022)
+		(font
+			(size 4 4) bold italic)
+		(justify center)
+	)
+	(line
+		(name "")
+		(start 139.989 32.0022)
+		(end 1.989 32.0022)
+	)
+	(rect
+		(name "")
+		(start 140.989 42.0022)
+		(end 1.989 2.0022)
+		(comment "rect around the title block")
+	)
+)
