@@ -1,5 +1,5 @@
 # Communication Module
-This module is responsible for handling the communication between the different modules of the master node.
+This module is responsible for handling the communication between the different modules of the controller node.
 
 The communication bus is composed of :
 - Power supply (3.3V) and ground
