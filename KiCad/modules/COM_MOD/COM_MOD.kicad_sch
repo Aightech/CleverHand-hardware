@@ -612,150 +612,6 @@
 				)
 			)
 		)
-		(symbol "00_custom:WS2812-2020"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WS2812-2020"
-				(at 7.62 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "00_Custom:WS2812-2020"
-				(at 12.7 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2976072"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812-2020_0_0"
-				(rectangle
-					(start 2.54 1.27)
-					(end 12.7 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812-2020_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "DI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "00_custom:smd_insert"
 			(pin_numbers hide)
 			(pin_names
@@ -833,130 +689,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "00_custom:switch"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -0.889 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "00_custom-footprints:switch_trace"
-				(at -0.889 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -0.889 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "switch_0_1"
-				(circle
-					(center -0.889 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0.381) (xy 1.016 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.889 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "switch_1_1"
-				(pin input line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1398,6 +1130,312 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "00_lcsc:TS-1088R-02026"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1088R-02026"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "00_lcsc:SW-SMD_L3.9-W3.0-P4.45"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XUNPU-TS-1088R-02026_C455280.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C455280"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1088R-02026_0_1"
+				(circle
+					(center -1.52 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.52 0.51) (xy 1.52 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.52 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "00_lcsc:WS2812C-2020-V1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WS2812C-2020-V1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "00_lcsc:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2976072"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812C-2020-V1_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2589,16 +2627,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 121.92) (xy 180.34 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed4a91d-08ed-4978-873c-dd6f55eb5771")
-	)
-	(wire
-		(pts
 			(xy 148.59 87.63) (xy 160.02 87.63)
 		)
 		(stroke
@@ -2619,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 124.46) (xy 179.07 124.46)
+			(xy 190.5 125.73) (xy 182.88 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 121.92) (xy 163.83 121.92)
+			(xy 163.83 123.19) (xy 165.1 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 121.92) (xy 160.02 120.65)
+			(xy 162.56 123.19) (xy 162.56 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2779,17 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 133.35) (xy 212.09 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3704a9de-7b44-4d51-88ed-ee32160e50b5")
-	)
-	(wire
-		(pts
-			(xy 161.29 124.46) (xy 158.75 124.46)
+			(xy 163.83 125.73) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 124.46) (xy 162.56 125.73)
+			(xy 165.1 125.73) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
@@ -2896,16 +2914,6 @@
 			(type default)
 		)
 		(uuid "4ee818e8-1d03-40b5-ad94-c7425af64991")
-	)
-	(wire
-		(pts
-			(xy 160.02 121.92) (xy 158.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5040b274-9070-40bd-8ef7-cd59d873253f")
 	)
 	(wire
 		(pts
@@ -2999,16 +3007,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 133.35) (xy 223.52 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e99d212-ce16-44a5-9760-3d12fadf53f8")
-	)
-	(wire
-		(pts
 			(xy 143.51 82.55) (xy 143.51 85.09)
 		)
 		(stroke
@@ -3016,6 +3014,16 @@
 			(type default)
 		)
 		(uuid "5ec5a91b-7d3a-4026-821b-a8a9628d311a")
+	)
+	(wire
+		(pts
+			(xy 182.88 121.92) (xy 182.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fac1b61-efa9-4cbe-976c-fd3ad9f5c9ae")
 	)
 	(wire
 		(pts
@@ -3056,16 +3064,6 @@
 			(type default)
 		)
 		(uuid "63f5e9bf-bd60-4d57-8349-716385b70918")
-	)
-	(wire
-		(pts
-			(xy 143.51 124.46) (xy 142.24 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64dd13ff-69d3-442e-85be-d8cf12569d35")
 	)
 	(wire
 		(pts
@@ -3359,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 124.46) (xy 161.29 121.92)
+			(xy 163.83 125.73) (xy 163.83 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 142.24 125.73)
+			(xy 144.78 125.73) (xy 144.78 127)
 		)
 		(stroke
 			(width 0)
@@ -3446,16 +3444,6 @@
 			(type default)
 		)
 		(uuid "b922ab46-f775-496b-825e-0a4d7ee526bb")
-	)
-	(wire
-		(pts
-			(xy 180.34 121.92) (xy 180.34 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7b8e9c-1764-41eb-a49c-0ada5b7809fb")
 	)
 	(wire
 		(pts
@@ -3509,7 +3497,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 121.92) (xy 143.51 121.92)
+			(xy 135.89 123.19) (xy 144.78 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3559,6 +3547,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 133.35) (xy 212.09 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79487b9-6a55-4d6b-9913-03ae2ed80ec7")
+	)
+	(wire
+		(pts
 			(xy 87.63 50.8) (xy 104.14 50.8)
 		)
 		(stroke
@@ -3596,16 +3594,6 @@
 			(type default)
 		)
 		(uuid "e1f7111e-6a4a-4c95-ab03-b262575d2ad2")
-	)
-	(wire
-		(pts
-			(xy 163.83 124.46) (xy 162.56 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b5ce05-9292-4891-9e97-54fff677d263")
 	)
 	(wire
 		(pts
@@ -4367,7 +4355,7 @@
 		(uuid "b8cbc2a7-0315-482f-bca7-13708d5b02ea")
 	)
 	(label "LED_IN"
-		(at 185.42 124.46 180)
+		(at 190.5 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4620,7 +4608,7 @@
 		(uuid "f42dcebc-6738-4cbe-9fdf-db39c0b19ced")
 	)
 	(label "LED_OUT"
-		(at 135.89 121.92 0)
+		(at 135.89 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4796,7 +4784,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 125.73 0)
+		(at 165.1 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4804,7 +4792,7 @@
 		(dnp no)
 		(uuid "0eb50561-6e11-461c-b538-535667148d93")
 		(property "Reference" "#PWR02"
-			(at 162.56 132.08 0)
+			(at 165.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 129.54 0)
+			(at 165.1 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 125.73 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +4818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 125.73 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 125.73 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,33 +5911,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 125.73 0)
+		(lib_id "00_lcsc:WS2812C-2020-V1")
+		(at 175.26 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "575742d6-aac3-4a8e-bc5e-b99b392cadb3")
-		(property "Reference" "#PWR07"
-			(at 142.24 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 129.54 0)
+		(uuid "55cc0c77-a715-4afb-88a0-83a53209d4ea")
+		(property "Reference" "LED1"
+			(at 174.244 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 125.73 0)
+		(property "Value" "WS2812C-2020-V1"
+			(at 177.546 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00_lcsc:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 175.26 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +5945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 125.73 0)
+			(at 175.26 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +5954,90 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 125.73 0)
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2976072"
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "41daf929-7b22-490b-abde-d271d1602ca4")
+		)
+		(pin "1"
+			(uuid "5e8c1b87-c6db-4673-b5b9-cf5f669536c5")
+		)
+		(pin "2"
+			(uuid "31adc8ca-6c6b-4c14-b907-f6847ec84d7f")
+		)
+		(pin "4"
+			(uuid "61a56604-9f11-4b60-9713-d64a9f9c9769")
+		)
+		(instances
+			(project "COM_MOD"
+				(path "/c83c4528-97f7-431c-a266-0d1ca2cf363e"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "575742d6-aac3-4a8e-bc5e-b99b392cadb3")
+		(property "Reference" "#PWR07"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6226,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 160.02 120.65 0)
+		(at 162.56 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6164,7 +6234,7 @@
 		(dnp no)
 		(uuid "66a49320-2bef-430d-9260-2d92cc153191")
 		(property "Reference" "#PWR06"
-			(at 160.02 124.46 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6243,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 160.02 116.84 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 120.65 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 120.65 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 120.65 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,84 +6906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "00_custom:switch")
-		(at 219.71 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fff0a15-9ec1-4b19-96f3-9cb5618f92bc")
-		(property "Reference" "SW1"
-			(at 219.71 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NA"
-			(at 218.821 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "00_Custom:SW-SMD_L3.9-W3.0-P4.45"
-			(at 218.821 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.821 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C720477"
-			(at 219.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "904bb367-5c30-44a0-94bc-c6feaccea185")
-		)
-		(pin "1"
-			(uuid "92a006cb-290a-4365-a619-b9d232eb3496")
-		)
-		(instances
-			(project "COM_MOD"
-				(path "/c83c4528-97f7-431c-a266-0d1ca2cf363e"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 205.74 54.61 0)
 		(unit 1)
@@ -7192,6 +7184,83 @@
 			(project "cleverhand_ComMod"
 				(path "/ee76fbe1-0f4a-47fb-8504-1fcd8977131f"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_lcsc:TS-1088R-02026")
+		(at 218.44 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adbcd075-8cb2-4ad0-af61-a1339535768d")
+		(property "Reference" "SW1"
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088R-02026"
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00_lcsc:SW-SMD_L3.9-W3.0-P4.45"
+			(at 218.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XUNPU-TS-1088R-02026_C455280.html"
+			(at 218.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C455280"
+			(at 218.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8732a6fa-1de3-4997-aa2e-73113ad12060")
+		)
+		(pin "2"
+			(uuid "76ae0c90-63c2-4a37-9472-ca9651454457")
+		)
+		(instances
+			(project "COM_MOD"
+				(path "/c83c4528-97f7-431c-a266-0d1ca2cf363e"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7782,103 +7851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "00_custom:WS2812-2020")
-		(at 143.51 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cabb67e7-f61a-465e-93f4-f6fdfbd9eac4")
-		(property "Reference" "LED2"
-			(at 151.13 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812-2020"
-			(at 151.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "00_Custom:WS2812-2020"
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2976072"
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16bde0a4-ab79-4124-b72f-3b6248319cde")
-		)
-		(pin "2"
-			(uuid "e9d3583d-ff16-4210-847d-5c2364b138fd")
-		)
-		(pin "3"
-			(uuid "d759ecc1-7bc7-4ad0-bd55-332b2203dfbd")
-		)
-		(pin "4"
-			(uuid "e2d6360b-6a14-4f07-acec-fb89ebb09d22")
-		)
-		(instances
-			(project "COM_MOD"
-				(path "/c83c4528-97f7-431c-a266-0d1ca2cf363e"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-			(project "hc32l110"
-				(path "/e128d549-8cbc-4e55-b250-e367d2f4662f"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-			(project "cleverhand_ComMod"
-				(path "/ee76fbe1-0f4a-47fb-8504-1fcd8977131f"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 205.74 92.71 0)
 		(unit 1)
@@ -8266,6 +8238,89 @@
 		)
 	)
 	(symbol
+		(lib_id "00_lcsc:WS2812C-2020-V1")
+		(at 154.94 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d68d0c2b-c88a-4cfa-aaf5-0a914f852fe4")
+		(property "Reference" "LED2"
+			(at 153.924 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812C"
+			(at 148.082 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_lcsc:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2976072"
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "19b3c63a-37f9-4a24-8936-c8251be629e2")
+		)
+		(pin "1"
+			(uuid "7120bbb6-90a4-4e4e-8d09-3bf7a377ccff")
+		)
+		(pin "2"
+			(uuid "882ddccc-68bf-4a75-b7b2-406398458e89")
+		)
+		(pin "4"
+			(uuid "8c2e3cc9-cd5f-425a-be2e-087bd4ff975f")
+		)
+		(instances
+			(project "COM_MOD"
+				(path "/c83c4528-97f7-431c-a266-0d1ca2cf363e"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 205.74 105.41 0)
 		(unit 1)
@@ -8338,7 +8393,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 180.34 120.65 0)
+		(at 182.88 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8346,7 +8401,7 @@
 		(dnp no)
 		(uuid "e107966a-02a0-48db-84a1-5efa12eef677")
 		(property "Reference" "#PWR01"
-			(at 180.34 124.46 0)
+			(at 182.88 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8410,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 180.34 116.84 0)
+			(at 182.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 120.65 0)
+			(at 182.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +8427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 120.65 0)
+			(at 182.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +8436,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 120.65 0)
+			(at 182.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,103 +8463,6 @@
 			(project "cleverhand_ComMod"
 				(path "/ee76fbe1-0f4a-47fb-8504-1fcd8977131f"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_custom:WS2812-2020")
-		(at 163.83 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec64e786-c945-4b78-bbfd-81d43a1c54be")
-		(property "Reference" "LED1"
-			(at 171.45 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812-2020"
-			(at 171.45 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "00_Custom:WS2812-2020"
-			(at 176.53 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2976072"
-			(at 163.83 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7c2ff4e-e7c7-439e-8945-a924f226029d")
-		)
-		(pin "2"
-			(uuid "8f801afb-b141-482c-a52b-5f6396b1c23a")
-		)
-		(pin "3"
-			(uuid "8fa138b7-ede5-4d47-8cbc-8407cf3f0ae7")
-		)
-		(pin "4"
-			(uuid "d3bd4351-a99d-4473-b1dd-295bc16b2a72")
-		)
-		(instances
-			(project "COM_MOD"
-				(path "/c83c4528-97f7-431c-a266-0d1ca2cf363e"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-			(project "hc32l110"
-				(path "/e128d549-8cbc-4e55-b250-e367d2f4662f"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-			(project "cleverhand_ComMod"
-				(path "/ee76fbe1-0f4a-47fb-8504-1fcd8977131f"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
