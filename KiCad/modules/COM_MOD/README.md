@@ -20,3 +20,6 @@ Additionally, each module has a unique identifier that is used to identify the m
 
 ## 3D Model
 ![COM_MOD_3D](plots/COM_MOD_pcb.stl)
+
+```stl
+// COM_MOD_pcb.stl

@@ -1,0 +1,7 @@
+{
+    "name": "EMG_DAQ_ADS1298",
+    "description": "EMG acquisition module",
+    "version": "1.0",
+    "author": "Aightech",
+    "function": "main"
+}

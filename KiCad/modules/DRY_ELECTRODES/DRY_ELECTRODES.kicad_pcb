@@ -234,6 +234,7 @@
 			(uuid "d4d4f871-f24f-49e8-9670-8bdf6c4c567d")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -530,6 +531,7 @@
 			(uuid "9e8c09ff-425a-415b-8634-4bc162b354ec")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -624,6 +626,7 @@
 			(uuid "40563bc2-c758-4555-8b4c-17dafec88413")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -823,6 +826,7 @@
 			(uuid "9047165d-2d71-4ce1-8c50-e1bf5dbaacaa")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1325,6 +1329,7 @@
 			(uuid "ca302d26-d36a-42ad-b1ed-dd896db06cc5")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1419,6 +1424,7 @@
 			(uuid "347481cf-e918-4d3a-9e82-acbd20eb9381")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1821,6 +1827,7 @@
 			(uuid "68660328-2375-44c6-8442-bd0c0decbd86")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1915,6 +1922,7 @@
 			(uuid "fdb142cd-3dd8-45fd-9e89-255a84fc94cb")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2110,6 +2118,7 @@
 			(uuid "a953edf8-719b-4c8e-93f6-af7fa8dd9158")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2204,6 +2213,7 @@
 			(uuid "1a1c4e09-9273-4f1d-bbe4-a06346c72cee")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2399,6 +2409,7 @@
 			(uuid "6e89470b-2476-4536-b803-2ce0ffa9594a")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2695,6 +2706,7 @@
 			(uuid "06b6ee87-01ae-4318-995c-76c6da7af0dd")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -3092,6 +3104,7 @@
 			(uuid "6bdbc8b1-2db9-41d5-a155-cbbe91cbde99")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -3186,6 +3199,7 @@
 			(uuid "79e23313-d309-482e-bf19-0431d5b0651e")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -5875,6 +5889,7 @@
 			(uuid "c520c3d2-eeac-438b-943e-7b502faef08f")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -6272,6 +6287,7 @@
 			(uuid "c8bd779a-5d92-44d5-935c-f4107d36fc76")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)

@@ -1,5 +1,5 @@
 ** Drc report for DRY_FLEX.kicad_pcb **
-** Created on 2024-03-30T22:02:28+0000 **
+** Created on 2024-03-31T14:20:24+0100 **
 
 ** Found 16 DRC violations **
 [isolated_copper]: Isolated copper fill

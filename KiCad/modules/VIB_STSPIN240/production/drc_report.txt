@@ -1,5 +1,5 @@
 ** Drc report for VIB_STSPIN240.kicad_pcb **
-** Created on 2024-03-30T23:05:06+0000 **
+** Created on 2024-03-31T14:20:57+0100 **
 
 ** Found 0 DRC violations **
 

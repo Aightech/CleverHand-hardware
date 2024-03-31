@@ -1,8 +1,9 @@
-### Footprint positions - created on 2024-03-30T22:02:53+0000 ###
+### Footprint positions - created on 2024-03-31T14:20:50+0100 ###
 ### Printed by KiCad version 8.0.1-8.0.1-1~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : All
 # Ref     Val                Package                                    PosX       PosY       Rot  Side
+REF**     logo_aightech      logo_aightech                            1.0265    -1.3787  180.0000  bottom
 C1        1uF                C_0402_1005Metric                        1.0433    -1.2559    0.0000  top
 C2        1uF                C_0402_1005Metric                        0.9600    -1.4201  180.0000  top
 C5        100nF              C_0402_1005Metric                        1.1614    -1.4461    0.0000  top

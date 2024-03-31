@@ -1,4 +1,4 @@
-23308081424348934
+23313219909378738
 00_custom-footprints
 8x2_pin_smd_conn
 
@@ -497,12 +497,26 @@ FPC-SMD_P0.50-8P_FGS-XJ-H2.0
 10
 10
 00_lcsc
+IND-SMD_L5.0-W5.0_FNR50XXS
+
+
+0
+2
+2
+00_lcsc
 L0402
 
 
 0
 2
 2
+00_lcsc
+LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020
+
+
+0
+4
+4
 00_lcsc
 LGA-16_L3.0-W3.0-P0.50-TL
 
@@ -524,6 +538,13 @@ NFBGA-64_L8.0-W8.0-R8-C8-P0.80-TL
 0
 64
 64
+00_lcsc
+QFN-16_L3.0-W3.0-P0.50-BL-EP1.7
+
+
+0
+17
+17
 00_lcsc
 QFN-24_L3.0-W3.0-P0.40-BL-EP
 

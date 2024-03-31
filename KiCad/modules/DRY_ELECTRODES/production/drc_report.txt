@@ -1,5 +1,5 @@
 ** Drc report for DRY_ELECTRODES.kicad_pcb **
-** Created on 2024-03-30T22:02:23+0000 **
+** Created on 2024-03-31T14:20:19+0100 **
 
 ** Found 23 DRC violations **
 [silk_over_copper]: Silkscreen clipped by solder mask

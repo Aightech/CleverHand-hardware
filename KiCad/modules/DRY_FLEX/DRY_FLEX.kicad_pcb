@@ -346,7 +346,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7e09b047-ac16-4f2a-9ae9-9eaf0f94bfd8")
+			(uuid "7068787c-40d1-44a4-b7b4-5e5b49ac8a66")
 			(effects
 				(font
 					(size 1 1)
@@ -358,7 +358,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "018791cd-3b3f-48fb-ade6-9120e2728662")
+			(uuid "754d1fed-e097-4da0-bc63-264dcad3a47f")
 			(effects
 				(font
 					(size 1 1)
@@ -371,7 +371,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95b7e1b0-9b34-44f5-88bd-2b55feaa255e")
+			(uuid "02599f4a-5306-43c3-98ed-0e513794b182")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +383,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9245c7c-f7c0-4c65-b8cf-0e62b0ec1d3e")
+			(uuid "ec8ab0b9-0475-4851-92d0-d98767fa7bb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,17 +395,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a3a5713-60f2-45e3-b94e-9bf61b6810a4")
+			(uuid "74ef4b9b-a2f5-44d9-a66a-1182be5f4f7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c449e999-32bf-4231-8a5c-5a89cab35cdb")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -416,9 +413,10 @@
 			(net 7 "/in7+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "3779e174-1e3c-4a00-86bd-3482a4163e91")
+			(uuid "1214f792-155b-498b-bb2b-f08eb112bc86")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -440,7 +438,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "555812de-0565-4d1e-95b4-632ec9359e8f")
+			(uuid "8ebee148-9575-4727-a63c-c753548e91db")
 			(effects
 				(font
 					(size 1 1)
@@ -452,7 +450,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef35f08e-9c2f-4293-b13f-04e511d32fb1")
+			(uuid "5d551133-1b55-4376-a8de-9a1122dc427b")
 			(effects
 				(font
 					(size 1 1)
@@ -465,7 +463,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4c8661f-cc9f-46ad-997b-375cfa9a6428")
+			(uuid "f26aaabd-95f0-46b8-8f47-32444caae387")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +475,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80dc1634-820e-4a66-ad3a-e9ecd11e9ac3")
+			(uuid "3f7d6454-7729-48ad-9e95-6db5c94e71af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,17 +487,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c48f5c8-b0bd-4558-ae66-f8bcbaa243c9")
+			(uuid "b4b1ef7f-7f48-49ce-8709-f1a9a872fb66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5d56aab6-a675-42f1-8b10-0dad16153db9")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -510,9 +505,10 @@
 			(net 4 "/in4+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "a1594a7e-3690-4a8d-b451-08d8102bb9b2")
+			(uuid "43eb30c2-b021-40c4-ba9e-02731b367fd2")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -753,7 +749,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "654d4b30-2bec-4929-9405-fea1152a88c8")
+			(uuid "9e3ad604-b3ac-4c22-bb17-f6652f763a50")
 			(effects
 				(font
 					(size 1 1)
@@ -765,7 +761,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfaf1094-6cf7-4756-b7ba-6c0236df2c96")
+			(uuid "0a8a2e14-439b-465d-8da6-f1546bedc8fb")
 			(effects
 				(font
 					(size 1 1)
@@ -778,7 +774,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7085f86c-3940-4ed6-829a-6254a5ba2694")
+			(uuid "dce49b95-0541-436d-802b-af4e25321a63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +786,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d32657d-1aaf-4251-ad58-42a9b5479a76")
+			(uuid "f9fae3d5-9cb6-4a13-b983-3f0fe892f2b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,17 +798,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74e746e8-9a44-4d2f-9e0a-bada7b15bab6")
+			(uuid "1543968f-7764-40a2-8a19-b7d3fcfb5631")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1ef2b7ab-1e38-428a-bb5d-8447014bf512")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -823,9 +816,10 @@
 			(net 14 "/in6-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "f6338512-5857-4772-b608-edc27ff67ec5")
+			(uuid "19909ec1-90cf-4a4a-8572-5b43e63d7d27")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -847,7 +841,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "66be83b6-a4ed-4a83-b40f-aad1eb361223")
+			(uuid "91569ce6-49ce-4e52-a4db-34a02e446b49")
 			(effects
 				(font
 					(size 1 1)
@@ -859,7 +853,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70bb4dba-c2bc-4db8-9256-0aad9a4f1935")
+			(uuid "67369083-db6d-4f3f-8296-f84a836267e7")
 			(effects
 				(font
 					(size 1 1)
@@ -872,7 +866,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0118000-339f-492b-92e7-d883621e283f")
+			(uuid "3837a19e-6687-47b7-b08f-8ee6eca446e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +878,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6706c911-a9b8-4db1-83be-aea6f339ae5b")
+			(uuid "0d0bdd3d-6a6c-4ed8-b602-d4cf80ab0581")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,17 +890,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74225ee4-1116-45c6-95ef-777281c6d2eb")
+			(uuid "76cbd4c8-a5af-43cf-bfd1-73f1e45760fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9e17083b-f40c-448e-be51-8ec9aacc51af")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -917,9 +908,10 @@
 			(net 15 "/in7-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "7d1901cf-4722-4f64-87c7-e712b9b75016")
+			(uuid "e8ead909-084e-481b-99a0-830250fa42eb")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1149,7 +1141,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "977663f4-a310-4ef8-8514-d85423081485")
+			(uuid "1fda5669-a752-497c-a736-5563cfefbfa6")
 			(effects
 				(font
 					(size 1 1)
@@ -1161,7 +1153,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f7fdcd8-cdfe-4ef8-ae49-17c91d22f479")
+			(uuid "ea399b0c-cfc1-440f-b448-6991ed1fd295")
 			(effects
 				(font
 					(size 1 1)
@@ -1174,7 +1166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df721d16-c997-4974-af10-71f5c6cc136d")
+			(uuid "18ab4b9b-edc8-4cdf-806f-de0bddd01f88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1178,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c386ab4e-2116-4973-895f-3edbfb5570d1")
+			(uuid "398b6ccd-590a-417b-8fea-041a918063e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,17 +1190,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c70338d6-c512-4a50-b38c-548192352c3e")
+			(uuid "d16eb032-242a-4688-ab46-e95a3c8610e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2a177cc2-9db8-4b63-9b5c-1f0cd1aa10c4")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -1219,9 +1208,10 @@
 			(net 5 "/in5+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "b3ac9cb0-edcc-4533-9565-8f9c47c25945")
+			(uuid "736a8d78-4836-4feb-856c-e74331ab26c0")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1243,7 +1233,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "de44793f-5061-495f-b070-2e55ce70e9ee")
+			(uuid "b9e6db8e-5337-42b3-a645-af53574ff71f")
 			(effects
 				(font
 					(size 1 1)
@@ -1255,7 +1245,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b875def0-8a0b-4d4d-9cf6-95517bea9a6b")
+			(uuid "56ed31be-bfe3-43cb-9016-268809b0f4ec")
 			(effects
 				(font
 					(size 1 1)
@@ -1268,7 +1258,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5199639-420d-41bd-9568-e6a6a5725717")
+			(uuid "28647036-fa42-4c51-9242-db1932960d9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1270,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e69f1e51-3e2b-4270-ba55-c8872c8f5468")
+			(uuid "21402884-fed9-41ec-b2bb-6193129f296b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,17 +1282,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3185983a-01a7-4918-84b8-bf69be9124da")
+			(uuid "2f1bd94c-cf8f-49bc-8da8-f3452700d066")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/49a43acd-9e82-4e1a-a051-3fd5cf9c5145")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -1313,9 +1300,10 @@
 			(net 11 "/in3-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "f5618925-96f2-49f2-b88a-357774c568a1")
+			(uuid "a22f1e43-b680-4d7b-92c6-f06c4136d2f9")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1337,7 +1325,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "11f0f7f0-f8ef-46d0-ad9b-3acf979ea70a")
+			(uuid "8368958d-1cba-4ae7-a0c5-6964552a5d1d")
 			(effects
 				(font
 					(size 1 1)
@@ -1349,7 +1337,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49e07aa1-4599-4af0-b163-d0628b2ba311")
+			(uuid "764f06d6-e25f-4e09-a618-49168a3b79b7")
 			(effects
 				(font
 					(size 1 1)
@@ -1362,7 +1350,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea27c75c-ccba-4a60-b6cd-7381bafbecf9")
+			(uuid "082fe9fd-8802-4f04-82f2-1b29841a3270")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1362,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "feef5760-d33f-49c0-a693-bf8981a5eb88")
+			(uuid "128c43c0-3bf0-4f20-9bb6-53fe45bbc3b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,17 +1374,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f388423e-cd7b-4aa2-90c1-dc8b0adb9dce")
+			(uuid "a9547b69-b88f-4d9f-99e0-83b9270b9a75")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3e905d74-f46e-4463-9799-41af928d6f5f")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -1407,9 +1392,10 @@
 			(net 10 "/in2-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "b89c6d7b-4679-4991-a313-d948befb589b")
+			(uuid "38666be0-19e4-4ea8-8de9-a83841a0d073")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1600,7 +1586,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "47bfcd0f-416c-4619-8efc-b3b47cbf4096")
+			(uuid "c5388aaf-272f-4c95-bf95-c9b46edd45a9")
 			(effects
 				(font
 					(size 1 1)
@@ -1612,7 +1598,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d1460d0-7dbe-4930-9497-31855be37ec8")
+			(uuid "dd204d75-631b-4733-b88d-23221cc57030")
 			(effects
 				(font
 					(size 1 1)
@@ -1625,7 +1611,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5df10a86-1ab5-4c7c-91a5-da4b580ae51a")
+			(uuid "6dc27f24-1573-4ff2-a447-0a657a240e73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1623,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c17b31e-e87e-472f-8dd5-e649a7418543")
+			(uuid "9cf7a4d7-3eff-46f2-9137-a5e213680e95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,17 +1635,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0898ed7-7ac4-4d34-ac36-232b94cedbb0")
+			(uuid "f6b98909-fb7c-49d8-a1fd-50c1d617a7b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/21ac6bdb-fda3-426a-ba58-555445299c2a")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -1670,9 +1653,10 @@
 			(net 1 "/in1+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "62f19f29-ea39-41b3-a9ce-7d73aaa6f114")
+			(uuid "a94fd0ea-b44c-4a75-a068-761610c996dd")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1694,7 +1678,7 @@
 			(at 0 2.2 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a7820a8f-265f-4f57-8feb-ea366d092cff")
+			(uuid "bc80138a-470e-46f0-9146-06235ddcb694")
 			(effects
 				(font
 					(size 1 1)
@@ -1706,7 +1690,7 @@
 			(at 0 -2.05 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26eceb6e-73f2-4505-b044-c8e117a9d6a1")
+			(uuid "ccd7050a-3d24-45ab-94a7-aa89d2000fcf")
 			(effects
 				(font
 					(size 1 1)
@@ -1719,7 +1703,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32bb0298-758c-4007-921e-a40ec32fed3a")
+			(uuid "5249f913-9aa4-4d74-8a5d-a63831b0e0bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1715,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2ebf849-4eca-4051-b395-7667b14ee9ae")
+			(uuid "72253be4-833e-40ce-9073-434d78bf59d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,17 +1727,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "941f09aa-4623-4e8f-a5f3-2be4ed60c3bc")
+			(uuid "48f92e3e-c947-4449-a001-d11b4a8680c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/30d8bcf9-effe-4261-82f8-03153cd6a674")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -1764,9 +1745,10 @@
 			(net 9 "/in1-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "d8a93872-bb97-454d-a03a-7b518aa6439c")
+			(uuid "b6a3c2c1-bc9e-4390-8c64-0a6bf10dc1e0")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1788,7 +1770,7 @@
 			(at 0 2.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7f97f1f0-4478-44b3-bc23-8630242938b8")
+			(uuid "db0e3c4f-1e20-4507-be63-5f01e6038cdd")
 			(effects
 				(font
 					(size 1 1)
@@ -1800,7 +1782,7 @@
 			(at 0 -2.05 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ac3a39c-5268-46f1-b584-3b7952311947")
+			(uuid "2173fc6d-9a81-4882-925e-948576c1d04e")
 			(effects
 				(font
 					(size 1 1)
@@ -1813,7 +1795,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93236867-5a98-4612-a9d3-97d9ed237de5")
+			(uuid "c75e096a-2101-4909-be4b-587c1f5a9814")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1807,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28f561a0-6057-4c27-b399-a1b509a998fb")
+			(uuid "4b2c45a7-79f8-432f-9adf-da273988c2f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,17 +1819,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "880a61b2-019a-4a8a-a6eb-351ad14db912")
+			(uuid "475649ca-b337-416e-9492-05a5ccf9bbb7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b05c2580-844f-4849-b222-bb549874f01c")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -1858,9 +1837,10 @@
 			(net 9 "/in1-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "c724818f-4944-47eb-b6c5-8e409fbc7525")
+			(uuid "dc251cee-b565-49d3-a1d0-436197db2155")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1882,7 +1862,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "27ad2d1b-e8c9-4ec4-9a74-20462478ff05")
+			(uuid "f87c49b8-cb21-45b9-90fa-ea44df67072e")
 			(effects
 				(font
 					(size 1 1)
@@ -1894,7 +1874,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29ed7869-3b18-4b28-ab8b-03535d7e7e93")
+			(uuid "0fe7eda0-f81e-42ea-88fc-6c7c99754209")
 			(effects
 				(font
 					(size 1 1)
@@ -1907,7 +1887,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68a102a1-b710-4701-8ce3-fb83032ac9a2")
+			(uuid "b7501dda-78ac-4f12-a855-a2ffbddd9116")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1899,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42d24baa-d950-4b63-ba77-3ee576389cd6")
+			(uuid "ca094ee5-c566-4726-84dc-712914e813e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,17 +1911,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afbe2809-a218-441a-9937-e1cfdbfd7cf5")
+			(uuid "9ce3b46a-175d-4ca6-9fe8-ee0cbac10bbf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e7b57d30-5592-4c85-a896-fbc1f6f380b8")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -1952,9 +1929,10 @@
 			(net 15 "/in7-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "964a7652-6fd4-4d4f-a6d6-b19a6199952e")
+			(uuid "a9c48c1c-256a-4c07-9c02-f02d6f0c7cda")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -1976,7 +1954,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a388fcc0-7ae9-4d17-801a-29bbbd5e1111")
+			(uuid "50fd3fec-793b-45bd-9911-aeb4c7255aff")
 			(effects
 				(font
 					(size 1 1)
@@ -1988,7 +1966,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b1c478a-9b30-496f-8f83-05fa2f9649bc")
+			(uuid "dec4cab4-3c55-488b-a146-64e422999c34")
 			(effects
 				(font
 					(size 1 1)
@@ -2001,7 +1979,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c81adb5-26a7-4626-9065-8a712a12029c")
+			(uuid "de9116a3-8698-42b0-ad0d-4f3d3beee396")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +1991,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd8188f9-9bcb-48ea-821e-b77224110458")
+			(uuid "88289abb-c070-4332-a9de-9ddfcc93c9dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,17 +2003,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f27369d-b90b-448e-b2e5-aa23179aaade")
+			(uuid "e4ba669b-a76d-4002-a3f4-0e9a7151fffb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/676aaa1b-5ed2-4a03-b767-f532367b5a11")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -2046,9 +2021,10 @@
 			(net 13 "/in5-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "ea29613a-448e-4416-a15b-79c44c10afdf")
+			(uuid "eec7f010-1899-455c-8375-45352bee1a7f")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2174,7 +2150,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a6a4d3f9-b627-4754-817f-fa38a6ec7e69")
+			(uuid "671d0793-b48a-4805-9bef-20b134778320")
 			(effects
 				(font
 					(size 1 1)
@@ -2186,7 +2162,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae83ce09-af1c-48dd-8c25-901551154f44")
+			(uuid "5da8aed5-15c6-4475-9733-87234cb8948d")
 			(effects
 				(font
 					(size 1 1)
@@ -2199,7 +2175,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8293dd38-0a9c-450e-97ce-ad2fa4724898")
+			(uuid "6b99040f-9b62-483f-8b40-9bb912e73530")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2187,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "714d94bf-ce52-4efe-919c-a62935c4f15f")
+			(uuid "1a0ba566-8759-45ab-a170-b5d101930f02")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,17 +2199,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c89a66c-1be0-4e95-a111-ef208afe7163")
+			(uuid "59f7b2ce-e8ff-4835-ac2f-410ddccd115d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/045cdbb7-a143-4456-bfaa-c278fe19ce34")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -2244,9 +2217,10 @@
 			(net 12 "/in4-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "da628e19-fa1e-4517-8736-e60b13ba92f6")
+			(uuid "6790a1c6-b1d9-4667-ae4f-db0d588059f8")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2486,7 +2460,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "154ab249-2b3e-490a-b226-6c2caee1dda0")
+			(uuid "761687a6-1847-45f7-9515-a18897f4f383")
 			(effects
 				(font
 					(size 1 1)
@@ -2498,7 +2472,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0fd1b65-716f-448e-9e3c-1224d2a46a1e")
+			(uuid "d7aa3989-0b5b-47d4-9b02-145e03646474")
 			(effects
 				(font
 					(size 1 1)
@@ -2511,7 +2485,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b6c3d97-c1bf-441e-a978-343d9ce38bca")
+			(uuid "94605938-641c-46c3-b5b0-6cf93336d7a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2497,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fb25b70-f21c-4851-a4a6-9c65049481e1")
+			(uuid "f062fcc3-1a1a-4d44-8cd4-818da53d971a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,17 +2509,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cec633f6-8e27-4272-bf28-e96ca6f28833")
+			(uuid "3015ceb9-8c68-4a21-aa6f-e5d08e325786")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/44bc4915-4dcb-42b6-a831-d04c4bcd1aea")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -2556,9 +2527,10 @@
 			(net 16 "/in8-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "061e4fed-33b9-4367-b264-2b013a49ca96")
+			(uuid "18eaa9bc-0eab-4260-a422-35e81b41eb10")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2888,7 +2860,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c975d0b3-3209-4a1a-b7ea-9a9a0240821a")
+			(uuid "9dcbdd1f-2c30-4429-8f3a-4204687222a2")
 			(effects
 				(font
 					(size 1 1)
@@ -2900,7 +2872,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e8e1cc4-1ada-4f7f-9d9a-b6d002deaf7c")
+			(uuid "c99f5555-c8c5-4a31-9cab-74810558946e")
 			(effects
 				(font
 					(size 1 1)
@@ -2913,7 +2885,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe851519-59e8-4480-85e8-d30acd837b23")
+			(uuid "df79a368-c579-4ffd-8978-b51347b78bd8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2897,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "367a00b6-7a4d-4fd6-903b-e7fd7b9d455c")
+			(uuid "fbe90270-6c98-4c39-9f11-5f21494cef40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,17 +2909,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9b37ee9-04b4-4b6d-af2c-893f0d56fd08")
+			(uuid "7d950069-72ac-48a8-ae40-386be215e8db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8d3308e0-96ec-40a8-8af8-18a17eb18a4f")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -2958,9 +2927,10 @@
 			(net 6 "/in6+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "f2bc3a16-a95d-4902-a9ce-cae35d545030")
+			(uuid "44b26d05-03e5-488a-8f3e-51ff908bc816")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -2982,7 +2952,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "86de86e9-c6de-4cdd-bad4-a0823951b9c8")
+			(uuid "0a795b8f-0e48-4301-be94-d63827069d7e")
 			(effects
 				(font
 					(size 1 1)
@@ -2994,7 +2964,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91676b48-3f4d-4eba-bc94-31085bec5812")
+			(uuid "e3efa1bb-9762-4973-8ac9-8b4f4dc62fae")
 			(effects
 				(font
 					(size 1 1)
@@ -3007,7 +2977,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fbecb6d-0faa-4006-a500-5aaec94115fa")
+			(uuid "edb6e69a-270b-4df2-a704-653f1866ea63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +2989,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7add8418-bc14-4134-9d36-da5ecde2974b")
+			(uuid "56c244a8-3275-4d04-90cd-e26f525e55af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,17 +3001,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57691ff7-a4a8-40f4-847a-bed2d024b525")
+			(uuid "05a976b6-c594-48fc-b30d-c7655ab94e40")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cdee94cf-5010-477a-833d-c42b9cd2f374")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -3052,9 +3019,10 @@
 			(net 6 "/in6+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "38c494f3-740d-4a58-a120-600d320ae980")
+			(uuid "027b9dde-9010-45ff-aae8-3ac5814e7d00")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -3076,7 +3044,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "59ce945d-c794-4f5a-8b04-f4ceb2c424ca")
+			(uuid "c2f1135d-20b1-4eff-9dde-34d9d911954e")
 			(effects
 				(font
 					(size 1 1)
@@ -3088,7 +3056,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cd9a6a6-1b25-4e89-b12f-a1ce5674e09b")
+			(uuid "0d3be5b8-fad3-4ae4-9ada-4f9b81419464")
 			(effects
 				(font
 					(size 1 1)
@@ -3101,7 +3069,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7771e3e8-ed3b-4cbd-b9f7-7e8b5954108b")
+			(uuid "fe0f9eda-12f3-40e1-b346-9d551b01a6c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3081,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a2ebd0d-b241-4751-8e0c-53ab593dd2d1")
+			(uuid "1a54a11e-f2e2-4776-90fa-58641937a6b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,17 +3093,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "246d351d-dfaf-4f4b-8b24-5a38c318f012")
+			(uuid "d3e3353f-3cb4-4490-84e0-259f61a5c140")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b5d45eb0-c353-4a97-82dd-38545f9421f3")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -3146,9 +3111,10 @@
 			(net 13 "/in5-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "8f97b483-b84c-42cc-b133-6e197d2b1dae")
+			(uuid "41620279-fb80-4c9a-8680-201a67fafbe5")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -3170,7 +3136,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e1dc3630-2136-49b3-8d9b-71802b6238e2")
+			(uuid "48239933-fb16-4ebd-806f-9af60fd8b0e2")
 			(effects
 				(font
 					(size 1 1)
@@ -3182,7 +3148,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14811e76-0c1a-4564-901d-ec2d7f39ffea")
+			(uuid "4e5f1b87-386c-4d5a-b9ae-933312672b3b")
 			(effects
 				(font
 					(size 1 1)
@@ -3195,7 +3161,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70a82857-286c-41ea-ada5-7cba9f46443f")
+			(uuid "f0a3b6d6-f712-477c-84fa-81dbf148c9bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3173,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "642fc9cd-daa3-4313-924e-030277ea118b")
+			(uuid "a5bd0d41-e9a5-48cd-9d76-04896d192124")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,17 +3185,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86f8a6db-be86-4c20-ae8d-786c30a563d8")
+			(uuid "6ea6f5ef-4f4b-4277-8ed4-f9d3e7f233d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c176e67e-28bd-479a-9da5-9f3c294260af")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -3240,9 +3203,10 @@
 			(net 4 "/in4+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "2fd8a996-f4d7-4258-b772-5fc21e222f5c")
+			(uuid "1d154e7c-c3cb-47dc-9b43-8d808373572b")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -3711,7 +3675,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "209a7e32-c657-4492-b2a1-c609c14588d9")
+			(uuid "02d83cf9-240b-4583-ae7e-199379ba013f")
 			(effects
 				(font
 					(size 1 1)
@@ -3723,7 +3687,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01fc3df0-98bd-4b9b-8650-6564fafce68c")
+			(uuid "55f87054-4b90-47cb-8c05-556cc90e57ff")
 			(effects
 				(font
 					(size 1 1)
@@ -3736,7 +3700,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d467d99a-8029-420e-a300-dbf76db1d36a")
+			(uuid "50e8b53e-9538-44e2-a9bb-c51986367304")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3712,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebcebbf5-089a-43bf-ab80-2e484ef3a320")
+			(uuid "31a79394-c01a-4e4f-837f-ec25302663a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,17 +3724,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36770921-f7e5-44f9-8126-20008d4bee3e")
+			(uuid "38ed99c1-1dce-402a-9b2a-8c3372ded5be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6ddaa213-368a-4fee-ac99-9547580c3dba")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -3781,9 +3742,10 @@
 			(net 2 "/in2+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "674c0ac7-2e4f-49ea-8bc2-a71dae9b4f4f")
+			(uuid "98ac3c39-5a5b-47cc-8e8c-1c9f7c6e748c")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -3912,7 +3874,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7cc60034-40bb-45c2-80d7-9f46109c6c80")
+			(uuid "698e5a4b-ee4c-42b4-b994-201b7b530303")
 			(effects
 				(font
 					(size 1 1)
@@ -3924,7 +3886,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a99b106-37dd-4fed-bb6c-f6335e64ad39")
+			(uuid "a1432fb3-9680-4e9f-9634-c428463fae07")
 			(effects
 				(font
 					(size 1 1)
@@ -3937,7 +3899,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40178f1b-c4c6-4782-b864-3a6b7506106a")
+			(uuid "e3a69f8c-b946-46da-9441-c2ccb2a0ce71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3911,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3f45f06-71a7-41ad-bf16-7458de43b941")
+			(uuid "8bcc7114-cb78-48f3-ab6b-02613d71c917")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,17 +3923,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8734a8d-d107-4293-b476-169748467439")
+			(uuid "16a01032-289e-4938-978e-efc8248be17e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/48f63c80-5397-436e-ab8a-1209969035bb")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -3982,9 +3941,10 @@
 			(net 5 "/in5+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "1f91cbd0-6f85-417c-852b-6d533d593508")
+			(uuid "904a4545-f602-4dcb-be70-5743c4977044")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -4426,7 +4386,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f570bece-f11b-40cb-b446-0ad576c306b6")
+			(uuid "dd56f572-affe-456c-a356-f4b45900f95d")
 			(effects
 				(font
 					(size 1 1)
@@ -4438,7 +4398,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4250d90d-5f22-4fb2-bf4a-77f213c313f6")
+			(uuid "5d2dc811-6af2-4e55-91e6-afb1226f2e4b")
 			(effects
 				(font
 					(size 1 1)
@@ -4451,7 +4411,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fec7fe8b-79e6-418b-856e-dc331bf03604")
+			(uuid "0f8a1417-7525-4318-86b0-467da4cb20d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4423,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb5c059d-88cb-47fc-86ca-77c23d3afdc0")
+			(uuid "837c2b4b-a040-491c-8889-e9bf103a2c76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,17 +4435,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0de02a04-d736-48cb-9b16-8ebf7da72b3f")
+			(uuid "c79953ef-dfe2-49aa-ac91-6efe52acf358")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c712b979-c84a-4a56-9d60-1ac7f36bd8eb")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -4496,9 +4453,10 @@
 			(net 1 "/in1+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "c99582d0-53b1-433e-9e54-778ced043bb3")
+			(uuid "32ade06c-8535-4416-9d0d-a3be73ee1cdf")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -4520,7 +4478,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "369e26bf-0a5f-496b-980b-3c678fe75355")
+			(uuid "125d51d0-69b5-4f69-812e-a5f419263e56")
 			(effects
 				(font
 					(size 1 1)
@@ -4532,7 +4490,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b8b106e-fee1-4ead-bb56-59d3036b3158")
+			(uuid "9bd93033-b901-4cfa-9e09-1d94ed8ceb55")
 			(effects
 				(font
 					(size 1 1)
@@ -4545,7 +4503,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1e9ba9b-ca07-4220-bffa-541e9879b233")
+			(uuid "635365b0-330f-439f-8a52-e54b648aa42d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4515,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28619752-690a-49b9-8a52-f14fdaf4e55c")
+			(uuid "39764161-5912-4024-a7be-87bb578b031d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,17 +4527,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acd9465f-464e-4830-891d-76c993f6240e")
+			(uuid "cefbd194-05ea-40c8-85f1-dcaec861d046")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b146d470-abfd-4e6a-9894-da0dbe359931")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -4590,9 +4545,10 @@
 			(net 3 "/in3+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "97328838-6e1d-4aa5-a0f4-6842af3ed2d1")
+			(uuid "62ef6eaa-2e3c-43d3-8d99-a69f9535cdd2")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -5165,7 +5121,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "aa8316c7-aad1-4c78-aa69-0bec158d621a")
+			(uuid "236bf8fa-b20d-468b-9ef5-ba1393b8d4a9")
 			(effects
 				(font
 					(size 1 1)
@@ -5177,7 +5133,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22526961-ad51-4e4a-bb9a-f8e0ae07ac1a")
+			(uuid "312bdc32-2ee7-47e6-bd07-39bcfc66ede2")
 			(effects
 				(font
 					(size 1 1)
@@ -5190,7 +5146,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "679c5e1b-0bb1-4c73-8ab2-1f178cd1ca70")
+			(uuid "56ca19f2-f4c3-4596-83b7-1c5d1d849b33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5158,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c9d6263-425c-4457-8e7f-ea08f6617f76")
+			(uuid "8925d0cf-0170-4dcc-b6de-86ade5997c58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,17 +5170,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff1e9e23-7332-411b-a37e-90d27c837b0e")
+			(uuid "d918bbf3-e8fd-4775-930f-a2fa375c8a42")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7f4a00a4-5fc8-4778-8f40-ed6e82f0de14")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -5235,9 +5188,10 @@
 			(net 8 "/in8+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "fe167f05-0e86-4cad-af8e-4fa2c5f9df9d")
+			(uuid "3d0e29ec-70a5-4f75-995c-47d8f95ee4e5")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -5382,7 +5336,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b6c14b51-86c3-4e0d-8a15-8f68ce77e99e")
+			(uuid "2a27b36c-3e14-4dcd-b2db-9a4040088932")
 			(effects
 				(font
 					(size 1 1)
@@ -5394,7 +5348,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84f19544-0e7c-44d0-b531-dc5d69099c00")
+			(uuid "b5e8df29-7245-4336-a10a-aa114b70d6c5")
 			(effects
 				(font
 					(size 1 1)
@@ -5407,7 +5361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c21fdfb-eb05-437d-8278-7aa7af93a8a0")
+			(uuid "a7dc5882-02d7-45c7-b479-5b8373e2085e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5373,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0209766d-d596-4e1f-8442-44ba4feae9e5")
+			(uuid "d9e8fe01-d45d-4dbd-b1ba-92787782cd7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,17 +5385,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6d80efa-b958-4c76-b341-1574f586c538")
+			(uuid "759f6505-1710-433b-9ac5-d82b40a205bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5dd8caaa-5359-4c43-af01-a4c7a4a65fcb")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -5452,9 +5403,10 @@
 			(net 16 "/in8-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "84c5a72e-347b-4184-bdf7-49a6083a5f7e")
+			(uuid "ab0d3ed4-8494-47cd-9a3c-3c7bae676554")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -5476,7 +5428,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e6bee969-a365-4532-919f-22d5baf0f424")
+			(uuid "06aac2c2-d880-4ec9-99ef-083fcc407269")
 			(effects
 				(font
 					(size 1 1)
@@ -5488,7 +5440,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d25772e4-c505-4766-a795-11601f2b3ee5")
+			(uuid "b85afaab-e21f-4794-b01e-b89fb6b50b4a")
 			(effects
 				(font
 					(size 1 1)
@@ -5501,7 +5453,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94430fc9-bfe2-41db-8acf-6db0fd261711")
+			(uuid "56ae6eb3-e574-41fd-8714-8093dbcfe3ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5465,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4727b8b-3d7f-468b-972b-d628d92ec166")
+			(uuid "02af9574-d53c-4e14-b922-e8b9f9db89d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,17 +5477,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f1beecd-8c05-49b5-aecf-0c5e27fb3d9d")
+			(uuid "7e8b7bbe-1b34-4333-9931-1df17ad31076")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b0a66c3a-3f01-40cc-a4a0-28b4762bae0f")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -5546,9 +5495,10 @@
 			(net 14 "/in6-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "220310e3-7731-46f0-b350-dd61130a35cd")
+			(uuid "736d3e3d-d06a-4670-be0d-937aef66986e")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -5780,7 +5730,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d493a056-96ec-4cc0-a548-dbae7e26cd5c")
+			(uuid "3368461b-ff0b-4d05-848f-69fbf4f79c9f")
 			(effects
 				(font
 					(size 1 1)
@@ -5792,7 +5742,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e76a7474-8634-4e50-83b3-ce52f7c3cf05")
+			(uuid "115c2752-d95e-4836-8482-5159b7f7fcf6")
 			(effects
 				(font
 					(size 1 1)
@@ -5805,7 +5755,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf638003-760f-408a-b9ae-0e0ec6ade2f1")
+			(uuid "610c58d3-8fc7-46da-bf2c-78790be5287e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +5767,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7941bb90-8b74-4abd-9d51-a3238e0ef312")
+			(uuid "3a0862eb-93e3-45e4-a710-32b8437037d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,17 +5779,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bafb9f46-17a0-4a13-8670-bf85d75bd658")
+			(uuid "ad8d6d14-f634-4c61-bfb1-bf1720939b32")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0147a9c8-dc4c-4e70-863a-63c1ddf4806f")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -5850,9 +5797,10 @@
 			(net 7 "/in7+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "3a0c0ec7-7f9d-4925-bea0-24578e829b96")
+			(uuid "315e685b-5f55-497a-87f3-fda663f092a7")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -5978,7 +5926,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f6dfb6ca-e139-4516-85f2-a96fb6d08a50")
+			(uuid "cbcfc0c6-156d-424b-bb1f-f3f2e517b141")
 			(effects
 				(font
 					(size 1 1)
@@ -5990,7 +5938,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "878ed546-664c-4be9-b67b-108b9c306fae")
+			(uuid "1a3d9f43-293a-4009-8468-d1a9e7b84903")
 			(effects
 				(font
 					(size 1 1)
@@ -6003,7 +5951,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80881332-39bf-4d48-af4d-89029824cfe1")
+			(uuid "5686ff51-3963-4f8f-878a-d43835814445")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +5963,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f2f8c3e-183e-4774-8ece-23142ac1f074")
+			(uuid "7b3f9c7c-76f7-45b0-819f-fcba4ecda0ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,17 +5975,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0024ef4-6191-4fae-9c18-684e23b915c8")
+			(uuid "7973b46d-d28e-442b-87db-4255055ebb95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8aa648a9-fbd7-470d-8ab6-5ce6bc5ba526")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -6048,9 +5993,10 @@
 			(net 8 "/in8+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "8866e845-6e85-4158-9919-b4081dfb3437")
+			(uuid "5e109aa1-ab96-445a-aec8-b74f9e4d2093")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -6072,7 +6018,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "39ae6bf9-b95e-42e8-8c74-8f034ed19395")
+			(uuid "62867cc8-3307-40d1-b09d-b70f88732ef4")
 			(effects
 				(font
 					(size 1 1)
@@ -6084,7 +6030,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2878a63-d775-4bd9-9269-ce7770e40d4c")
+			(uuid "bebfadf5-4d81-435b-a9c4-5385b9ad7768")
 			(effects
 				(font
 					(size 1 1)
@@ -6097,7 +6043,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "857e1aa7-51af-4cce-a9c1-2f6af0a38c02")
+			(uuid "03c27dc9-857b-426e-9d6b-22b410320af3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6055,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21a2a7ff-ad45-4983-8828-0200612a160f")
+			(uuid "b4100c76-8f63-4fdf-a8bd-c1ff03b57f69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,17 +6067,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "598dedf6-c107-412b-97c0-5e37d06999de")
+			(uuid "390f73ea-17e7-4122-b72f-abcf6f74ea0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a42104a6-a5d4-47ca-9c3e-896bd97daf71")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -6142,9 +6085,10 @@
 			(net 12 "/in4-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "516b7668-eaa4-4b88-ad32-47b0af5e7f18")
+			(uuid "ab811e61-dccd-433e-a794-b4918126fda2")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -6374,7 +6318,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e6f16bb0-426e-4243-844b-b2d0ff3a5178")
+			(uuid "1fe1111f-781c-4a1f-b3ef-732441fd8064")
 			(effects
 				(font
 					(size 1 1)
@@ -6386,7 +6330,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1a122e9-cf13-49fe-b304-921b67c74e83")
+			(uuid "24665d1b-839a-48eb-be8c-d0c6ef1e63e4")
 			(effects
 				(font
 					(size 1 1)
@@ -6399,7 +6343,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09a52612-d407-4a91-a42c-c8f043578c59")
+			(uuid "6ab06672-5931-444f-964b-656e38dc19e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6355,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cdb817f-7be6-49a8-8fcf-597aaeac2fbc")
+			(uuid "218372e0-8a17-408d-9147-39f4cd0ff13b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,17 +6367,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "beb431a9-326f-48c0-b961-949d845fb794")
+			(uuid "f0b5b158-ba72-4c9a-86fc-9daa2159bd38")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c4870c06-c538-4489-b3df-4fa28ba43978")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -6444,9 +6385,10 @@
 			(net 10 "/in2-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "205e84b4-475b-449c-8e4c-ede684459365")
+			(uuid "ef217a36-6c36-4d9a-a279-db21cdb47ffe")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -6468,7 +6410,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "40d3f598-725d-478c-8842-4169e6037834")
+			(uuid "774f362d-ba76-4185-b767-7ab8517d9405")
 			(effects
 				(font
 					(size 1 1)
@@ -6480,7 +6422,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9ee03b1-2680-4bd6-a77a-3c7d6b4a92fb")
+			(uuid "7357196a-6801-4adb-8442-604e6de7df73")
 			(effects
 				(font
 					(size 1 1)
@@ -6493,7 +6435,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79b2adff-8795-42c3-aab0-07638ae50066")
+			(uuid "0c6f1c78-e723-44be-b485-26a24e4449a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6447,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d3bab1a-2a07-4186-a11c-ced6cb24bc49")
+			(uuid "7435046e-c29c-4908-b37f-ba323618f2ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,17 +6459,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdcd47f7-d51d-4233-996c-29fb738a4ba9")
+			(uuid "5acab02f-f76c-4706-bcd4-0af32e2a9416")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9448b1ff-3156-478a-be7d-825e5932e831")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -6538,9 +6477,10 @@
 			(net 2 "/in2+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "0e80bb6d-cd30-4c14-b679-ee5e58d72b0b")
+			(uuid "7bc6ca4a-091b-4c2b-a423-2896061c685d")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -6562,7 +6502,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "15b052f4-dab7-40b9-8cc2-2a11cb858eaf")
+			(uuid "966f942a-8f23-4d57-8f65-d676fb8d73fc")
 			(effects
 				(font
 					(size 1 1)
@@ -6574,7 +6514,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b06fa17-e03b-4376-b4cf-c94c0039df29")
+			(uuid "ff3e4431-f46a-40b2-a3f4-4a40218c09d3")
 			(effects
 				(font
 					(size 1 1)
@@ -6587,7 +6527,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab7edaf6-8292-44b1-82fc-aaca24cac521")
+			(uuid "ff663952-f4ab-4cb3-874b-ebdf37058ee7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6539,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e781d33-9a72-4c51-85b6-b4d5929a2be2")
+			(uuid "fa7e35fe-9e59-4981-8231-cc47457d2730")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,17 +6551,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcdd48d6-8a92-4978-af1b-645851fcfdd1")
+			(uuid "0af1b543-f7ef-48d9-8247-ede8f33aeece")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/932d06d4-8499-41cd-96c8-b3d7e44973ca")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -6632,9 +6569,10 @@
 			(net 3 "/in3+")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "4393565a-4035-47e4-97e7-5de5c4578399")
+			(uuid "9358d6a6-51a3-41a3-94f1-c26dfe0fc9d0")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)
@@ -6758,7 +6696,7 @@
 			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5b989d7f-f78c-4409-b71d-17b23a69a177")
+			(uuid "a791a6fe-63a0-4895-9183-c5559d1be00c")
 			(effects
 				(font
 					(size 1 1)
@@ -6770,7 +6708,7 @@
 			(at 0 -2.05 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6875b604-e764-42f2-acaf-b65802a8baf6")
+			(uuid "a667aecd-7fb2-498a-b5f1-e17a29df8c16")
 			(effects
 				(font
 					(size 1 1)
@@ -6783,7 +6721,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f15f175-f724-44d0-ab1b-684caf5eefe8")
+			(uuid "95e9453d-dcf9-4d64-8c3a-2ac406206078")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6733,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed4f3ff9-c1f7-462b-b6e4-6f72c64b7ef3")
+			(uuid "e17b7fd6-643c-4088-abe9-6e65307f72c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,17 +6745,14 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a42371f-b7e5-4806-89a5-dd628df070f1")
+			(uuid "899aba9f-9b22-4b7b-9edd-74c33918fab6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7dc40fa5-8381-4ae6-88dc-49a22ca58fd7")
-		(sheetname "Root")
-		(sheetfile "DRY_FLEX.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -6828,9 +6763,10 @@
 			(net 11 "/in3-")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "7aa46157-7a4f-4523-8a9a-d4da0f66d3c2")
+			(uuid "7cb26c69-ef2b-4346-a3d7-e326c7085425")
 		)
 		(model "../step/pogo_pin_1.02-16.54.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 -14)
 			)

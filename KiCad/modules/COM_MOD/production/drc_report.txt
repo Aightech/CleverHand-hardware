@@ -1,11 +1,111 @@
 ** Drc report for COM_MOD.kicad_pcb **
-** Created on 2024-03-30T22:02:19+0000 **
+** Created on 2024-03-31T14:20:14+0100 **
 
-** Found 1 DRC violations **
+** Found 26 DRC violations **
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(35.0385 mm, 29.6135 mm): Track [Net-(LED1-DO)] on Back, length 0.2385 mm
+    @(35.2650 mm, 29.1050 mm): Pad 3 [/LED_IN] of LED1 on Back
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(36.3650 mm, 30.9400 mm): Track [Net-(LED1-DO)] on Back, length 1.8760 mm
+    @(35.2650 mm, 29.1050 mm): Pad 3 [/LED_IN] of LED1 on Back
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(23.2650 mm, 29.1050 mm): Pad 1 [/LED_OUT] of LED2 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(24.3650 mm, 30.9450 mm): Pad 3 [Net-(LED1-DO)] of LED2 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(23.2650 mm, 30.9450 mm): Pad 4 [+3.3V] of LED2 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(36.3650 mm, 29.1050 mm): Pad 4 [+3.3V] of LED1 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(35.8750 mm, 28.0250 mm): Via [/IO1_in] on Front - Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(35.8750 mm, 28.0250 mm): Via [/IO1_in] on Front - Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(35.8750 mm, 28.0250 mm): Via [/IO1_in] on Front - Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(35.8750 mm, 28.0250 mm): Via [/IO1_in] on Front - Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[shorting_items]: Items shorting two nets (nets Net-(LED1-DO) and /LED_IN)
+    Local override; error
+    @(35.0385 mm, 29.6135 mm): Track [Net-(LED1-DO)] on Back, length 0.2385 mm
+    @(35.2650 mm, 29.1050 mm): Pad 3 [/LED_IN] of LED1 on Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0499 mm)
+    Rule: netclass 'Default'; error
+    @(35.6500 mm, 28.3950 mm): Track [+3.3V] on Back, length 1.0112 mm
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0355 mm)
+    Rule: netclass 'Default'; error
+    @(25.9350 mm, 28.4750 mm): Track [Net-(LED1-DO)] on Back, length 2.2203 mm
+    @(24.3650 mm, 29.1050 mm): Pad 2 [GND] of LED2 on Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(35.8750 mm, 28.0250 mm): Via [/IO1_in] on Front - Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0655 mm)
+    Rule: netclass 'Default'; error
+    @(34.8000 mm, 29.6135 mm): Track [Net-(LED1-DO)] on Back, length 0.0544 mm
+    @(35.2650 mm, 29.1050 mm): Pad 3 [/LED_IN] of LED1 on Back
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(35.8750 mm, 28.0250 mm): Via [/IO1_in] on Front - Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0864 mm)
+    Rule: netclass 'Default'; error
+    @(36.3670 mm, 29.9350 mm): Track [/i2C_SCL] on Back, length 0.9638 mm
+    @(36.3650 mm, 30.9450 mm): Pad 1 [Net-(LED1-DO)] of LED1 on Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(31.9850 mm, 28.3950 mm): Track [+3.3V] on Back, length 3.6650 mm
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[shorting_items]: Items shorting two nets (nets Net-(LED1-DO) and /LED_IN)
+    Local override; error
+    @(36.3650 mm, 30.9400 mm): Track [Net-(LED1-DO)] on Back, length 1.8760 mm
+    @(35.2650 mm, 29.1050 mm): Pad 3 [/LED_IN] of LED1 on Back
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0636 mm)
+    Rule: netclass 'Default'; error
+    @(35.8750 mm, 28.0250 mm): Track [/IO1_in] on Back, length 0.0380 mm
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
 [clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0550 mm)
     Rule: netclass 'Default'; error
     @(33.5915 mm, 24.4215 mm): Track [/AUX2] on Front, length 0.8200 mm
     @(34.0650 mm, 25.1650 mm): Pad 1 [/extRef] of FPC2 on Front
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(23.2650 mm, 29.1050 mm): Pad 1 [/LED_OUT] of LED2 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(24.3650 mm, 30.9450 mm): Pad 3 [Net-(LED1-DO)] of LED2 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(23.2650 mm, 30.9450 mm): Pad 4 [+3.3V] of LED2 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(36.3650 mm, 29.1050 mm): Pad 4 [+3.3V] of LED1 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
+[clearance]: Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0855 mm)
+    Rule: netclass 'Default'; error
+    @(28.1950 mm, 34.4250 mm): Pad 1 [/GPIO] of SW1 on Back
+    @(22.3150 mm, 20.7750 mm): Zone [GND] on Front, In1.Cu and 2 more
 
 ** Found 0 unconnected pads **
 

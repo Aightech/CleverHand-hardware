@@ -1,10 +1,17 @@
 ** Drc report for IMU_ICM2094.kicad_pcb **
-** Created on 2024-03-30T22:02:50+0000 **
+** Created on 2024-03-31T14:20:47+0100 **
 
-** Found 1 DRC violations **
-[silk_over_copper]: Silkscreen clipped by solder mask
+** Found 3 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library ''.
     Local override; warning
-    @(28.7000 mm, 37.9000 mm): PCB Text 'by Aightech' on B.Silkscreen
+    @(33.1000 mm, 32.5000 mm): Footprint kibuzzard-66093797
+[lib_footprint_mismatch]: Footprint 'logo_aightech' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(26.0733 mm, 35.0182 mm): Footprint REF**
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(37.5000 mm, 39.2500 mm): Segment on Edge.Cuts
+    @(37.2477 mm, 30.7820 mm): Polygon on B.Silkscreen
 
 ** Found 0 unconnected pads **
 

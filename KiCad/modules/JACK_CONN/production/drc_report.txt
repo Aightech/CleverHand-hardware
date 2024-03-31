@@ -1,5 +1,5 @@
 ** Drc report for JACK_CONN.kicad_pcb **
-** Created on 2024-03-30T22:02:55+0000 **
+** Created on 2024-03-31T14:20:52+0100 **
 
 ** Found 42 DRC violations **
 [silk_over_copper]: Silkscreen clipped by solder mask

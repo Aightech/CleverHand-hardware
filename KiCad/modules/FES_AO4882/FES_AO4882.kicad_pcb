@@ -529,6 +529,7 @@
 			(uuid "982a8aa0-a0ce-4b47-bef3-9e9cbd588a6b")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3065,6 +3066,7 @@
 			(uuid "075c54cf-f3e7-4c02-af2e-611afedb938c")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4161,6 +4163,7 @@
 			(uuid "e6f76d2a-4f98-496b-82c8-6ccac049ae56")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4900,6 +4903,7 @@
 			(uuid "a912b78e-34e1-453a-a9a7-d39dbb586b85")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5172,6 +5176,7 @@
 			(uuid "9590640a-85fb-4d2b-8d9d-00204377c735")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5329,6 +5334,7 @@
 			(uuid "8a3dbfa5-bbbe-4691-a8bd-e9bf6f7ac29b")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6167,6 +6173,7 @@
 			(uuid "b6eeabbf-05d7-46ca-be64-caed921255ea")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7033,6 +7040,7 @@
 			(uuid "39a3e76b-8029-453e-98fa-6c7953496ea7")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)

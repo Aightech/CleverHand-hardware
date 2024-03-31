@@ -3571,6 +3571,7 @@
 			(uuid "0ee04243-f906-4f52-bbc5-e197f013b5dd")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4978,6 +4979,7 @@
 			(uuid "6815244f-4cfb-4c83-a455-d290d0fa2214")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x01_P1.27mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
