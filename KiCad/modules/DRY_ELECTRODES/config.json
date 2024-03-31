@@ -1,0 +1,7 @@
+{
+    "name": "DRY_ELECTRODES",
+    "description": "Electrode Module",
+    "version": "1.0",
+    "author": "Aightech",
+    "function": "electrode"
+}

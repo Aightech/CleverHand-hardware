@@ -13,8 +13,8 @@ for d in */ ; do
     # ls plots
     #cp plots/${folder}_pcb.wrl ../../../3d_model/modules/$folder.wrl
     meshlabserver -i plots/${folder}_pcb.wrl -o plots/${folder}_pcb.stl
-    cp ../COM_MOD/README.md .
-    sed -i "s/COM_MOD/$folder/g" README.md
+   
+
 
     cd ..
     echo ""

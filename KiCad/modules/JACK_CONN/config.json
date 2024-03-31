@@ -1,0 +1,7 @@
+{
+    "name": "JACK_CONN",
+    "description": "Jack connector interface to extend electrodes",
+    "version": "1.0",
+    "author": "Aightech",
+    "function": "interface"
+}

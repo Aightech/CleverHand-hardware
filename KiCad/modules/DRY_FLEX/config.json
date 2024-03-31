@@ -1,0 +1,7 @@
+{
+    "name": "DRY_FLEX",
+    "description": "Flexible interface to extend electrodes",
+    "version": "1.0",
+    "author": "Aightech",
+    "function": "interface"
+}

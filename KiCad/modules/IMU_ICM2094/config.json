@@ -1,0 +1,7 @@
+{
+    "name": "IMU_ICM2094",
+    "description": "IMU module",
+    "version": "1.0",
+    "author": "Aightech",
+    "function": "addon"
+}
