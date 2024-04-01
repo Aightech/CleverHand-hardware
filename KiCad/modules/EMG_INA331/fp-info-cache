@@ -1,4 +1,4 @@
-23301225258398749
+23307041896033778
 00_custom-footprints
 8x2_pin_smd_conn
 
@@ -603,6 +603,13 @@ VQFN-32_L5.0-W5.0-P0.50-BL-EP3.2
 33
 00_lcsc
 VSSOP-8_L3.0-W3.0-P0.65-LS4.9-BL
+
+
+0
+8
+8
+00_lcsc
+VSSOP-8_L3.0-W3.0-P0.65-LS5.0-BL
 
 
 0
@@ -10654,6 +10661,13 @@ connector Hirose FH12 horizontal
 20
 19
 Connector_FFC-FPC
+Hirose_FH12-18S-0.5SH_1x18-1MP_P0.50mm_Horizontal_1
+Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+20
+19
+Connector_FFC-FPC
 Hirose_FH12-19S-0.5SH_1x19-1MP_P0.50mm_Horizontal
 Hirose FH12, FFC/FPC connector, FH12-19S-0.5SH, 19 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
 connector Hirose FH12 horizontal
@@ -12011,6 +12025,13 @@ Wuerth FPC 68611214422 connector 12 bottom-side contacts 1.0mm pitch 1.0mm heigh
 0
 14
 13
+Connector_FFC-FPC
+XUNPU_FPC_05F_18P_H20
+Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+20
+19
 Connector_HDMI
 HDMI_A_Amphenol_10029449-x01xLF_Horizontal
 HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
@@ -60784,6 +60805,13 @@ Inductor_SMD
 L_Wurth_WE-CAIR-5910
 WE-CAIR Air coil, https://www.we-online.com/components/products/datasheet/744918254.pdf
 air coil inductor wurth we cair
+0
+2
+2
+Inductor_SMD
+L_YJYCOIN_YP0302
+Ferrocore DLG-0302 unshielded SMD power inductor, 3.0x2.8x2.5mm, https://www.tme.eu/Document/bda580f72a60a2225c2f6576c2740ae1/dlg-0504.pdf
+smd inductor dlg-0302
 0
 2
 2
