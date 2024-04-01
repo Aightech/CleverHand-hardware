@@ -9,7 +9,8 @@ for d in */ ; do
     folder=${d%?}
     echo -e "Generating production files for \e[1m$folder\e[0m"
     cd $folder
-    kicad-plot $folder
+    #kicad-plot $folder
+    meshlabserver -i plots/${folder}_pcb.wrl -o plots/${folder}.stl
     cp plots/${folder}_pcb.wrl ../../../3d_model/modules/$folder.wrl
     cp config.json ../../../3d_model/modules/$folder.json
     cd ..
