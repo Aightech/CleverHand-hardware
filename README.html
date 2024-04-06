@@ -1,0 +1,273 @@
+<h1 id="cleverhand">CleverHand</h1>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:center">Module</th>
+            <th style="text-align:center">Bracelet factor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:center"><img
+                    src="https://github.com/Aightech/CleverHand-hardware/blob/main/docs/anim.gif?raw=true"
+                    alt="CleverHand"></td>
+            <td style="text-align:center"><img
+                    src="https://github.com/Aightech/CleverHand-hardware/blob/main/docs/bracelet_one.png?raw=true"
+                    alt="chain"></td>
+        </tr>
+    </tbody>
+</table>
+<h2 id="description">Description</h2>
+<p>CleverHand is a low-cost, highly modular, and open-source Human-Machine Interface (HMI). This system offer the
+    possibility to record and process bio-signals (EMG, ECG, EEG, etc.), kinematics data (accelerometer, gyroscope,
+    magnetometer, etc.), and simultaneously provide a real-time feedback to the user (vibration, LED,
+    Electro-stimulation, etc.). The system is based on a modular architecture, which allows the user to easily add or
+    remove modules to adapt the system to his needs.</p>
+<p>Cleverhand is deigned primarily for research and educational purposes. It allows the user to easily set up a wide
+    range of experiments, from simple EMG recordings to complex Human-Machine Interaction (HMI) experiments. </p>
+<h2 id="requirememts">Requirememts</h2>
+
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Constraint</strong></td>
+            <td><strong>Status</strong></td>
+            <td><strong>Comment</strong></td>
+        </tr>
+        <tr>
+            <td>Wearable</td>
+            <td><img class="emoji lazy" alt="hammer" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/1f528.png"></td>
+            <td>Wifi feature in progress<br></td>
+        </tr>
+        <tr>
+            <td>&gt;16 channels</td>
+            <td><img class="emoji lazy" alt="heavy_check_mark" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></td>
+            <td>Up to 256 channels (32x8)</td>
+        </tr>
+        <tr>
+            <td>&gt;2kHz bandwidth</td>
+            <td><img class="emoji lazy" alt="heavy_check_mark" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></td>
+            <td>Up to 2.5kHz</td>
+        </tr>
+        <tr>
+            <td>&gt;=16 bits resolution</td>
+            <td><img class="emoji lazy" alt="heavy_check_mark" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></td>
+            <td>Up to 24bits</td>
+        </tr>
+        <tr>
+            <td>Bipolar/Monopolar</td>
+            <td><img class="emoji lazy" alt="heavy_check_mark" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Modular</td>
+            <td><img class="emoji lazy" alt="heavy_check_mark" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></td>
+            <td>1 to 32 modules by bus</td>
+        </tr>
+        <tr>
+            <td>Affordable</td>
+            <td><img class="emoji lazy" alt="heavy_check_mark" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></td>
+            <td>&lt;10-30£ per module</td>
+        </tr>
+        <tr>
+            <td>Opensource</td>
+            <td><img class="emoji lazy" alt="heavy_check_mark" width="20" height="20"
+                    src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h2 id="features">Features</h2>
+<p>The system is composed of a controller module and a set of HMI modules. </p>
+<h3 id="controller-module">Controller module</h3>
+<p>The controller module is the core of the system. It is responsible for the communication between the HMI modules and
+    the computer. It is based on a microcontroller (Teensy 4.1) and a communication module (ESP32). The controller
+    module is equipped with a USB, ethernet and WiFi interface, which allows the user to easily connect the system to a
+    computer. The controller module is also equipped with a microSD card, which allows the user to store the data
+    locally.</p>
+<h3 id="hmi-modules">HMI modules</h3>
+<p>The HMI modules are responsible for the bio-signal acquisition and the real-time feedback. The HMI modules are
+    themeseleves composed of several sub-modules, which can be easily connected to each other:</p>
+<ul>
+    <li><strong>Communication module</strong>: This sub-module is responsible for handling the communication between the
+        different modules of the controller.</li>
+    <li><strong>Sensor module</strong>: This sub-module is responsible for acquiring the signals (EMG, ECG, EEG, IMU,
+        etc.).</li>
+    <li><strong>Feedback module</strong>: This sub-module is responsible for providing a real-time feedback to the user
+        (vibration, LED, Electro-stimulation, etc.).</li>
+    <li><strong>Electrode module</strong>: This sub-module is responsible for providing the interface between the sensor
+        module and the user (electrodes, accelerometers, etc.).</li>
+    <li><strong>Interface module</strong>: This sub-module is responsible for extending the electrode module with
+        additional features (Jack connector, flexible PCB, etc.).</li>
+</ul>
+<h4 id="list-of-modules">List of modules</h4>
+<table>
+    <thead>
+        <tr>
+            <th>Module</th>
+            <th>Description</th>
+            <th>Front</th>
+            <th>Back</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Communication</td>
+            <td>Handles the communication between the modules of the controller.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/COM_MOD_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/COM_MOD_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/COM_MOD/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>EMG ADS1293</td>
+            <td>Acquires 5 channels of EMG signals.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/EMG_DAQ_ADS1293_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/EMG_DAQ_ADS1293_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/EMG_DAQ_ADS1293/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>EMG ADS1298</td>
+            <td>Acquires 8 channels of EMG signals.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/EMG_DAQ_ADS1298_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/EMG_DAQ_ADS1298_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/EMG_DAQ_ADS1298/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>EMG INA331</td>
+            <td>Acquires 1 channel of EMG signals + 3-axis accelerometer.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/EMG_INA331_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/EMG_INA331_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/EMG_INA331/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>FES AO4882</td>
+            <td>Provides 4 channels of electro-stimulation.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/FES_AO4882_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/FES_AO4882_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/FES_AO4882/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>IMU ICM2094</td>
+            <td>Acquires 3-axis accelerometer, 3-axis gyroscope, 3-axis magnetometer.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/IMU_ICM2094_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/IMU_ICM2094_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/IMU_ICM2094/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>DRY Electrodes</td>
+            <td>Provides 16 channels of dry electrodes.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/DRY_ELECTRODES_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/DRY_ELECTRODES_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/DRY_ELECTRODES/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>DRY Flex</td>
+            <td>Provides 8 bipolar channels on a flexible PCB.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/DRY_FLEX_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/DRY_FLEX_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/DRY_FLEX/README.md">Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Jack Connector</td>
+            <td>Provides a jack connector for the electrode module.</td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/JACK_CONN_front.png?raw=true"
+                    alt="Front"></td>
+            <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/JACK_CONN_back.png?raw=true"
+                    alt="Back"></td>
+            <td><a
+                    href="https://github.com/Aightech/CleverHand-hardware/blob/main/KiCad/modules/JACK_CONN/README.md">Link</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h4 id="combinaisons-of-sub-modules">Combinaisons of sub-modules</h4>
+<p>The HMI modules can be easily combined to create a wide range of experiments. Here are some examples of combinaisons:</p>
+<table>
+    <thead>
+    <tr>
+    <th>Combination</th>
+    <th>Front</th>
+    <th>Back</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Communication + EMG ADS1293 + DRY Electrodes</td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_1_front.png?raw=true" alt="Front"></td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_1_back.png?raw=true" alt="Back"></td>
+    </tr>
+    <tr>
+    <td>Communication + EMG ADS1298 + DRY Electrodes</td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_2_front.png?raw=true" alt="Front"></td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_2_back.png?raw=true" alt="Back"></td>
+    </tr>
+    <tr>
+    <td>Communication + EMG INA331 + DRY Electrodes</td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_3_front.png?raw=true" alt="Front"></td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_3_back.png?raw=true" alt="Back"></td>
+    </tr>
+    <tr>
+    <td>Communication + FES AO4882 + DRY Electrodes</td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_4_front.png?raw=true" alt="Front"></td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_4_back.png?raw=true" alt="Back"></td>
+    </tr>
+    <tr>
+    <td>Communication + IMU ICM2094 + EMG ADS1293 + DRY Electrodes</td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_5_front.png?raw=true" alt="Front"></td>
+    <td><img src="https://github.com/Aightech/CleverHand-hardware/blob/main/3d_model/modules/render/combination_5_back.png?raw=true" alt="Back"></td>
+    </tr>
+    </tbody>
+    </table>
+
+<h2 id="modular-architecture">Modular architecture</h2>
+<p>The system uses a shared bus architecture, which allows the user to easily add or remove modules to adapt the system
+    to his needs. The controller module communicates with the HMI modules 5bits address, a SPI bus, an I2C bus. The
+    communication between the modules is handled by the communication module, which activates the chip select line of
+    the associated sensor module when the address bus matches its address. Additionally, each module has a unique
+    identifier that is used to identify the module on the I2C bus.</p>
+<p>This module is responsible for handling the communication between the different modules of the controller node.
+    <img src="https://github.com/Aightech/CleverHand-hardware/blob/main/docs/diagram.drawio.svg?raw=true" alt="Diagram">
+</p>
