@@ -72,3 +72,23 @@ The system uses a shared bus architecture, which allows the user to easily add o
 This module is responsible for handling the communication between the different modules of the controller node.
 ![diagram](docs/diagram.drawio.svg)
 
+# Evaluation plan
+- Communication System
+    - Addressing
+        - **TODO** initialisation protocol
+        - selection speed (evaluate the time from the setting of the address bus to the activation of the chip select line)
+ - SPI
+    - speed/nb of modules (evaluate the maximum speed of the SPI bus before the signal becomes distorted, evaluate this speed for different number of modules)
+    - reliability (evaluate the number of corrupted bits for different number of modules and speed)
+- Sensor Modules
+    - precision (evaluate the precision of the EMG/IMU modules in laboratory conditions=> electrodes connected to a signal generator)
+    - noise 
+- Electrode Modules
+    - impedance (evaluate the impedance of the electrodes) 
+    - comfort (run a user study to evaluate the comfort of the electrodes)
+- Feedback Modules
+    - precision ( run a user study to evaluate the precision of the feedback modules)
+    - latency
+- Portability/Wearable
+    - weight
+    - autonomy
