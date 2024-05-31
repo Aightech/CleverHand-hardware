@@ -18,7 +18,7 @@ Cleverhand is deigned primarily for research and educational purposes. It allows
 |>2kHz bandwidth|:heavy_check_mark:| Up to 2.5kHz|
 |>=16 bits resolution|:heavy_check_mark:| Up to 24bits|
 |Bipolar/Monopolar |:heavy_check_mark:||
-|Modular | :heavy_check_mark:| 1 to 16 modules by bus|
+|Modular | :heavy_check_mark:| 1 to 32 modules by bus|
 |Affordable | :heavy_check_mark:| £10-£30 per modules|
 |Opensource |:heavy_check_mark:||
 

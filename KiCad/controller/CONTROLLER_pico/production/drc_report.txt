@@ -1,0 +1,124 @@
+** Drc report for CONTROLLER_pico.kicad_pcb **
+** Created on 2024-04-17T12:13:34+0100 **
+
+** Found 35 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 78.4000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 91.1000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 78.4000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 103.8000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 65.7000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 65.7000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 103.8000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 91.1000 mm): Rectangle on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 91.1000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 103.8000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 91.1000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 65.7000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 103.8000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 65.7000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.8000 mm, 78.4000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6000 mm, 78.4000 mm): Rectangle on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(97.5000 mm, 109.8450 mm): Segment on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(97.5000 mm, 117.9450 mm): Segment on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(102.5000 mm, 109.8450 mm): Segment on B.Silkscreen
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(103.8100 mm, 79.6800 mm): Footprint J7
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x03_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(101.2700 mm, 79.6800 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x20_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(108.8900 mm, 61.8700 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x20_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(91.1100 mm, 61.8700 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'Jack_Socket_PJ-210B' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(100.0000 mm, 117.9450 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'XF2J-1824-12A' does not match copy in library '00_custom-footprints'.
+    Local override; warning
+    @(99.9000 mm, 92.6000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library ''.
+    Local override; warning
+    @(100.0000 mm, 62.0000 mm): Footprint G***
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(111.0000 mm, 114.0000 mm): Segment on Edge.Cuts
+    @(107.0000 mm, 114.0000 mm): Arc on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(107.0000 mm, 54.0000 mm): Segment on Edge.Cuts
+    @(93.0000 mm, 58.0000 mm): Arc on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(89.0000 mm, 58.0000 mm): Segment on Edge.Cuts
+    @(93.0000 mm, 114.0000 mm): Arc on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(107.0000 mm, 54.0000 mm): Segment on Edge.Cuts
+    @(107.0000 mm, 58.0000 mm): Arc on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(107.0000 mm, 54.0000 mm): Segment on Edge.Cuts
+    @(93.0000 mm, 58.0000 mm): Arc on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(93.0000 mm, 118.0000 mm): Segment on Edge.Cuts
+    @(97.5000 mm, 117.9450 mm): Segment on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(93.0000 mm, 118.0000 mm): Segment on Edge.Cuts
+    @(102.5000 mm, 109.8450 mm): Segment on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(93.0000 mm, 118.0000 mm): Segment on Edge.Cuts
+    @(102.5000 mm, 117.9450 mm): Segment on B.Silkscreen
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(103.8100 mm, 79.6800 mm): Footprint J7
+    @(101.2700 mm, 79.6800 mm): Footprint J6
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
