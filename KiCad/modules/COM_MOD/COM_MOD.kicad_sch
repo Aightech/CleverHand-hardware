@@ -124,7 +124,7 @@
 					(alternate "IR_OUT" input line)
 					(alternate "LVDIN2/VC0" input line)
 					(alternate "PCA_CH0" input line)
-					(alternate "SPI_MISO" input line)
+					(alternate "SPI_POCI" input line)
 					(alternate "TIM4_CHA" input line)
 					(alternate "TIM4_CHB" input line)
 					(alternate "TIM6_CHA" input line)
@@ -151,7 +151,7 @@
 					(alternate "GPIO" input line)
 					(alternate "HCLK_OUT" input line)
 					(alternate "PCA_CH1" input line)
-					(alternate "SPI_MOSI" input line)
+					(alternate "SPI_PICO" input line)
 					(alternate "TIM4_CHB" input line)
 					(alternate "TIM5_CHB" input line)
 					(alternate "UART1_RXD" input line)
@@ -206,7 +206,7 @@
 					(alternate "I2C_SCL" input line)
 					(alternate "LPUART_TXD" input line)
 					(alternate "PCA_CH2" input line)
-					(alternate "SPI_MOSI" input line)
+					(alternate "SPI_PICO" input line)
 					(alternate "TIM1_EXT" input line)
 					(alternate "TIM4_CHA" input line)
 					(alternate "TIM5_CHB" input line)
@@ -231,7 +231,7 @@
 					(alternate "GPIO" input line)
 					(alternate "PCA_CH3" input line)
 					(alternate "RCH_OUT" input line)
-					(alternate "SPI_MISO" input line)
+					(alternate "SPI_POCI" input line)
 					(alternate "SWDIO" input line)
 					(alternate "TIM5_CHA" input line)
 					(alternate "TIM6_CHA" input line)
@@ -365,7 +365,7 @@
 					(alternate "AIN5/VC5" input line)
 					(alternate "GPIO" input line)
 					(alternate "I2C_SDA" input line)
-					(alternate "SPI_MISO" input line)
+					(alternate "SPI_POCI" input line)
 					(alternate "TIM0_GATE" input line)
 					(alternate "TIM4_CHB" input line)
 					(alternate "TIM6_CHB" input line)
@@ -421,7 +421,7 @@
 					(alternate "I2C_SCL" input line)
 					(alternate "IN6/VC6/AVREF" input line)
 					(alternate "PCA_CH4" input line)
-					(alternate "SPI_MOSI" input line)
+					(alternate "SPI_PICO" input line)
 					(alternate "TIM5_CHA" input line)
 					(alternate "TIM6_CHA" input line)
 					(alternate "UART0_RXD" input line)
@@ -3881,7 +3881,7 @@
 		)
 		(uuid "103cb90e-de08-48de-abf8-dcc870c3b465")
 	)
-	(label "SWDIO{slash}MISO_ARM"
+	(label "SWDIO{slash}POCI_ARM"
 		(at 228.6 44.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4266,7 +4266,7 @@
 		)
 		(uuid "973fd83e-63fb-46de-ba11-9a1d5a1725d9")
 	)
-	(label "MOSI_ARM"
+	(label "PICO_ARM"
 		(at 124.46 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4288,7 +4288,7 @@
 		)
 		(uuid "9bde084a-fcfc-4405-93eb-1f04b1f05c51")
 	)
-	(label "MOSI"
+	(label "PICO"
 		(at 213.36 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4299,7 +4299,7 @@
 		)
 		(uuid "a2e97e2c-5360-4895-8435-3241e29cb3b1")
 	)
-	(label "MOSI_ARM"
+	(label "PICO_ARM"
 		(at 228.6 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4453,7 +4453,7 @@
 		)
 		(uuid "cd27758e-c0cb-454e-82e7-6b3b2eafdc11")
 	)
-	(label "SWDIO{slash}MISO_ARM"
+	(label "SWDIO{slash}POCI_ARM"
 		(at 124.46 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4486,7 +4486,7 @@
 		)
 		(uuid "da1e0626-9cd4-40fd-9a18-13981344c908")
 	)
-	(label "MOSI"
+	(label "PICO"
 		(at 92.71 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4508,7 +4508,7 @@
 		)
 		(uuid "dcca2c45-a619-4bcc-b2e8-4fd4f3797295")
 	)
-	(label "MISO"
+	(label "POCI"
 		(at 92.71 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4618,7 +4618,7 @@
 		)
 		(uuid "f434ed32-eb0b-43f4-bef5-0fb3972b1dfb")
 	)
-	(label "MISO"
+	(label "POCI"
 		(at 213.36 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5825,7 +5825,7 @@
 		)
 		(pin "13"
 			(uuid "8b839d45-c549-44c8-9657-1d12ec00376e")
-			(alternate "SPI_MOSI")
+			(alternate "SPI_PICO")
 		)
 		(pin "14"
 			(uuid "daf3e77a-cdcf-42cf-842a-c85fcff310f4")

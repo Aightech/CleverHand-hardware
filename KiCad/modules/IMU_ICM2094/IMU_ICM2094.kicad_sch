@@ -2846,7 +2846,7 @@
 		)
 		(uuid "07021012-ebe4-43bf-b2b2-d32dec61d15b")
 	)
-	(label "MISO"
+	(label "POCI"
 		(at 224.79 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2857,7 +2857,7 @@
 		)
 		(uuid "183462cf-1f42-474a-92bd-d698acc7e3bd")
 	)
-	(label "MOSI"
+	(label "PICO"
 		(at 226.06 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2901,7 +2901,7 @@
 		)
 		(uuid "234b0420-ea06-4624-a464-9f4b79774911")
 	)
-	(label "MOSI_ARM"
+	(label "PICO_ARM"
 		(at 215.9 146.05 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2912,7 +2912,7 @@
 		)
 		(uuid "2872f85c-1f2a-4bf0-b138-8c84b642724d")
 	)
-	(label "MISO_1.8V"
+	(label "POCI_1.8V"
 		(at 85.09 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3000,7 +3000,7 @@
 		)
 		(uuid "5c6bed18-cc8b-4262-b94b-81bbbed2d492")
 	)
-	(label "MOSI"
+	(label "PICO"
 		(at 88.9 55.88 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3011,7 +3011,7 @@
 		)
 		(uuid "63160828-abb9-4f65-8abc-ef2943b3bc9e")
 	)
-	(label "MOSI_1.8V"
+	(label "PICO_1.8V"
 		(at 158.75 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3022,7 +3022,7 @@
 		)
 		(uuid "6e039ec6-9cc8-495b-847c-d987810be054")
 	)
-	(label "MISO_1.8V"
+	(label "POCI_1.8V"
 		(at 186.69 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3033,7 +3033,7 @@
 		)
 		(uuid "83fc3d98-d335-47c9-9bbf-8e4cabb7f9ac")
 	)
-	(label "MOSI_1.8V"
+	(label "PICO_1.8V"
 		(at 182.88 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3176,7 +3176,7 @@
 		)
 		(uuid "fd997625-791b-45d6-bc0c-bf81d16e7826")
 	)
-	(label "MISO"
+	(label "POCI"
 		(at 86.36 55.88 270)
 		(fields_autoplaced yes)
 		(effects

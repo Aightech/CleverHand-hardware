@@ -3954,7 +3954,7 @@
 		)
 		(uuid "54db745f-5c35-47b5-b80b-6c7a913ddcc2")
 	)
-	(label "MOSI"
+	(label "PICO"
 		(at 53.34 68.58 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3976,7 +3976,7 @@
 		)
 		(uuid "729cb2f3-64d1-4caf-8ba1-858263324510")
 	)
-	(label "MISO"
+	(label "POCI"
 		(at 204.47 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4031,7 +4031,7 @@
 		)
 		(uuid "abc0334c-4551-420f-981a-ec43bb3c8b74")
 	)
-	(label "MOSI"
+	(label "PICO"
 		(at 204.47 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4119,7 +4119,7 @@
 		)
 		(uuid "fd997625-791b-45d6-bc0c-bf81d16e7826")
 	)
-	(label "MISO"
+	(label "POCI"
 		(at 50.8 68.58 270)
 		(fields_autoplaced yes)
 		(effects

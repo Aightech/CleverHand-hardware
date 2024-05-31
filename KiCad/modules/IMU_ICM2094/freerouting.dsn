@@ -453,10 +453,10 @@
     (net "unconnected-(J3-Pin_1-Pad1)"
       (pins J3-1)
     )
-    (net /MISO
+    (net /POCI
       (pins R5-2 U5-3 J4-1)
     )
-    (net /MOSI
+    (net /PICO
       (pins R1-2 J5-1 U3-3)
     )
     (net /SCLK
@@ -471,10 +471,10 @@
     (net /SCK_1.8V
       (pins R3-2 U4-23 U3-1)
     )
-    (net /MOSI_1.8V
+    (net /PICO_1.8V
       (pins U4-24 R2-1 U3-4)
     )
-    (net /MISO_1.8V
+    (net /POCI_1.8V
       (pins U5-4 U4-9 R6-1)
     )
     (net "unconnected-(U4-NC-Pad4)"
@@ -528,10 +528,10 @@
     (net /IO1_out
       (pins J9-1)
     )
-    (net "/SWDIO{slash}MISO_ARM"
+    (net "/SWDIO{slash}POCI_ARM"
       (pins J10-1)
     )
-    (net /MOSI_ARM
+    (net /PICO_ARM
       (pins J11-1)
     )
     (net /SCLK_ARM
@@ -553,8 +553,8 @@
       (pins J7-1)
     )
     (class kicad_default "" +3.3V /1.8V /AIN0 /CSB /CS_1.8V /I2C_SDA /IO1_out
-      /MISO /MISO_1.8V /MOSI /MOSI_1.8V /MOSI_ARM /SCK_1.8V /SCLK /SCLK_ARM
-      /SPICS_ARM "/SWDIO{slash}MISO_ARM" /extRef /i2C_SCL GND "Net-(U4-REGOUT)"
+      /POCI /POCI_1.8V /PICO /PICO_1.8V /PICO_ARM /SCK_1.8V /SCLK /SCLK_ARM
+      /SPICS_ARM "/SWDIO{slash}POCI_ARM" /extRef /i2C_SCL GND "Net-(U4-REGOUT)"
       "unconnected-(J3-Pin_1-Pad1)" "unconnected-(J7-Pin_1-Pad1)" "unconnected-(U4-AUX_CL-Pad7)"
       "unconnected-(U4-AUX_DA-Pad21)" "unconnected-(U4-INT1-Pad12)" "unconnected-(U4-NC-Pad1)"
       "unconnected-(U4-NC-Pad14)" "unconnected-(U4-NC-Pad15)" "unconnected-(U4-NC-Pad16)"
@@ -629,16 +629,16 @@
     (wire (path Back 127  33300 -32500  34200 -32500)(net +3.3V)(type route))
     (wire (path Back 127  29500 -39300  24300 -39300)(net +3.3V)(type route))
     (wire (path Back 127  30400 -38400  29500 -39300)(net +3.3V)(type route))
-    (wire (path Front 127  28433.9 -37332.5  28875.9 -37774.5)(net /MISO)(type route))
-    (wire (path Front 127  27032.5 -37332.5  27000 -37300)(net /MISO)(type route))
-    (wire (path Front 127  27795.8 -37332.5  27032.5 -37332.5)(net /MISO)(type route))
-    (wire (path Front 127  27795.8 -37332.5  28433.9 -37332.5)(net /MISO)(type route))
-    (wire (path Back 127  27000 -32365  27000 -37300)(net /MISO)(type route))
-    (wire (path Back 127  29365 -30000  27000 -32365)(net /MISO)(type route))
-    (wire (path Front 127  33925 -32000  33925 -33050)(net /MOSI)(type route))
-    (wire (path Front 127  33925 -32000  33225 -31300  31935 -31300)(net /MOSI)(type route))
-    (wire (path Front 127  33925 -33050  34065 -33190)(net /MOSI)(type route))
-    (wire (path Front 127  31935 -31300  30635 -30000)(net /MOSI)(type route))
+    (wire (path Front 127  28433.9 -37332.5  28875.9 -37774.5)(net /POCI)(type route))
+    (wire (path Front 127  27032.5 -37332.5  27000 -37300)(net /POCI)(type route))
+    (wire (path Front 127  27795.8 -37332.5  27032.5 -37332.5)(net /POCI)(type route))
+    (wire (path Front 127  27795.8 -37332.5  28433.9 -37332.5)(net /POCI)(type route))
+    (wire (path Back 127  27000 -32365  27000 -37300)(net /POCI)(type route))
+    (wire (path Back 127  29365 -30000  27000 -32365)(net /POCI)(type route))
+    (wire (path Front 127  33925 -32000  33925 -33050)(net /PICO)(type route))
+    (wire (path Front 127  33925 -32000  33225 -31300  31935 -31300)(net /PICO)(type route))
+    (wire (path Front 127  33925 -33050  34065 -33190)(net /PICO)(type route))
+    (wire (path Front 127  31935 -31300  30635 -30000)(net /PICO)(type route))
     (wire (path Front 127  35465 -34910  35365 -35010)(net /SCLK)(type route))
     (wire (path Front 127  32400 -30900  36300 -30900)(net /SCLK)(type route))
     (wire (path Front 127  31905 -30405  32400 -30900)(net /SCLK)(type route))
@@ -690,19 +690,19 @@
     (wire (path Front 127  30600 -30900  30200 -30900)(net /SCK_1.8V)(type route))
     (wire (path Front 127  29400 -31700  29400 -32200)(net /SCK_1.8V)(type route))
     (wire (path Back 127  30600 -30900  30700 -31000  35500 -31000  35900 -31400)(net /SCK_1.8V)(type route))
-    (wire (path Front 127  33600 -34400  33600 -34545)(net /MOSI_1.8V)(type route))
-    (wire (path Front 127  29000 -31400  29000 -32200)(net /MOSI_1.8V)(type route))
-    (wire (path Front 127  29100 -31300  29000 -31400)(net /MOSI_1.8V)(type route))
-    (wire (path Front 127  33965 -34910  34065 -35010)(net /MOSI_1.8V)(type route))
-    (wire (path Front 127  33600 -34545  34065 -35010)(net /MOSI_1.8V)(type route))
-    (wire (path Front 127  32915 -34910  33965 -34910)(net /MOSI_1.8V)(type route))
-    (wire (path Back 127  29100 -31300  29200 -31400  31500 -31400)(net /MOSI_1.8V)(type route))
-    (wire (path Back 127  33600 -33500  33600 -34400)(net /MOSI_1.8V)(type route))
-    (wire (path Back 127  31500 -31400  33600 -33500)(net /MOSI_1.8V)(type route))
-    (wire (path Front 127  27208.3 -36100  29200 -36100  29800 -35500)(net /MISO_1.8V)(type route))
-    (wire (path Front 127  25975.8 -37332.5  27208.3 -36100)(net /MISO_1.8V)(type route))
-    (wire (path Front 127  29800 -35500  29800 -35200)(net /MISO_1.8V)(type route))
-    (wire (path Front 127  23940.8 -37472.5  24414.3 -36999  25642.3 -36999  25975.8 -37332.5)(net /MISO_1.8V)(type route))
+    (wire (path Front 127  33600 -34400  33600 -34545)(net /PICO_1.8V)(type route))
+    (wire (path Front 127  29000 -31400  29000 -32200)(net /PICO_1.8V)(type route))
+    (wire (path Front 127  29100 -31300  29000 -31400)(net /PICO_1.8V)(type route))
+    (wire (path Front 127  33965 -34910  34065 -35010)(net /PICO_1.8V)(type route))
+    (wire (path Front 127  33600 -34545  34065 -35010)(net /PICO_1.8V)(type route))
+    (wire (path Front 127  32915 -34910  33965 -34910)(net /PICO_1.8V)(type route))
+    (wire (path Back 127  29100 -31300  29200 -31400  31500 -31400)(net /PICO_1.8V)(type route))
+    (wire (path Back 127  33600 -33500  33600 -34400)(net /PICO_1.8V)(type route))
+    (wire (path Back 127  31500 -31400  33600 -33500)(net /PICO_1.8V)(type route))
+    (wire (path Front 127  27208.3 -36100  29200 -36100  29800 -35500)(net /POCI_1.8V)(type route))
+    (wire (path Front 127  25975.8 -37332.5  27208.3 -36100)(net /POCI_1.8V)(type route))
+    (wire (path Front 127  29800 -35500  29800 -35200)(net /POCI_1.8V)(type route))
+    (wire (path Front 127  23940.8 -37472.5  24414.3 -36999  25642.3 -36999  25975.8 -37332.5)(net /POCI_1.8V)(type route))
     (wire (path Front 127  29043 -36732  29020 -36732)(net "Net-(U4-REGOUT)")(type route))
     (wire (path Front 127  30200 -35200  30200 -35575  29043 -36732)(net "Net-(U4-REGOUT)")(type route))
     (wire (path Front 127  31000 -31500  31600 -32100)(net /CS_1.8V)(type route))
@@ -734,13 +734,13 @@
     (via "Via[0-3]_400:300_um"  24200 -39200 (net +3.3V)(type route))
     (via "Via[0-3]_400:300_um"  33300 -32500 (net +3.3V)(type route))
     (via "Via[0-3]_400:300_um"  30400 -37774.5 (net +3.3V)(type route))
-    (via "Via[0-3]_400:300_um"  27000 -37300 (net /MISO)(type route))
+    (via "Via[0-3]_400:300_um"  27000 -37300 (net /POCI)(type route))
     (via "Via[0-3]_400:300_um"  28100 -35600 (net /1.8V)(type route))
     (via "Via[0-3]_400:300_um"  32252.5 -34552.5 (net /1.8V)(type route))
     (via "Via[0-3]_400:300_um"  35900 -31400 (net /SCK_1.8V)(type route))
     (via "Via[0-3]_400:300_um"  30600 -30900 (net /SCK_1.8V)(type route))
-    (via "Via[0-3]_400:300_um"  33600 -34400 (net /MOSI_1.8V)(type route))
-    (via "Via[0-3]_400:300_um"  29100 -31300 (net /MOSI_1.8V)(type route))
+    (via "Via[0-3]_400:300_um"  33600 -34400 (net /PICO_1.8V)(type route))
+    (via "Via[0-3]_400:300_um"  29100 -31300 (net /PICO_1.8V)(type route))
     (via "Via[0-3]_400:300_um"  31600 -32100 (net /CS_1.8V)(type route))
     (via "Via[0-3]_400:300_um"  29400 -38300 (net /CS_1.8V)(type route))
   )

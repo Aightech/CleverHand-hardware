@@ -575,10 +575,10 @@
                         <div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 <div>
-                                    SPI_MISO
+                                    SPI_POCI
                                 </div>
                                 <div>
-                                    SPI_MOSI
+                                    SPI_PICO
                                 </div>
                                 <div>
                                     SPI_CLK
@@ -588,7 +588,7 @@
                     </div>
                 </foreignObject>
                 <text x="561" y="403" fill="#FFFFFF" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    SPI_MISO...
+                    SPI_POCI...
                 </text>
             </switch>
         </g>
@@ -704,10 +704,10 @@
                         <div data-drawio-colors="color: #FFFFFF; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 <div>
-                                    SPI_MISO
+                                    SPI_POCI
                                 </div>
                                 <div>
-                                    SPI_MOSI
+                                    SPI_PICO
                                 </div>
                                 <div>
                                     SPI_CLK
@@ -717,7 +717,7 @@
                     </div>
                 </foreignObject>
                 <text x="1036" y="403" fill="#FFFFFF" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    SPI_MISO...
+                    SPI_POCI...
                 </text>
             </switch>
         </g>

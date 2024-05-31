@@ -7237,8 +7237,8 @@ stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="104.9020" y="129.8575"
 textLength="4.6543" font-size="0.8466" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">SPI_MOSI</text>
-<g class="stroked-text"><desc>SPI_MOSI</desc>
+text-anchor="end" opacity="0">SPI_PICO</text>
+<g class="stroked-text"><desc>SPI_PICO</desc>
 <path d="M100.5986 129.7956
 L100.6893 129.8258
 " />
@@ -25888,8 +25888,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="213.3600" y="94.9007"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0">MOSI</text>
-<g class="stroked-text"><desc>MOSI</desc>
+text-anchor="start" opacity="0">PICO</text>
+<g class="stroked-text"><desc>PICO</desc>
 <path d="M213.7625 94.7372
 L213.7625 93.4672
 " />
@@ -27763,8 +27763,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="213.3600" y="92.3607"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0">MISO</text>
-<g class="stroked-text"><desc>MISO</desc>
+text-anchor="start" opacity="0">POCI</text>
+<g class="stroked-text"><desc>POCI</desc>
 <path d="M213.7625 92.1972
 L213.7625 90.9272
 " />
@@ -29265,8 +29265,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="124.4600" y="129.1907"
 textLength="9.5770" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">MOSI_ARM</text>
-<g class="stroked-text"><desc>MOSI_ARM</desc>
+text-anchor="end" opacity="0">PICO_ARM</text>
+<g class="stroked-text"><desc>PICO_ARM</desc>
 <path d="M115.2883 129.0272
 L115.2883 127.7572
 " />
@@ -30131,8 +30131,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="124.4600" y="126.6507"
 textLength="16.7737" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">SWDIO/MISO_ARM</text>
-<g class="stroked-text"><desc>SWDIO/MISO_ARM</desc>
+text-anchor="end" opacity="0">SWDIO/POCI_ARM</text>
+<g class="stroked-text"><desc>SWDIO/POCI_ARM</desc>
 <path d="M108.0312 126.4268
 L108.2126 126.4872
 " />
@@ -35178,8 +35178,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="92.7100" y="73.3107"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0">MOSI</text>
-<g class="stroked-text"><desc>MOSI</desc>
+text-anchor="start" opacity="0">PICO</text>
+<g class="stroked-text"><desc>PICO</desc>
 <path d="M93.1125 73.1472
 L93.1125 71.8772
 " />
@@ -35590,8 +35590,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="92.7100" y="70.7707"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0">MISO</text>
-<g class="stroked-text"><desc>MISO</desc>
+text-anchor="start" opacity="0">POCI</text>
+<g class="stroked-text"><desc>POCI</desc>
 <path d="M93.1125 70.6072
 L93.1125 69.3372
 " />
@@ -37947,8 +37947,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="228.6000" y="44.1007"
 textLength="16.7737" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">SWDIO/MISO_ARM</text>
-<g class="stroked-text"><desc>SWDIO/MISO_ARM</desc>
+text-anchor="end" opacity="0">SWDIO/POCI_ARM</text>
+<g class="stroked-text"><desc>SWDIO/POCI_ARM</desc>
 <path d="M212.1712 43.8768
 L212.3526 43.9372
 " />
@@ -38291,8 +38291,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="228.6000" y="46.6407"
 textLength="9.5770" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">MOSI_ARM</text>
-<g class="stroked-text"><desc>MOSI_ARM</desc>
+text-anchor="end" opacity="0">PICO_ARM</text>
+<g class="stroked-text"><desc>PICO_ARM</desc>
 <path d="M219.4283 46.4772
 L219.4283 45.2072
 " />
@@ -48347,8 +48347,8 @@ stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="104.9020" y="129.8575"
 textLength="4.6543" font-size="0.8466" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">SPI_MOSI</text>
-<g class="stroked-text"><desc>SPI_MOSI</desc>
+text-anchor="end" opacity="0">SPI_PICO</text>
+<g class="stroked-text"><desc>SPI_PICO</desc>
 <path d="M100.5986 129.7956
 L100.6893 129.8258
 " />

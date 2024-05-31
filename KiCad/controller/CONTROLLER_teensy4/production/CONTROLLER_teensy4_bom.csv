@@ -1,0 +1,4 @@
+"Reference","Value","Footprint","DNP","LCSC"
+"FPC2","FPC-05F-18PH20","00_lcsc:FPC-SMD_18P-P0.50_X05C2018TZ","","C2856802"
+"J5","jack2.5_PJ-210B","00_custom-footprints:Jack_Socket_PJ-210B","",""
+"U1","Teensy4.0","00_custom-footprints:Teensy40_simple","",""

@@ -3,7 +3,7 @@ This module is responsible for handling the communication between the different 
 
 The communication bus is composed of :
 - Power supply (3.3V) and ground
-- SPI bus (MISO, MOSI, SCK)
+- SPI bus (POCI, PICO, SCK)
 - I2C bus (SDA, SCL)
 - Address bus (A0, A1, A2, A3, A4)
 - External reference voltage (AREF)

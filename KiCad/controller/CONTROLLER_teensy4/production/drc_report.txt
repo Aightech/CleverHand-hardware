@@ -1,0 +1,10 @@
+** Drc report for CONTROLLER_teensy4.kicad_pcb **
+** Created on 2024-04-06T22:05:01+0100 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

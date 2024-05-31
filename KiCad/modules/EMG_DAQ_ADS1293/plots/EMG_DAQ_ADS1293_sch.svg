@@ -17226,9 +17226,9 @@ stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 88.5507 63.5000)">
 <text x="88.5507" y="63.5000"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">MOSI</text>
+text-anchor="end" opacity="0">PICO</text>
 </g>
-<g class="stroked-text"><desc>MOSI</desc>
+<g class="stroked-text"><desc>PICO</desc>
 <path d="M88.3872 67.8940
 L87.1172 67.8940
 " />
@@ -17993,9 +17993,9 @@ stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 86.0107 63.5000)">
 <text x="86.0107" y="63.5000"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="end" opacity="0">MISO</text>
+text-anchor="end" opacity="0">POCI</text>
 </g>
-<g class="stroked-text"><desc>MISO</desc>
+<g class="stroked-text"><desc>POCI</desc>
 <path d="M85.8472 67.8940
 L84.5772 67.8940
 " />
@@ -18372,8 +18372,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="171.4500" y="126.6507"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0">MISO</text>
-<g class="stroked-text"><desc>MISO</desc>
+text-anchor="start" opacity="0">POCI</text>
+<g class="stroked-text"><desc>POCI</desc>
 <path d="M171.8525 126.4872
 L171.8525 125.2172
 " />
@@ -18500,8 +18500,8 @@ stroke:#0F0F0F; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="171.4500" y="129.1907"
 textLength="4.7994" font-size="1.6933" lengthAdjust="spacingAndGlyphs"
-text-anchor="start" opacity="0">MOSI</text>
-<g class="stroked-text"><desc>MOSI</desc>
+text-anchor="start" opacity="0">PICO</text>
+<g class="stroked-text"><desc>PICO</desc>
 <path d="M171.8525 129.0272
 L171.8525 127.7572
 " />
