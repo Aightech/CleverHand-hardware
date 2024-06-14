@@ -72,6 +72,19 @@ The system uses a shared bus architecture, which allows the user to easily add o
 This module is responsible for handling the communication between the different modules of the controller node.
 ![diagram](docs/diagram.drawio.svg)
 
+
+## Communication Bus
+
+![diagram](docs/diagram_communication.drawio.svg)
+
+### Addressing system
+Each module is associated with a unique address 5bits address set during the initialization protocol. Each module constantly compares the address bus with its address and activates the chip select line when the address bus matches its address. The address bus is set by the controller depending on the module to communicate with.
+
+#### Initialization protocol
+Description of the initialization protocol: TODO
+1) How to set the address of each module depending of their position in the bus at the initialization of the system.
+2) Is there a way to dynamically add or remove modules from the bus without reinitializing the system?
+
 # Evaluation plan
 - Communication System
     - Addressing
