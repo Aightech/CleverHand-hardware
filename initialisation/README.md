@@ -28,7 +28,7 @@ In terms of wiring and pin selection, only the FPC cable (communication bus) was
 * Shared between all modules
 * Interrupt request (IRQ) is enabled. Each rising edge read by the pin sends a signal to the controller and the interrupt routine is carried out
 
-![alt text](pinout2.PNG)
+![alt text](pinout2.png)
 Fig.1 Pinout
 
 ## Method
