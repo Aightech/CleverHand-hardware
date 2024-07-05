@@ -816,7 +816,7 @@
 		(path "/cb0010c3-09e6-41ee-aeaa-702009b059af")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 -0.635)
 			(end -0.381 -0.635)
@@ -1151,7 +1151,7 @@
 		(path "/7247742c-7fc1-43d4-a842-f01c41d1a26b")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 0.635)
 			(end -0.381 0.635)
@@ -1485,7 +1485,7 @@
 		(path "/a37033d3-68cc-494f-b6f1-12ccb80ec7d0")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 0.635)
 			(end -0.381 0.635)
@@ -4155,7 +4155,7 @@
 		(path "/e22ac1c1-a370-4b31-9de9-838a4cb6ca8c")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 0.635)
 			(end -0.381 0.635)
@@ -4534,7 +4534,7 @@
 		(path "/115c944b-8207-49bc-a376-f032278b059a")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 -0.635)
 			(end -0.381 -0.635)
@@ -5367,7 +5367,7 @@
 		(path "/79a75934-b153-4391-903f-f50d50feb56b")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 -0.635)
 			(end -0.381 -0.635)
@@ -6295,7 +6295,7 @@
 		(path "/ce46d442-87c3-4f3c-8292-ebb07b6f8493")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 0.635)
 			(end -0.381 0.635)
@@ -6461,7 +6461,7 @@
 		(path "/1bd2f44c-6e8f-49e2-a856-77681395fc2f")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.381 -0.635)
 			(end -0.381 -0.635)
@@ -6629,7 +6629,7 @@
 		(path "/a14b3ca6-aba5-402d-80e7-ec4b27b12984")
 		(sheetname "Root")
 		(sheetfile "EMG_DAQ_ADS1293.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts

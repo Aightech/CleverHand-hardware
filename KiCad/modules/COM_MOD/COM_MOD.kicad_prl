@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "0015055_80000007",
+    "visible_layers": "0015055_80000001",
     "zone_display_mode": 0
   },
   "git": {
@@ -89,6 +89,18 @@
           "pos_y": 281,
           "size_x": 960,
           "size_y": 789
+        }
+      },
+      {
+        "name": "COM_MOD.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 1776,
+          "pos_y": 281,
+          "size_x": 1224,
+          "size_y": 945
         }
       }
     ]
