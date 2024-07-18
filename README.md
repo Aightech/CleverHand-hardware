@@ -41,7 +41,19 @@ The HMI modules are responsible for the bio-signal acquisition and the real-time
 
 #### List of modules
 
-| Module | Description | Front | Back | Link |
+| Module | Description | Designed | Tested |  Evaluated | Front | Back | Link |
+|--------|-------------|----------|--------|------------|-------|------|--|
+| Communication | Handles the communication between the modules of the controller. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | ![Front](3d_model/modules/render/COM_MOD_front.png) | ![Back](3d_model/modules/render/COM_MOD_back.png) | [Link](KiCad/modules/COM_MOD/README.md) |
+| EMG ADS1293  | Acquires 5 channels of EMG signals. | :heavy_check_mark: | :heavy_check_mark: | :hammer: | ![Front](3d_model/modules/render/EMG_DAQ_ADS1293_front.png) | ![Back](3d_model/modules/render/EMG_DAQ_ADS1293_back.png) | [Link](KiCad/modules/EMG_DAQ_ADS1293/README.md) |
+| EMG ADS1298  | Acquires 8 channels of EMG signals. | :heavy_check_mark: | :hammer: | :hourglass: | ![Front](3d_model/modules/render/EMG_DAQ_ADS1298_front.png) | ![Back](3d_model/modules/render/EMG_DAQ_ADS1298_back.png) | [Link](KiCad/modules/EMG_DAQ_ADS1298/README.md) |
+| EMG INA331   | Acquires 1 channel of EMG signals + 3-axis accelerometer. | :hammer: | :hourglass: | :heavy_check_mark: | ![Front](3d_model/modules/render/EMG_INA331_front.png) | ![Back](3d_model/modules/render/EMG_INA331_back.png) | [Link](KiCad/modules/EMG_INA331/README.md) |
+| FES AO4882   | Provides 4 channels of electro-stimulation. | :heavy_check_mark: | :hammer: | :hourglass: | ![Front](3d_model/modules/render/FES_AO4882_front.png) | ![Back](3d_model/modules/render/FES_AO4882_back.png) | [Link](KiCad/modules/FES_AO4882/README.md) |
+| IMU ICM2094  | Acquires 3-axis accelerometer, 3-axis gyroscope, 3-axis magnetometer. | :heavy_check_mark: | :hammer: | :hourglass: | ![Front](3d_model/modules/render/IMU_ICM2094_front.png) | ![Back](3d_model/modules/render/IMU_ICM2094_back.png) | [Link](KiCad/modules/IMU_ICM2094/README.md) |
+| DRY Electrodes | Provides 16 channels of dry electrodes. | :heavy_check_mark: | :hammer: | :hourglass: | ![Front](3d_model/modules/render/DRY_ELECTRODES_front.png) | ![Back](3d_model/modules/render/DRY_ELECTRODES_back.png) | [Link](KiCad/modules/DRY_ELECTRODES/README.md) |
+| DRY Flex | Provides 8 bipolar channels on a flexible PCB. | :heavy_check_mark: | :hammer: | :hourglass: | ![Front](3d_model/modules/render/DRY_FLEX_front.png) | ![Back](3d_model/modules/render/DRY_FLEX_back.png) | [Link](KiCad/modules/DRY_FLEX/README.md) |
+| Jack Connector | Provides a jack connector for the electrode module. | :heavy_check_mark: | :hammer: | :hourglass: | ![Front](3d_model/modules/render/JACK_CONN_front.png) | ![Back](3d_model/modules/render/JACK_CONN_back.png) | [Link](KiCad/modules/JACK_CONN/README.md) |
+
+<!-- | Module | Description | Front | Back | Link |
 |--------|-------------|-------|------|--|
 | Communication | Handles the communication between the modules of the controller. | ![Front](3d_model/modules/render/COM_MOD_front.png) | ![Back](3d_model/modules/render/COM_MOD_back.png) | [Link](KiCad/modules/COM_MOD/README.md) |
 | EMG ADS1293  | Acquires 5 channels of EMG signals. | ![Front](3d_model/modules/render/EMG_DAQ_ADS1293_front.png) | ![Back](3d_model/modules/render/EMG_DAQ_ADS1293_back.png) | [Link](KiCad/modules/EMG_DAQ_ADS1293/README.md) |
@@ -51,7 +63,7 @@ The HMI modules are responsible for the bio-signal acquisition and the real-time
 | IMU ICM2094  | Acquires 3-axis accelerometer, 3-axis gyroscope, 3-axis magnetometer. | ![Front](3d_model/modules/render/IMU_ICM2094_front.png) | ![Back](3d_model/modules/render/IMU_ICM2094_back.png) | [Link](KiCad/modules/IMU_ICM2094/README.md) |
 | DRY Electrodes | Provides 16 channels of dry electrodes. | ![Front](3d_model/modules/render/DRY_ELECTRODES_front.png) | ![Back](3d_model/modules/render/DRY_ELECTRODES_back.png) | [Link](KiCad/modules/DRY_ELECTRODES/README.md) |
 | DRY Flex | Provides 8 bipolar channels on a flexible PCB. | ![Front](3d_model/modules/render/DRY_FLEX_front.png) | ![Back](3d_model/modules/render/DRY_FLEX_back.png) | [Link](KiCad/modules/DRY_FLEX/README.md) |
-| Jack Connector | Provides a jack connector for the electrode module. | ![Front](3d_model/modules/render/JACK_CONN_front.png) | ![Back](3d_model/modules/render/JACK_CONN_back.png) | [Link](KiCad/modules/JACK_CONN/README.md) |
+| Jack Connector | Provides a jack connector for the electrode module. | ![Front](3d_model/modules/render/JACK_CONN_front.png) | ![Back](3d_model/modules/render/JACK_CONN_back.png) | [Link](KiCad/modules/JACK_CONN/README.md) | -->
 
 
 #### Combinaisons of sub-modules
