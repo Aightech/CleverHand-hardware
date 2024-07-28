@@ -629,6 +629,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
@@ -1826,6 +1947,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 172.72) (xy 80.01 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a96b6b-82c5-4190-ba43-00066e64bd3f")
+	)
+	(wire
+		(pts
 			(xy 74.93 140.97) (xy 77.47 140.97)
 		)
 		(stroke
@@ -1836,13 +1967,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 175.26) (xy 80.01 175.26)
+			(xy 48.26 163.83) (xy 48.26 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26a1f2cb-a5d2-4dda-b56e-92908ce9fae5")
+		(uuid "2658d195-d5ee-4bf0-af6f-ef8d0e2dd3a4")
 	)
 	(wire
 		(pts
@@ -1896,16 +2027,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 172.72) (xy 80.01 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42291c6c-70ee-40af-83fc-51f40867408b")
-	)
-	(wire
-		(pts
 			(xy 60.96 160.02) (xy 80.01 160.02)
 		)
 		(stroke
@@ -1956,6 +2077,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 175.26) (xy 80.01 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78750929-9452-422f-bcd6-31216846f3d9")
+	)
+	(wire
+		(pts
 			(xy 60.96 177.8) (xy 80.01 177.8)
 		)
 		(stroke
@@ -1976,6 +2107,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 172.72) (xy 54.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e2013c-a8d1-45b5-a05a-6ebecc6803dd")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 168.91 101.6)
 		)
 		(stroke
@@ -1983,6 +2124,16 @@
 			(type default)
 		)
 		(uuid "98788392-592f-437c-97dc-c79e88dbdcb1")
+	)
+	(wire
+		(pts
+			(xy 48.26 163.83) (xy 54.61 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada1c640-a463-4884-9afd-4a9ff8e44f2b")
 	)
 	(wire
 		(pts
@@ -2023,6 +2174,16 @@
 			(type default)
 		)
 		(uuid "c6ba328c-5dde-4ebf-b2ba-543fd148b9e0")
+	)
+	(wire
+		(pts
+			(xy 48.26 175.26) (xy 48.26 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84e9ef9-6583-4409-9b43-db8ecb483d75")
 	)
 	(wire
 		(pts
@@ -2155,7 +2316,7 @@
 		(uuid "fbb67713-01c5-48ba-87f1-8b7f2d89be3e")
 	)
 	(label "i2C_SCL"
-		(at 50.8 99.06 180)
+		(at 50.8 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2163,7 +2324,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "00ef6cc6-7c02-4ce0-bb18-326550c34390")
+		(uuid "08ae0113-f4ae-48d5-8ed6-88f04283fa14")
 	)
 	(label "AUX2"
 		(at 72.39 177.8 180)
@@ -2385,6 +2546,17 @@
 		)
 		(uuid "92d004b7-c25a-4cdc-ab36-71b91af66c87")
 	)
+	(label "I2C_SDA"
+		(at 50.8 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ea9c5de-3e20-459f-b71f-b6ee36adfa9c")
+	)
 	(label "IO1_out"
 		(at 50.8 60.96 180)
 		(fields_autoplaced yes)
@@ -2417,17 +2589,6 @@
 			(justify left bottom)
 		)
 		(uuid "a89ad93b-79a0-4461-8d3c-77b7a777431e")
-	)
-	(label "I2C_SDA"
-		(at 50.8 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "acf0f7cb-2df8-4986-b603-10bfcc07ad70")
 	)
 	(label "addr_bus_4"
 		(at 62.23 157.48 0)
@@ -2563,6 +2724,28 @@
 		(uuid "a3720a3b-3ff4-4947-9135-d04cff63a39a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.73 71.5046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_TEENSY"
+		(shape input)
+		(at 48.26 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9180da5-4a1b-40a2-8f09-43fab76fb635")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.9054 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,140 +2946,6 @@
 			(project "CONTROLLER_teensy4"
 				(path "/96967913-6ef1-489a-a725-ff0b6a23f183"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_lcsc:FPC-05F-18PH20")
-		(at 85.09 158.75 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f0dedf7-aad0-408d-a887-4e9e7f1a700b")
-		(property "Reference" "FPC2"
-			(at 91.44 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FPC-05F-18PH20"
-			(at 91.44 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "00_lcsc:FPC-SMD_18P-P0.50_X05C2018TZ"
-			(at 85.09 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2856802"
-			(at 85.09 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "914abc43-b434-49c3-823c-cebcb171ab7a")
-		)
-		(pin "15"
-			(uuid "2f5d4594-b804-4b79-af69-a37cb9ad3d3b")
-		)
-		(pin "19"
-			(uuid "2d42c61b-39cc-45fd-98fc-a842c08860af")
-		)
-		(pin "20"
-			(uuid "eb9108de-b021-4f81-b83e-702d6090fd25")
-		)
-		(pin "17"
-			(uuid "b97ff168-2f28-4d2c-bc0d-96ad23554fb6")
-		)
-		(pin "3"
-			(uuid "380b6177-1d79-41a5-abbc-4c13f77eec5b")
-		)
-		(pin "16"
-			(uuid "db85acf7-4ab9-4eef-9f6a-9e15bfa63743")
-		)
-		(pin "14"
-			(uuid "974e809b-fa2a-4cb6-a18f-c1d06cc1577b")
-		)
-		(pin "6"
-			(uuid "6ff9654a-0158-4e92-8b88-8d8cab11db89")
-		)
-		(pin "5"
-			(uuid "c6e889be-b440-4b36-bc6c-275c18fd9ea2")
-		)
-		(pin "2"
-			(uuid "7cdc66de-1beb-49cf-8147-332615dd7b66")
-		)
-		(pin "18"
-			(uuid "2545b723-5af1-4f9a-af76-e9b6e9e4807c")
-		)
-		(pin "7"
-			(uuid "f19c8dfb-0a2c-4545-8ff7-97a1da06527f")
-		)
-		(pin "12"
-			(uuid "1d7772fb-baee-490d-8833-ad0d5381fb1d")
-		)
-		(pin "11"
-			(uuid "f5ab609e-e56b-4453-9445-133c5923feca")
-		)
-		(pin "10"
-			(uuid "36a90efe-f890-4746-b66f-8caa59d68dc6")
-		)
-		(pin "1"
-			(uuid "6ac6405a-6ff0-4c3a-9efc-99e4a8651a6a")
-		)
-		(pin "8"
-			(uuid "49ca3abc-6a5a-4443-bf43-6da5df7179e4")
-		)
-		(pin "4"
-			(uuid "fa979389-3327-437a-9dc7-173b3418606c")
-		)
-		(pin "9"
-			(uuid "667d865e-db91-4ae3-898e-12d461aaf9f8")
-		)
-		(instances
-			(project "CONTROLLER_teensy4"
-				(path "/96967913-6ef1-489a-a725-ff0b6a23f183"
-					(reference "FPC2")
 					(unit 1)
 				)
 			)
@@ -3173,6 +3222,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 48.26 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7011b28c-0d9c-4673-aad3-a7bc74482538")
+		(property "Reference" "R1"
+			(at 44.196 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 44.196 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 46.482 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5601f94-2136-4d9a-85af-771098ef92c2")
+		)
+		(pin "1"
+			(uuid "64de90a7-0673-4a43-ae28-a2247dcc9c9c")
+		)
+		(instances
+			(project "CONTROLLER_teensy4"
+				(path "/96967913-6ef1-489a-a725-ff0b6a23f183"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 130.81 57.15 0)
 		(unit 1)
@@ -3308,6 +3426,207 @@
 			(project "CONTROLLER_teensy4"
 				(path "/96967913-6ef1-489a-a725-ff0b6a23f183"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_lcsc:FPC-05F-18PH20")
+		(at 85.09 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9eff58db-688b-46d5-8fa1-c8c935f7cc2a")
+		(property "Reference" "FPC1"
+			(at 91.44 160.0201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPC-05F-18PH20"
+			(at 91.44 157.4801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_lcsc:FPC-SMD_18P-P0.50_X05C2018TZ"
+			(at 85.09 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2856802"
+			(at 85.09 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "f9cf036a-e443-4de7-9e66-9c86e4a4cd4f")
+		)
+		(pin "15"
+			(uuid "c3fe68bc-d24c-45ee-a251-944ba5832285")
+		)
+		(pin "19"
+			(uuid "7a0c4519-52da-4a8c-88ba-2701580a53b3")
+		)
+		(pin "20"
+			(uuid "9ca83569-c909-4685-978e-fccc98fac539")
+		)
+		(pin "17"
+			(uuid "915e8b63-122b-4729-aef8-aeaa9ce7b129")
+		)
+		(pin "3"
+			(uuid "ee29ac9a-afc3-4a3c-a765-a8198e241577")
+		)
+		(pin "16"
+			(uuid "38ad041c-4717-42a8-bc71-593d81a62e6c")
+		)
+		(pin "14"
+			(uuid "be7954b4-6df3-4324-b0c6-274116d1c984")
+		)
+		(pin "6"
+			(uuid "bbdfe21a-e703-42a1-a575-b8de03334604")
+		)
+		(pin "5"
+			(uuid "9e007b97-5143-47a3-adc0-81e59a3a1e48")
+		)
+		(pin "2"
+			(uuid "27397697-2ffd-4d50-ba20-41905e9df2b8")
+		)
+		(pin "18"
+			(uuid "f8b11a69-0b27-4743-87ea-245a2be2add2")
+		)
+		(pin "7"
+			(uuid "c325469c-57a6-4cab-92bf-d75b802741c6")
+		)
+		(pin "12"
+			(uuid "6307bd21-efae-4c38-83e4-76947fcd04f2")
+		)
+		(pin "11"
+			(uuid "c92cac30-4150-4f9b-b432-bedbb162ea83")
+		)
+		(pin "10"
+			(uuid "3b2a502a-2d73-4624-8c97-462afe96a998")
+		)
+		(pin "1"
+			(uuid "e6f1cf24-f5d2-4259-8596-144f637cf7e2")
+		)
+		(pin "8"
+			(uuid "2eff6f52-32b9-4054-abce-3e413591a166")
+		)
+		(pin "4"
+			(uuid "9f0192d2-5b46-4acd-8784-926a73cc6b43")
+		)
+		(pin "9"
+			(uuid "f258d505-1255-4850-99b9-82ebd5dc298c")
+		)
+		(instances
+			(project "CONTROLLER_teensy4"
+				(path "/96967913-6ef1-489a-a725-ff0b6a23f183"
+					(reference "FPC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae6644eb-47a6-446a-819f-0c89321457d7")
+		(property "Reference" "R2"
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 55.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 52.832 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d47f3a3-29bd-48b3-93a1-991f06528c45")
+		)
+		(pin "1"
+			(uuid "b9fbb2d3-5641-4784-9417-b61aba7280ad")
+		)
+		(instances
+			(project "CONTROLLER_teensy4"
+				(path "/96967913-6ef1-489a-a725-ff0b6a23f183"
+					(reference "R2")
 					(unit 1)
 				)
 			)
