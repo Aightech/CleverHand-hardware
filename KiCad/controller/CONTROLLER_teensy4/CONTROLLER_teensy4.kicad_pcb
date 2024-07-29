@@ -1781,6 +1781,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part" "C4109"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "328950c2-f7a6-4a06-ad24-75ebf5f5a511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7011b28c-0d9c-4673-aad3-a7bc74482538")
 		(sheetname "Root")
@@ -1996,6 +2010,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C4109"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e006683-3017-4cbd-bc2d-c5fb1ada4d3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -2504,7 +2532,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C2856802"
+		(property "LCSC Part" "C397324"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
