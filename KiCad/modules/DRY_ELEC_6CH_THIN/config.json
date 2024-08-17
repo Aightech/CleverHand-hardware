@@ -1,0 +1,7 @@
+{
+    "name": "DRY_ELEC_6CH_THIN",
+    "description": "Electrode Module",
+    "version": "1.0",
+    "author": "Aightech",
+    "function": "electrode"
+}
