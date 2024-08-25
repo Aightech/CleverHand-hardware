@@ -3402,18 +3402,6 @@
 			)
 		)
 	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 194.31 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6bd30cf1-8730-4fbe-9492-a6bcefedd961")
-	)
 	(symbol
 		(lib_id "00_lcsc:AP2112K-3.3TRG1")
 		(at 140.97 62.23 0)
@@ -4271,17 +4259,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 142.24 0)
+		(lib_id "power:GNDA")
+		(at 85.09 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "247f67d3-ecd8-4f71-841c-b9fd1cc99239")
-		(property "Reference" "#PWR02"
-			(at 119.38 148.59 0)
+		(uuid "26d74667-8a5e-49ce-adef-d81deec8f2fa")
+		(property "Reference" "#PWR01"
+			(at 85.09 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,8 +4277,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 119.38 147.32 0)
+		(property "Value" "GNDA"
+			(at 85.09 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 142.24 0)
+			(at 85.09 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 142.24 0)
+			(at 85.09 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 142.24 0)
+			(at 85.09 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,18 +4313,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c87bffd1-fe7d-4b7f-af57-6e5c97289c93")
+			(uuid "a389a50d-262d-4a8e-aa48-8090cbcd0e97")
 		)
 		(instances
-			(project "cleverhand_emgDAC"
-				(path "/0e05b0e4-5a62-483e-9fee-99ff448613b9"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
 			(project "EMG_DAQ_ADS1293"
 				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
-					(reference "#PWR08")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4509,6 +4491,72 @@
 			(project "EMG_DAQ_ADS1293"
 				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33bf105a-5207-4020-b2ef-c1b17371fe82")
+		(property "Reference" "#PWR017"
+			(at 177.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63daf65e-22a0-4416-87bf-a6b534c32ec8")
+		)
+		(instances
+			(project "EMG_DAQ_ADS1293"
+				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4986,6 +5034,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 185.42 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ed0ef37-be67-4e20-8c68-4901015d9302")
+		(property "Reference" "#PWR018"
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7cf45fd-1c8b-4eb1-8d8f-4708b7479c40")
+		)
+		(instances
+			(project "EMG_DAQ_ADS1293"
+				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 205.74 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5122,6 +5236,72 @@
 			(project "EMG_DAQ_ADS1293"
 				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 196.85 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76d09187-b24b-4268-ab47-7f64f86cb3e0")
+		(property "Reference" "#PWR04"
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 196.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72ebdf57-64d0-47a8-8303-7616c379ef0d")
+		)
+		(instances
+			(project "EMG_DAQ_ADS1293"
+				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5509,72 +5689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c876c30-2deb-4a12-8ae0-968e68b00168")
-		(property "Reference" "#PWR01"
-			(at 85.09 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "646d5815-ffcb-415c-ac2a-f439c77999a1")
-		)
-		(instances
-			(project "EMG_DAQ_ADS1293"
-				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 78.74 101.6 0)
 		(unit 1)
@@ -5799,6 +5913,72 @@
 			(project "hc32l110"
 				(path "/e128d549-8cbc-4e55-b250-e367d2f4662f"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a4f0f73-9710-453c-8f36-3d6933fb4825")
+		(property "Reference" "#PWR016"
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 194.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc4e1a58-8dfc-4fff-9a0d-b5bf2ceb43b4")
+		)
+		(instances
+			(project "EMG_DAQ_ADS1293"
+				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6489,78 +6669,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d49eead0-4983-44cc-b17f-7af7c873f33d")
-		(property "Reference" "#PWR05"
-			(at 196.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b2ff576-20c7-4f01-89c1-8853959c21f3")
-		)
-		(instances
-			(project "cleverhand_emgDAC"
-				(path "/0e05b0e4-5a62-483e-9fee-99ff448613b9"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "EMG_DAQ_ADS1293"
-				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 113.03 52.07 0)
 		(unit 1)
@@ -6853,6 +6961,142 @@
 			(project "EMG_DAQ_ADS1293"
 				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 181.61 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5402d24-3c8e-42e9-a7d9-929c59ffb453")
+		(property "Reference" "JP1"
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+			(at 181.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6f8efab-98e8-4184-aa65-dda36941aa0d")
+		)
+		(pin "2"
+			(uuid "4cf1159f-d3b8-4864-9d69-72450dbf80a1")
+		)
+		(instances
+			(project "EMG_DAQ_ADS1293"
+				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 119.38 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e70eb265-fe03-409f-a802-c2cbb9d9fad9")
+		(property "Reference" "#PWR08"
+			(at 119.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 119.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2623e847-c44f-4552-b884-29cef275edd7")
+		)
+		(instances
+			(project "EMG_DAQ_ADS1293"
+				(path "/bd8cf3d8-de72-4df4-8cf2-76ef56ba4fd2"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
