@@ -8,3 +8,13 @@ ADS1293CISQE-NOPB,U1,ADS1293CISQE,C181260
 AP2112K-3.3TRG1,U2,SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL,C51118
 1uF,"C2,C8,C9",C_0402_1005Metric,C52923
 Crystal,Y1,Crystal_SMD_HC49-SD,C74858
+Conn_01x01_Pin,J1,PinHeader_1x01_P1.27mm_Vertical,
+Conn_01x01_Pin,J9,PinHeader_1x01_P1.27mm_Vertical,
+Conn_01x01_Pin,J7,PinHeader_1x01_P1.27mm_Vertical,
+Conn_01x01_Pin,J10,PinHeader_1x01_P1.27mm_Vertical,
+Conn_01x01_Pin,J14,PinHeader_1x01_P1.27mm_Vertical,
+Conn_01x01_Pin,J12,PinHeader_1x01_P1.27mm_Vertical,
+Conn_01x01_Pin,J11,PinHeader_1x01_P1.27mm_Vertical,
+Conn_01x01_Pin,J13,PinHeader_1x01_P1.27mm_Vertical,
+SolderJumper_2_Bridged,JP2,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,
+SolderJumper_2_Bridged,JP1,SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm,
