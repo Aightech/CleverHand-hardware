@@ -1,4 +1,6 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-FPC2,FPC-05F-18PH20,FPC-SMD_18P-P0.50_X05C2018TZ,100.0,-74.26,90.0,bottom
+FPC1,FPC-05F-18PH20,FPC-SMD_18P-P0.50_X05C2018TZ,100.0,-74.26,270.0,bottom
 J5,jack2.5_PJ-210B,Jack_Socket_PJ-210B,100.0,-97.695,180.0,bottom
+R1,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,105.0,-82.2,270.0,bottom
+R2,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,103.9,-82.2,270.0,bottom
 U1,Teensy4.0,Teensy40_simple,100.0,-84.0,-90.0,top
