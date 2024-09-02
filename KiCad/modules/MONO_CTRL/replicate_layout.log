@@ -1,0 +1,81 @@
+06-20 10:30:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+06-20 10:30:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]'
+06-20 10:30:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.1-unknown-202403172319~81f55dfc9c~ubuntu22.04.1
+06-20 10:30:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+06-20 10:30:34 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7a808ec23be0>
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J3 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C8 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part R1 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J1 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J2 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J9 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J15 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J7 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C4 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C1 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U1 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C7 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C9 does not exist in the database and will be created from the board.
+06-20 11:02:24 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C5 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part U2 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J5 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J4 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J10 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C2 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J14 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C3 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J8 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J12 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part C6 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part R2 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J16 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J6 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J11 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part J13 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part JP2 does not exist in the database and will be created from the board.
+06-20 11:02:25 com_github_bouni_kicad-jlcpcb-tools.store 200:Part Y1 does not exist in the database and will be created from the board.
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Top layer
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Silk top
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Mask top
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Paste top
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Inner layer 1
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Inner layer 2
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Bottom layer
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Silk top
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Mask bottom
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Paste bottom
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Edges
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted V score cut
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 228:Finished generating Excellon files
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 245:Finished generating ZIP file
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 281:Finished generating CPL file
+06-20 11:15:32 com_github_bouni_kicad-jlcpcb-tools.fabrication 298:Finished generating BOM file
+06-20 11:15:35 com_github_bouni_kicad-jlcpcb-tools.mainwindow 992:All mappings saved
+06-20 11:15:41 com_github_bouni_kicad-jlcpcb-tools.schematicexport 28:Kicad 6...
+06-20 11:15:41 com_github_bouni_kicad-jlcpcb-tools.schematicexport 34:Reading /home/adev/dev/prj/CleverHand/hardware/CleverHand-hardware/KiCad/modules/EMG_DAQ_ADS1293/EMG_DAQ_ADS1293.kicad_sch...
+06-20 11:15:41 com_github_bouni_kicad-jlcpcb-tools.schematicexport 107:Added LCSC's to /home/adev/dev/prj/CleverHand/hardware/CleverHand-hardware/KiCad/modules/EMG_DAQ_ADS1293/EMG_DAQ_ADS1293.kicad_sch(maybe?)
+06-20 11:16:40 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+06-20 11:16:40 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+06-20 11:16:40 com_github_bouni_kicad-jlcpcb-tools.store 227:Part Y1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+06-20 11:16:50 com_github_bouni_kicad-jlcpcb-tools.schematicexport 28:Kicad 6...
+06-20 11:16:50 com_github_bouni_kicad-jlcpcb-tools.schematicexport 34:Reading /home/adev/dev/prj/CleverHand/hardware/CleverHand-hardware/KiCad/modules/EMG_DAQ_ADS1293/EMG_DAQ_ADS1293.kicad_sch...
+06-20 11:16:50 com_github_bouni_kicad-jlcpcb-tools.schematicexport 107:Added LCSC's to /home/adev/dev/prj/CleverHand/hardware/CleverHand-hardware/KiCad/modules/EMG_DAQ_ADS1293/EMG_DAQ_ADS1293.kicad_sch(maybe?)
+06-20 11:17:14 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+06-20 11:17:14 com_github_bouni_kicad-jlcpcb-tools.store 227:Part U2 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+06-20 11:17:14 com_github_bouni_kicad-jlcpcb-tools.store 227:Part Y1 is already in the database and has a lcsc value, the value supplied from the board will overwrite that in the database.
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Top layer
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Silk top
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Mask top
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Paste top
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Inner layer 1
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Inner layer 2
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Bottom layer
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Silk top
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Mask bottom
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Paste bottom
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted Edges
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 213:Successfully plotted V score cut
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 228:Finished generating Excellon files
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 245:Finished generating ZIP file
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 281:Finished generating CPL file
+06-20 11:17:16 com_github_bouni_kicad-jlcpcb-tools.fabrication 298:Finished generating BOM file

@@ -1,0 +1,7 @@
+{
+    "name": "MONO_CTRL",
+    "description": "Communication Module",
+    "version": "1.0",
+    "author": "Aightech",
+    "function": "communication"
+}
