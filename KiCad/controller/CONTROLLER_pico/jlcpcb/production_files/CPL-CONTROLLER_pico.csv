@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+FPC1,FPC-05F-18PH20,FPC-SMD_18P-P0.50_X05C2018TZ,100.0,-92.5,270.0,bottom
+J1,Conn_01x02_Pin,PinHeader_1x02_P1.27mm_Vertical,99.364999,-61.0,-90.0,top
+J2,jack2.5_PJ-210B,Jack_Socket_PJ-210B,100.0,-107.095,180.0,top
+J3,Conn_01x03_Pin,PinSocket_1x03_P1.27mm_Vertical,99.999999,-62.27,90.0,top
+R1,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,94.3,-109.8,0.0,bottom
+R2,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,94.3,-108.8,0.0,bottom

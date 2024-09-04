@@ -78,6 +78,19 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "CONTROLLER_teensy4.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 1080,
+          "pos_y": 281,
+          "size_x": 960,
+          "size_y": 404
+        }
+      }
+    ]
   }
 }

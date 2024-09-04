@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC
+FPC-05F-18PH20,FPC1,FPC-SMD_18P-P0.50_X05C2018TZ,C397324
+2k,"R1,R2",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C4109
+jack2.5_PJ-210B,J2,Jack_Socket_PJ-210B,
+Conn_01x03_Pin,J3,PinSocket_1x03_P1.27mm_Vertical,
+Conn_01x02_Pin,J1,PinHeader_1x02_P1.27mm_Vertical,
