@@ -85,20 +85,20 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 1080,
-          "pos_y": 281,
-          "size_x": 960,
-          "size_y": 876
+          "pos_x": 1400,
+          "pos_y": 460,
+          "size_x": 1280,
+          "size_y": 602
         }
       },
       {
         "name": "EMG_DAQ_ADS1293.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 1567,
-          "pos_y": 281,
+          "pos_x": 1560,
+          "pos_y": 264,
           "size_x": 960,
           "size_y": 1053
         }

@@ -1,0 +1,53 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "2",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+        "vcount": "0"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.3mm"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "4mm",
+        "fillet": "2mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "text": {
+        "type": "simple",
+        "hoffset": "39mm",
+        "voffset": "-2mm",
+        "text": "Panel 2x2"
+    },
+    "text2": {
+        "type": "simple",
+        "text": "CleverHand COM_MOD  v3.0",
+        "anchor": "mb"
+    },
+    "copperfill": {
+        "type": "solid",
+        "clearance": "1mm"
+    },
+    "page": {
+        "posx": "0mm",
+        "posy": "0mm"
+    },
+    "post": {
+        "millradius": "1mm",
+        "refillzones": "True"
+    }
+}
