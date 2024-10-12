@@ -1,0 +1,52 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "4",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+        "vcount": "0"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "-0.3mm"
+    },
+    "framing": {
+        "type": "frame",
+        "width": "4mm",
+        "fillet": "2mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2mm",
+        "text": "Panel 4x1"
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "-2mm",
+        "text": "CleverHand 6CH MID",
+        "anchor": "mb"
+    },
+    "copperfill": {
+        "type": "solid",
+        "clearance": "1mm"
+    },
+    "page": {
+        "posx": "0mm",
+        "posy": "0mm"
+    },
+    "post": {
+        "millradius": "1mm",
+        "refillzones": "True"
+    }
+}

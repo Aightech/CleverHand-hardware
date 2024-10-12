@@ -2926,7 +2926,7 @@
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiPCIsICJDYXBSaWdodENob2ljZSI6ICI8IiwgIkZvbnRDb21ib0JveCI6ICJGcmVkZHlTcGFyay1SZWd1bGFyIiwgIkhlaWdodEN0cmwiOiAxLjAsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMS41LCAiTXVsdGlMaW5lVGV4dCI6ICJDbHZIZCIsICJQYWRkaW5nQm90dG9tQ3RybCI6IDIuMCwgIlBhZGRpbmdMZWZ0Q3RybCI6IDEuMCwgIlBhZGRpbmdSaWdodEN0cmwiOiAyLjAsICJQYWRkaW5nVG9wQ3RybCI6IDIuMCwgIldpZHRoQ3RybCI6IDAuMCwgImFkdmFuY2VkQ2hlY2tib3giOiBmYWxzZSwgImlubGluZUZvcm1hdFRleHRib3giOiBmYWxzZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
 		(property "Reference" "kibuzzard-66BB0EE4"
-			(at 0 -3.822201 360)
+			(at 0 -3.822201 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "374e1dca-5fab-4c19-b588-1733a282c5b1")
@@ -2938,7 +2938,7 @@
 			)
 		)
 		(property "Value" "G***"
-			(at 0 3.822201 360)
+			(at 0 3.822201 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "66e429d1-2388-40e7-9b58-927e1aee7b01")
@@ -2950,7 +2950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "caab445c-e8d4-4392-9913-6ce2e169ffed")
@@ -2962,7 +2962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97b50e81-0370-4e92-9d0f-a391a61b7cd7")
@@ -2974,7 +2974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d1fe0e2-d778-4cee-be56-5ca9291cd5fe")
@@ -12043,9 +12043,9 @@
 				(xy 19.114804 32.462066) (xy 19.178359 32.433041) (xy 19.247518 32.442983) (xy 19.262059 32.453857)
 				(xy 19.263365 32.451827) (xy 19.278362 32.461465) (xy 19.278363 32.461466) (xy 19.328963 32.476323)
 				(xy 19.349997 32.4825) (xy 19.349998 32.4825) (xy 19.361022 32.4825) (xy 19.428061 32.502185) (xy 19.448703 32.518819)
-				(xy 21.138077 34.208193) (xy 21.191806 34.261922) (xy 21.262007 34.291) (xy 21.262009 34.291) (xy 27.143499 34.291)
-				(xy 27.210538 34.310685) (xy 27.256293 34.363489) (xy 27.267499 34.415) (xy 27.267499 36.3655) (xy 27.247814 36.432539)
-				(xy 27.19501 36.478294) (xy 27.143499 36.4895) (xy 16.005411 36.4895) (xy 15.994605 36.489028) (xy 15.969583 36.486838)
+				(xy 21.191806 34.261922) (xy 21.262007 34.291) (xy 21.262009 34.291) (xy 27.143499 34.291) (xy 27.210538 34.310685)
+				(xy 27.256293 34.363489) (xy 27.267499 34.415) (xy 27.267499 36.3655) (xy 27.247814 36.432539) (xy 27.19501 36.478294)
+				(xy 27.143499 36.4895) (xy 16.005411 36.4895) (xy 15.994605 36.489028) (xy 15.969583 36.486838)
 				(xy 15.838981 36.475412) (xy 15.817695 36.471659) (xy 15.672048 36.432633) (xy 15.651737 36.42524)
 				(xy 15.515083 36.361517) (xy 15.496365 36.35071) (xy 15.372848 36.264223) (xy 15.35629 36.250329)
 				(xy 15.24967 36.143709) (xy 15.235776 36.127151) (xy 15.149289 36.003633) (xy 15.138482 35.984915)
