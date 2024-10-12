@@ -1048,6 +1048,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1059,6 +1060,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6612,7 +6614,7 @@
 		)
 		(fp_arc
 			(start -0.7 1)
-			(mid -1.194977 0.794976)
+			(mid -1.194978 0.794978)
 			(end -1.4 0.300001)
 			(stroke
 				(width 0.12)
@@ -6739,7 +6741,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP1"
-			(at 0 1.8 360)
+			(at 0 1.8 0)
 			(layer "B.SilkS")
 			(uuid "11a801d0-9986-4914-8037-b8dba59b322f")
 			(effects
@@ -6751,7 +6753,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "B.Fab")
 			(uuid "f01c17ce-ba56-4013-82ba-6ca1456cc154")
 			(effects
@@ -7103,7 +7105,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C74858"
+		(property "LCSC" "C5265827"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)

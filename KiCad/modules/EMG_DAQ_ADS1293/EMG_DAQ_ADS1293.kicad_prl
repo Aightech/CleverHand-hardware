@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 49,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "00290aa_80000007",
+    "visible_layers": "0015055_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -78,31 +78,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "EMG_DAQ_ADS1293.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 1400,
-          "pos_y": 460,
-          "size_x": 1280,
-          "size_y": 602
-        }
-      },
-      {
-        "name": "EMG_DAQ_ADS1293.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 1560,
-          "pos_y": 264,
-          "size_x": 960,
-          "size_y": 1053
-        }
-      }
-    ]
+    "files": []
   }
 }
