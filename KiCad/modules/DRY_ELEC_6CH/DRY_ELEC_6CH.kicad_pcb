@@ -94,7 +94,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 29.999999 32)
+		(grid_origin 26.825 27.3)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -1411,7 +1411,7 @@
 	(footprint "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "29bdc168-7ae1-4eee-84ae-4886b3ce944e")
-		(at 25.555 28.765 180)
+		(at 25.555 28.7 180)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J9"
@@ -3724,7 +3724,7 @@
 	(footprint "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "72e42baf-fc73-43e2-80b7-6391bdc9c5a7")
-		(at 34.445 28.765 180)
+		(at 34.445 28.7 180)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J16"
@@ -5127,7 +5127,7 @@
 	(footprint "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "95777e50-0760-42f6-a92a-c30c3dbdc202")
-		(at 25.555 27.365)
+		(at 25.555 27.3)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J1"
@@ -8889,7 +8889,7 @@
 	(footprint "00_custom-footprints:SolderWirePad_1x01_SMD_1x2mm"
 		(layer "F.Cu")
 		(uuid "f18c56e4-604c-48e1-8bad-718423202d0e")
-		(at 34.445 27.365)
+		(at 34.445 27.3)
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "J8"
@@ -9780,6 +9780,102 @@
 		)
 	)
 	(gr_rect
+		(start 31.405 27.7)
+		(end 32.405 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "0fa9d9e6-31e7-4d4f-b4fd-cfc850df109b")
+	)
+	(gr_rect
+		(start 33.945 27.7)
+		(end 34.945 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "18fe69c0-9a36-4889-a230-ac1c3e414882")
+	)
+	(gr_rect
+		(start 27.595 27.7)
+		(end 28.595 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "6c919b45-74e2-48ef-b567-5a6ef9d6d6ac")
+	)
+	(gr_rect
+		(start 32.675 27.7)
+		(end 33.675 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "75ad9bce-d76b-430d-8b58-3e2049989385")
+	)
+	(gr_rect
+		(start 28.865 27.7)
+		(end 29.865 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "76c28691-0e48-41d9-85c8-7fa2027282ce")
+	)
+	(gr_rect
+		(start 25.055 27.7)
+		(end 26.055 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "b9b4eb96-f3ad-4a9d-bf83-72af9e202ef8")
+	)
+	(gr_rect
+		(start 26.325 27.7)
+		(end 27.325 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "ce751b95-7300-4d20-9261-57a29979323d")
+	)
+	(gr_rect
+		(start 30.135 27.7)
+		(end 31.135 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "d47a0a9a-eeb9-40ec-af65-0c185b20693a")
+	)
+	(gr_rect
 		(start 22.5 27)
 		(end 37.5 28.6)
 		(stroke
@@ -10290,6 +10386,94 @@
 		(layer "B.Mask")
 		(uuid "ffcd5adf-1ee8-46b2-a02a-49fafe5497b9")
 	)
+	(gr_rect
+		(start 31.405 27.7)
+		(end 32.405 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "09d9c7ea-7c52-4778-8a9c-de86b715b19b")
+	)
+	(gr_rect
+		(start 30.135 27.7)
+		(end 31.135 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "6d5a3dad-fcda-45c9-90b4-79fc8226d33c")
+	)
+	(gr_rect
+		(start 26.325 27.7)
+		(end 27.325 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "6eb99828-7527-4266-8721-18425753b656")
+	)
+	(gr_rect
+		(start 33.945 27.7)
+		(end 34.945 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "878c92ef-71e2-4f0d-9881-82a270c19214")
+	)
+	(gr_rect
+		(start 28.865 27.7)
+		(end 29.865 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "a2c4299b-4844-45b8-9073-7ec203f0ecd7")
+	)
+	(gr_rect
+		(start 32.675 27.7)
+		(end 33.675 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "b30b9c78-7be3-4c04-baef-a09da183f663")
+	)
+	(gr_rect
+		(start 25.055 27.7)
+		(end 26.055 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "ce2e4889-088d-4128-adc0-77c8430549e4")
+	)
+	(gr_rect
+		(start 27.595 27.7)
+		(end 28.595 28.3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "f1f8b7df-be78-4690-aa33-0253d94b137d")
+	)
 	(gr_line
 		(start 14.999999 26.5)
 		(end 14.999999 37.5)
@@ -10450,6 +10634,17 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "1f7255e7-2a1e-465b-983a-68fcf8c1e67c")
+	)
+	(gr_circle
+		(center 29.999999 28)
+		(end 30.199999 27.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2a2cb7be-4157-49ca-9b08-84f524a32ba3")
 	)
 	(gr_circle
 		(center 42.699999 32)
@@ -12839,6 +13034,34 @@
 		(layer "F.Cu")
 		(net 19)
 		(uuid "b3d56240-c778-4602-a60d-b6318b535dea")
+	)
+	(zone
+		(net 9)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "e449f6f9-1ccf-4b19-a269-501d69fd3a79")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads
+			(clearance 0.127)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 25.055 27.7) (xy 26.055 27.7) (xy 26.055 28.3) (xy 25.055 28.3)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 25.805 28.3) (xy 25.305 28.3) (xy 25.305 27.7) (xy 25.805 27.7)
+			)
+		)
 	)
 	(zone
 		(net 9)
