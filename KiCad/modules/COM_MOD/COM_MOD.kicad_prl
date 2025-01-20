@@ -78,19 +78,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "COM_MOD.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 1776,
-          "pos_y": 355,
-          "size_x": 1224,
-          "size_y": 895
-        }
-      }
-    ]
+    "files": []
   }
 }
