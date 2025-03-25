@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -518,9 +519,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "plots/MONO_CTRL.step",
       "svg": "",
-      "vrml": "MONO_CTRL.wrl"
+      "vrml": "plots/MONO_CTRL.wrl"
     },
     "page_layout_descr_file": "../DrawingSheet.kicad_wks"
   },
