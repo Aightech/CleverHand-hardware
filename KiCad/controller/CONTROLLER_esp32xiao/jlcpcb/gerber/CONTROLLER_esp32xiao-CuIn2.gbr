@@ -1,0 +1,105 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8-8.0.8-0~ubuntu24.04.1*%
+%TF.CreationDate,2025-03-23T23:28:59+00:00*%
+%TF.ProjectId,CONTROLLER_esp32xiao,434f4e54-524f-44c4-9c45-525f65737033,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L3,Inr*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.8-8.0.8-0~ubuntu24.04.1) date 2025-03-23 23:28:59*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12RoundRect,1.000000X0.375000X0.000010X-0.375000X0.000010X-0.375000X-0.000010X0.375000X-0.000010X0*%
+%TD*%
+%TA.AperFunction,ViaPad*%
+%ADD13C,0.400000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.N,/Sync*%
+%TO.C,J3*%
+X61000000Y-87725000D03*
+D11*
+%TO.N,GND*%
+X61000000Y-90265000D03*
+%TD*%
+D10*
+%TO.N,VSYS*%
+%TO.C,J1*%
+X58460000Y-87725000D03*
+D11*
+%TO.N,/extRef*%
+X58460000Y-90265000D03*
+%TD*%
+D12*
+%TO.N,/addr_bus_0*%
+%TO.C,U2*%
+X64665000Y-76621750D03*
+%TO.N,/addr_bus_1*%
+X64665000Y-79161750D03*
+%TO.N,/addr_bus_2*%
+X64665000Y-81701750D03*
+%TO.N,/Sync*%
+X64665000Y-84241750D03*
+%TO.N,/I2C_SDA*%
+X64665000Y-86781750D03*
+%TO.N,/i2C_SCL*%
+X64665000Y-89321750D03*
+%TO.N,/IO1_out*%
+X64665000Y-91861750D03*
+%TO.N,/IO2*%
+X48500000Y-91861750D03*
+%TO.N,/SCLK*%
+X48500000Y-89321750D03*
+%TO.N,/POCI*%
+X48500000Y-86781750D03*
+%TO.N,/PICO*%
+X48500000Y-84241750D03*
+%TO.N,+3.3V*%
+X48500000Y-81701750D03*
+%TO.N,GND*%
+X48500000Y-79161750D03*
+%TO.N,VSYS*%
+X48500000Y-76621750D03*
+%TD*%
+D13*
+%TO.N,GND*%
+X52460000Y-81760000D03*
+X54500000Y-87540000D03*
+%TO.N,+3.3V*%
+X51000000Y-91000000D03*
+%TO.N,/IO2*%
+X56300000Y-84260000D03*
+%TO.N,/i2C_SCL*%
+X57300000Y-85360003D03*
+%TO.N,/I2C_SDA*%
+X57300000Y-84760000D03*
+%TD*%
+M02*
