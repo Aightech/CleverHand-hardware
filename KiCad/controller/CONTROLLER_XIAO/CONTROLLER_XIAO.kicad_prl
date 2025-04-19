@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 1,
-    "active_layer_preset": "",
+    "active_layer": 31,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_fffffffe",
-    "zone_display_mode": 0
+    "visible_layers": "fffffff_ffffffff",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",
@@ -74,33 +74,21 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "MONO_CTRL.kicad_prl",
+    "filename": "CONTROLLER_XIAO.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "MONO_CTRL.kicad_sch",
-        "open": false,
+        "name": "CONTROLLER_XIAO.kicad_pcb",
+        "open": true,
         "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 1560,
-          "pos_y": 264,
-          "size_x": 960,
-          "size_y": 1053
-        }
-      },
-      {
-        "name": "MONO_CTRL.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
+          "display": 2,
           "maximized": true,
           "pos_x": 2040,
           "pos_y": 264,
           "size_x": 960,
-          "size_y": 935
+          "size_y": 792
         }
       }
     ]

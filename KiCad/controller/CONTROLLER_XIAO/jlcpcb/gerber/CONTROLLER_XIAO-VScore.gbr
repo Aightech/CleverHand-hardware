@@ -1,0 +1,28 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.8-unknown-202501290020~8b811aa383~ubuntu22.04.1*%
+%TF.CreationDate,2025-03-26T11:50:05+00:00*%
+%TF.ProjectId,CONTROLLER_XIAO,434f4e54-524f-44c4-9c45-525f5849414f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Other,Comment*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.8-unknown-202501290020~8b811aa383~ubuntu22.04.1) date 2025-03-26 11:50:05*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.250000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,FPC1*%
+X54429998Y-80180001D02*
+G75*
+G02*
+X54170002Y-80180001I-129998J0D01*
+G01*
+X54170002Y-80180001D02*
+G75*
+G02*
+X54429998Y-80180001I129998J0D01*
+G01*
+%TD*%
+M02*

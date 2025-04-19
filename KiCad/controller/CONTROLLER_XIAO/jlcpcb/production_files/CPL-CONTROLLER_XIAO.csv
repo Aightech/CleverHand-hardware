@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+FPC1,FPC-05F-18PH20,FPC-SMD_18P-P0.50_FPC-05F-18PH20,52.5875,-84.6,-90.0,top
+J1,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Vertical,60.0,-84.13,180.0,top
+J3,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Vertical,57.46,-84.13,0.0,top
+R1,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,62.5,-88.0,-90.0,top
+R2,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,62.5,-85.7,-90.0,top
+U2,SEEEDUINO-XIAO-ESP32C3,xiaoSeeedStudio_MODULE14P-DIP,56.5825,-84.24175,0.0,bottom

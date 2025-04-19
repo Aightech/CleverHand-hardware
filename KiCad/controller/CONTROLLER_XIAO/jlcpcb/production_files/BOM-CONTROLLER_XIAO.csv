@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC
+FPC-05F-18PH20,FPC1,FPC-SMD_18P-P0.50_FPC-05F-18PH20,C397324
+2k,"R1,R2",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C4109
+SEEEDUINO-XIAO-ESP32C3,U2,xiaoSeeedStudio_MODULE14P-DIP,
+Conn_01x02_Pin,J3,PinHeader_1x02_P2.54mm_Vertical,
+Conn_01x02_Pin,J1,PinHeader_1x02_P2.54mm_Vertical,
