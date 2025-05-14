@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 44,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -78,19 +78,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "CONTROLLER_XIAO.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 2,
-          "maximized": true,
-          "pos_x": 2040,
-          "pos_y": 264,
-          "size_x": 960,
-          "size_y": 792
-        }
-      }
-    ]
+    "files": []
   }
 }

@@ -1,4 +1,4 @@
-24691941873718548
+24868828054965377
 00_custom-footprints
 8x2_pin_smd_conn
 
@@ -83,6 +83,13 @@ ESP32-C3FH4
 0
 33
 33
+00_custom-footprints
+HARWIN_M50-4302045
+
+
+0
+40
+40
 00_custom-footprints
 HYCW395-USBC16-085B
 C5338274
@@ -644,6 +651,13 @@ LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL
 64
 64
 00_lcsc
+MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL
+
+
+0
+10
+10
+00_lcsc
 NFBGA-64_L8.0-W8.0-R8-C8-P0.80-TL
 
 
@@ -785,6 +799,13 @@ TDFN-14_L3.0-W3.0-P0.40-BL-EP
 15
 00_lcsc
 TQFP-64_L10.0-W10.0-P0.50-LS12.0-BL
+
+
+0
+64
+64
+00_lcsc
+TQFP-64_L10.0-W10.0-P0.50-LS12.0-TL
 
 
 0
@@ -10913,13 +10934,6 @@ connector Hirose FH12 horizontal
 20
 19
 Connector_FFC-FPC
-Hirose_FH12-18S-0.5SH_1x18-1MP_P0.50mm_Horizontal_1
-Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
-connector Hirose FH12 horizontal
-0
-20
-19
-Connector_FFC-FPC
 Hirose_FH12-19S-0.5SH_1x19-1MP_P0.50mm_Horizontal
 Hirose FH12, FFC/FPC connector, FH12-19S-0.5SH, 19 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
 connector Hirose FH12 horizontal
@@ -12459,13 +12473,6 @@ Wuerth FPC 68611214422 connector 12 bottom-side contacts 1.0mm pitch 1.0mm heigh
 0
 14
 13
-Connector_FFC-FPC
-XUNPU_FPC_05F_18P_H20
-Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
-connector Hirose FH12 horizontal
-0
-20
-19
 Connector_Harting
 Harting_har-flexicon_14110213001xxx_1x02-MP_P2.54mm_Vertical
 Harting har-flexicon series connector, 14110213001xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13001XXX_100228421DRW046C.pdf), generated with kicad-footprint-generator
@@ -14167,6 +14174,90 @@ connector Hirose DF63 vertical
 0
 5
 5
+Connector_Hirose_FX8
+Hirose_FX8-60P-SV_2x30_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Header, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking header
+0
+60
+60
+Connector_Hirose_FX8
+Hirose_FX8-60S-SV_2x30_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Receptacle, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking receptacle
+0
+60
+60
+Connector_Hirose_FX8
+Hirose_FX8-80P-SV_2x40_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Header, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking header
+0
+80
+80
+Connector_Hirose_FX8
+Hirose_FX8-80S-SV_2x40_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Receptacle, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking receptacle
+0
+80
+80
+Connector_Hirose_FX8
+Hirose_FX8-90P-SV_2x45_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Header, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking header
+0
+90
+90
+Connector_Hirose_FX8
+Hirose_FX8-90S-SV_2x45_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Receptacle, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking receptacle
+0
+90
+90
+Connector_Hirose_FX8
+Hirose_FX8-100P-SV_2x50_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Header, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking header
+0
+100
+100
+Connector_Hirose_FX8
+Hirose_FX8-100S-SV_2x50_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Receptacle, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking receptacle
+0
+100
+100
+Connector_Hirose_FX8
+Hirose_FX8-120P-SV_2x60_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Header, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking header
+0
+120
+120
+Connector_Hirose_FX8
+Hirose_FX8-120S-SV_2x60_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Receptacle, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking receptacle
+0
+120
+120
+Connector_Hirose_FX8
+Hirose_FX8-140P-SV_2x70_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Header, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking header
+0
+140
+140
+Connector_Hirose_FX8
+Hirose_FX8-140S-SV_2x70_P0.6mm
+0.6mm Pitch, Stacking Height 3mm to 16mm, Receptacle, vertical (source: https://www.hirose.com/de/product/document?clcode=&productname=&series=FX8&documenttype=Catalog&lang=en&documentid=D31612_en)
+conn hirose board to board stacking receptacle
+0
+140
+140
 Connector_IDC
 IDC-Header_2x03_P2.54mm_Horizontal
 Through hole IDC box header, 2x03, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
@@ -15749,6 +15840,146 @@ SIM Card with Detect Switch
 0
 18
 9
+Connector_JAE_WP7B
+JAE_WP7B-P034VA1-R8000_2x17-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+38
+35
+Connector_JAE_WP7B
+JAE_WP7B-P034VA1-R8000_Longpads_2x17-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+38
+35
+Connector_JAE_WP7B
+JAE_WP7B-P040VA1-R8000_2x20-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+44
+41
+Connector_JAE_WP7B
+JAE_WP7B-P040VA1-R8000_Longpads_2x20-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+44
+41
+Connector_JAE_WP7B
+JAE_WP7B-P050VA1-R8000_2x25-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+54
+51
+Connector_JAE_WP7B
+JAE_WP7B-P050VA1-R8000_Longpads_2x25-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+54
+51
+Connector_JAE_WP7B
+JAE_WP7B-P060VA1-R8000_2x30-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+64
+61
+Connector_JAE_WP7B
+JAE_WP7B-P060VA1-R8000_Longpads_2x30-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+64
+61
+Connector_JAE_WP7B
+JAE_WP7B-P070VA1-R8000_2x35-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+74
+71
+Connector_JAE_WP7B
+JAE_WP7B-P070VA1-R8000_Longpads_2x35-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Plug, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66869&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+74
+71
+Connector_JAE_WP7B
+JAE_WP7B-S034VA1-R8000_2x17-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+38
+35
+Connector_JAE_WP7B
+JAE_WP7B-S034VA1-R8000_Longpads_2x17-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+38
+35
+Connector_JAE_WP7B
+JAE_WP7B-S040VA1-R8000_2x20-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+44
+41
+Connector_JAE_WP7B
+JAE_WP7B-S040VA1-R8000_Longpads_2x20-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+44
+41
+Connector_JAE_WP7B
+JAE_WP7B-S050VA1-R8000_2x25-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+54
+51
+Connector_JAE_WP7B
+JAE_WP7B-S050VA1-R8000_Longpads_2x25-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+54
+51
+Connector_JAE_WP7B
+JAE_WP7B-S060VA1-R8000_2x30-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+64
+61
+Connector_JAE_WP7B
+JAE_WP7B-S060VA1-R8000_Longpads_2x30-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+64
+61
+Connector_JAE_WP7B
+JAE_WP7B-S070VA1-R8000_2x35-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+74
+71
+Connector_JAE_WP7B
+JAE_WP7B-S070VA1-R8000_Longpads_2x35-1MP_P0.4mm
+0.4mm Pitch, Stacking Type, Board-to-Board FPC connector, 0.7mm Mating Height, Reworkable, Receptacle, vertical (source: https://www.jae.com/direct/topics/topics_file_download/topics_id=66874&ext_no=06&index=0&_lang=en&v=)
+conn jae fpc board to board
+0
+74
+71
 Connector_JST
 JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical
 JST ACH series connector, BM01B-ACHSS-A-GAN-ETF (http://www.jst-mfg.com/product/pdf/eng/eACH.pdf), generated with kicad-footprint-generator
@@ -49573,6 +49804,258 @@ conn samtec discrete wire terminal
 0
 22
 21
+Connector_Samtec_MicroPower
+Samtec_UMPS-02-XX.X-X-V-S-W_1x02-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+10
+3
+Connector_Samtec_MicroPower
+Samtec_UMPS-02-XX.X-X-V-S_1x02_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+2
+2
+Connector_Samtec_MicroPower
+Samtec_UMPS-03-XX.X-X-V-S-W_1x03-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+11
+4
+Connector_Samtec_MicroPower
+Samtec_UMPS-03-XX.X-X-V-S_1x03_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+3
+3
+Connector_Samtec_MicroPower
+Samtec_UMPS-04-XX.X-X-V-S-W_1x04-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+12
+5
+Connector_Samtec_MicroPower
+Samtec_UMPS-04-XX.X-X-V-S_1x04_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+4
+4
+Connector_Samtec_MicroPower
+Samtec_UMPS-05-XX.X-X-V-S-W_1x05-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+13
+6
+Connector_Samtec_MicroPower
+Samtec_UMPS-05-XX.X-X-V-S_1x05_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+5
+5
+Connector_Samtec_MicroPower
+Samtec_UMPS-06-XX.X-X-V-S-W_1x06-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+14
+7
+Connector_Samtec_MicroPower
+Samtec_UMPS-06-XX.X-X-V-S_1x06_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+6
+6
+Connector_Samtec_MicroPower
+Samtec_UMPS-07-XX.X-X-V-S-W_1x07-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+15
+8
+Connector_Samtec_MicroPower
+Samtec_UMPS-07-XX.X-X-V-S_1x07_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+7
+7
+Connector_Samtec_MicroPower
+Samtec_UMPS-08-XX.X-X-V-S-W_1x08-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+16
+9
+Connector_Samtec_MicroPower
+Samtec_UMPS-08-XX.X-X-V-S_1x08_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+8
+8
+Connector_Samtec_MicroPower
+Samtec_UMPS-09-XX.X-X-V-S-W_1x09-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+17
+10
+Connector_Samtec_MicroPower
+Samtec_UMPS-09-XX.X-X-V-S_1x09_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+9
+9
+Connector_Samtec_MicroPower
+Samtec_UMPS-10-XX.X-X-V-S-W_1x10-1MP_P2.0mm_Socket_WeldTab
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+18
+11
+Connector_Samtec_MicroPower
+Samtec_UMPS-10-XX.X-X-V-S_1x10_P2.0mm_Socket
+2.00 mm mPOWER Ultra Micro Power Socket (source: https://suddendocs.samtec.com/prints/umps-xx-xx.x-xx-v-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power socket
+0
+10
+10
+Connector_Samtec_MicroPower
+Samtec_UMPT-02-XX.X-X-V-S-W_1x02-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+10
+3
+Connector_Samtec_MicroPower
+Samtec_UMPT-02-XX.X-X-V-S_1x02_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+2
+2
+Connector_Samtec_MicroPower
+Samtec_UMPT-03-XX.X-X-V-S-W_1x03-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+11
+4
+Connector_Samtec_MicroPower
+Samtec_UMPT-03-XX.X-X-V-S_1x03_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+3
+3
+Connector_Samtec_MicroPower
+Samtec_UMPT-04-XX.X-X-V-S-W_1x04-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+12
+5
+Connector_Samtec_MicroPower
+Samtec_UMPT-04-XX.X-X-V-S_1x04_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+4
+4
+Connector_Samtec_MicroPower
+Samtec_UMPT-05-XX.X-X-V-S-W_1x05-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+13
+6
+Connector_Samtec_MicroPower
+Samtec_UMPT-05-XX.X-X-V-S_1x05_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+5
+5
+Connector_Samtec_MicroPower
+Samtec_UMPT-06-XX.X-X-V-S-W_1x06-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+14
+7
+Connector_Samtec_MicroPower
+Samtec_UMPT-06-XX.X-X-V-S_1x06_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+6
+6
+Connector_Samtec_MicroPower
+Samtec_UMPT-07-XX.X-X-V-S-W_1x07-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+15
+8
+Connector_Samtec_MicroPower
+Samtec_UMPT-07-XX.X-X-V-S_1x07_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+7
+7
+Connector_Samtec_MicroPower
+Samtec_UMPT-08-XX.X-X-V-S-W_1x08-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+16
+9
+Connector_Samtec_MicroPower
+Samtec_UMPT-08-XX.X-X-V-S_1x08_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+8
+8
+Connector_Samtec_MicroPower
+Samtec_UMPT-09-XX.X-X-V-S-W_1x09-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+17
+10
+Connector_Samtec_MicroPower
+Samtec_UMPT-09-XX.X-X-V-S_1x09_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+9
+9
+Connector_Samtec_MicroPower
+Samtec_UMPT-10-XX.X-X-V-S-W_1x10-1MP_P2.0mm_Terminal_WeldTab
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+18
+11
+Connector_Samtec_MicroPower
+Samtec_UMPT-10-XX.X-X-V-S_1x10_P2.0mm_Terminal
+2.00 mm mPOWER Ultra Micro Power Terminal, Vertical (source: https://suddendocs.samtec.com/prints/umpt-xx-xx.x-xx-v-x-x-x-x-xr-footprint.pdf)
+conn samtec ultra-mirco-power terminal
+0
+10
+10
 Connector_Stocko
 Stocko_MKS_1651-6-0-202_1x2_P2.50mm_Vertical
 Stocko MKS 16xx series connector, (https://www.stocko-contact.com/downloads/steckverbindersystem-raster-2,5-mm.pdf#page=15), generated with kicad-footprint-generator
@@ -50686,6 +51169,69 @@ Mini USB 2.0 Type B
 0
 9
 6
+Connector_Video
+DVI-D_Molex_74320-4004_Horizontal
+DVI-D Dual Link connector, horizontal, 24 pins, Molex P/N 74320-4004, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743204004_sd.pdf?inline
+dvi right angle
+0
+26
+25
+Connector_Video
+DVI-I_Molex_74320-1004_Horizontal
+DVI-I Dual Link connector, horizontal, 29 pins, Molex P/N 74320-1004, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743201004_sd.pdf?inline
+dvi right angle
+0
+32
+30
+Connector_Video
+HDMI_A_Amphenol_10029449-x01xLF_Horizontal
+HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
+hdmi right angle
+0
+23
+20
+Connector_Video
+HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
+HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
+HDMI Contact Technology Type A
+0
+23
+20
+Connector_Video
+HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
+HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
+hdmi type a
+0
+23
+20
+Connector_Video
+HDMI_A_Molex_208658-1001_Horizontal
+HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
+HDMI Molex Type A
+0
+23
+20
+Connector_Video
+HDMI_Micro-D_Molex_46765-0x01
+HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle smd
+0
+23
+20
+Connector_Video
+HDMI_Micro-D_Molex_46765-1x01
+HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht
+0
+23
+20
+Connector_Video
+HDMI_Micro-D_Molex_46765-2x0x
+HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht smd hybrid 
+0
+23
+20
 Connector_Wago
 Wago_734-132_1x02_P3.50mm_Vertical
 Molex 734 Male header (for PCBs); Straight solder pin 1 x 1 mm, 734-132 , 2 Pins (http://www.farnell.com/datasheets/2157639.pdf), generated with kicad-footprint-generator
@@ -62814,13 +63360,6 @@ Inductor_SMD
 L_Wurth_WE-CAIR-5910
 WE-CAIR Air coil, https://www.we-online.com/components/products/datasheet/744918254.pdf
 air coil inductor wurth we cair
-0
-2
-2
-Inductor_SMD
-L_YJYCOIN_YP0302
-Ferrocore DLG-0302 unshielded SMD power inductor, 3.0x2.8x2.5mm, https://www.tme.eu/Document/bda580f72a60a2225c2f6576c2740ae1/dlg-0504.pdf
-smd inductor dlg-0302
 0
 2
 2
@@ -93971,6 +94510,167 @@ TerminalBlock_Altech
 Altech_AK300_1x24_P5.00mm_45-Degree
 Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)
 Altech AK300 serie connector
+0
+24
+24
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-02_1x02_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-02, 2 pins, pitch 5.08mm, size 10.8x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-02 pitch 5.08mm size 10.8x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+2
+2
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-03, 3 pins, pitch 5.08mm, size 15.8x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-03 pitch 5.08mm size 15.8x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+3
+3
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-04_1x04_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-04, 4 pins, pitch 5.08mm, size 20.9x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-04 pitch 5.08mm size 20.9x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+4
+4
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-05_1x05_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-05, 5 pins, pitch 5.08mm, size 26x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-05 pitch 5.08mm size 26x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+5
+5
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-06_1x06_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-06, 6 pins, pitch 5.08mm, size 31.1x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-06 pitch 5.08mm size 31.1x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+6
+6
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-07_1x07_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-07, 7 pins, pitch 5.08mm, size 36.2x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-07 pitch 5.08mm size 36.2x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+7
+7
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-08_1x08_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-08, 8 pins, pitch 5.08mm, size 41.2x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-08 pitch 5.08mm size 41.2x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+8
+8
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-09_1x09_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-09, 9 pins, pitch 5.08mm, size 46.3x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-09 pitch 5.08mm size 46.3x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+9
+9
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-10_1x10_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-10, 10 pins, pitch 5.08mm, size 51.4x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-10 pitch 5.08mm size 51.4x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+10
+10
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-11_1x11_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-11, 11 pins, pitch 5.08mm, size 56.5x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-11 pitch 5.08mm size 56.5x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+11
+11
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-12_1x12_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-12, 12 pins, pitch 5.08mm, size 61.6x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-12 pitch 5.08mm size 61.6x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+12
+12
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-13_1x13_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-13, 13 pins, pitch 5.08mm, size 66.6x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-13 pitch 5.08mm size 66.6x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+13
+13
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-14_1x14_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-14, 14 pins, pitch 5.08mm, size 71.7x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-14 pitch 5.08mm size 71.7x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+14
+14
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-15_1x15_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-15, 15 pins, pitch 5.08mm, size 76.8x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-15 pitch 5.08mm size 76.8x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+15
+15
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-16_1x16_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-16, 16 pins, pitch 5.08mm, size 81.9x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-16 pitch 5.08mm size 81.9x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+16
+16
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-17_1x17_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-17, 17 pins, pitch 5.08mm, size 87x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-17 pitch 5.08mm size 87x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+17
+17
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-18_1x18_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-18, 18 pins, pitch 5.08mm, size 92x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-18 pitch 5.08mm size 92x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+18
+18
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-19_1x19_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-19, 19 pins, pitch 5.08mm, size 97.1x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-19 pitch 5.08mm size 97.1x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+19
+19
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-20_1x20_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-20, 20 pins, pitch 5.08mm, size 102x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-20 pitch 5.08mm size 102x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+20
+20
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-21_1x21_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-21, 21 pins, pitch 5.08mm, size 107x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-21 pitch 5.08mm size 107x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+21
+21
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-22_1x22_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-22, 22 pins, pitch 5.08mm, size 112x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-22 pitch 5.08mm size 112x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+22
+22
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-23_1x23_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-23, 23 pins, pitch 5.08mm, size 117x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-23 pitch 5.08mm size 117x10.2mm^2 drill 1.6mm pad 2.4mm
+0
+23
+23
+TerminalBlock_CUI
+TerminalBlock_CUI_TB007-508-24_1x24_P5.08mm_Horizontal
+Terminal Block CUI TB007-508-24, 24 pins, pitch 5.08mm, size 123x10.2mm^2, drill diameter 1.6mm, pad diameter 2.4mm, see https://www.cuidevices.com/product/resource/tb007-508.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/scripts/TerminalBlock_CUI
+THT Terminal Block CUI TB007-508-24 pitch 5.08mm size 123x10.2mm^2 drill 1.6mm pad 2.4mm
 0
 24
 24
