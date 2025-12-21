@@ -1,0 +1,290 @@
+{
+    "modules": [
+        {
+            "name": "bridge",
+            "id": "bridge",
+            "description": "No description available.",
+            "topCategory": "tool",
+            "kind": "bridge",
+            "categoryPath": [
+                "tool",
+                "bridge"
+            ],
+            "priceEur": 69,
+            "stock": 11,
+            "image": "/images/bridge_LDtop.png"
+        },
+        {
+            "name": "CONTROLLER_XIAO",
+            "id": "controller_xiao",
+            "description": "No description available.",
+            "topCategory": "controller",
+            "kind": "CONTROLLER_XIAO",
+            "categoryPath": [
+                "controller",
+                "CONTROLLER_XIAO"
+            ],
+            "priceEur": 95,
+            "stock": 46,
+            "image": "/images/CONTROLLER_XIAO_LDtop.png"
+        },
+        {
+            "name": "CONTROLLER_pico",
+            "id": "controller_pico",
+            "description": "No description available.",
+            "topCategory": "controller",
+            "kind": "CONTROLLER_pico",
+            "categoryPath": [
+                "controller",
+                "CONTROLLER_pico"
+            ],
+            "priceEur": 31,
+            "stock": 29,
+            "image": "/images/CONTROLLER_pico_LDtop.png"
+        },
+        {
+            "name": "CONTROLLER_esp32xiao",
+            "id": "controller_esp32xiao",
+            "description": "No description available.",
+            "topCategory": "controller",
+            "kind": "CONTROLLER_esp32xiao",
+            "categoryPath": [
+                "controller",
+                "CONTROLLER_esp32xiao"
+            ],
+            "priceEur": 72,
+            "stock": 28,
+            "image": "/images/CONTROLLER_esp32xiao_LDtop.png"
+        },
+        {
+            "name": "CONTROLLER_teensy4",
+            "id": "controller_teensy4",
+            "description": "No description available.",
+            "topCategory": "controller",
+            "kind": "CONTROLLER_teensy4",
+            "categoryPath": [
+                "controller",
+                "CONTROLLER_teensy4"
+            ],
+            "priceEur": 46,
+            "stock": 12,
+            "image": "/images/CONTROLLER_teensy4_LDtop.png"
+        },
+        {
+            "name": "MONO_CTRL",
+            "id": "mono_ctrl",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "communication",
+            "categoryPath": [
+                "hmi_module",
+                "communication",
+                "MONO_CTRL"
+            ],
+            "priceEur": 48,
+            "stock": 27,
+            "image": "/images/MONO_CTRL_LDtop.png"
+        },
+        {
+            "name": "COM_MOD",
+            "id": "com_mod",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "communication",
+            "categoryPath": [
+                "hmi_module",
+                "communication",
+                "COM_MOD"
+            ],
+            "priceEur": 62,
+            "stock": 45,
+            "image": "/images/COM_MOD_LDtop.png"
+        },
+        {
+            "name": "IMU_ICM2094",
+            "id": "imu_icm2094",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "submodule",
+            "categoryPath": [
+                "hmi_module",
+                "submodule",
+                "sensor",
+                "IMU_ICM2094"
+            ],
+            "priceEur": 38,
+            "stock": 45,
+            "image": "/images/IMU_ICM2094_LDtop.png"
+        },
+        {
+            "name": "EMG_DAQ_ADS1293",
+            "id": "emg_daq_ads1293",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "submodule",
+            "categoryPath": [
+                "hmi_module",
+                "submodule",
+                "sensor",
+                "EMG_DAQ_ADS1293"
+            ],
+            "priceEur": 39,
+            "stock": 45,
+            "image": "/images/EMG_DAQ_ADS1293_LDtop.png"
+        },
+        {
+            "name": "EMG_DAQ_ADS1298",
+            "id": "emg_daq_ads1298",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "submodule",
+            "categoryPath": [
+                "hmi_module",
+                "submodule",
+                "sensor",
+                "EMG_DAQ_ADS1298"
+            ],
+            "priceEur": 93,
+            "stock": 16,
+            "image": "/images/EMG_DAQ_ADS1298_LDtop.png"
+        },
+        {
+            "name": "EMG_INA331",
+            "id": "emg_ina331",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "submodule",
+            "categoryPath": [
+                "hmi_module",
+                "submodule",
+                "sensor",
+                "EMG_INA331"
+            ],
+            "priceEur": 87,
+            "stock": 35,
+            "image": "/images/EMG_INA331_LDtop.png"
+        },
+        {
+            "name": "VIB_STSPIN240",
+            "id": "vib_stspin240",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "submodule",
+            "categoryPath": [
+                "hmi_module",
+                "submodule",
+                "feedback",
+                "VIB_STSPIN240"
+            ],
+            "priceEur": 33,
+            "stock": 10,
+            "image": "/images/VIB_STSPIN240_LDtop.png"
+        },
+        {
+            "name": "FES_AO4882",
+            "id": "fes_ao4882",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "submodule",
+            "categoryPath": [
+                "hmi_module",
+                "submodule",
+                "feedback",
+                "FES_AO4882"
+            ],
+            "priceEur": 69,
+            "stock": 23,
+            "image": "/images/FES_AO4882_LDtop.png"
+        },
+        {
+            "name": "DRY_FLEX",
+            "id": "dry_flex",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "interface",
+            "categoryPath": [
+                "hmi_module",
+                "interface",
+                "DRY_FLEX"
+            ],
+            "priceEur": 52,
+            "stock": 38,
+            "image": "/images/DRY_FLEX_LDtop.png"
+        },
+        {
+            "name": "DRY_ELECTRODES",
+            "id": "dry_electrodes",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "interface",
+            "categoryPath": [
+                "hmi_module",
+                "interface",
+                "DRY_ELECTRODES"
+            ],
+            "priceEur": 15,
+            "stock": 42,
+            "image": "/images/DRY_ELECTRODES_LDtop.png"
+        },
+        {
+            "name": "DRY_ELEC_6CH_THIN",
+            "id": "dry_elec_6ch_thin",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "interface",
+            "categoryPath": [
+                "hmi_module",
+                "interface",
+                "DRY_ELEC_6CH_THIN"
+            ],
+            "priceEur": 96,
+            "stock": 37,
+            "image": "/images/DRY_ELEC_6CH_THIN_LDtop.png"
+        },
+        {
+            "name": "DRY_ELEC_6CH_MID",
+            "id": "dry_elec_6ch_mid",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "interface",
+            "categoryPath": [
+                "hmi_module",
+                "interface",
+                "DRY_ELEC_6CH_MID"
+            ],
+            "priceEur": 84,
+            "stock": 12,
+            "image": "/images/DRY_ELEC_6CH_MID_LDtop.png"
+        },
+        {
+            "name": "DRY_ELEC_6CH",
+            "id": "dry_elec_6ch",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "interface",
+            "categoryPath": [
+                "hmi_module",
+                "interface",
+                "DRY_ELEC_6CH"
+            ],
+            "priceEur": 67,
+            "stock": 23,
+            "image": "/images/DRY_ELEC_6CH_LDtop.png"
+        },
+        {
+            "name": "JACK_CONN",
+            "id": "jack_conn",
+            "description": "No description available.",
+            "topCategory": "hmi_module",
+            "kind": "interface",
+            "categoryPath": [
+                "hmi_module",
+                "interface",
+                "JACK_CONN"
+            ],
+            "priceEur": 13,
+            "stock": 3,
+            "image": "/images/JACK_CONN_LDtop.png"
+        }
+    ]
+}

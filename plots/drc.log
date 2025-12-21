@@ -1,0 +1,18 @@
+** Drc report for EMG_DAQ_ADS1293.kicad_pcb **
+** Created on 2025-11-17T21:30:19+0000 **
+
+** Found 2 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(35.5895 mm, 36.3105 mm): Footprint JP2
+    @(29.8895 mm, 32.3105 mm): Footprint Y1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(26.2945 mm, 35.2105 mm): Footprint JP1
+    @(29.8895 mm, 32.3105 mm): Footprint Y1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

@@ -1,0 +1,14 @@
+{
+    "name": "Bundle",
+    "id": "",
+    "description": "",
+    "topCategory": "bundle",
+    "kind": "bundle",
+    "categoryPath": [
+        "tool",
+        "bridge"
+    ],
+    "priceEur": 69,
+    "stock": 11,
+    "image": "/images/bridge_LDtop.png"
+}
