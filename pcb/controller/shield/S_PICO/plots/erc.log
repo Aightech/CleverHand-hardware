@@ -1,0 +1,151 @@
+ERC report (2026-01-04T18:16:14+0000, Encoding UTF8)
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(93.98 mm, 71.12 mm): Symbol #PWR01 Hidden pin 1 [GND, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 69.85 mm): Symbol J4 Pin 1 [Pin_1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 72.39 mm): Symbol J4 Pin 2 [Pin_2, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 77.47 mm): Symbol J4 Pin 4 [Pin_4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 80.01 mm): Symbol J4 Pin 5 [Pin_5, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 82.55 mm): Symbol J4 Pin 6 [Pin_6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(195.58 mm, 85.09 mm): Symbol J4 Pin 7 [Pin_7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 72.39 mm): Symbol J5 Pin 2 [Pin_2, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 77.47 mm): Symbol J5 Pin 4 [Pin_4, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 82.55 mm): Symbol J5 Pin 6 [Pin_6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 85.09 mm): Symbol J5 Pin 7 [Pin_7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 90.17 mm): Symbol J5 Pin 9 [Pin_9, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 92.71 mm): Symbol J5 Pin 10 [Pin_10, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 95.25 mm): Symbol J5 Pin 11 [Pin_11, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 97.79 mm): Symbol J5 Pin 12 [Pin_12, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 115.57 mm): Symbol J5 Pin 19 [Pin_19, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(63.50 mm, 92.71 mm): Symbol #PWR04 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(93.98 mm, 71.12 mm): Symbol #PWR01 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(125.73 mm, 77.47 mm): Symbol #PWR03 [GND]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 73.66 mm): Symbol FPC1 Pin 1 [1, Unspecified, Line]
+    @(180.34 mm, 90.17 mm): Symbol JP2 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 76.20 mm): Symbol FPC1 Pin 2 [2, Unspecified, Line]
+    @(102.87 mm, 100.33 mm): Symbol R2 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(128.27 mm, 78.74 mm): Symbol FPC1 Pin 3 [3, Unspecified, Line]
+    @(125.73 mm, 77.47 mm): Symbol #PWR03 Hidden pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 81.28 mm): Symbol FPC1 Pin 4 [4, Unspecified, Line]
+    @(180.34 mm, 95.25 mm): Symbol JP4 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 83.82 mm): Symbol FPC1 Pin 5 [5, Unspecified, Line]
+    @(195.58 mm, 97.79 mm): Symbol J4 Pin 12 [Pin_12, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(137.16 mm, 68.58 mm): Symbol FPC1 Pin 20 [20, Unspecified, Line]
+    @(125.73 mm, 77.47 mm): Symbol #PWR03 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(93.98 mm, 121.92 mm): Symbol #PWR02 [GND]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 86.36 mm): Symbol FPC1 Pin 6 [6, Unspecified, Line]
+    @(195.58 mm, 102.87 mm): Symbol J4 Pin 14 [Pin_14, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 88.90 mm): Symbol FPC1 Pin 7 [7, Unspecified, Line]
+    @(195.58 mm, 105.41 mm): Symbol J4 Pin 15 [Pin_15, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 91.44 mm): Symbol FPC1 Pin 8 [8, Unspecified, Line]
+    @(195.58 mm, 107.95 mm): Symbol J4 Pin 16 [Pin_16, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 93.98 mm): Symbol FPC1 Pin 9 [9, Unspecified, Line]
+    @(195.58 mm, 110.49 mm): Symbol J4 Pin 17 [Pin_17, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 96.52 mm): Symbol FPC1 Pin 10 [10, Unspecified, Line]
+    @(222.25 mm, 118.11 mm): Symbol J5 Pin 20 [Pin_20, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 99.06 mm): Symbol FPC1 Pin 11 [11, Unspecified, Line]
+    @(222.25 mm, 107.95 mm): Symbol J5 Pin 16 [Pin_16, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 101.60 mm): Symbol FPC1 Pin 12 [12, Unspecified, Line]
+    @(222.25 mm, 110.49 mm): Symbol J5 Pin 17 [Pin_17, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 104.14 mm): Symbol FPC1 Pin 13 [13, Unspecified, Line]
+    @(222.25 mm, 102.87 mm): Symbol J5 Pin 14 [Pin_14, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 106.68 mm): Symbol FPC1 Pin 14 [14, Unspecified, Line]
+    @(222.25 mm, 105.41 mm): Symbol J5 Pin 15 [Pin_15, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 109.22 mm): Symbol FPC1 Pin 15 [15, Unspecified, Line]
+    @(102.87 mm, 107.95 mm): Symbol R2 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 111.76 mm): Symbol FPC1 Pin 16 [16, Unspecified, Line]
+    @(96.52 mm, 110.49 mm): Symbol R1 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 114.30 mm): Symbol FPC1 Pin 17 [17, Unspecified, Line]
+    @(180.34 mm, 92.71 mm): Symbol JP3 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(128.27 mm, 116.84 mm): Symbol FPC1 Pin 18 [18, Unspecified, Line]
+    @(57.15 mm, 96.52 mm): Symbol J2 Pin 6 [S, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(137.16 mm, 121.92 mm): Symbol FPC1 Pin 19 [19, Unspecified, Line]
+    @(93.98 mm, 121.92 mm): Symbol #PWR02 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_issues]: Symbol 'Conn_01x20_Male' not found in symbol library 'Connector'
+    ; warning
+    @(200.66 mm, 92.71 mm): Symbol J4 [Conn_01x20_Male]
+[lib_symbol_issues]: Symbol 'Conn_01x20_Male' not found in symbol library 'Connector'
+    ; warning
+    @(217.17 mm, 92.71 mm): Symbol J5 [Conn_01x20_Male]
+
+ ** ERC messages: 42  Errors 16  Warnings 26

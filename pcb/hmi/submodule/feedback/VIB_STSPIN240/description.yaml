@@ -1,0 +1,60 @@
+#Module identity 
+id: VIB_STSPIN240
+name: Vib Stspin240
+sku: CH-HMI-SUBM-VIB_STSPIN240
+rev: 0.0
+
+# Classification
+classification:
+  category: Human-Machine Interfaces
+  family: Submodules
+  model: VIB_STSPIN240
+  subtype: ['submodule', 'feedback', 'VIB_STSPIN240']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/VIB_STSPIN240_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/hmi/submodule/feedback
+
+# Hardware intent
+description: This module is a vibrotactile module that embeds the STSPIN240 motor driver. It is responsible for generating the vibrotactile signals that will be sent to the vibrotactile actuators.
+
+intended_use:
+  - Research
+  - Prototype development
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type:
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: differential
+
+# Compatibility
+compatible_with:
+  - Cleverhand bus
+  - Interfaces
+  - Communication
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0.0

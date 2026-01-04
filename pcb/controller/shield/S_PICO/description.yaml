@@ -1,0 +1,58 @@
+#Module identity 
+id: S_PICO
+name: Shield Pico
+sku: CH-CTRL-SHLD-S_PICO
+rev: 0.0
+
+# Classification
+classification:
+  category: Controllers
+  family: Shields
+  model: S_PICO
+  subtype: ['shield', 'S_PICO']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/S_PICO_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/controller/shield
+
+# Hardware intent
+description: This shield is made to connect a pico board from seeed studio to the CleverHand bus and control the hmi modules.
+
+intended_use:
+  - Research
+  - Prototype development
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type:
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: differential
+
+# Compatibility
+compatible_with:
+  - Cleverhand bus
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0.0

@@ -1,0 +1,60 @@
+#Module identity 
+id: EMG_DAQ_ADS1298
+name: Emg Daq Ads1298
+sku: CH-HMI-SUBM-EMG_DAQ_ADS1298
+rev: 0.0
+
+# Classification
+classification:
+  category: Human-Machine Interfaces
+  family: Submodules
+  model: EMG_DAQ_ADS1298
+  subtype: ['submodule', 'sensor', 'EMG_DAQ_ADS1298']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/EMG_DAQ_ADS1298_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/hmi/submodule/sensor
+
+# Hardware intent
+description: This module is a data acquisition module that embeds the ADS1298 analog front-end. It is responsible for acquiring the EMG signals from the electrodes.
+
+intended_use:
+  - Research
+  - Prototype development
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type:
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: differential
+
+# Compatibility
+compatible_with:
+  - Cleverhand bus
+  - Interfaces
+  - Communication
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0.0

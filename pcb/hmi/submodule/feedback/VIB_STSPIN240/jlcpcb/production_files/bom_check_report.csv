@@ -1,0 +1,12 @@
+Status,RefDes,Qty,LCSC,BOM_Comment,LCSC_Package,LCSC_Describe,Matched,Issues,FallbackNote
+FAIL,"R1,R2",2,C25337,0.33,1206,-55℃~+155℃ 200V 250mW 330mΩ Thick Film Resistor ±1% ±800ppm/℃ 1206 Chip Resistor - Surface Mount ROHS,,no clear feature match for generic part,
+OK,C6,1,C15195,10nF,0402,10nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+OK,R5,1,C25762,18k,0402,-55℃~+155℃ 18kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS,describe~substring,,
+OK,"R3,R6,R7",3,C11702,1k,0402,-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS,describe~substring,,
+OK,C3,1,C12530,2.2uF,0402,2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+WARN,C7,1,C23630,2.2uF - 16V ceramic X7R,,16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance;voltage,dielectric: BOM=X7R vs LCSC=X5R,
+OK,C5,1,C1532,22nF,0402,22nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+OK,C4,1,C105226,22uF,0402,22uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+OK,R4,1,C25792,47k,0402,-55℃~+155℃ 47kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS,describe~substring,,
+OK,"L1,L2",2,C167973,FNR5040S330MT,,"1.35A 1.45A 244mΩ 33uH Magnetic Shielded Inductor ±20% SMD,5x5mm Power Inductors ROHS",model/brand,,
+OK,U3,1,C962258,STSPIN240,,-40℃~+150℃ 1.3A 2 400mΩ 80nA QFN-16-EP(3x3) Brushed DC Motor Drivers ROHS,model/brand,,

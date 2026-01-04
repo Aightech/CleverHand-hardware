@@ -1,0 +1,60 @@
+#Module identity 
+id: COM_MOD
+name: Com Mod
+sku: CH-HMI-COM-COM_MOD
+rev: 0.0
+
+# Classification
+classification:
+  category: Human-Machine Interfaces
+  family: Communication
+  model: COM_MOD
+  subtype: ['communication', 'COM_MOD']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/COM_MOD_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/hmi/communication
+
+# Hardware intent
+description: This module is responsible for handling the communication between the different modules of the controller node.
+
+intended_use:
+  - Research
+  - Prototype development
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type:
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: differential
+
+# Compatibility
+compatible_with:
+  - Cleverhand bus
+  - Submodules
+
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0.0

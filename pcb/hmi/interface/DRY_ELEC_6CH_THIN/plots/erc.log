@@ -1,0 +1,38 @@
+ERC report (2026-01-03T14:36:09+0000, Encoding UTF8)
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(114.30 mm, 52.07 mm): Symbol #PWR05 Hidden pin 1 [GND, Power input, Line]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(114.30 mm, 52.07 mm): Symbol #PWR05 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(114.30 mm, 62.23 mm): Symbol #PWR06 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(114.30 mm, 72.39 mm): Symbol #PWR07 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(114.30 mm, 82.55 mm): Symbol #PWR08 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(114.30 mm, 93.98 mm): Symbol #PWR09 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(114.30 mm, 105.41 mm): Symbol #PWR010 [GND]
+
+***** Sheet /filtering_1/
+
+***** Sheet /filtering_2/
+
+***** Sheet /filtering_3/
+
+***** Sheet /filtering_4/
+
+***** Sheet /filtering_5/
+
+***** Sheet /filtering_6/
+
+ ** ERC messages: 7  Errors 1  Warnings 6

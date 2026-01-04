@@ -1,0 +1,32 @@
+ERC report (2026-01-03T12:44:30+0000, Encoding UTF8)
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 88.90 mm): Symbol J1 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 101.60 mm): Symbol J2 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 114.30 mm): Symbol J3 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(139.70 mm, 88.90 mm): Symbol J5 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 127.00 mm): Symbol J4 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(139.70 mm, 101.60 mm): Symbol J6 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(139.70 mm, 114.30 mm): Symbol J7 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(139.70 mm, 127.00 mm): Symbol J8 Pin 6 [S, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(184.15 mm, 88.90 mm): Symbol J9 Pin 6 [S, Passive, Line]
+
+ ** ERC messages: 9  Errors 9  Warnings 0

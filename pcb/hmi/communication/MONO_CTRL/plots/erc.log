@@ -1,0 +1,125 @@
+ERC report (2026-01-03T12:58:31+0000, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(66.04 mm, 68.58 mm): Symbol #PWR021 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(91.44 mm, 54.61 mm): Symbol #PWR013 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(95.25 mm, 54.61 mm): Symbol #PWR014 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(93.98 mm, 83.82 mm): Symbol #PWR030 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(116.84 mm, 57.15 mm): Symbol #PWR018 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(83.82 mm, 104.14 mm): Symbol #PWR039 [+3.3V]
+[multiple_net_names]: Both GPIO9 and POCI are attached to the same items; GPIO9 will be used in the netlist
+    ; warning
+    @(175.26 mm, 90.17 mm): Label 'GPIO9'
+    @(86.36 mm, 106.68 mm): Label 'POCI'
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(119.38 mm, 72.39 mm): Symbol #PWR027 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(68.58 mm, 127.00 mm): Symbol #PWR022 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(119.38 mm, 83.82 mm): Symbol #PWR031 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(140.97 mm, 53.34 mm): Symbol #PWR012 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(113.03 mm, 106.68 mm): Symbol #PWR035 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(140.97 mm, 74.93 mm): Symbol #PWR028 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(152.40 mm, 50.80 mm): Symbol #PWR011 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(146.05 mm, 74.93 mm): Symbol #PWR029 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(109.22 mm, 125.73 mm): Symbol #PWR015 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'switch' doesn't match copy in library '00_custom'
+    ; warning
+    @(157.48 mm, 69.85 mm): Symbol SW2 [switch]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(162.56 mm, 69.85 mm): Symbol #PWR023 [GND]
+[multiple_net_names]: Both ESP_EN and GPIO2 are attached to the same items; ESP_EN will be used in the netlist
+    ; warning
+    @(160.02 mm, 64.77 mm): Label 'ESP_EN'
+    @(167.64 mm, 64.77 mm): Label 'GPIO2'
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(120.65 mm, 134.62 mm): Symbol #PWR016 [GND]
+[lib_symbol_mismatch]: Symbol 'Antenna_Chip' doesn't match copy in library 'Device'
+    ; warning
+    @(176.53 mm, 43.18 mm): Symbol AE1 [Antenna_Chip]
+[lib_symbol_mismatch]: Symbol 'ESP32-C3FH4' doesn't match copy in library '00_custom'
+    ; warning
+    @(176.53 mm, 52.07 mm): Symbol U2 [ESP32-C3FH4]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(163.83 mm, 115.57 mm): Symbol #PWR08 [+3.3V]
+[multiple_net_names]: Both GPIO8 and SCLK are attached to the same items; GPIO8 will be used in the netlist
+    ; warning
+    @(175.26 mm, 87.63 mm): Label 'GPIO8'
+    @(154.94 mm, 129.54 mm): Label 'SCLK'
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(163.83 mm, 119.38 mm): Symbol #PWR09 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(205.74 mm, 49.53 mm): Symbol #PWR010 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(187.96 mm, 97.79 mm): Symbol #PWR036 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(182.88 mm, 121.92 mm): Symbol #PWR02 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(217.17 mm, 58.42 mm): Symbol #PWR019 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(207.01 mm, 92.71 mm): Symbol #PWR033 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(207.01 mm, 100.33 mm): Symbol #PWR038 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(200.66 mm, 116.84 mm): Symbol #PWR01 [+3.3V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(222.25 mm, 69.85 mm): Symbol #PWR024 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(227.33 mm, 58.42 mm): Symbol #PWR020 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(231.14 mm, 69.85 mm): Symbol #PWR025 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(209.55 mm, 121.92 mm): Symbol #PWR07 [GND]
+[footprint_link_issues]: The current configuration does not include the footprint library '00_Custom'.
+    ; warning
+    @(203.20 mm, 135.89 mm): Symbol I1 [smd_insert]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(210.82 mm, 135.89 mm): Symbol #PWR017 [GND]
+[lib_symbol_mismatch]: Symbol '+3.3V' doesn't match copy in library 'power'
+    ; warning
+    @(227.33 mm, 116.84 mm): Symbol #PWR06 [+3.3V]
+
+ ** ERC messages: 39  Errors 0  Warnings 39

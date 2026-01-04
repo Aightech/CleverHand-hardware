@@ -1,0 +1,223 @@
+ERC report (2026-01-03T12:46:33+0000, Encoding UTF8)
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(118.11 mm, 85.09 mm): Symbol J1 Pin 20 [sh2, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(118.11 mm, 133.35 mm): Symbol J1 Pin 19 [sh1, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(173.99 mm, 85.09 mm): Symbol J2 Pin 19 [sh1, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(173.99 mm, 133.35 mm): Symbol J2 Pin 20 [sh2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 87.63 mm): Symbol J1 Pin 18 [18, Unspecified, Line]
+    @(142.24 mm, 87.63 mm): Symbol JP1 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 90.17 mm): Symbol J1 Pin 17 [17, Unspecified, Line]
+    @(142.24 mm, 90.17 mm): Symbol JP2 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 92.71 mm): Symbol J1 Pin 16 [16, Unspecified, Line]
+    @(142.24 mm, 92.71 mm): Symbol JP3 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 95.25 mm): Symbol J1 Pin 15 [15, Unspecified, Line]
+    @(142.24 mm, 95.25 mm): Symbol JP4 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 97.79 mm): Symbol J1 Pin 14 [14, Unspecified, Line]
+    @(142.24 mm, 97.79 mm): Symbol JP5 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 100.33 mm): Symbol J1 Pin 13 [13, Unspecified, Line]
+    @(142.24 mm, 100.33 mm): Symbol JP6 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 102.87 mm): Symbol J1 Pin 12 [12, Unspecified, Line]
+    @(142.24 mm, 102.87 mm): Symbol JP7 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 105.41 mm): Symbol J1 Pin 11 [11, Unspecified, Line]
+    @(142.24 mm, 105.41 mm): Symbol JP8 Pin 1 [A, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 87.63 mm): Symbol JP1 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 107.95 mm): Symbol J1 Pin 10 [10, Unspecified, Line]
+    @(142.24 mm, 107.95 mm): Symbol JP9 Pin 1 [A, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 90.17 mm): Symbol JP2 [SolderJumper_2_Bridged]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 92.71 mm): Symbol JP3 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 110.49 mm): Symbol J1 Pin 9 [9, Unspecified, Line]
+    @(142.24 mm, 110.49 mm): Symbol JP10 Pin 1 [A, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 95.25 mm): Symbol JP4 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 113.03 mm): Symbol J1 Pin 8 [8, Unspecified, Line]
+    @(142.24 mm, 113.03 mm): Symbol JP11 Pin 1 [A, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 97.79 mm): Symbol JP5 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 115.57 mm): Symbol J1 Pin 7 [7, Unspecified, Line]
+    @(142.24 mm, 115.57 mm): Symbol JP12 Pin 1 [A, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 100.33 mm): Symbol JP6 [SolderJumper_2_Bridged]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 102.87 mm): Symbol JP7 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 120.65 mm): Symbol J1 Pin 5 [5, Unspecified, Line]
+    @(142.24 mm, 120.65 mm): Symbol JP14 Pin 1 [A, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 105.41 mm): Symbol JP8 [SolderJumper_2_Bridged]
+[footprint_link_issues]: The current configuration does not include the footprint library '00_Custom'.
+    ; warning
+    @(158.75 mm, 87.63 mm): Symbol J2 [XF2J-1824-12A]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XF2J-1824-12A'
+    ; warning
+    @(158.75 mm, 87.63 mm): Symbol J2 [XF2J-1824-12A]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 87.63 mm): Symbol J2 Pin 1 [1, Unspecified, Line]
+    @(149.86 mm, 87.63 mm): Symbol JP1 Pin 2 [B, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 123.19 mm): Symbol J1 Pin 4 [4, Unspecified, Line]
+    @(142.24 mm, 123.19 mm): Symbol JP15 Pin 1 [A, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 107.95 mm): Symbol JP9 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 90.17 mm): Symbol J2 Pin 2 [2, Unspecified, Line]
+    @(149.86 mm, 90.17 mm): Symbol JP2 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 110.49 mm): Symbol JP10 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 125.73 mm): Symbol J1 Pin 3 [3, Unspecified, Line]
+    @(142.24 mm, 125.73 mm): Symbol JP16 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 92.71 mm): Symbol J2 Pin 3 [3, Unspecified, Line]
+    @(149.86 mm, 92.71 mm): Symbol JP3 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 113.03 mm): Symbol JP11 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 128.27 mm): Symbol J1 Pin 2 [2, Unspecified, Line]
+    @(142.24 mm, 128.27 mm): Symbol JP17 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 95.25 mm): Symbol J2 Pin 4 [4, Unspecified, Line]
+    @(149.86 mm, 95.25 mm): Symbol JP4 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 115.57 mm): Symbol JP12 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 97.79 mm): Symbol J2 Pin 5 [5, Unspecified, Line]
+    @(149.86 mm, 97.79 mm): Symbol JP5 Pin 2 [B, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library '00_Custom'.
+    ; warning
+    @(133.35 mm, 130.81 mm): Symbol J1 [XF2J-1824-12A]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'XF2J-1824-12A'
+    ; warning
+    @(133.35 mm, 130.81 mm): Symbol J1 [XF2J-1824-12A]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(133.35 mm, 130.81 mm): Symbol J1 Pin 1 [1, Unspecified, Line]
+    @(142.24 mm, 130.81 mm): Symbol JP18 Pin 1 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 100.33 mm): Symbol J2 Pin 6 [6, Unspecified, Line]
+    @(149.86 mm, 100.33 mm): Symbol JP6 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 118.11 mm): Symbol JP13 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 102.87 mm): Symbol J2 Pin 7 [7, Unspecified, Line]
+    @(149.86 mm, 102.87 mm): Symbol JP7 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 120.65 mm): Symbol JP14 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 105.41 mm): Symbol J2 Pin 8 [8, Unspecified, Line]
+    @(149.86 mm, 105.41 mm): Symbol JP8 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 123.19 mm): Symbol JP15 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 107.95 mm): Symbol J2 Pin 9 [9, Unspecified, Line]
+    @(149.86 mm, 107.95 mm): Symbol JP9 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 125.73 mm): Symbol JP16 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 110.49 mm): Symbol J2 Pin 10 [10, Unspecified, Line]
+    @(149.86 mm, 110.49 mm): Symbol JP10 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 128.27 mm): Symbol JP17 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 113.03 mm): Symbol J2 Pin 11 [11, Unspecified, Line]
+    @(149.86 mm, 113.03 mm): Symbol JP11 Pin 2 [B, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Bridged' doesn't match copy in library 'Jumper'
+    ; warning
+    @(146.05 mm, 130.81 mm): Symbol JP18 [SolderJumper_2_Bridged]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 115.57 mm): Symbol J2 Pin 12 [12, Unspecified, Line]
+    @(149.86 mm, 115.57 mm): Symbol JP12 Pin 2 [B, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 118.11 mm): Symbol J2 Pin 13 [13, Unspecified, Line]
+    @(149.86 mm, 118.11 mm): Symbol JP13 Pin 2 [B, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 120.65 mm): Symbol J2 Pin 14 [14, Unspecified, Line]
+    @(149.86 mm, 120.65 mm): Symbol JP14 Pin 2 [B, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 123.19 mm): Symbol J2 Pin 15 [15, Unspecified, Line]
+    @(149.86 mm, 123.19 mm): Symbol JP15 Pin 2 [B, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 125.73 mm): Symbol J2 Pin 16 [16, Unspecified, Line]
+    @(149.86 mm, 125.73 mm): Symbol JP16 Pin 2 [B, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 128.27 mm): Symbol J2 Pin 17 [17, Unspecified, Line]
+    @(149.86 mm, 128.27 mm): Symbol JP17 Pin 2 [B, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(158.75 mm, 130.81 mm): Symbol J2 Pin 18 [18, Unspecified, Line]
+    @(149.86 mm, 130.81 mm): Symbol JP18 Pin 2 [B, Passive, Line]
+
+ ** ERC messages: 61  Errors 4  Warnings 57

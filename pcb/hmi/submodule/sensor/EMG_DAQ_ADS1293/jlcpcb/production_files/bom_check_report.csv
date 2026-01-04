@@ -1,0 +1,10 @@
+Status,RefDes,Qty,LCSC,BOM_Comment,LCSC_Package,LCSC_Describe,Matched,Issues,FallbackNote
+OK,"C1,C5,C7",3,C1525,100nF,0402,100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+OK,R1,1,C25744,10K,0402,-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS,describe~substring,,
+OK,R2,1,C26082,10M,0402,-55℃~+155℃ 10MΩ 50V 62.5mW Thick Film Resistor ±1% ±200ppm/℃ 0402 Chip Resistor - Surface Mount ROHS,describe~substring,,
+OK,C6,1,C1523,1nF,0402,1nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+OK,"C2,C8,C9",3,C52923,1uF,0402,1uF 25V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+OK,"C3,C4",2,C1555,22pF,0402,22pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,capacitance,,
+FAIL,U1,1,C181260,ADS1293CISQE-NOPB,,-20℃~+85℃ 106dB 11ppm/℃ 11ppm/℃ 2.4V 2.7V~5.5V 24 25.6kHz 25.6kHz 409.6kHz 80uA SPI QFN-28-EP(5x5) Analog Front End (AFE) ROHS,,no clear feature match for generic part,
+OK,U2,1,C51118,AP2112K-3.3TRG1,,"-40℃~+85℃@(Ta) 1 250mV@(600mA) 3.3V 50uVrms 55uA 600mA 65dB@(1kHz) 6V Fixed Over Current Protection Positive SOT-25-5 Voltage Regulators - Linear, Low Drop Out ",model/brand,,
+OK,Y1,1,C74858,Crystal,,-20℃~+70℃ 20pF 4.096MHz Crystal Oscillator ±20ppm ±30ppm HC-49S-SMD Crystals ROHS,model/brand,,

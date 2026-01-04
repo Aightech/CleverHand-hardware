@@ -1,0 +1,58 @@
+#Module identity 
+id: JACK_CONN
+name: Jack Conn
+sku: CH-TOOL-EXTN-JACK_CONN
+rev: 0.0
+
+# Classification
+classification:
+  category: Tools
+  family: Extensions
+  model: JACK_CONN
+  subtype: ['extension', 'JACK_CONN']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/JACK_CONN_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/tool/extension
+
+# Hardware intent
+description: This extension board let you connect a hmi module (with a 4x4 dry interface) to jack connector.
+
+intended_use:
+  - Research
+  - Prototype development
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type:
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: differential
+
+# Compatibility
+compatible_with:
+
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0.0

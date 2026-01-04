@@ -1,0 +1,4 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+FPC1,FPC-05F-18PH20,FPC-SMD_18P-P0.50_X05C2018TZ,29.5,-56.0,270.0,bottom
+R1,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,23.8,-73.3,0.0,bottom
+R2,2k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,23.8,-72.3,0.0,bottom
