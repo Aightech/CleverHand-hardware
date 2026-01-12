@@ -1,17 +1,3 @@
-Below is a **re-aligned hardware README** that is explicitly consistent with the **top-level CleverHand README** you’ve been converging toward:
-
-* same **vision**: open, modular HMI *platform*
-* same **scope boundary**: research / education, not medical
-* same **language**: platform, reference modules, readiness, QC
-* avoids duplicate “marketing” claims
-* hardware README = **concrete implementation of the platform**, not a separate project
-
-I’ve kept your constraint on images and paths, and structured it so the top-level README can *point to this one* cleanly.
-
-You can replace your current hardware README with the following.
-
----
-
 # CleverHand — Hardware
 
 This repository contains the **hardware implementation** of the CleverHand platform.
