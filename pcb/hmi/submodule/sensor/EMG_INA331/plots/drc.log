@@ -1,10 +1,23 @@
 ** Drc report for EMG_INA331.kicad_pcb **
-** Created on 2026-01-03T16:03:02+0000 **
+** Created on 2026-04-11T10:54:53 **
+** Report includes: Errors, Warnings **
 
 ** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint not found in libraries
+    - Footprint doesn't match copy in library
 
 ** End of Report **

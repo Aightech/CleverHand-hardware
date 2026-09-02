@@ -1,5 +1,5 @@
 # EMG INA331 Module
-This module is a data acquisition module that embeds the INA331 and a LIS3DH accelerometer. The INA331 is responsible for acquiring the EMG signals from the electrodes while the LIS3DH is responsible for acquiring the accelerometer signals and converting the EMG signals to digital signals.
+This module is a data acquisition module that embeds the INA331. The INA331 is responsible for acquiring the EMG signals from the electrodes. The shematic design is from seeed studio grove module. This module can be used only with a ADC compatible com module.
 
 ## Electrical Schematic
 ![EMG_INA331_sch](plots/EMG_INA331.svg)
