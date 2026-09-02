@@ -1,0 +1,14 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C11,100nF,C_0402_1005Metric,81.650002,-83.656777,0.0,bottom
+C28,1uF,C_0201_0603Metric,81.235,-73.964999,180.0,top
+C4,100nF,C_0402_1005Metric,78.900001,-81.676777,90.0,bottom
+J1,Conn_01x02_Pin,PinHeader_1x02_P1.27mm_Vertical,74.65,-72.485,0.0,top
+J2,Conn_01x02_Pin,PinHeader_1x02_P1.27mm_Vertical,78.15,-72.485,0.0,top
+J4,Conn_01x10_Pin,PinHeader_1x10_P1.27mm_Vertical,77.9,-76.6,90.0,top
+JP1,SolderJumper_3_Bridged12,SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels,76.520761,-68.240761,0.0,top
+R10,10k,R_0201_0603Metric,81.235,-70.965,0.0,top
+R17,10k,R_0201_0603Metric,83.235001,-70.965,-90.0,top
+U1,XIAO-ESP32-S3-DIP,XIAO-ESP32S3-DIP,77.9,-75.6,0.0,bottom
+U10,WS2812,LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020,81.82,-68.3,0.0,top
+U2,ICM-42670-L,LGA-14_L3.0-W2.5-P0.50-TL_QMI8658A,81.4,-81.406776,0.0,bottom
+U6,BQ27421YZFR-G1A,DSBGA-9_L1.5-W1.5-R3-C3-P0.50-BL,81.51,-72.56,180.0,top

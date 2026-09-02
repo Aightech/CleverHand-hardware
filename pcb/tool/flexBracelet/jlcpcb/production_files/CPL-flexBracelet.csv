@@ -1,0 +1,35 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x01_Pin,dryElec8x4mm,158.0,-89.5,0.0,top
+J10,Conn_01x01_Pin,dryElec8x4mm,98.0,-104.5,0.0,top
+J11,Conn_01x01_Pin,dryElec8x4mm,86.0,-89.5,0.0,top
+J12,Conn_01x01_Pin,dryElec8x4mm,86.0,-104.5,0.0,top
+J13,Conn_01x01_Pin,dryElec8x4mm,74.0,-89.5,0.0,top
+J14,Conn_01x01_Pin,dryElec8x4mm,74.0,-104.5,0.0,top
+J15,Conn_01x01_Pin,dryElec8x4mm,62.0,-89.5,0.0,top
+J16,Conn_01x01_Pin,dryElec8x4mm,62.0,-104.5,0.0,top
+J17,Conn_01x01_Pin,dryElec8x4mm,146.0,-104.5,0.0,top
+J18,Conn_01x01_Pin,dryElec8x4mm,146.0,-89.5,0.0,top
+J19,Conn_01x01_Pin,dryElec8x4mm,170.0,-89.5,0.0,top
+J2,Conn_01x01_Pin,dryElec8x4mm,158.0,-104.5,0.0,top
+J20,Conn_01x01_Pin,dryElec8x4mm,170.0,-104.5,0.0,top
+J21,Conn_01x01_Pin,dryElec8x4mm,182.0,-89.5,0.0,top
+J22,Conn_01x01_Pin,dryElec8x4mm,182.0,-104.5,0.0,top
+J23,Conn_01x01_Pin,dryElec8x4mm,194.0,-89.5,0.0,top
+J24,Conn_01x01_Pin,dryElec8x4mm,194.0,-104.5,0.0,top
+J25,Conn_01x01_Pin,dryElec8x4mm,206.0,-89.5,0.0,top
+J26,Conn_01x01_Pin,dryElec8x4mm,206.0,-104.5,0.0,top
+J27,Conn_01x01_Pin,dryElec8x4mm,218.0,-89.5,0.0,top
+J28,Conn_01x01_Pin,dryElec8x4mm,218.0,-104.5,0.0,top
+J29,Conn_01x01_Pin,dryElec8x4mm,230.0,-89.5,0.0,top
+J3,Conn_01x01_Pin,dryElec8x4mm,134.0,-89.5,0.0,top
+J30,Conn_01x01_Pin,dryElec8x4mm,230.0,-104.5,0.0,top
+J31,Conn_01x01_Pin,dryElec8x4mm,242.0,-89.5,0.0,top
+J32,Conn_01x01_Pin,dryElec8x4mm,242.0,-104.5,0.0,top
+J33,Conn_01x01_Pin,dryElec8x4mm,152.0,-94.0,180.0,top
+J4,Conn_01x01_Pin,dryElec8x4mm,134.0,-104.5,0.0,top
+J5,Conn_01x01_Pin,dryElec8x4mm,122.0,-89.5,0.0,top
+J6,Conn_01x01_Pin,dryElec8x4mm,122.0,-104.5,0.0,top
+J7,Conn_01x01_Pin,dryElec8x4mm,110.0,-89.5,0.0,top
+J8,Conn_01x01_Pin,dryElec8x4mm,110.0,-104.5,0.0,top
+J9,Conn_01x01_Pin,dryElec8x4mm,98.0,-89.5,0.0,top
+U1,THD0310-33CL-GF,FPC 33POS 0.3MM,152.000004,-98.499981,270.0,bottom
