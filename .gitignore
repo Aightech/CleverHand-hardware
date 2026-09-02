@@ -1,3 +1,4 @@
 *-backups/
 *-backups/*
 *.lck
+.history/
