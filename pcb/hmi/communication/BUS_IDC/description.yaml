@@ -1,0 +1,66 @@
+#Module identity 
+id: BUS_IDC
+name: Bus Board IDC
+sku: CH-HMI-COM-BUS_IDC
+rev: 0.0
+
+# Classification
+classification:
+  category: Human-Machine Interfaces
+  family: Communication
+  model: BUS_IDC
+  subtype: ['communication','busboard','BUS_IDC']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/BUS_IDC_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/hmi/communication
+
+# Hardware intent
+description: Passive bus board: one 2x9 1.27 mm IDC header for a continuous 18-conductor ribbon (mid-ribbon tap) plus a 2-pin STOP neighbour link, mapped onto the 2x10 stack field.
+
+intended_use:
+  - Research
+  - Prototype development
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type: bus board
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: 
+
+# Interfaces (see docs/bus/interfaces.md)
+interfaces:
+  stack:
+    role: busboard
+    profile: B-full
+
+# Compatibility
+compatible_with:
+  - Cleverhand bus (v2 conductor order)
+  - COM_MOD_PIC / COM_MOD_PAK
+  - CTRL_NRF52840 / CTRL_ESP32S3
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0

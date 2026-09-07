@@ -1,44 +1,47 @@
-# XIAO_ADAPTER
+# XIAO_COM
 
 ## Overview
-Adapter board for interfacing Seeed Studio XIAO modules with the ADS1299 ADC boards. Used for rapid prototyping and POC development.
+Mono controller in CleverHand node form factor: Seeed XIAO ESP32-S3 + ICM-42670 IMU + BQ27421 fuel gauge + WS2812 status LED, mounted directly on a submodule stack. ESP32-S3 candidate for the nRF52840 vs ESP32-S3 evaluation.
 
-## Basic Information
+## Basic information
 
 | Field | Value |
 |-------|-------|
-| **Board Name** | XIAO_ADAPTER |
+| **Board name** | XIAO_COM (plots still named XIAO_ADAPTER) |
 | **Version** | 1.0 |
-| **Status** | Active - Prototype |
+| **Status** | Prototype |
 | **Created** | August 2025 |
-| **Last Modified** | January 2026 |
+| **Last modified** | January 2026 |
 | **Designer** | adev |
 
 ## Purpose
 
-- Interface for Seeed Studio XIAO ESP32-S3/C6 modules
-- Quick prototyping without custom MCU board
-- POC validation platform
+- Run a single CleverHand node standalone (no communication module, no bus), streaming over Wi-Fi / BLE / USB.
+- Compare ESP32-S3 against the nRF52840 mono controller on autonomy, link throughput and SPI performance.
+- Provide an IMU and battery gauge on the controller itself.
 
-## Supported XIAO Modules
+## Interfaces
 
-- XIAO ESP32-S3
-- XIAO ESP32-C6
+| Interface | Details |
+|-----------|---------|
+| Stack header J4 | 1×10 1.27 mm: AUX1, 3V3, GND, AUX3, POCI, PICO, SCLK, CSB, AREF, AUX2 |
+| SPI | GPIO7 SCK / GPIO8 MISO / GPIO9 MOSI, shared by the submodule (CSB = GPIO44) and the IMU (CS = GPIO5) |
+| I²C | GPIO2 SDA / GPIO3 SCL, fuel gauge only |
+| LED | GPIO1 → WS2812B-2020 |
+| Battery | J1 in (via gauge sense), J2 out, JP1 sense bypass |
 
 ## Compatibility
 
-| Component | Compatible Versions |
-|-----------|---------------------|
-| **ADC Board** | EMG8_ADS1299 v1.0+ |
-| **Firmware** | v0.1+ (Arduino) |
-| **Driver** | ads1299_udp v1.0.0+ |
+| Component | Compatible |
+|-----------|------------|
+| Submodules | any v2 `EMG_DAQ_*` / `IMU_*` (SPI + CSB); I²C submodules not reachable |
+| Bus | none (mono only) |
 
 ## Manufacturing
 
-- **Fabrication:** JLCPCB
+- **Fabrication / assembly:** JLCPCB (`jlcpcb/`), XIAO module hand-soldered.
 
 ## Changelog
 
 ### v1.0 (August 2025)
-- Initial adapter design for XIAO modules
-- POC development platform
+- Initial design.

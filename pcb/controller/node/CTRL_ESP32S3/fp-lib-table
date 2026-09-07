@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "clvhd_stack")(type "KiCad")(uri "${KIPRJMOD}/../../../config_file/clvhd_stack.pretty")(options "")(descr "CleverHand stack field footprints"))
+)

@@ -1,0 +1,60 @@
+#Module identity 
+id: XIAO_COM
+name: Xiao Com
+sku: CH-HMI-COM-XIAO_COM
+rev: 1.0
+
+# Classification
+classification:
+  category: Human-Machine Interfaces
+  family: Communication
+  model: XIAO_COM
+  subtype: ['communication', 'controller', 'mono', 'XIAO_COM']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/XIAO_COM_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/hmi/communication
+
+# Hardware intent
+description: Mono controller in node form factor built around a Seeed XIAO ESP32-S3, with an ICM-42670 IMU, a BQ27421 battery fuel gauge and a WS2812 status LED. Sits directly on a submodule stack; no bus connector.
+
+intended_use:
+  - Research
+  - Prototype development
+  - ESP32-S3 vs nRF52840 controller evaluation
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type: controller
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: 
+
+# Compatibility
+compatible_with:
+  - Submodules (SPI + CSB)
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  hardware: HARDWARE.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0

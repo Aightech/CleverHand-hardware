@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "clvhd_stack")(type "KiCad")(uri "${KIPRJMOD}/../../../config_file/clvhd_stack.kicad_sym")(options "")(descr "CleverHand stack field symbols"))
+)

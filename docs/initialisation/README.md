@@ -1,4 +1,7 @@
 # Initialisation Protocol (V2)
+
+> Firmware-side notes for the v2 communication module. The bus-level specification
+> (lines, pinout, enumeration sequence, selection rules) is in [docs/bus/README.md](../bus/README.md).
 ## Main Changes
 ## Changes from V1
 The LEDs are used to indicate the internal address of the module. Here are what the LED colours indicate before settling for the final colour:

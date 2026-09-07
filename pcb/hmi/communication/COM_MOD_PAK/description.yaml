@@ -1,0 +1,66 @@
+#Module identity 
+id: COM_MOD_PAK
+name: Com Mod PAK
+sku: CH-HMI-COM-COM_MOD_PAK
+rev: 0.0
+
+# Classification
+classification:
+  category: Human-Machine Interfaces
+  family: Communication
+  model: COM_MOD_PAK
+  subtype: ['communication','master','COM_MOD_PAK']
+
+# Maturity
+readiness: DEVELOPMENT
+
+# Image
+image: /images/COM_MOD_PAK_LDtop.png
+
+# Location
+location: CleverHand-hardware/pcb/hmi/communication
+
+# Hardware intent
+description: v3 communication module, version B: HC32L110 firmware unchanged plus SLG46826 GreenPAK address decoder on a private 2-wire link, PCA9306 I2C bridge, STOP chain regeneration. Master footprint of the 2x10 stack field.
+
+intended_use:
+  - Research
+  - Prototype development
+
+non_goals:
+  - Clinical diagnosis
+  - Implantable use
+  - Safety-certified medical applications
+
+# Functional summary
+capabilities:
+  type: communication
+  channels: 
+  signal_type: 
+  sampling_rate_hz_max: 
+  resolution_bits: 
+  reference_type: 
+
+# Interfaces (see docs/bus/interfaces.md)
+interfaces:
+  stack:
+    role: master
+    profile: H-full / B-full
+
+# Compatibility
+compatible_with:
+  - Cleverhand bus (v2 cable pinout)
+  - Bus boards BUS_FPC / BUS_IDC
+  - HMI submodules (H-v2, H-spi, H-i2c)
+
+# Documentation pointers (relative to module root)
+docs:
+  readme: README.md
+  schematic: "*.kicad_sch"
+  pcb: "*.kicad_pcb"
+
+# Ownership & traceability
+maintainer: "Alexis Devillard (aka aightech)"
+license:
+  hardware: CERN-OHL-S-2.0
+  documentation: CC-BY-4.0

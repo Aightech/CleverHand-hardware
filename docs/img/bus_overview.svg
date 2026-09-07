@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="780" viewBox="0 0 1240 780" font-family="Helvetica, Arial, sans-serif"><defs><marker id="m_82b366" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#82b366"/></marker><marker id="m_d79b00" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#d79b00"/></marker><marker id="m_9673a6" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#9673a6"/></marker><marker id="m_1ba1e2" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#1ba1e2"/></marker><marker id="m_bfbfbf" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#bfbfbf"/></marker><marker id="m_e51400" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#e51400"/></marker><marker id="m_6c8ebf" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#6c8ebf"/></marker><marker id="m_f0a30a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#f0a30a"/></marker><marker id="m_ffffff" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#ffffff"/></marker><marker id="m_000000" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#000000"/></marker></defs><rect width="1240" height="780" fill="#ffffff"/><text x="620" y="24" font-size="15" text-anchor="middle" fill="#000000" font-weight="bold" >CleverHand bus — lines, controller, nodes and what the master does with each line</text>
+<rect x="20" y="60" width="190" height="330" rx="0" fill="#292929" stroke="#1a1a1a" stroke-width="1" />
+<rect x="20" y="60" width="190" height="26" rx="0" fill="#f8cecc" stroke="#b85450" stroke-width="1" />
+<text x="115.0" y="78" font-size="13" text-anchor="middle" fill="#000000" font-weight="normal" >Controller</text>
+<rect x="35" y="95" width="160" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="115.0" y="114.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >MCU</text>
+<text x="115.0" y="127.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >nRF52840 / ESP32-S3 / Teensy</text>
+<text x="115" y="150" font-size="10" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >drives A0…A4, SCLK,</text>
+<text x="115" y="162" font-size="10" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >PICO, STOP; I²C master;</text>
+<text x="115" y="174" font-size="10" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >SCL as CLK at enumeration</text>
+<rect x="35" y="190" width="160" height="34" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="115.0" y="211.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >AREF DAC (MCP4728)</text>
+<rect x="35" y="235" width="160" height="34" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="115.0" y="256.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >3V3 regulator</text>
+<rect x="35" y="280" width="160" height="34" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="115.0" y="301.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >bus OUT connector</text>
+<text x="115" y="340" font-size="10" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >chain head: STOP_IN unused,</text>
+<text x="115" y="352" font-size="10" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >STOP_OUT → node 1</text>
+<rect x="230" y="60" width="150" height="330" rx="0" fill="#292929" stroke="#1a1a1a" stroke-width="1" />
+<rect x="230" y="60" width="150" height="26" rx="0" fill="#ffb500" stroke="#c68e00" stroke-width="1" />
+<text x="305.0" y="78" font-size="13" text-anchor="middle" fill="#000000" font-weight="normal" >Bus (18-way)</text>
+<text x="305" y="114" font-size="10" text-anchor="middle" fill="#82b366" font-weight="normal" >3V3 / GND</text>
+<text x="305" y="154" font-size="10" text-anchor="middle" fill="#d79b00" font-weight="normal" >SCLK / PICO / POCI</text>
+<text x="305" y="194" font-size="10" text-anchor="middle" fill="#9673a6" font-weight="normal" >A0 … A4  (5)</text>
+<text x="305" y="234" font-size="10" text-anchor="middle" fill="#1ba1e2" font-weight="normal" >SDA / SCL</text>
+<text x="305" y="274" font-size="10" text-anchor="middle" fill="#bfbfbf" font-weight="normal" >STOP</text>
+<text x="305" y="314" font-size="10" text-anchor="middle" fill="#e51400" font-weight="normal" >AREF</text>
+<text x="305" y="354" font-size="10" text-anchor="middle" fill="#6c8ebf" font-weight="normal" >AUX0 / AUX1</text>
+<rect x="400" y="60" width="380" height="700" rx="0" fill="#292929" stroke="#1a1a1a" stroke-width="1" />
+<rect x="400" y="60" width="380" height="26" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1" />
+<text x="590.0" y="78" font-size="13" text-anchor="middle" fill="#000000" font-weight="normal" >Node 1</text>
+<rect x="412" y="95" width="356" height="460" rx="0" fill="#1f1f1f" stroke="#000000" stroke-width="1" />
+<rect x="412" y="95" width="356" height="20" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1" />
+<text x="590" y="109" font-size="10" text-anchor="middle" fill="#000000" font-weight="normal" >master = COM module (or CTRL in mono/head role)</text>
+<text x="590" y="380" font-size="8" text-anchor="middle" fill="#8a8a8a" font-weight="normal" >bus lines cross the master; only the taps below are read</text>
+<rect x="490" y="400" width="110" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="545.0" y="419.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >address decoder</text>
+<text x="545.0" y="432.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >A0…A4 == n → CSB</text>
+<rect x="625" y="400" width="130" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="690.0" y="419.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >I²C bridge PCA9306</text>
+<text x="690.0" y="432.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >EN = ¬CSB → SDA_L/SCL_L</text>
+<rect x="490" y="470" width="110" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="545.0" y="489.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >STOP regeneration</text>
+<text x="545.0" y="502.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >count, latch n, STOP_OUT</text>
+<rect x="625" y="470" width="130" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="690.0" y="489.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >MCU / logic</text>
+<text x="690.0" y="502.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >I²C client 0x08+n, LED</text>
+<rect x="412" y="570" width="356" height="180" rx="0" fill="#1f1f1f" stroke="#000000" stroke-width="1" />
+<rect x="412" y="570" width="356" height="20" rx="0" fill="#d5e8d4" stroke="#82b366" stroke-width="1" />
+<text x="590" y="584" font-size="10" text-anchor="middle" fill="#000000" font-weight="normal" >HMI submodule(s) — sensor / feedback</text>
+<rect x="480" y="610" width="125" height="44" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="542.5" y="631.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >ADC  (ADS129x)</text>
+<text x="542.5" y="644.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >CSB, SPI, AREF, CLK, DRDY#</text>
+<rect x="625" y="610" width="130" height="44" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="690.0" y="631.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >I²C device (DRV2625)</text>
+<text x="690.0" y="644.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >SDA_L / SCL_L, fixed addr</text>
+<rect x="480" y="680" width="275" height="30" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="617.5" y="699.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >electrode / interface plate</text>
+<text x="590" y="735" font-size="8" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >shared lines pass straight through; only the master reads A0…A4, SDA/SCL, STOP</text>
+<rect x="830" y="60" width="380" height="700" rx="0" fill="#292929" stroke="#1a1a1a" stroke-width="1" />
+<rect x="830" y="60" width="380" height="26" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1" />
+<text x="1020.0" y="78" font-size="13" text-anchor="middle" fill="#000000" font-weight="normal" >Node 2</text>
+<rect x="842" y="95" width="356" height="460" rx="0" fill="#1f1f1f" stroke="#000000" stroke-width="1" />
+<rect x="842" y="95" width="356" height="20" rx="0" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1" />
+<text x="1020" y="109" font-size="10" text-anchor="middle" fill="#000000" font-weight="normal" >master = COM module (or CTRL in mono/head role)</text>
+<text x="1020" y="380" font-size="8" text-anchor="middle" fill="#8a8a8a" font-weight="normal" >bus lines cross the master; only the taps below are read</text>
+<rect x="920" y="400" width="110" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="975.0" y="419.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >address decoder</text>
+<text x="975.0" y="432.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >A0…A4 == n → CSB</text>
+<rect x="1055" y="400" width="130" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="1120.0" y="419.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >I²C bridge PCA9306</text>
+<text x="1120.0" y="432.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >EN = ¬CSB → SDA_L/SCL_L</text>
+<rect x="920" y="470" width="110" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="975.0" y="489.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >STOP regeneration</text>
+<text x="975.0" y="502.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >count, latch n, STOP_OUT</text>
+<rect x="1055" y="470" width="130" height="40" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="1120.0" y="489.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >MCU / logic</text>
+<text x="1120.0" y="502.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >I²C client 0x08+n, LED</text>
+<rect x="842" y="570" width="356" height="180" rx="0" fill="#1f1f1f" stroke="#000000" stroke-width="1" />
+<rect x="842" y="570" width="356" height="20" rx="0" fill="#d5e8d4" stroke="#82b366" stroke-width="1" />
+<text x="1020" y="584" font-size="10" text-anchor="middle" fill="#000000" font-weight="normal" >HMI submodule(s) — sensor / feedback</text>
+<rect x="910" y="610" width="125" height="44" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="972.5" y="631.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >ADC  (ADS129x)</text>
+<text x="972.5" y="644.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >CSB, SPI, AREF, CLK, DRDY#</text>
+<rect x="1055" y="610" width="130" height="44" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="1120.0" y="631.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >I²C device (DRV2625)</text>
+<text x="1120.0" y="644.0" font-size="9" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >SDA_L / SCL_L, fixed addr</text>
+<rect x="910" y="680" width="275" height="30" rx="0" fill="#4a4a4a" stroke="#000000" stroke-width="1" />
+<text x="1047.5" y="699.0" font-size="11" text-anchor="middle" fill="#ffffff" font-weight="normal" >electrode / interface plate</text>
+<text x="1020" y="735" font-size="8" text-anchor="middle" fill="#cfcfcf" font-weight="normal" >shared lines pass straight through; only the master reads A0…A4, SDA/SCL, STOP</text>
+<line x1="210" y1="120" x2="1215" y2="120" stroke="#82b366" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_82b366)"/>
+<line x1="210" y1="160" x2="1215" y2="160" stroke="#d79b00" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_d79b00)"/>
+<line x1="210" y1="200" x2="1215" y2="200" stroke="#9673a6" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_9673a6)"/>
+<line x1="210" y1="240" x2="1215" y2="240" stroke="#1ba1e2" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_1ba1e2)"/>
+<line x1="210" y1="280" x2="476" y2="280" stroke="#bfbfbf" stroke-width="2" stroke-dasharray="6 3"/>
+<path d="M476,280 L476,490 L490,490" fill="none" stroke="#bfbfbf" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_bfbfbf)"/>
+<path d="M600,490 L608,490 L608,292 L768,292" fill="none" stroke="#bfbfbf" stroke-width="2" stroke-dasharray="6 3"/>
+<line x1="768" y1="280" x2="906" y2="280" stroke="#bfbfbf" stroke-width="2" stroke-dasharray="6 3"/>
+<path d="M906,280 L906,490 L920,490" fill="none" stroke="#bfbfbf" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_bfbfbf)"/>
+<path d="M1030,490 L1038,490 L1038,292 L1198,292" fill="none" stroke="#bfbfbf" stroke-width="2" stroke-dasharray="6 3"/>
+<line x1="1198" y1="292" x2="1215" y2="292" stroke="#bfbfbf" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_bfbfbf)"/>
+<text x="615" y="288" font-size="8" text-anchor="start" fill="#bfbfbf" font-weight="normal" >STOP_OUT</text>
+<text x="1045" y="288" font-size="8" text-anchor="start" fill="#bfbfbf" font-weight="normal" >STOP_OUT</text>
+<text x="482" y="274" font-size="8" text-anchor="start" fill="#bfbfbf" font-weight="normal" >STOP_IN</text>
+<text x="912" y="274" font-size="8" text-anchor="start" fill="#bfbfbf" font-weight="normal" >STOP_IN</text>
+<line x1="210" y1="320" x2="1215" y2="320" stroke="#e51400" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_e51400)"/>
+<line x1="210" y1="360" x2="1215" y2="360" stroke="#6c8ebf" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#m_6c8ebf)"/>
+<path d="M540,200 L540,400" fill="none" stroke="#9673a6" stroke-width="1.5" marker-end="url(#m_9673a6)"/>
+<path d="M650,240 L650,400" fill="none" stroke="#1ba1e2" stroke-width="1.5" marker-end="url(#m_1ba1e2)"/>
+<path d="M600,420 L616,420 L616,560 L550,560 L550,610" fill="none" stroke="#f0a30a" stroke-width="1.5" marker-end="url(#m_f0a30a)"/>
+<text x="620" y="545" font-size="9" text-anchor="start" fill="#f0a30a" font-weight="normal" >CSB</text>
+<path d="M700,440 L700,610" fill="none" stroke="#1ba1e2" stroke-width="1.5" stroke-dasharray="3 2" marker-end="url(#m_1ba1e2)"/>
+<text x="706" y="545" font-size="8" text-anchor="start" fill="#1ba1e2" font-weight="normal" >SDA_L / SCL_L</text>
+<path d="M424,120 L424,595 L492,595 L492,610" fill="none" stroke="#82b366" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_82b366)"/>
+<path d="M434,160 L434,595 L504,595 L504,610" fill="none" stroke="#d79b00" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_d79b00)"/>
+<path d="M444,320 L444,595 L516,595 L516,610" fill="none" stroke="#e51400" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_e51400)"/>
+<path d="M454,360 L454,595 L528,595 L528,610" fill="none" stroke="#6c8ebf" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_6c8ebf)"/>
+<text x="416" y="455" font-size="8" text-anchor="start" fill="#8a8a8a" font-weight="normal" >pass-</text>
+<text x="416" y="465" font-size="8" text-anchor="start" fill="#8a8a8a" font-weight="normal" >through</text>
+<path d="M970,200 L970,400" fill="none" stroke="#9673a6" stroke-width="1.5" marker-end="url(#m_9673a6)"/>
+<path d="M1080,240 L1080,400" fill="none" stroke="#1ba1e2" stroke-width="1.5" marker-end="url(#m_1ba1e2)"/>
+<path d="M1030,420 L1046,420 L1046,560 L980,560 L980,610" fill="none" stroke="#f0a30a" stroke-width="1.5" marker-end="url(#m_f0a30a)"/>
+<text x="1050" y="545" font-size="9" text-anchor="start" fill="#f0a30a" font-weight="normal" >CSB</text>
+<path d="M1130,440 L1130,610" fill="none" stroke="#1ba1e2" stroke-width="1.5" stroke-dasharray="3 2" marker-end="url(#m_1ba1e2)"/>
+<text x="1136" y="545" font-size="8" text-anchor="start" fill="#1ba1e2" font-weight="normal" >SDA_L / SCL_L</text>
+<path d="M854,120 L854,595 L922,595 L922,610" fill="none" stroke="#82b366" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_82b366)"/>
+<path d="M864,160 L864,595 L934,595 L934,610" fill="none" stroke="#d79b00" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_d79b00)"/>
+<path d="M874,320 L874,595 L946,595 L946,610" fill="none" stroke="#e51400" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_e51400)"/>
+<path d="M884,360 L884,595 L958,595 L958,610" fill="none" stroke="#6c8ebf" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#m_6c8ebf)"/>
+<text x="846" y="455" font-size="8" text-anchor="start" fill="#8a8a8a" font-weight="normal" >pass-</text>
+<text x="846" y="465" font-size="8" text-anchor="start" fill="#8a8a8a" font-weight="normal" >through</text>
+<line x1="30" y1="430" x2="52" y2="430" stroke="#82b366" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="434" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >Power 3V3 / GND</text>
+<line x1="30" y1="450" x2="52" y2="450" stroke="#d79b00" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="454" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >SPI  SCLK PICO POCI</text>
+<line x1="30" y1="470" x2="52" y2="470" stroke="#9673a6" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="474" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >Address  A0…A4</text>
+<line x1="30" y1="490" x2="52" y2="490" stroke="#1ba1e2" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="494" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >I²C  SDA SCL</text>
+<line x1="30" y1="510" x2="52" y2="510" stroke="#bfbfbf" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="514" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >STOP in/out (chained)</text>
+<line x1="30" y1="530" x2="52" y2="530" stroke="#e51400" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="534" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >AREF</text>
+<line x1="30" y1="550" x2="52" y2="550" stroke="#6c8ebf" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="554" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >AUX (bus AUX0..3, local AUX4..7)</text>
+<line x1="30" y1="570" x2="52" y2="570" stroke="#f0a30a" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="58" y="574" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >CSB (decoded, node-local)</text>
+<text x="30" y="595" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >Selection rule: set A0…A4 = n while SPI and I²C are idle,</text>
+<text x="30" y="609" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >wait ≥ 1 µs, then talk to node n. A0…A4 = 0 selects nobody.</text>
+<text x="30" y="633" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >Enumeration: all nodes hold SDA low; controller pulses SCL</text>
+<text x="30" y="647" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >with STOP high once then low; each node latches its count</text>
+<text x="30" y="661" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >when STOP_IN falls → node n gets address n, releases SDA.</text></svg>

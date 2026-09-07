@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="560" viewBox="0 0 1360 560" font-family="Helvetica, Arial, sans-serif"><defs><marker id="m_82b366" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#82b366"/></marker><marker id="m_d79b00" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#d79b00"/></marker><marker id="m_9673a6" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#9673a6"/></marker><marker id="m_1ba1e2" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#1ba1e2"/></marker><marker id="m_bfbfbf" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#bfbfbf"/></marker><marker id="m_e51400" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#e51400"/></marker><marker id="m_6c8ebf" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#6c8ebf"/></marker><marker id="m_f0a30a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#f0a30a"/></marker><marker id="m_ffffff" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#ffffff"/></marker><marker id="m_000000" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#000000"/></marker></defs><rect width="1360" height="560" fill="#ffffff"/><text x="680" y="24" font-size="15" text-anchor="middle" fill="#000000" font-weight="bold" >Node stack field — 3×10, 1.27 mm, plated through-holes only, one net per position through the whole stack</text>
+<rect x="30" y="50" width="990" height="251" rx="0" fill="#292929" stroke="#000000" stroke-width="1" />
+<text x="40" y="70" font-size="11" text-anchor="start" fill="#cfcfcf" font-weight="normal" >row A = v2 submodule row (cols 2–9, unchanged) · row B = read by the master · row C = driven/read by the master, used by HMI boards</text>
+<text x="136" y="117.0" font-size="10" text-anchor="end" fill="#ffffff" font-weight="bold" >row A  shared / v2 row</text>
+<rect x="150" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#82b366" stroke-width="2" />
+<text x="189.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >GND</text>
+<text x="224" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >1</text>
+<rect x="234" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#82b366" stroke-width="2" />
+<text x="273.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >3V3</text>
+<text x="308" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >4</text>
+<rect x="318" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#82b366" stroke-width="2" />
+<text x="357.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >GND</text>
+<text x="392" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >7</text>
+<rect x="402" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#d79b00" stroke-width="2" />
+<text x="441.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >CLK</text>
+<text x="476" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >10</text>
+<rect x="486" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#d79b00" stroke-width="2" />
+<text x="525.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >POCI</text>
+<text x="560" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >13</text>
+<rect x="570" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#d79b00" stroke-width="2" />
+<text x="609.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >PICO</text>
+<text x="644" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >16</text>
+<rect x="654" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#d79b00" stroke-width="2" />
+<text x="693.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >SCLK</text>
+<text x="728" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >19</text>
+<rect x="738" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#f0a30a" stroke-width="2" />
+<text x="777.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >CSB</text>
+<text x="812" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >22</text>
+<rect x="822" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#e51400" stroke-width="2" />
+<text x="861.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AREF</text>
+<text x="896" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >25</text>
+<rect x="906" y="90" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#82b366" stroke-width="2" />
+<text x="945.0" y="117.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >VIN</text>
+<text x="980" y="131" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >28</text>
+<text x="136" y="169.0" font-size="10" text-anchor="end" fill="#ffffff" font-weight="bold" >row B  bus side</text>
+<rect x="150" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#9673a6" stroke-width="2" />
+<text x="189.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A0</text>
+<text x="224" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >2</text>
+<rect x="234" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#9673a6" stroke-width="2" />
+<text x="273.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A1</text>
+<text x="308" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >5</text>
+<rect x="318" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#9673a6" stroke-width="2" />
+<text x="357.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A2</text>
+<text x="392" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >8</text>
+<rect x="402" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#9673a6" stroke-width="2" />
+<text x="441.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A3</text>
+<text x="476" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >11</text>
+<rect x="486" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#9673a6" stroke-width="2" />
+<text x="525.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A4</text>
+<text x="560" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >14</text>
+<rect x="570" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#1ba1e2" stroke-width="2" />
+<text x="609.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >SDA</text>
+<text x="644" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >17</text>
+<rect x="654" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#1ba1e2" stroke-width="2" />
+<text x="693.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >SCL</text>
+<text x="728" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >20</text>
+<rect x="738" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#bfbfbf" stroke-width="2" />
+<text x="777.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >STOP_IN</text>
+<text x="812" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >23</text>
+<rect x="822" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#bfbfbf" stroke-width="2" />
+<text x="861.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >STOP_OUT</text>
+<text x="896" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >26</text>
+<rect x="906" y="142" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#82b366" stroke-width="2" />
+<text x="945.0" y="169.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >GND</text>
+<text x="980" y="183" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >29</text>
+<text x="136" y="221.0" font-size="10" text-anchor="end" fill="#ffffff" font-weight="bold" >row C  local I²C + AUX</text>
+<rect x="150" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#1ba1e2" stroke-width="2" />
+<text x="189.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >SDA_L</text>
+<text x="224" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >3</text>
+<rect x="234" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#1ba1e2" stroke-width="2" />
+<text x="273.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >SCL_L</text>
+<text x="308" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >6</text>
+<rect x="318" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="357.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX0</text>
+<text x="392" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >9</text>
+<rect x="402" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="441.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX1</text>
+<text x="476" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >12</text>
+<rect x="486" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="525.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX2</text>
+<text x="560" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >15</text>
+<rect x="570" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="609.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX3</text>
+<text x="644" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >18</text>
+<rect x="654" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="693.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX4</text>
+<text x="728" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >21</text>
+<rect x="738" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="777.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX5</text>
+<text x="812" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >24</text>
+<rect x="822" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="861.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX6</text>
+<text x="896" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >27</text>
+<rect x="906" y="194" width="78" height="46" rx="0" fill="#3a3a3a" stroke="#6c8ebf" stroke-width="2" />
+<text x="945.0" y="221.0" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >AUX7</text>
+<text x="980" y="235" font-size="8" text-anchor="end" fill="#9a9a9a" font-weight="normal" >30</text>
+<rect x="230" y="86" width="674" height="54" rx="0" fill="none" stroke="#ffb500" stroke-width="2.5" stroke-dasharray="8 4"/>
+<text x="150" y="274" font-size="10" text-anchor="start" fill="#ffb500" font-weight="normal" >v2 row: VIN GND CLK POCI PICO SCLK CSB extRef — an existing v2 board solders here with its single pin row; small numbers = pin numbers (column-wise)</text>
+<text x="1040" y="70" font-size="12" text-anchor="start" fill="#000000" font-weight="bold" >Reading the field</text>
+<text x="1040" y="86" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >every hole is plated: one pin, one net,</text>
+<text x="1040" y="98" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >from the bus board down to the last HMI board</text>
+<text x="1040" y="116" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >AUX0..3 come from the bus cable,</text>
+<text x="1040" y="128" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >AUX4..7 stay inside the node</text>
+<text x="1040" y="146" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >VIN: battery / 5 V for actuators or a local LDO</text>
+<line x1="1040" y1="175" x2="1062" y2="175" stroke="#82b366" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="179" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >Power 3V3 / GND</text>
+<line x1="1040" y1="192" x2="1062" y2="192" stroke="#d79b00" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="196" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >SPI  SCLK PICO POCI</text>
+<line x1="1040" y1="209" x2="1062" y2="209" stroke="#9673a6" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="213" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >Address  A0…A4</text>
+<line x1="1040" y1="226" x2="1062" y2="226" stroke="#1ba1e2" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="230" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >I²C  SDA SCL</text>
+<line x1="1040" y1="243" x2="1062" y2="243" stroke="#bfbfbf" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="247" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >STOP in/out (chained)</text>
+<line x1="1040" y1="260" x2="1062" y2="260" stroke="#e51400" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="264" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >AREF</text>
+<line x1="1040" y1="277" x2="1062" y2="277" stroke="#6c8ebf" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="281" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >AUX (bus AUX0..3, local AUX4..7)</text>
+<line x1="1040" y1="294" x2="1062" y2="294" stroke="#f0a30a" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="298" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >CSB (decoded chip-select)</text>
+<line x1="1040" y1="311" x2="1062" y2="311" stroke="#82b366" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="1068" y="315" font-size="10" text-anchor="start" fill="#000000" font-weight="normal" >VIN (higher-voltage supply)</text>
+<rect x="90" y="341" width="120" height="88" rx="0" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5" />
+<text x="150.0" y="335" font-size="10" text-anchor="middle" fill="#000000" font-weight="normal" >HMI board 15 × 11 mm</text>
+<rect x="99.2" y="353.0" width="101.6" height="30.48" rx="0" fill="none" stroke="#000000" stroke-width="1" />
+<circle cx="104.28" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="104.28" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="104.28" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="114.44" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="114.44" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="114.44" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="124.6" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="124.6" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="124.6" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="134.76" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="134.76" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="134.76" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="144.92000000000002" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="144.92000000000002" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="144.92000000000002" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="155.07999999999998" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="155.07999999999998" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="155.07999999999998" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="165.24" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="165.24" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="165.24" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="175.4" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="175.4" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="175.4" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="185.56" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="185.56" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="185.56" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="195.72" cy="358.08" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="195.72" cy="368.24" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<circle cx="195.72" cy="378.4" r="4.0" fill="#ffffff" stroke="#000000" stroke-width="0.8"/>
+<text x="150.0" y="443" font-size="8" text-anchor="middle" fill="#000000" font-weight="normal" >field 12.7 × 3.81 mm, off-centre → keyed by position</text>
+<text x="226" y="361" font-size="9" text-anchor="start" fill="#000000" font-weight="normal" >pins: loose 0.4 mm header pins, or a 2×10 + 1×10 THT header,</text>
+<text x="226" y="374" font-size="9" text-anchor="start" fill="#000000" font-weight="normal" >soldered on both boards; gap set by a jig (2.5–3 mm)</text>
+<text x="226" y="393" font-size="9" text-anchor="start" fill="#000000" font-weight="normal" >HMI boards populate only the positions they use;</text>
+<text x="226" y="406" font-size="9" text-anchor="start" fill="#000000" font-weight="normal" >row A columns 1 and 10 always (power + mechanical)</text></svg>

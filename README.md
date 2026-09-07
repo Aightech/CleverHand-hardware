@@ -137,7 +137,15 @@ Each communication module:
 * activates the chip-select of the targeted submodule,
 * routes SPI transactions accordingly.
 
+The full line list, connector pinout, enumeration protocol and the planned v3
+changes (separable bus board, per-node I²C bridge) are specified in
+**[docs/bus/README.md](docs/bus/README.md)**; the 3×10 soldered stack field that
+links bus board, controller/communication module and submodules inside a node is
+in **[docs/bus/interfaces.md](docs/bus/interfaces.md)**.
+
 ![System diagram](docs/img/diagram.drawio.svg)
+
+![Bus overview](docs/img/bus_overview.svg)
 
 ---
 
@@ -146,15 +154,14 @@ Each communication module:
 Module addressing is determined during an initialization phase based on
 **physical position in the chain**.
 
+Modules carry no hard-coded identity: the *n*-th node in the chain receives
+address *n*, so identical modules can be placed anywhere.
+
 Current status:
 
-* deterministic addressing: **implemented**
-* dynamic hot-plugging: **not yet supported**
-
-Future work will refine:
-
-* formal initialization protocol documentation,
-* dynamic re-enumeration strategies.
+* deterministic, position-based addressing: **implemented** ([protocol](docs/bus/README.md#4-enumeration-position-based-addressing))
+* re-enumeration without power cycle: **planned** (v3)
+* dynamic hot-plugging: **not supported**
 
 ![Communication diagram](docs/img/diagram_communication.drawio.svg)
 
@@ -181,6 +188,7 @@ This repository contains the hardware designs and supporting assets for the Clev
 
 ```
 ├── docs
+│   ├── bus             # bus & protocol specification
 │   ├── datasheet
 │   ├── img
 │   ├── initialisation
